@@ -11,6 +11,56 @@ import {
 } from "./i18n.js";
 
 
+function researcherName(researcher) {
+
+  if (getLanguage() === "en") {
+
+    const en =
+      researcher.nameEn || "";
+
+    const ja =
+      researcher.nameJa ||
+      researcher.name ||
+      "";
+
+    if (en && ja) {
+      return `${en}｜${ja}`;
+    }
+
+    return en || ja;
+  }
+
+  return (
+    researcher.nameJa ||
+    researcher.name ||
+    researcher.nameEn ||
+    ""
+  );
+}
+
+
+function researcherSortName(researcher) {
+
+  if (getLanguage() === "en") {
+
+    return (
+      researcher.nameEn ||
+      researcher.nameJa ||
+      researcher.name ||
+      ""
+    );
+
+  }
+
+  return (
+    researcher.nameJa ||
+    researcher.name ||
+    researcher.nameEn ||
+    ""
+  );
+}
+
+
 function renderTags(values = []) {
 
   if (!values.length) return "";
@@ -27,26 +77,31 @@ function renderTags(values = []) {
 }
 
 
-function getResearcherStudies(data,researcher) {
+function getResearcherStudies(data, researcher) {
 
   const ids =
-    new Set(researcher.studyIds || []);
+    new Set(
+      researcher.studyIds || []
+    );
 
   return data.studies
     .filter(study =>
       ids.has(study.id)
     )
-    .sort((a,b) =>
+    .sort((a, b) =>
       Number(b.year || 0) -
       Number(a.year || 0)
     );
 }
 
 
-function renderStudies(data,researcher) {
+function renderStudies(data, researcher) {
 
   const studies =
-    getResearcherStudies(data,researcher);
+    getResearcherStudies(
+      data,
+      researcher
+    );
 
 
   if (!studies.length) {
@@ -99,12 +154,16 @@ function renderStudies(data,researcher) {
 
             <div class="meta">
               ${escapeHtml(study.year)}
+
               ${
                 study.publicationType
-                  ? ` ・ ${escapeHtml(study.publicationType)}`
+                  ? ` ・ ${escapeHtml(
+                      study.publicationType
+                    )}`
                   : ""
               }
             </div>
+
 
             <h3>
               <a href="#/study/${escapeHtml(study.id)}">
@@ -112,19 +171,27 @@ function renderStudies(data,researcher) {
               </a>
             </h3>
 
+
             ${
               study.result
                 ? `
                   <p class="researcher-study-summary">
                     ${escapeHtml(
-                      truncate(study.result,130)
+                      truncate(
+                        study.result,
+                        130
+                      )
                     )}
                   </p>
                 `
                 : ""
             }
 
-            ${renderTags(study.themes || [])}
+
+            ${renderTags(
+              study.themes || []
+            )}
+
 
             <a
               class="card-link"
@@ -144,7 +211,10 @@ function renderStudies(data,researcher) {
 }
 
 
-function renderConfirmedPrograms(data,researcher) {
+function renderConfirmedPrograms(
+  data,
+  researcher
+) {
 
   const ids =
     researcher.programIds || [];
@@ -188,15 +258,20 @@ function renderConfirmedPrograms(data,researcher) {
               ${escapeHtml(program.startYear)}〜
             </div>
 
+
             <h3>
               <a href="#/program/${escapeHtml(program.id)}">
                 ${escapeHtml(program.name)}
               </a>
             </h3>
 
+
             <p>
-              ${escapeHtml(program.summary || "")}
+              ${escapeHtml(
+                program.summary || ""
+              )}
             </p>
+
 
             <a
               class="card-link"
@@ -216,7 +291,10 @@ function renderConfirmedPrograms(data,researcher) {
 }
 
 
-function renderResearcherDetail(data,researcher) {
+function renderResearcherDetail(
+  data,
+  researcher
+) {
 
   return `
 
@@ -231,25 +309,35 @@ function renderResearcherDetail(data,researcher) {
           ${t("backToResearchers")}
         </a>
 
+
         <div class="meta">
           ${t("researcherLabel")}
         </div>
 
+
         <h1 class="researcher-name">
-          ${escapeHtml(researcher.name)}
+          ${escapeHtml(
+            researcherName(researcher)
+          )}
         </h1>
+
 
         ${
           researcher.affiliation
             ? `
               <p class="researcher-affiliation">
-                ${escapeHtml(researcher.affiliation)}
+                ${escapeHtml(
+                  researcher.affiliation
+                )}
               </p>
             `
             : ""
         }
 
-        ${renderTags(researcher.themes || [])}
+
+        ${renderTags(
+          researcher.themes || []
+        )}
 
       </div>
 
@@ -259,6 +347,7 @@ function renderResearcherDetail(data,researcher) {
     <section class="detail">
 
       <div class="container">
+
 
         <section class="researcher-profile-grid">
 
@@ -300,13 +389,16 @@ function renderResearcherDetail(data,researcher) {
                     ${t("mainResearchSeries")}
                   </h2>
 
+
                   <div class="researcher-series-tags">
 
-                    ${researcher.series.map(item => `
-                      <span>
-                        ${escapeHtml(item)}
-                      </span>
-                    `).join("")}
+                    ${researcher.series
+                      .map(item => `
+                        <span>
+                          ${escapeHtml(item)}
+                        </span>
+                      `)
+                      .join("")}
 
                   </div>
 
@@ -342,9 +434,16 @@ function renderResearcherDetail(data,researcher) {
         }
 
 
-        ${renderStudies(data,researcher)}
+        ${renderStudies(
+          data,
+          researcher
+        )}
 
-        ${renderConfirmedPrograms(data,researcher)}
+
+        ${renderConfirmedPrograms(
+          data,
+          researcher
+        )}
 
       </div>
 
@@ -360,13 +459,15 @@ function renderResearcherList(data) {
       ? "en"
       : "ja";
 
+
   const researchers =
     [...data.researchers]
-      .sort((a,b) =>
-        a.name.localeCompare(
-          b.name,
-          locale
-        )
+      .sort((a, b) =>
+        researcherSortName(a)
+          .localeCompare(
+            researcherSortName(b),
+            locale
+          )
       );
 
 
@@ -393,6 +494,7 @@ function renderResearcherList(data) {
 
       <div class="container">
 
+
         <div class="researcher-toolbar">
 
           <input
@@ -418,16 +520,22 @@ function renderResearcherList(data) {
 
             <article
               class="researcher-card"
+
               data-search="${escapeHtml(
                 normalizeText([
                   researcher.name,
+                  researcher.nameEn,
+                  researcher.nameJa,
                   researcher.affiliation,
                   ...(researcher.themes || []),
                   researcher.practiceConnection,
                   ...(researcher.series || [])
-                ].join(" "))
+                ]
+                .filter(Boolean)
+                .join(" "))
               )}"
             >
+
 
               <div class="researcher-card-top">
 
@@ -435,9 +543,14 @@ function renderResearcherList(data) {
 
                   <h2>
                     <a href="#/researcher/${escapeHtml(researcher.id)}">
-                      ${escapeHtml(researcher.name)}
+                      ${escapeHtml(
+                        researcherName(
+                          researcher
+                        )
+                      )}
                     </a>
                   </h2>
+
 
                   <div class="meta">
                     ${escapeHtml(
@@ -463,7 +576,7 @@ function renderResearcherList(data) {
 
               ${renderTags(
                 (researcher.themes || [])
-                  .slice(0,5)
+                  .slice(0, 5)
               )}
 
 
@@ -506,26 +619,44 @@ function renderResearcherList(data) {
 export function activateResearchers() {
 
   const input =
-    document.querySelector("#researcherSearch");
+    document.querySelector(
+      "#researcherSearch"
+    );
 
   const list =
-    document.querySelector("#researcherList");
+    document.querySelector(
+      "#researcherList"
+    );
 
   const count =
-    document.querySelector("#researcherResultCount");
+    document.querySelector(
+      "#researcherResultCount"
+    );
 
 
-  if (!input || !list || !count) return;
+  if (
+    !input ||
+    !list ||
+    !count
+  ) {
+    return;
+  }
 
 
-  const cards =
-    [...list.querySelectorAll(".researcher-card")];
+  const cards = [
+    ...list.querySelectorAll(
+      ".researcher-card"
+    )
+  ];
 
 
   function update() {
 
     const q =
-      normalizeText(input.value);
+      normalizeText(
+        input.value
+      );
+
 
     let visible = 0;
 
@@ -535,18 +666,28 @@ export function activateResearchers() {
       const text =
         card.dataset.search || "";
 
+
       const show =
-        !q || text.includes(q);
+        !q ||
+        text.includes(q);
 
-      card.hidden = !show;
 
-      if (show) visible++;
+      card.hidden =
+        !show;
+
+
+      if (show) {
+        visible++;
+      }
 
     });
 
 
     count.textContent =
-      `${visible}${t("researcherCountSuffix")}`;
+      `${visible}${t(
+        "researcherCountSuffix"
+      )}`;
+
   }
 
 
@@ -555,37 +696,49 @@ export function activateResearchers() {
     update
   );
 
+
   update();
 }
 
 
-export function renderResearchers(data,id=null) {
+export function renderResearchers(
+  data,
+  id = null
+) {
 
   if (id) {
 
     const researcher =
       data.researchers.find(
-        item => item.id === id
+        item =>
+          item.id === id
       );
+
 
     if (!researcher) {
 
       return `
         <section class="section">
+
           <div class="container">
+
             <div class="empty">
               ${t("researcherNotFound")}
             </div>
+
           </div>
+
         </section>
       `;
     }
+
 
     return renderResearcherDetail(
       data,
       researcher
     );
   }
+
 
   return renderResearcherList(data);
 }
