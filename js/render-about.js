@@ -1,7 +1,14 @@
-import {escapeHtml} from "./utils.js";
+import {
+  escapeHtml
+} from "./utils.js";
+
+import {
+  t,
+  getLanguage
+} from "./i18n.js";
 
 
-function policyItem(title, text) {
+function policyItem(title,text) {
 
   if (!text) return "";
 
@@ -14,9 +21,23 @@ function policyItem(title, text) {
 }
 
 
+function policyValue(
+  policy,
+  japaneseKey,
+  englishKey
+) {
+
+  return getLanguage() === "en"
+    ? policy[englishKey]
+    : policy[japaneseKey];
+}
+
+
 export function renderAbout(data) {
 
-  const p = data.policy || {};
+  const policy =
+    data.policy || {};
+
 
   return `
 
@@ -29,14 +50,11 @@ export function renderAbout(data) {
         </div>
 
         <h1>
-          このサイトについて
+          ${t("aboutTitle")}
         </h1>
 
         <p>
-          国内の犯罪予防・警察活動研究を、
-          単発の論文だけでなく、
-          研究者・研究系列・実務とのつながりから
-          探せるように整理した研究知識基盤です。
+          ${t("aboutLead")}
         </p>
 
       </div>
@@ -58,21 +76,15 @@ export function renderAbout(data) {
             </div>
 
             <h2>
-              国内のEBPを「探す・つなぐ・使う」
+              ${t("aboutPurposeTitle")}
             </h2>
 
             <p>
-              日本国内では、警察と大学・研究者が連携した
-              犯罪予防研究、社会実験、効果検証が各地で
-              行われています。
+              ${t("aboutPurpose1")}
             </p>
 
             <p>
-              一方で、それらは学術論文、大学紀要、
-              警察の公式資料、学会発表などに分散しています。
-              この研究HUBでは、それらを横断的に整理し、
-              個別研究だけでなく継続する研究系列まで
-              たどれることを重視しています。
+              ${t("aboutPurpose2")}
             </p>
 
           </div>
@@ -81,20 +93,15 @@ export function renderAbout(data) {
           <aside class="about-warning">
 
             <strong>
-              重要な注意
+              ${t("importantNotice")}
             </strong>
 
             <p>
-              このサイトに掲載されていることは、
-              その施策に効果があることや、
-              エビデンスの確実性が高いことを
-              意味しません。
+              ${t("importantNotice1")}
             </p>
 
             <p>
-              結果だけでなく、
-              研究デザイン、対象、比較方法、
-              限界・注意点を確認してください。
+              ${t("importantNotice2")}
             </p>
 
           </aside>
@@ -111,31 +118,56 @@ export function renderAbout(data) {
             </div>
 
             <h2>
-              収録対象
+              ${t("scopeTitle")}
             </h2>
 
           </div>
 
+
           <div class="about-policy-grid">
 
             ${policyItem(
-              "対象期間",
-              p["対象期間"]
+              getLanguage() === "en"
+                ? "Coverage period"
+                : "対象期間",
+              policyValue(
+                policy,
+                "対象期間",
+                "Coverage period"
+              )
             )}
 
             ${policyItem(
-              "対象となる研究",
-              p["対象"]
+              getLanguage() === "en"
+                ? "Scope"
+                : "対象となる研究",
+              policyValue(
+                policy,
+                "対象",
+                "Scope"
+              )
             )}
 
             ${policyItem(
-              "追加対象",
-              p["追加対象"]
+              getLanguage() === "en"
+                ? "Additional sources"
+                : "追加対象",
+              policyValue(
+                policy,
+                "追加対象",
+                "Additional sources"
+              )
             )}
 
             ${policyItem(
-              "重複資料の扱い",
-              p["重複の扱い"]
+              getLanguage() === "en"
+                ? "Duplicate records"
+                : "重複資料の扱い",
+              policyValue(
+                policy,
+                "重複の扱い",
+                "Duplicate records"
+              )
             )}
 
           </div>
@@ -152,12 +184,11 @@ export function renderAbout(data) {
             </div>
 
             <h2>
-              資料の種類を分けて読む
+              ${t("howToReadTitle")}
             </h2>
 
             <p>
-              研究HUBでは、資料が存在することと、
-              そのエビデンスが強いことを分けて扱います。
+              ${t("howToReadLead")}
             </p>
 
           </div>
@@ -167,19 +198,14 @@ export function renderAbout(data) {
 
             <div class="about-type-card">
 
-              <span>
-                01
-              </span>
+              <span>01</span>
 
               <h3>
-                査読学術研究
+                ${t("peerReviewedResearch")}
               </h3>
 
               <p>
-                査読を経た論文。
-                ただし査読済みであることだけで、
-                因果推論や効果の確実性が
-                高いとは限りません。
+                ${t("peerReviewedResearchText")}
               </p>
 
             </div>
@@ -187,18 +213,14 @@ export function renderAbout(data) {
 
             <div class="about-type-card">
 
-              <span>
-                02
-              </span>
+              <span>02</span>
 
               <h3>
-                大学紀要・学会報告
+                ${t("bulletinsAndConferences")}
               </h3>
 
               <p>
-                国内の警察実務との共同研究を
-                発見するうえで重要な資料として、
-                刊行形態を明示して収録します。
+                ${t("bulletinsAndConferencesText")}
               </p>
 
             </div>
@@ -206,18 +228,14 @@ export function renderAbout(data) {
 
             <div class="about-type-card">
 
-              <span>
-                03
-              </span>
+              <span>03</span>
 
               <h3>
-                公的報告・実証
+                ${t("officialReportsAndTrials")}
               </h3>
 
               <p>
-                警察、大学、公的機関等が公開した
-                研究報告、社会実験、実装事例を
-                学術論文とは区別して掲載します。
+                ${t("officialReportsAndTrialsText")}
               </p>
 
             </div>
@@ -225,18 +243,14 @@ export function renderAbout(data) {
 
             <div class="about-type-card">
 
-              <span>
-                04
-              </span>
+              <span>04</span>
 
               <h3>
-                進行中研究
+                ${t("ongoingResearch")}
               </h3>
 
               <p>
-                研究会、連携協定、進行中の実証なども、
-                今後の成果を追跡するために
-                区別して保持します。
+                ${t("ongoingResearchText")}
               </p>
 
             </div>
@@ -247,7 +261,11 @@ export function renderAbout(data) {
           <div class="about-policy-note">
 
             ${escapeHtml(
-              p["刊行形態の扱い"] || ""
+              policyValue(
+                policy,
+                "刊行形態の扱い",
+                "Publication types"
+              ) || ""
             )}
 
           </div>
@@ -264,7 +282,7 @@ export function renderAbout(data) {
             </div>
 
             <h2>
-              収集・整理の方針
+              ${t("collectionPolicyTitle")}
             </h2>
 
           </div>
@@ -273,18 +291,36 @@ export function renderAbout(data) {
           <div class="about-policy-grid">
 
             ${policyItem(
-              "研究結果で選別しない",
-              p["収集方針"]
+              getLanguage() === "en"
+                ? "Inclusion policy"
+                : "研究結果で選別しない",
+              policyValue(
+                policy,
+                "収集方針",
+                "Inclusion policy"
+              )
             )}
 
             ${policyItem(
-              "主な検索先",
-              p["主要検索先"]
+              getLanguage() === "en"
+                ? "Main search sources"
+                : "主な検索先",
+              policyValue(
+                policy,
+                "主要検索先",
+                "Main search sources"
+              )
             )}
 
             ${policyItem(
-              "社会安全研究財団資料",
-              p["日工組社会安全研究財団"]
+              getLanguage() === "en"
+                ? "Nikkoso Research Foundation for Safe Society"
+                : "社会安全研究財団資料",
+              policyValue(
+                policy,
+                "日工組社会安全研究財団",
+                "Nikkoso Research Foundation for Safe Society"
+              )
             )}
 
           </div>
@@ -301,7 +337,7 @@ export function renderAbout(data) {
             </div>
 
             <h2>
-              このデータベースの限界
+              ${t("limitationsTitle")}
             </h2>
 
           </div>
@@ -311,22 +347,20 @@ export function renderAbout(data) {
 
             <p>
               ${escapeHtml(
-                p["注意"] || ""
+                policyValue(
+                  policy,
+                  "注意",
+                  "Limitations"
+                ) || ""
               )}
             </p>
 
             <p>
-              公開情報を中心に整理しているため、
-              警察内部資料や未公開研究、
-              検索エンジン等で索引されていない資料は
-              収録できていない場合があります。
+              ${t("limitationsExtra1")}
             </p>
 
             <p>
-              また、同一の研究プロジェクトから
-              複数の論文・報告が公表される場合があるため、
-              「研究件数」と「独立した介入の数」は
-              同一ではありません。
+              ${t("limitationsExtra2")}
             </p>
 
           </div>
@@ -343,7 +377,7 @@ export function renderAbout(data) {
             </div>
 
             <h2>
-              研究を探す
+              ${t("useHubTitle")}
             </h2>
 
           </div>
@@ -353,44 +387,37 @@ export function renderAbout(data) {
 
             <a href="#/studies">
               <strong>
-                個別研究
+                ${t("aboutIndividualStudies")}
               </strong>
-
               <span>
-                研究テーマ・機関・研究デザインから探す →
+                ${t("aboutIndividualStudiesText")}
               </span>
             </a>
-
 
             <a href="#/programs">
               <strong>
-                研究系列
+                ${t("aboutProgrammes")}
               </strong>
-
               <span>
-                継続する警察×研究者の取り組みをたどる →
+                ${t("aboutProgrammesText")}
               </span>
             </a>
-
 
             <a href="#/researchers">
               <strong>
-                研究者・機関
+                ${t("aboutResearchers")}
               </strong>
-
               <span>
-                研究者から関連研究をたどる →
+                ${t("aboutResearchersText")}
               </span>
             </a>
 
-
             <a href="#/reports">
               <strong>
-                公的報告
+                ${t("aboutReports")}
               </strong>
-
               <span>
-                未論文化資料・進行中研究を確認する →
+                ${t("aboutReportsText")}
               </span>
             </a>
 
@@ -402,20 +429,15 @@ export function renderAbout(data) {
         <section class="about-operation">
 
           <h2>
-            運営について
+            ${t("operationTitle")}
           </h2>
 
           <p>
-            本サイトは、
-            国内の犯罪予防・Evidence-Based Policing
-            に関する研究を整理・共有するための
-            個人運営の研究知識基盤です。
+            ${t("operationText1")}
           </p>
 
           <p>
-            網羅性や内容の完全性を保証するものではなく、
-            実務上の判断を行う場合は、
-            必ず原著論文・公式資料を確認してください。
+            ${t("operationText2")}
           </p>
 
         </section>
@@ -424,6 +446,5 @@ export function renderAbout(data) {
       </div>
 
     </section>
-
   `;
 }
