@@ -40,7 +40,7 @@ function page(){
   activateResearchers();
   break;
   case "researcher": app.innerHTML=renderResearchers(data,route.id); break;
-　case "reports":
+  case "reports":
   app.innerHTML = renderReports(data);
   activateReports();
   break;
