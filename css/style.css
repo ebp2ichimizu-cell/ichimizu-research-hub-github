@@ -1003,3 +1003,185 @@ button{cursor:pointer}
   }
 
 }
+/* =========================================================
+   Public reports / non-journal materials
+   ========================================================= */
+
+.report-guide,
+.report-status-note{
+  margin-bottom:22px;
+  padding:16px 18px;
+  border:1px solid #d9d5b8;
+  border-radius:15px;
+  background:#fffdf4;
+  color:#514b2c;
+}
+
+.report-guide strong,
+.report-status-note strong{
+  color:#413b20;
+}
+
+.report-guide p,
+.report-status-note p{
+  margin:4px 0 0;
+  font-size:.9rem;
+  line-height:1.7;
+}
+
+
+.report-toolbar{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 280px;
+  gap:10px;
+  margin-bottom:12px;
+}
+
+.report-toolbar input,
+.report-toolbar select{
+  min-height:46px;
+  padding:11px 13px;
+  border:1px solid var(--line);
+  border-radius:13px;
+  background:white;
+  color:var(--ink);
+}
+
+
+.report-list{
+  display:grid;
+  gap:12px;
+}
+
+.report-card{
+  padding:19px;
+  background:white;
+  border:1px solid var(--line);
+  border-radius:17px;
+}
+
+.report-card[hidden]{
+  display:none;
+}
+
+.report-card-head{
+  display:flex;
+  justify-content:space-between;
+  gap:14px;
+}
+
+.report-type{
+  display:inline-block;
+  margin-top:5px;
+  padding:4px 8px;
+  border-radius:999px;
+  background:var(--primary-pale);
+  border:1px solid var(--line);
+  color:var(--primary-dark);
+  font-size:.74rem;
+  font-weight:700;
+}
+
+.report-card h2{
+  margin:9px 0 7px;
+  font-size:1.08rem;
+  line-height:1.55;
+}
+
+.report-card h2 a{
+  color:var(--primary-dark);
+  text-decoration:none;
+}
+
+.report-card h2 a:hover{
+  text-decoration:underline;
+}
+
+.report-organization{
+  color:var(--muted);
+  font-size:.82rem;
+  font-weight:700;
+}
+
+.report-card p{
+  margin:8px 0 0;
+  color:#496562;
+  font-size:.9rem;
+  line-height:1.7;
+}
+
+
+.report-info-section{
+  margin-bottom:22px;
+}
+
+.report-info-section > h2{
+  margin:0 0 12px;
+  color:var(--primary-dark);
+  font-size:1.25rem;
+}
+
+.report-summary-box{
+  border-left:5px solid #8c865b;
+}
+
+
+/* ---------- mobile ---------- */
+
+@media (max-width:767px){
+
+  .report-guide,
+  .report-status-note{
+    padding:13px 14px;
+    margin-bottom:16px;
+    border-radius:13px;
+  }
+
+  .report-guide p,
+  .report-status-note p{
+    font-size:.82rem;
+    line-height:1.65;
+  }
+
+
+  .report-toolbar{
+    grid-template-columns:1fr;
+    gap:8px;
+  }
+
+  .report-toolbar input,
+  .report-toolbar select{
+    width:100%;
+    min-height:44px;
+    padding:10px 12px;
+    font-size:.9rem;
+  }
+
+
+  .report-list{
+    gap:10px;
+  }
+
+  .report-card{
+    padding:14px;
+    border-radius:15px;
+  }
+
+  .report-card h2{
+    font-size:.96rem;
+  }
+
+  .report-card p{
+    font-size:.84rem;
+  }
+
+  .report-type{
+    font-size:.68rem;
+  }
+
+
+  .report-info-section > h2{
+    font-size:1.1rem;
+  }
+
+}
