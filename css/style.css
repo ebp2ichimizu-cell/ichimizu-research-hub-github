@@ -107,3 +107,278 @@ button{cursor:pointer}
 .footer-inner{max-width:var(--max);margin:auto;padding:38px 24px}
 .footer-inner p{margin:.35rem 0}.footer-note{opacity:.78;font-size:.9rem}
 .loading{padding:80px;text-align:center;color:var(--muted)}
+/* =========================================================
+   Study detail page
+   ========================================================= */
+
+.back-link{
+  display:inline-block;
+  margin-bottom:18px;
+  color:var(--primary);
+  font-weight:700;
+  text-decoration:none;
+}
+
+.back-link:hover{
+  text-decoration:underline;
+}
+
+.study-type{
+  margin-bottom:8px;
+}
+
+.detail-authors{
+  margin:0 0 14px;
+  color:#496562;
+  font-size:1rem;
+}
+
+.detail-theme-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+  margin-top:14px;
+}
+
+.detail-theme{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:white;
+  color:var(--primary-dark);
+  font-size:.82rem;
+  font-weight:700;
+  text-decoration:none;
+}
+
+.detail-theme:hover{
+  background:var(--primary-soft);
+}
+
+
+.study-overview{
+  margin-bottom:24px;
+}
+
+.study-overview > h2{
+  margin:0 0 13px;
+  color:var(--primary-dark);
+  font-size:1.35rem;
+}
+
+
+.detail-info-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  border:1px solid var(--line);
+  border-radius:18px;
+  overflow:hidden;
+  background:white;
+  margin:0;
+}
+
+.detail-info-item{
+  padding:14px 16px;
+  border-bottom:1px solid #e3eeec;
+}
+
+.detail-info-item:nth-child(odd){
+  border-right:1px solid #e3eeec;
+}
+
+.detail-info-item dt{
+  margin:0 0 4px;
+  color:var(--primary-dark);
+  font-size:.8rem;
+  font-weight:800;
+}
+
+.detail-info-item dd{
+  margin:0;
+  font-size:.94rem;
+  line-height:1.65;
+}
+
+
+.detail-section{
+  position:relative;
+}
+
+.detail-label{
+  display:inline-grid;
+  place-items:center;
+  min-width:30px;
+  height:24px;
+  margin-bottom:8px;
+  padding:0 7px;
+  border-radius:999px;
+  background:var(--primary-soft);
+  color:var(--primary-dark);
+  font-size:.7rem;
+  font-weight:800;
+}
+
+.result-box{
+  border-left:5px solid var(--primary);
+}
+
+.note-box{
+  background:#f5f9f8;
+}
+
+.source-area{
+  margin:30px 0;
+}
+
+.source-area h2{
+  margin:0 0 12px;
+  color:var(--primary-dark);
+  font-size:1.2rem;
+}
+
+
+.related-section{
+  margin-top:42px;
+  padding-top:30px;
+  border-top:1px solid var(--line);
+}
+
+.related-heading{
+  margin-bottom:18px;
+}
+
+.related-heading h2{
+  margin:0;
+  color:var(--primary-dark);
+  font-size:1.5rem;
+}
+
+.related-heading p{
+  margin:5px 0 0;
+  color:var(--muted);
+  font-size:.9rem;
+}
+
+.related-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+
+.related-card{
+  background:white;
+  border:1px solid var(--line);
+  border-radius:17px;
+  padding:17px;
+}
+
+.related-card h3{
+  margin:6px 0 8px;
+  font-size:1rem;
+  line-height:1.55;
+}
+
+.related-card h3 a{
+  color:var(--primary-dark);
+  text-decoration:none;
+}
+
+.related-card h3 a:hover{
+  text-decoration:underline;
+}
+
+.related-summary{
+  margin:8px 0;
+  font-size:.88rem;
+  line-height:1.7;
+  color:#45615e;
+}
+
+
+/* ---------- mobile ---------- */
+
+@media (max-width:767px){
+
+  .back-link{
+    margin-bottom:14px;
+    font-size:.84rem;
+  }
+
+  .detail-authors{
+    font-size:.88rem;
+    line-height:1.7;
+  }
+
+  .detail-theme-list{
+    gap:5px;
+    margin-top:11px;
+  }
+
+  .detail-theme{
+    padding:4px 8px;
+    font-size:.72rem;
+  }
+
+  .study-overview{
+    margin-bottom:16px;
+  }
+
+  .study-overview > h2{
+    font-size:1.12rem;
+  }
+
+  .detail-info-grid{
+    grid-template-columns:1fr;
+    border-radius:15px;
+  }
+
+  .detail-info-item{
+    padding:10px 12px;
+    border-right:0 !important;
+  }
+
+  .detail-info-item dt{
+    font-size:.75rem;
+  }
+
+  .detail-info-item dd{
+    font-size:.88rem;
+  }
+
+  .detail-label{
+    min-width:27px;
+    height:21px;
+    margin-bottom:6px;
+    font-size:.65rem;
+  }
+
+  .related-section{
+    margin-top:30px;
+    padding-top:23px;
+  }
+
+  .related-heading h2{
+    font-size:1.3rem;
+  }
+
+  .related-heading p{
+    font-size:.82rem;
+    line-height:1.65;
+  }
+
+  .related-grid{
+    grid-template-columns:1fr;
+    gap:10px;
+  }
+
+  .related-card{
+    padding:14px;
+    border-radius:15px;
+  }
+
+  .related-card h3{
+    font-size:.94rem;
+  }
+
+}
