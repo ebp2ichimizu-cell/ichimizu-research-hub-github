@@ -15,6 +15,12 @@ import {
 } from "./render-reports.js";
 import {escapeHtml} from "./utils.js";
 import {renderAbout} from "./render-about.js";
+import {
+  getLanguage,
+  setLanguage,
+  applyStaticTranslations,
+  t
+} from "./i18n.js";
 
 const app=document.querySelector("#app");
 let data=null;
@@ -58,9 +64,72 @@ document.querySelector("#menuButton").addEventListener("click",()=>{
   nav.classList.toggle("open");btn.setAttribute("aria-expanded",String(nav.classList.contains("open")));
 });
 document.querySelector("#globalNav").addEventListener("click",()=>document.querySelector("#globalNav").classList.remove("open"));
-document.querySelector("#englishButton").addEventListener("click",()=>{
-  alert("英語版は次段階で実装します。日本語版と同一IDで対応させます。");
-});
+async function changeLanguage(language){
+
+  if(
+    language === getLanguage()
+  ){
+    return;
+  }
+
+  setLanguage(language);
+
+  applyStaticTranslations();
+
+  app.innerHTML =
+    `<div class="loading">${t("loading")}</div>`;
+
+  try{
+
+    data =
+      await loadAllData();
+
+    page();
+
+  }catch(err){
+
+    app.innerHTML = `
+      <section class="section">
+        <div class="container">
+
+          <div class="empty">
+
+            ${t("loadError")}
+
+            <br>
+
+            ${escapeHtml(err.message)}
+
+          </div>
+
+        </div>
+      </section>
+    `;
+
+  }
+
+}
+
+
+document
+  .querySelector("#japaneseButton")
+  .addEventListener(
+    "click",
+    () => changeLanguage("ja")
+  );
+
+
+document
+  .querySelector("#englishButton")
+  .addEventListener(
+    "click",
+    () => changeLanguage("en")
+  );
+setLanguage(
+  getLanguage()
+);
+
+applyStaticTranslations();
 try{
  data=await loadAllData();
  startRouter(page);
