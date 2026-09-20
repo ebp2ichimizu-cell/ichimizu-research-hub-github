@@ -1,0 +1,713 @@
+[
+  {
+    "id": "researcher-001",
+    "name": "島田貴仁",
+    "affiliation": "滋賀大学",
+    "themes": [
+      "犯罪予防EBP",
+      "ナッジ",
+      "特殊詐欺",
+      "自転車盗",
+      "警察可視性"
+    ],
+    "practiceConnection": "科警研出身、複数県警との介入・効果検証",
+    "series": [
+      "特殊詐欺",
+      "自転車盗",
+      "環境ナッジ",
+      "警察組織実装"
+    ],
+    "profileUrl": "https://www.ds.shiga-u.ac.jp/member/1473/",
+    "studyIds": [
+      "study-0001",
+      "study-0009",
+      "study-0019",
+      "study-0021",
+      "study-0022",
+      "study-0023",
+      "study-0027",
+      "study-0028",
+      "study-0029",
+      "study-0031",
+      "study-0032",
+      "study-0037",
+      "study-0038",
+      "study-0045",
+      "study-0047",
+      "study-0048",
+      "study-0049",
+      "study-0050",
+      "study-0051",
+      "study-0052",
+      "study-0053",
+      "study-0054",
+      "study-0055",
+      "study-0056",
+      "study-0059",
+      "study-0060",
+      "study-0061"
+    ]
+  },
+  {
+    "id": "researcher-002",
+    "name": "齊藤知範",
+    "affiliation": "科学警察研究所",
+    "themes": [
+      "犯罪予防",
+      "効果測定",
+      "GIS",
+      "特殊詐欺"
+    ],
+    "practiceConnection": "科警研犯罪予防研究。警察施策の評価多数",
+    "series": [
+      "特殊詐欺",
+      "自転車盗リスク",
+      "行動経済学政策応用"
+    ],
+    "profileUrl": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901041179849255",
+    "studyIds": [
+      "study-0019",
+      "study-0022",
+      "study-0023",
+      "study-0028",
+      "study-0050",
+      "study-0059",
+      "study-0060"
+    ]
+  },
+  {
+    "id": "researcher-003",
+    "name": "山根由子",
+    "affiliation": "科学警察研究所",
+    "themes": [
+      "特殊詐欺",
+      "電話対策",
+      "被害防止介入"
+    ],
+    "practiceConnection": "科警研。警察官戸別訪問・架電・電話機施策等",
+    "series": [
+      "特殊詐欺介入",
+      "ナッジ犯罪予防"
+    ],
+    "profileUrl": "https://kaken.nii.ac.jp/",
+    "studyIds": [
+      "study-0019",
+      "study-0022",
+      "study-0023",
+      "study-0028",
+      "study-0059"
+    ]
+  },
+  {
+    "id": "researcher-004",
+    "name": "雨宮護",
+    "affiliation": "筑波大学",
+    "themes": [
+      "環境犯罪学",
+      "GIS",
+      "CCTV",
+      "地域防犯"
+    ],
+    "practiceConnection": "福岡県警犯罪予防研究アドバイザー等",
+    "series": [
+      "福岡県警アドバイザー",
+      "農作物盗・plural policing"
+    ],
+    "profileUrl": "https://trios.tsukuba.ac.jp/",
+    "studyIds": [
+      "study-0001",
+      "study-0010",
+      "study-0011",
+      "study-0012"
+    ]
+  },
+  {
+    "id": "researcher-005",
+    "name": "大竹文雄",
+    "affiliation": "大阪大学",
+    "themes": [
+      "行動経済学",
+      "ナッジ",
+      "政策評価"
+    ],
+    "practiceConnection": "科警研・滋賀県警・大阪府警等との防犯介入",
+    "series": [
+      "科研費20H05632",
+      "特殊詐欺",
+      "盗撮",
+      "路上売春"
+    ],
+    "profileUrl": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20H05632/",
+    "studyIds": [
+      "study-0032",
+      "study-0059",
+      "study-0060"
+    ]
+  },
+  {
+    "id": "researcher-006",
+    "name": "大山智也",
+    "affiliation": "東京大学",
+    "themes": [
+      "犯罪予測",
+      "Crime Harm",
+      "環境犯罪学",
+      "GIS"
+    ],
+    "practiceConnection": "奈良県警施策評価等",
+    "series": [
+      "地域防犯運動",
+      "犯罪予測・資源配分"
+    ],
+    "profileUrl": "https://www.u-tokyo.ac.jp/focus/ja/people/k0001_05759.html",
+    "studyIds": [
+      "study-0028"
+    ]
+  },
+  {
+    "id": "researcher-007",
+    "name": "鈴木あい",
+    "affiliation": "津田塾大学",
+    "themes": [
+      "犯罪科学",
+      "EBP",
+      "ナッジ",
+      "自転車盗",
+      "万引き",
+      "農村犯罪"
+    ],
+    "practiceConnection": "福島県警との複数フィールド実験",
+    "series": [
+      "自転車施錠",
+      "万引き音声ナッジ",
+      "農村警察",
+      "日本EBP導入"
+    ],
+    "profileUrl": "https://www.tsuda.ac.jp/academics/dept-ps/faculty.html",
+    "studyIds": [
+      "study-0029",
+      "study-0034",
+      "study-0045",
+      "study-0048"
+    ]
+  },
+  {
+    "id": "researcher-008",
+    "name": "荒井崇史",
+    "affiliation": "東北大学大学院",
+    "themes": [
+      "犯罪情報",
+      "防犯行動",
+      "ストーカー",
+      "被害予防"
+    ],
+    "practiceConnection": "科警研との犯罪予防フィールド実験、大阪府警研究会",
+    "series": [
+      "自転車施錠",
+      "犯罪情報",
+      "ストーカー"
+    ],
+    "profileUrl": "https://www.sal.tohoku.ac.jp/",
+    "studyIds": [
+      "study-0037",
+      "study-0038",
+      "study-0061"
+    ]
+  },
+  {
+    "id": "researcher-009",
+    "name": "原田章",
+    "affiliation": "追手門学院大学",
+    "themes": [
+      "犯罪分析",
+      "防犯教育",
+      "VR",
+      "実務家研修"
+    ],
+    "practiceConnection": "大阪府警防犯対策高度化協働研究会",
+    "series": [
+      "大阪府警×追手門",
+      "VR防犯教育",
+      "犯罪分析研修"
+    ],
+    "profileUrl": "https://www.police.pref.osaka.lg.jp/seikatsu/anzen/bohantaisaku/19299.html",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-010",
+    "name": "山本功",
+    "affiliation": "淑徳大学",
+    "themes": [
+      "地域防犯",
+      "犯罪不安",
+      "ストーカー"
+    ],
+    "practiceConnection": "千葉県防犯ボックス等",
+    "series": [
+      "防犯ボックス",
+      "ストーカー研究"
+    ],
+    "profileUrl": "https://www.jstage.jst.go.jp/article/jjscrim/41/0/41_80/_article/-char/ja",
+    "studyIds": [
+      "study-0009"
+    ]
+  },
+  {
+    "id": "researcher-011",
+    "name": "金政祐司",
+    "affiliation": "追手門学院大学",
+    "themes": [
+      "親密関係",
+      "ストーカー",
+      "IPV"
+    ],
+    "practiceConnection": "大阪府警協働研究会、犯罪予防関連共同研究",
+    "series": [
+      "ストーカーリスク",
+      "DV・IPV"
+    ],
+    "profileUrl": "https://www.police.pref.osaka.lg.jp/seikatsu/anzen/bohantaisaku/19299.html",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-012",
+    "name": "讃井知",
+    "affiliation": "筑波大学",
+    "themes": [
+      "特殊詐欺",
+      "犯罪予防行動",
+      "情報発信",
+      "ナッジ"
+    ],
+    "practiceConnection": "港区特殊詐欺共同研究、島田・荒井との共同研究",
+    "series": [
+      "特殊詐欺情報発信",
+      "ナッジ犯罪予防"
+    ],
+    "profileUrl": "https://trios.tsukuba.ac.jp/researcher/0000004603",
+    "studyIds": [
+      "study-0061"
+    ]
+  },
+  {
+    "id": "researcher-013",
+    "name": "大杉朱美",
+    "affiliation": "福山大学",
+    "themes": [
+      "捜査心理学",
+      "EBP",
+      "サイバー防犯",
+      "地域防犯"
+    ],
+    "practiceConnection": "元兵庫県警科捜研、広島県警サイバー防犯活動等",
+    "series": [
+      "捜査EBP",
+      "サイバー防犯",
+      "地域安全マップ"
+    ],
+    "profileUrl": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201801012518677310",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-014",
+    "name": "鈴木拓朗",
+    "affiliation": "富山大学",
+    "themes": [
+      "ストーキング",
+      "加害者支援",
+      "リスク評価"
+    ],
+    "practiceConnection": "富山県警アドバイザー、警察庁調査研究スーパーバイザー",
+    "series": [
+      "ストーカー加害者介入",
+      "受診働き掛け"
+    ],
+    "profileUrl": "https://sites.google.com/view/suzukitakuro/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-015",
+    "name": "畑倫子",
+    "affiliation": "文京学院大学",
+    "themes": [
+      "子どもの防犯",
+      "環境心理",
+      "コミュニティ心理"
+    ],
+    "practiceConnection": "科警研研究者との子ども防犯研究等",
+    "series": [
+      "子どもの安全",
+      "保護者行動",
+      "犯罪不安"
+    ],
+    "profileUrl": "https://www.bgu.ac.jp/gci/staff/tomoko-hata/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-016",
+    "name": "相馬敏彦",
+    "affiliation": "広島大学",
+    "themes": [
+      "DV・IPV一次予防",
+      "親密関係"
+    ],
+    "practiceConnection": "社会安全財団助成のDV予防プログラム等",
+    "series": [
+      "DV一次予防",
+      "ストーカー関連ネットワーク"
+    ],
+    "profileUrl": "https://www.hiroshima-u.ac.jp/mgt/research/staff/category02/staff20",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-017",
+    "name": "池内裕美",
+    "affiliation": "関西大学",
+    "themes": [
+      "消費心理",
+      "広報",
+      "行動"
+    ],
+    "practiceConnection": "大阪府警防犯対策高度化協働研究会",
+    "series": [
+      "警察広報・ポスター改善"
+    ],
+    "profileUrl": "https://www.police.pref.osaka.lg.jp/seikatsu/anzen/bohantaisaku/19299.html",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-018",
+    "name": "大久保智生",
+    "affiliation": "香川大学",
+    "themes": [
+      "万引き",
+      "防犯教育",
+      "店舗介入",
+      "地域安全マップ"
+    ],
+    "practiceConnection": "香川県警との長期共同研究",
+    "series": [
+      "香川・万引き防止系列"
+    ],
+    "profileUrl": "https://www.kagawa-u.ac.jp/",
+    "studyIds": [
+      "study-0003",
+      "study-0004",
+      "study-0005",
+      "study-0006",
+      "study-0007",
+      "study-0008",
+      "study-0013",
+      "study-0014",
+      "study-0016",
+      "study-0017",
+      "study-0020",
+      "study-0024",
+      "study-0030",
+      "study-0033",
+      "study-0040",
+      "study-0041",
+      "study-0042",
+      "study-0043",
+      "study-0044"
+    ]
+  },
+  {
+    "id": "researcher-019",
+    "name": "高木大資",
+    "affiliation": "京都大学",
+    "themes": [
+      "社会心理",
+      "健康・リスク行動",
+      "特殊詐欺防止"
+    ],
+    "practiceConnection": "科警研との特殊詐欺介入、奈良県警地域防犯評価",
+    "series": [
+      "特殊詐欺",
+      "奈良県警チャレンジ“絆”"
+    ],
+    "profileUrl": "https://www.kyoto-u.ac.jp/",
+    "studyIds": [
+      "study-0023",
+      "study-0028"
+    ]
+  },
+  {
+    "id": "researcher-020",
+    "name": "西田公昭",
+    "affiliation": "立正大学",
+    "themes": [
+      "社会心理",
+      "詐欺・悪質商法",
+      "心理操作"
+    ],
+    "practiceConnection": "特殊詐欺・悪質商法に関する研究・警察実務向け知見",
+    "series": [
+      "詐欺被害心理",
+      "説得・心理操作"
+    ],
+    "profileUrl": "https://www.ris.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-021",
+    "name": "村上史朗",
+    "affiliation": "奈良大学",
+    "themes": [
+      "社会心理",
+      "犯罪予防心理"
+    ],
+    "practiceConnection": "奈良県警「奈良防犯心理研究会」座長",
+    "series": [
+      "奈良防犯心理研究会",
+      "特殊詐欺・SNS型詐欺"
+    ],
+    "profileUrl": "https://www.nara-u.ac.jp/news/1347.html",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-022",
+    "name": "竹橋洋毅",
+    "affiliation": "奈良女子大学",
+    "themes": [
+      "心理学",
+      "行動変容"
+    ],
+    "practiceConnection": "奈良防犯心理研究会参加の可能性を含め要一次確認",
+    "series": [
+      "奈良防犯心理研究会関連"
+    ],
+    "profileUrl": "https://www.nara-wu.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-023",
+    "name": "柴田守",
+    "affiliation": "獨協大学",
+    "themes": [
+      "犯罪学",
+      "被害者学",
+      "刑事政策"
+    ],
+    "practiceConnection": "警察・犯罪政策に関する研究",
+    "series": [
+      "犯罪学",
+      "被害者学"
+    ],
+    "profileUrl": "https://www.dokkyo.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-024",
+    "name": "和智妙子",
+    "affiliation": "駿河台大学",
+    "themes": [
+      "捜査心理",
+      "捜査面接",
+      "犯罪者行動"
+    ],
+    "practiceConnection": "元科学警察研究所。捜査心理・実務研究",
+    "series": [
+      "捜査EBP",
+      "捜査面接"
+    ],
+    "profileUrl": "https://www.surugadai.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-025",
+    "name": "中谷友樹",
+    "affiliation": "東北大学",
+    "themes": [
+      "犯罪地理",
+      "GIS",
+      "時空間分析",
+      "犯罪予測"
+    ],
+    "practiceConnection": "犯罪分析・GISによる介入前段研究",
+    "series": [
+      "犯罪地理",
+      "犯罪予測",
+      "GIS"
+    ],
+    "profileUrl": "https://www.kankyo.tohoku.ac.jp/teacher/tkk01.html",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-026",
+    "name": "齋藤梓",
+    "affiliation": "上智大学",
+    "themes": [
+      "犯罪被害",
+      "トラウマ",
+      "被害者支援"
+    ],
+    "practiceConnection": "犯罪被害者支援・心理研究",
+    "series": [
+      "被害後支援",
+      "トラウマ"
+    ],
+    "profileUrl": "https://fhs.sophia.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-027",
+    "name": "樋口匡貴",
+    "affiliation": "上智大学",
+    "themes": [
+      "健康・社会心理",
+      "行動変容"
+    ],
+    "practiceConnection": "警視庁Twitter特殊詐欺情報発信実験",
+    "series": [
+      "特殊詐欺情報発信",
+      "防護動機理論"
+    ],
+    "profileUrl": "https://www.sophia.ac.jp/",
+    "studyIds": [
+      "study-0021"
+    ]
+  },
+  {
+    "id": "researcher-028",
+    "name": "原田豊",
+    "affiliation": "立正大学",
+    "themes": [
+      "環境犯罪学",
+      "犯罪分析",
+      "犯罪予防",
+      "警察研究"
+    ],
+    "practiceConnection": "元科警研犯罪予防研究室長・犯罪行動科学部長",
+    "series": [
+      "国内犯罪予防研究の前史",
+      "犯罪分析",
+      "警察実務研究"
+    ],
+    "profileUrl": "https://www.ris.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-029",
+    "name": "木村敦",
+    "affiliation": "日本大学",
+    "themes": [
+      "リスク認知",
+      "特殊詐欺",
+      "犯罪予防行動"
+    ],
+    "practiceConnection": "科警研研究者との特殊詐欺研究、都筑警察署との協働",
+    "series": [
+      "特殊詐欺",
+      "地域犯罪予防",
+      "住民意識"
+    ],
+    "profileUrl": "https://researcher-web.nihon-u.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-030",
+    "name": "四方光",
+    "affiliation": "中央大学",
+    "themes": [
+      "社会安全政策",
+      "地域防犯",
+      "サイバー犯罪",
+      "再犯防止"
+    ],
+    "practiceConnection": "元警察庁、警察政策研究センター等との研究歴",
+    "series": [
+      "社会安全政策",
+      "サイバー",
+      "地域防犯"
+    ],
+    "profileUrl": "https://plus-c.chuo-u.ac.jp/researcher/koshikata/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-031",
+    "name": "原田知佳",
+    "affiliation": "名城大学",
+    "themes": [
+      "社会心理",
+      "犯罪予防・社会安全関連"
+    ],
+    "practiceConnection": "2026年犯罪予防・社会安全の大学間プロジェクト関連",
+    "series": [
+      "犯罪予防と社会安全"
+    ],
+    "profileUrl": "https://www.meijo-u.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-032",
+    "name": "松村真宏",
+    "affiliation": "大阪大学",
+    "themes": [
+      "仕掛学",
+      "行動変容"
+    ],
+    "practiceConnection": "大阪府警防犯対策高度化協働研究会の仕掛学テーマと関連",
+    "series": [
+      "仕掛学",
+      "防犯実装"
+    ],
+    "profileUrl": "https://rd.iai.osaka-u.ac.jp/ja/c92b9be476b58702.html",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-033",
+    "name": "竹中祐二",
+    "affiliation": "摂南大学",
+    "themes": [
+      "犯罪社会学",
+      "安全安心まちづくり"
+    ],
+    "practiceConnection": "地域安全・防犯研究",
+    "series": [
+      "地域防犯",
+      "まちづくり"
+    ],
+    "profileUrl": "https://www.setsunan.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-034",
+    "name": "谷口友梨",
+    "affiliation": "滋賀大学",
+    "themes": [
+      "自転車盗",
+      "施錠行動",
+      "行動変容"
+    ],
+    "practiceConnection": "滋賀県警との自転車施錠社会実験",
+    "series": [
+      "滋賀県警×自転車施錠"
+    ],
+    "profileUrl": "https://www.shiga-u.ac.jp/",
+    "studyIds": [
+      "study-0025",
+      "study-0026"
+    ]
+  },
+  {
+    "id": "researcher-035",
+    "name": "松川杏寧",
+    "affiliation": "兵庫県立大学",
+    "themes": [
+      "環境犯罪学",
+      "犯罪予防",
+      "GIS",
+      "ネット詐欺",
+      "女性被害"
+    ],
+    "practiceConnection": "科警研系研究者との犯罪予防科研費等",
+    "series": [
+      "ネット詐欺",
+      "女性被害予防",
+      "環境犯罪学"
+    ],
+    "profileUrl": "https://www-cv01.ufinity.jp/u_hyogo/cvclients/researchers/amatsuka",
+    "studyIds": []
+  }
+]

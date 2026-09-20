@@ -1,0 +1,254 @@
+[
+  {
+    "id": "program-001",
+    "startYear": 2010,
+    "name": "香川県警察×香川大学 万引き防止等共同事業",
+    "policeOrganizations": [
+      "香川県警察"
+    ],
+    "researchOrganizations": [
+      "香川大学"
+    ],
+    "themes": [
+      "万引きから開始し",
+      "特殊詐欺",
+      "防犯ボランティア",
+      "セルフレジ",
+      "地域安全マップ等へ拡大"
+    ],
+    "summary": "2010年から継続。調査→マニュアル→教育→店舗実装→効果検証という長期系列。",
+    "url": "https://www.kagawa-u.ac.jp/32649/"
+  },
+  {
+    "id": "program-002",
+    "startYear": 2014,
+    "name": "福岡県警察犯罪予防研究アドバイザー制度",
+    "policeOrganizations": [
+      "福岡県警察"
+    ],
+    "researchOrganizations": [
+      "筑波大・東京大・福岡大・九州大・佐賀大・北陸大等"
+    ],
+    "themes": [
+      "犯罪データ分析",
+      "CCTV",
+      "侵入窃盗",
+      "性犯罪",
+      "コンビニ強盗",
+      "万引き等"
+    ],
+    "summary": "2014年11月開始。研究成果報告書No.1/No.2と複数論文を公開。",
+    "url": "https://www.police.pref.fukuoka.jp/seian/seian/adobaiza-seido_2.html"
+  },
+  {
+    "id": "program-003",
+    "startYear": 2014,
+    "name": "京都府警察犯罪抑止対策調査研究会",
+    "policeOrganizations": [
+      "京都府警察"
+    ],
+    "researchOrganizations": [
+      "大学研究者等"
+    ],
+    "themes": [
+      "性犯罪等の犯罪抑止施策"
+    ],
+    "summary": "性犯罪研究部会等を設け、データ分析を対策（可搬式防犯カメラ、照明等）へ接続。詳細報告を継続探索対象。",
+    "url": "https://www.pref.kyoto.jp/koho/dayori/201501/keisatsu.html"
+  },
+  {
+    "id": "program-004",
+    "startYear": 2016,
+    "name": "警視庁 子ども・女性の安全対策に関する有識者研究会",
+    "policeOrganizations": [
+      "警視庁"
+    ],
+    "researchOrganizations": [
+      "犯罪学・地理・都市工学・心理等の研究者"
+    ],
+    "themes": [
+      "子ども・女性の犯罪被害防止"
+    ],
+    "summary": "データ分析、情報発信、犯罪予防教育、環境整備等を検討。",
+    "url": "https://www.keishicho.metro.tokyo.lg.jp/kurashi/anzen/anshin/kenkyukai/index.html"
+  },
+  {
+    "id": "program-005",
+    "startYear": 2018,
+    "name": "大阪府警察 防犯対策高度化協働研究会",
+    "policeOrganizations": [
+      "大阪府警察"
+    ],
+    "researchOrganizations": [
+      "追手門学院大・筑波大等研究者"
+    ],
+    "themes": [
+      "犯罪分析",
+      "防犯情報",
+      "広報啓発",
+      "まちづくり",
+      "VR教材",
+      "特殊詐欺・SNS詐欺"
+    ],
+    "summary": "科学的根拠に基づく防犯対策を目的。VR、チラシ、ポスター、効果検証方法等を継続検討。",
+    "url": "https://www.police.pref.osaka.lg.jp/seikatsu/anzen/bohantaisaku/19299.html"
+  },
+  {
+    "id": "program-006",
+    "startYear": 2023,
+    "name": "滋賀県警察本部×大阪大学 行動経済学ナッジ社会実装連携",
+    "policeOrganizations": [
+      "滋賀県警察本部"
+    ],
+    "researchOrganizations": [
+      "大阪大学"
+    ],
+    "themes": [
+      "行動経済学・ナッジを犯罪予防へ実装"
+    ],
+    "summary": "2023年に連携協定。自転車盗等の社会実験へ展開。",
+    "url": "https://rd.iai.osaka-u.ac.jp/ja/810bce66f472cd99.html"
+  },
+  {
+    "id": "program-007",
+    "startYear": 2023,
+    "name": "神奈川県警察 犯罪・交通事故分析に関する協働研究会",
+    "policeOrganizations": [
+      "神奈川県警察"
+    ],
+    "researchOrganizations": [
+      "筑波大学等"
+    ],
+    "themes": [
+      "犯罪・交通事故データ分析"
+    ],
+    "summary": "研究者が委員として参画。個別の介入論文は追加探索対象。",
+    "url": "https://trios.tsukuba.ac.jp/ja/researcher/0000003533"
+  },
+  {
+    "id": "program-008",
+    "startYear": 2024,
+    "name": "高知県警察×県内3大学等 自転車盗対策共同研究",
+    "policeOrganizations": [
+      "高知県警察"
+    ],
+    "researchOrganizations": [
+      "高知県立大・高知工科大・高知大・滋賀大"
+    ],
+    "themes": [
+      "自転車盗",
+      "施錠行動"
+    ],
+    "summary": "データ分析、インタビュー、クラスターRCTへ展開。",
+    "url": "https://www.jstage.jst.go.jp/article/jbef/18/Special_issue/18_18.S10.pp.S1-S4/_article/-char/ja"
+  },
+  {
+    "id": "program-009",
+    "startYear": 2025,
+    "name": "福島県警察 犯罪抑止対策アドバイザーとの実証研究",
+    "policeOrganizations": [
+      "福島県警察"
+    ],
+    "researchOrganizations": [
+      "福島大学・滋賀大学等"
+    ],
+    "themes": [
+      "自転車盗",
+      "万引き"
+    ],
+    "summary": "ナッジ看板・横断幕、音声メッセージ等を実店舗・駐輪場で検証。",
+    "url": "https://www.police.pref.fukushima.jp/seianki/homepage/bouhan_taisaku/manbikitaisaku/manbikitaisaku.html"
+  },
+  {
+    "id": "program-010",
+    "startYear": 2026,
+    "name": "滋賀県警察本部×滋賀大学 特殊詐欺等被害防止対策調査研究会",
+    "policeOrganizations": [
+      "滋賀県警察本部"
+    ],
+    "researchOrganizations": [
+      "滋賀大学"
+    ],
+    "themes": [
+      "特殊詐欺",
+      "SNS型詐欺"
+    ],
+    "summary": "警察保有データ分析と社会実験を予定。",
+    "url": "https://www.ds.shiga-u.ac.jp/information/2300/"
+  },
+  {
+    "id": "program-011",
+    "startYear": 2026,
+    "name": "奈良防犯心理研究会",
+    "policeOrganizations": [
+      "奈良県警察本部"
+    ],
+    "researchOrganizations": [
+      "奈良大・奈良女子大・帝塚山大・滋賀大・大阪教育大"
+    ],
+    "themes": [
+      "特殊詐欺",
+      "SNS型投資・ロマンス詐欺等"
+    ],
+    "summary": "心理学の知見による対策設計・検証を予定。",
+    "url": "https://researchers.shiga-u.ac.jp/html/100003287_ja.html"
+  },
+  {
+    "id": "program-012",
+    "startYear": 2010,
+    "name": "福山大学犯罪心理学研究室×広島県警 地域安全マップ・少年支援連携",
+    "policeOrganizations": [
+      "広島県警察"
+    ],
+    "researchOrganizations": [
+      "福山大学"
+    ],
+    "themes": [
+      "地域安全マップ",
+      "防犯教育",
+      "少年支援"
+    ],
+    "summary": "活動自体は2000年代から継続。2010年以降も地域安全マップ指導や学生防犯活動、少年支援等で警察と連携。個別の介入論文化は追加探索対象。",
+    "url": "https://www.pref.hiroshima.lg.jp/site/anzen/kenkeisiryou.html"
+  },
+  {
+    "id": "program-013",
+    "startYear": 2015,
+    "name": "福山大学×広島県警察 交通安心プロジェクト／交通安全共同研究",
+    "policeOrganizations": [
+      "広島県警察本部交通部"
+    ],
+    "researchOrganizations": [
+      "福山大学"
+    ],
+    "themes": [
+      "運転行動",
+      "シミュレータ",
+      "街灯",
+      "交通安全"
+    ],
+    "summary": "2015年に交通安全研究の包括的連携。2017年度には生体計測、実写型シミュレータ、青色・白色街灯等の研究を県警交通部との共同研究協議会で報告。犯罪予防周辺領域として保持。",
+    "url": "https://www.fukuyama-u.ac.jp/wp-content/uploads/2021/12/H29_%E6%B4%BB%E5%8B%95%E5%A0%B1%E5%91%8A%E6%9B%B8-1.pdf"
+  },
+  {
+    "id": "program-014",
+    "startYear": 2020,
+    "name": "科研費 基盤研究(S) 20H05632「行動経済学の政策応用―医療、防災、防犯、労働、教育―」",
+    "policeOrganizations": [
+      "科学警察研究所・滋賀県警察等と連携する防犯研究を含む"
+    ],
+    "researchOrganizations": [
+      "大阪大学（研究代表：大竹文雄）・科警研研究者等"
+    ],
+    "themes": [
+      "ナッジ",
+      "RCT",
+      "フィールド実験",
+      "防犯",
+      "特殊詐欺",
+      "環境手がかり"
+    ],
+    "summary": "2020～2024年度。防犯を明示した大型研究。研究分担者に島田貴仁、齊藤知範、山根由子らを含み、特殊詐欺・盗撮・路上売春等の行動経済学的介入研究を探索する『親プロジェクト』として有用。",
+    "url": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20H05632/"
+  }
+]

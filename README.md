@@ -1,2 +1,39 @@
-# ichimizu-research-hub-github
-国内EBP研究HUB
+# Ichimizu Research Hub — GitHub Pages v1
+
+初期実装版です。最新版Excelマスター（2026-09-20）から公開用JSONを生成しています。
+
+## 収録データ
+- 個別研究: 61件
+- 共同研究プログラム: 14件
+- 研究者: 35名
+- 公的報告・未論文化: 19件
+
+## 構成
+- `index.html`: SPAの入口
+- `css/`: 現行研究HUBに寄せた青緑系デザイン
+- `js/`: ルーター、検索、描画
+- `data/`: 公開用JSON
+- `assets/logo/ichimizu-logo.png`: ユーザー提供ロゴ
+
+## GitHub Pages
+リポジトリのルートに展開し、Settings → Pages から `main` / root を公開してください。
+
+## 現時点の実装
+- トップページ
+- 自動件数表示
+- テーマ自動集計
+- 個別研究一覧・キーワード検索・テーマ/刊行形態フィルター
+- 研究詳細
+- 研究系列一覧・詳細
+- 研究者一覧・詳細
+- 公的報告一覧・詳細
+- スマホ対応
+- Hash routing（GitHub Pages向け）
+
+## 次段階
+- 研究手法フィルター強化
+- 研究系列と個別研究の明示リンク
+- 機関ページ
+- 日英切替
+- addedDate/updatedDateによる「最近追加」の厳密化
+- 月次Excel→JSON更新プロンプトの完成

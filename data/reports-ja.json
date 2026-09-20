@@ -1,0 +1,192 @@
+[
+  {
+    "id": "report-001",
+    "year": 2011,
+    "title": "犯罪情勢に応じた市民の犯罪対処行動の促進に関する研究（駐輪場社会実験）",
+    "organization": "警察庁・科学警察研究所",
+    "collaborators": "科警研研究者",
+    "type": "警察白書掲載研究",
+    "summary": "防犯情報提示＋自転車錠配布後の使用状況を測定する社会実験。",
+    "url": "https://www.npa.go.jp/hakusyo/h23/honbun/html/2-sho5_2_6.html"
+  },
+  {
+    "id": "report-002",
+    "year": 2017,
+    "title": "福岡県警察犯罪予防研究アドバイザー制度 研究成果報告書 No.1",
+    "organization": "福岡県警察",
+    "collaborators": "複数大学研究者",
+    "type": "警察公的研究報告",
+    "summary": "侵入窃盗、住宅地デザイン、CCTV等。個別研究は研究一覧にも掲載。",
+    "url": "https://www.police.pref.fukuoka.jp/seian/seian/adobaiza-seido_2.html"
+  },
+  {
+    "id": "report-003",
+    "year": 2018,
+    "title": "福岡県警察犯罪予防研究アドバイザー制度 研究成果報告書 No.2",
+    "organization": "福岡県警察",
+    "collaborators": "複数大学研究者",
+    "type": "警察公的研究報告",
+    "summary": "性犯罪、コンビニ強盗、万引き等の研究成果。",
+    "url": "https://www.police.pref.fukuoka.jp/data/open/cnt/3/1005/1/gaiyouban20181130.pdf?20190327181912="
+  },
+  {
+    "id": "report-004",
+    "year": 2018,
+    "title": "女性を守るまちのデザインと防犯対策",
+    "organization": "福岡県警察",
+    "collaborators": "有馬隆文（佐賀大学）",
+    "type": "警察公的研究報告",
+    "summary": "福岡県警アドバイザー制度の成果。介入設計への応用を含むため収録。",
+    "url": "https://www.police.pref.fukuoka.jp/seian/seian/adobaiza-seido_2.html"
+  },
+  {
+    "id": "report-005",
+    "year": 2018,
+    "title": "福岡県における性犯罪の現状とこれからの啓発活動について",
+    "organization": "福岡県警察",
+    "collaborators": "山本啓一（北陸大学）",
+    "type": "警察公的研究報告",
+    "summary": "性犯罪の実態と啓発活動の設計に関する成果。",
+    "url": "https://www.police.pref.fukuoka.jp/seian/seian/adobaiza-seido_2.html"
+  },
+  {
+    "id": "report-006",
+    "year": 2018,
+    "title": "コンビニ強盗における犯罪発生状況と防犯施策に関する検討および提案",
+    "organization": "福岡県警察",
+    "collaborators": "柴田久（福岡大学）",
+    "type": "警察公的研究報告",
+    "summary": "犯罪データと現地調査を用いた施策提案。",
+    "url": "https://www.police.pref.fukuoka.jp/seian/seian/adobaiza-seido_2.html"
+  },
+  {
+    "id": "report-007",
+    "year": 2018,
+    "title": "店長・店舗スタッフのための万引き防止ハンドブック",
+    "organization": "福岡県警察",
+    "collaborators": "山本啓一（北陸大学）",
+    "type": "警察公的研究報告",
+    "summary": "店舗実務に落とした万引き防止成果物。",
+    "url": "https://www.police.pref.fukuoka.jp/seian/seian/adobaiza-seido_2.html"
+  },
+  {
+    "id": "report-008",
+    "year": 2018,
+    "title": "大阪府警察 防犯対策高度化協働研究会",
+    "organization": "大阪府警察",
+    "collaborators": "大学教授等",
+    "type": "共同研究会",
+    "summary": "VR防犯動画、チラシ・ポスター、特殊詐欺リスク分析、効果検証方法など。",
+    "url": "https://www.police.pref.osaka.lg.jp/seikatsu/anzen/bohantaisaku/19299.html"
+  },
+  {
+    "id": "report-009",
+    "year": 2024,
+    "title": "笑顔による万引き防止の実証実験",
+    "organization": "香川県警察・香川大学",
+    "collaborators": "大久保智生ほか",
+    "type": "大学・警察共同実証",
+    "summary": "Pepper＋笑顔認証・寄付システム。結果は2025年公表。",
+    "url": "https://www.kagawa-u.ac.jp/31963/"
+  },
+  {
+    "id": "report-010",
+    "year": 2025,
+    "title": "疑似万引き状況を作り出した対策比較実験",
+    "organization": "香川県警察・香川大学",
+    "collaborators": "大久保智生ほか",
+    "type": "大学・警察共同実証",
+    "summary": "光・音・掲示物・挨拶等を実店舗で比較。",
+    "url": "https://www.kagawa-u.ac.jp/33673/"
+  },
+  {
+    "id": "report-011",
+    "year": 2026,
+    "title": "万引き防止音声ナッジ実証実験",
+    "organization": "福島県警察・福島大学",
+    "collaborators": "鈴木あいほか",
+    "type": "警察公式実証",
+    "summary": "13店舗で複数の音声メッセージを比較。有意な効果が確認された条件あり。",
+    "url": "https://www.police.pref.fukushima.jp/seianki/homepage/bouhan_taisaku/manbikitaisaku/manbikitaisaku.html"
+  },
+  {
+    "id": "report-012",
+    "year": 2026,
+    "title": "特殊詐欺等被害防止対策調査研究会",
+    "organization": "滋賀県警察本部・滋賀大学",
+    "collaborators": "島田貴仁ほか",
+    "type": "進行中共同研究",
+    "summary": "警察データ分析、ナッジ・社会実験を予定。",
+    "url": "https://www.ds.shiga-u.ac.jp/information/2300/"
+  },
+  {
+    "id": "report-013",
+    "year": 2026,
+    "title": "奈良防犯心理研究会",
+    "organization": "奈良県警察本部",
+    "collaborators": "5大学の心理学等研究者",
+    "type": "進行中共同研究",
+    "summary": "特殊詐欺・SNS型詐欺等をテーマに対策を共同設計。",
+    "url": "https://researchers.shiga-u.ac.jp/html/100003287_ja.html"
+  },
+  {
+    "id": "report-014",
+    "year": 2019,
+    "title": "VRを用いた女性の犯罪被害防止教育",
+    "organization": "大阪府警察本部・追手門学院大学",
+    "collaborators": "原田章ほか",
+    "type": "大学・警察共同介入",
+    "summary": "大阪府警府民安全対策課と追手門学院大学が、歩きスマホ中の危険を疑似体験するVR防犯教材を共同開発し、防犯教室で実装。科研費成果報告でも『介入』として整理されている。",
+    "url": "https://origin.digitalpr.jp/r/35576"
+  },
+  {
+    "id": "report-015",
+    "year": 2024,
+    "title": "VR防犯ビデオの効果検証",
+    "organization": "大阪府警察本部",
+    "collaborators": "追手門学院大学",
+    "type": "研究会報告・効果検証",
+    "summary": "大阪府警の防犯対策高度化協働研究会で、追手門学院大学学生がVR防犯ビデオの効果検証を報告。詳細なデザイン・数値は公開資料では限定的なため、未論文化資料として保持。",
+    "url": "https://www.police.pref.osaka.lg.jp/seikatsu/anzen/bohantaisaku/19299.html"
+  },
+  {
+    "id": "report-016",
+    "year": 2017,
+    "title": "防犯のための住宅地デザインとコミュニティ活動（犯罪予防研究アドバイザー制度成果）",
+    "organization": "福岡県警察",
+    "collaborators": "柴田建（九州大学）",
+    "type": "警察公的研究報告",
+    "summary": "住宅地デザインとコミュニティ活動を防犯の観点から整理。直接介入かは資料ごとに確認が必要なため、公的報告として保持。",
+    "url": "https://www.police.pref.fukuoka.jp/seian/seian/adobaiza-seido_2.html"
+  },
+  {
+    "id": "report-017",
+    "year": 2021,
+    "title": "防犯ウォーキングアプリ『歩いてミイマイ』の開発・社会実装",
+    "organization": "香川大学・香川県警察本部",
+    "collaborators": "香川大学、香川県警察本部、立正大学、福山大学",
+    "type": "大学・警察共同ツール開発",
+    "summary": "香川県警の協力下で地域安全マップ作成アプリを開発。後続の2023・2024年効果検証研究で利用。",
+    "url": "https://www.kagawa-u.ac.jp/81/27355/"
+  },
+  {
+    "id": "report-018",
+    "year": 2025,
+    "title": "犯罪捜査におけるよりよいエビデンスに基づく実践（EBP）に向けて",
+    "organization": "日本心理学会第89回大会",
+    "collaborators": "大杉朱美・科警研・県警科捜研・検察等",
+    "type": "研究会・シンポジウム／実装支援",
+    "summary": "犯罪捜査における既存手法の強化と新手法の可能性を、EBPの観点から研究者・警察実務家・検察関係者が検討。犯罪予防介入そのものではないため主表と分けて保持。",
+    "url": "https://www.jstage.jst.go.jp/article/pacjpa/89/0/89_100/_article/-char/ja"
+  },
+  {
+    "id": "report-019",
+    "year": 2026,
+    "title": "ストーカー行為者の分類に応じた効果的な受診働き掛け方法に関する調査研究",
+    "organization": "警察庁",
+    "collaborators": "鈴木拓朗（富山大学）ほか",
+    "type": "研究・実装支援（進行中）",
+    "summary": "ストーカー行為者を地域精神科医療等へつなぐ仕組みと効果的な働き掛け方法を検討。鈴木拓朗がスーパーバイザーとして参画。二次予防・再発防止系列として継続探索。",
+    "url": "https://sites.google.com/view/suzukitakuro/"
+  }
+]

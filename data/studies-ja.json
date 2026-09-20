@@ -1,0 +1,2701 @@
+[
+  {
+    "id": "study-0001",
+    "year": 2010,
+    "title": "近隣での防犯対策が市民の犯罪の知覚に与える影響―青色防犯パトロールと犯罪発生マップを例にして―",
+    "authors": [
+      "島田貴仁",
+      "雨宮護",
+      "菊池城治"
+    ],
+    "authorsText": "島田貴仁・雨宮護・菊池城治",
+    "practiceOrganizations": [
+      "科学警察研究所"
+    ],
+    "practiceOrganizationsText": "科学警察研究所",
+    "researchOrganizations": [
+      "科学警察研究所"
+    ],
+    "researchOrganizationsText": "科学警察研究所",
+    "themes": [
+      "地域防犯",
+      "犯罪不安"
+    ],
+    "themesText": "地域防犯／犯罪不安",
+    "intervention": "青色防犯パトロール、犯罪発生マップ掲示",
+    "population": "首都圏1市の住民",
+    "comparison": "対策認知の有無等",
+    "outcomes": [
+      "被害リスク認知",
+      "犯罪不安",
+      "地区治安評価",
+      "居住満足感"
+    ],
+    "outcomesText": "被害リスク認知、犯罪不安、地区治安評価、居住満足感",
+    "design": "住民調査・多変量解析",
+    "sampleSize": "1,171",
+    "result": "青パト認知は被害リスク認知を高め、地区満足感を低める方向。犯罪発生マップは地区満足感等と関連。",
+    "limitations": "観察研究であり介入の因果効果を直接推定する設計ではない",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "犯罪社会学研究 35, 132-148",
+    "doi": "10.20621/jjscrim.35.0_132",
+    "url": "https://www.jstage.jst.go.jp/article/jjscrim/35/0/35_KJ00006662066/_article/-char/ja",
+    "notes": "介入そのものより施策認知の評価。収集対象として保持。",
+    "sourceOrder": 1
+  },
+  {
+    "id": "study-0002",
+    "year": 2011,
+    "title": "犯罪情勢に応じた市民の犯罪対処行動の促進に関する研究（駐輪場での社会実験）",
+    "authors": [
+      "科学警察研究所"
+    ],
+    "authorsText": "科学警察研究所",
+    "practiceOrganizations": [
+      "警察庁・科学警察研究所"
+    ],
+    "practiceOrganizationsText": "警察庁・科学警察研究所",
+    "researchOrganizations": [
+      "科学警察研究所"
+    ],
+    "researchOrganizationsText": "科学警察研究所",
+    "themes": [
+      "自転車盗",
+      "防犯情報"
+    ],
+    "themesText": "自転車盗／防犯情報",
+    "intervention": "防犯情報提示＋自転車錠配布",
+    "population": "駐車・駐輪場の防犯キャンペーン参加者",
+    "comparison": "提示情報等の条件",
+    "outcomes": [
+      "配布錠のその後の使用状況"
+    ],
+    "outcomesText": "配布錠のその後の使用状況",
+    "design": "社会実験",
+    "sampleSize": "未確認",
+    "result": "防犯情報と錠配布後の使用状況を測定し、犯罪対処行動を促す情報発信手法を検討。",
+    "limitations": "警察白書の研究紹介で、詳細な割付・統計結果は要原報告確認",
+    "publicationType": "警察庁公的資料",
+    "reviewStatus": "公的資料",
+    "citation": "平成23年警察白書 第2章第5節6",
+    "doi": "",
+    "url": "https://www.npa.go.jp/hakusyo/h23/honbun/html/2-sho5_2_6.html",
+    "notes": "科警研の社会実験。原著・所報の追跡対象。",
+    "sourceOrder": 2
+  },
+  {
+    "id": "study-0003",
+    "year": 2012,
+    "title": "万引き防止啓発の動画制作プロジェクトへの参画による青少年の意識変化について（その2）―動画の視聴者の評価と参画した大学生と中学生の意識調査から―",
+    "authors": [
+      "大久保智生",
+      "時岡晴美",
+      "有馬道久",
+      "松浦隆夫",
+      "高橋護"
+    ],
+    "authorsText": "大久保智生・時岡晴美・有馬道久・松浦隆夫・高橋護",
+    "practiceOrganizations": [
+      "香川県警察本部少年課"
+    ],
+    "practiceOrganizationsText": "香川県警察本部少年課",
+    "researchOrganizations": [
+      "香川大学教育学部"
+    ],
+    "researchOrganizationsText": "香川大学教育学部",
+    "themes": [
+      "万引き",
+      "青少年教育"
+    ],
+    "themesText": "万引き／青少年教育",
+    "intervention": "万引き防止啓発動画の共同制作・視聴",
+    "population": "大学生・中学生、動画視聴者",
+    "comparison": "前後比較等",
+    "outcomes": [
+      "万引きに対する意識",
+      "動画評価"
+    ],
+    "outcomesText": "万引きに対する意識、動画評価",
+    "design": "教育実践・前後調査",
+    "sampleSize": "視聴者88、大学生17、中学生31",
+    "result": "参画した大学生・中学生の万引きへの意識変化、動画への高評価を報告。",
+    "limitations": "自己報告中心。犯罪行動の変化を直接測定していない",
+    "publicationType": "大学紀要",
+    "reviewStatus": "紀要",
+    "citation": "香川大学教育実践総合研究 25, 57-68",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/record/4478/files/AA1147009X_25_57-68.pdf",
+    "notes": "香川県警×香川大学の長期共同事業系列。",
+    "sourceOrder": 3
+  },
+  {
+    "id": "study-0004",
+    "year": 2012,
+    "title": "万引き防止対策のエビデンスに基づく実践とその効果―調査結果に基づく店舗向け万引き防止マニュアルの作成とその利用状況および効果―",
+    "authors": [
+      "時岡晴美",
+      "大久保智生",
+      "堀江良英",
+      "松永祐二"
+    ],
+    "authorsText": "時岡晴美・大久保智生・堀江良英・松永祐二",
+    "practiceOrganizations": [
+      "香川県警察（共同事業）"
+    ],
+    "practiceOrganizationsText": "香川県警察（共同事業）",
+    "researchOrganizations": [
+      "香川大学教育学部"
+    ],
+    "researchOrganizationsText": "香川大学教育学部",
+    "themes": [
+      "万引き",
+      "店舗対策"
+    ],
+    "themesText": "万引き／店舗対策",
+    "intervention": "研究成果に基づく店舗向け万引き防止マニュアル作成・配布",
+    "population": "香川県内店舗",
+    "comparison": "配布後利用状況",
+    "outcomes": [
+      "マニュアル利用",
+      "店員教育への活用",
+      "企画評価"
+    ],
+    "outcomesText": "マニュアル利用、店員教育への活用、企画評価",
+    "design": "実装・プロセス評価",
+    "sampleSize": "未確認",
+    "result": "半数近くが店舗内設置・店員教育等に活用し、約9割が企画を評価。",
+    "limitations": "主に利用・評価の自己報告。犯罪減少の因果効果は未確定",
+    "publicationType": "大学紀要",
+    "reviewStatus": "紀要",
+    "citation": "香川大学教育学部研究報告 第I部 138, 75-81",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/record/2020/files/AN00038237_138_L075.pdf",
+    "notes": "EBPを明示した初期の実務連携研究。",
+    "sourceOrder": 4
+  },
+  {
+    "id": "study-0005",
+    "year": 2012,
+    "title": "万引きの多い店舗はどのような特徴があるのか―万引き防止対策に関する店舗調査から―",
+    "authors": [
+      "大久保智生",
+      "堀江良英",
+      "松永祐二",
+      "永冨太一",
+      "時岡晴美"
+    ],
+    "authorsText": "大久保智生・堀江良英・松永祐二・永冨太一・時岡晴美",
+    "practiceOrganizations": [
+      "香川県警察（共同事業）"
+    ],
+    "practiceOrganizationsText": "香川県警察（共同事業）",
+    "researchOrganizations": [
+      "香川大学教育学部"
+    ],
+    "researchOrganizationsText": "香川大学教育学部",
+    "themes": [
+      "万引き",
+      "店舗特性"
+    ],
+    "themesText": "万引き／店舗特性",
+    "intervention": "介入前の実態把握（店舗調査）",
+    "population": "香川県内84店舗の店長",
+    "comparison": "万引き件数別店舗群",
+    "outcomes": [
+      "店舗特性",
+      "対応",
+      "対策",
+      "店長意識"
+    ],
+    "outcomesText": "店舗特性、対応、対策、店長意識",
+    "design": "横断調査",
+    "sampleSize": "84店舗",
+    "result": "万引きの多寡で店舗特性・対応・対策・意識との関連が異なると報告。",
+    "limitations": "直接の介入評価ではない",
+    "publicationType": "大学紀要",
+    "reviewStatus": "紀要",
+    "citation": "香川大学教育学部研究報告 第I部 138, 11-21",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/records/2015",
+    "notes": "後続のマニュアル・声かけ介入の基礎研究として保持。",
+    "sourceOrder": 5
+  },
+  {
+    "id": "study-0006",
+    "year": 2013,
+    "title": "保護者を対象とした青少年の万引き防止のための教育プログラムの開発と実践",
+    "authors": [
+      "岡田涼",
+      "時岡晴美",
+      "大久保智生",
+      "七條正典",
+      "松浦隆夫"
+    ],
+    "authorsText": "岡田涼・時岡晴美・大久保智生・七條正典・松浦隆夫",
+    "practiceOrganizations": [
+      "香川県警察本部少年課"
+    ],
+    "practiceOrganizationsText": "香川県警察本部少年課",
+    "researchOrganizations": [
+      "香川大学教育学部"
+    ],
+    "researchOrganizationsText": "香川大学教育学部",
+    "themes": [
+      "万引き",
+      "保護者教育"
+    ],
+    "themesText": "万引き／保護者教育",
+    "intervention": "保護者向け万引き防止教育プログラム",
+    "population": "保護者",
+    "comparison": "実施前後等",
+    "outcomes": [
+      "万引き防止に関する知識・意識等"
+    ],
+    "outcomesText": "万引き防止に関する知識・意識等",
+    "design": "教育プログラム実践・評価",
+    "sampleSize": "115（本文要確認）",
+    "result": "保護者向け教育プログラムを開発・実践し、教育的効果を検討。",
+    "limitations": "犯罪発生をアウトカムとした研究ではない",
+    "publicationType": "大学紀要",
+    "reviewStatus": "紀要",
+    "citation": "香川大学教育実践総合研究 26, 73-82",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/records/4492",
+    "notes": "県警少年課職員が共著。",
+    "sourceOrder": 6
+  },
+  {
+    "id": "study-0007",
+    "year": 2013,
+    "title": "万引き防止対策におけるエビデンスに基づく社会的実践サイクル―店舗および店内保安員の調査結果に基づく未然防止のための店内声かけマニュアルの作成とその実施―",
+    "authors": [
+      "大久保智生",
+      "岡田涼",
+      "時岡晴美",
+      "堀江良英",
+      "松下昌明",
+      "高橋護",
+      "尾崎祐士",
+      "藤沢隆行"
+    ],
+    "authorsText": "大久保智生・岡田涼・時岡晴美・堀江良英・松下昌明・高橋護・尾崎祐士・藤沢隆行",
+    "practiceOrganizations": [
+      "香川県警察（共同事業）"
+    ],
+    "practiceOrganizationsText": "香川県警察（共同事業）",
+    "researchOrganizations": [
+      "香川大学ほか"
+    ],
+    "researchOrganizationsText": "香川大学ほか",
+    "themes": [
+      "万引き",
+      "店舗声かけ"
+    ],
+    "themesText": "万引き／店舗声かけ",
+    "intervention": "未然防止のための店内声かけマニュアル作成・店舗で試行",
+    "population": "香川県内店舗・店内保安員",
+    "comparison": "試行前後・調査結果",
+    "outcomes": [
+      "声かけ実施",
+      "店舗側評価等"
+    ],
+    "outcomesText": "声かけ実施、店舗側評価等",
+    "design": "社会的実践・店舗試行",
+    "sampleSize": "未確認",
+    "result": "店舗・保安員調査を基にマニュアルを作成し、県内店舗で実験的に試行。EBPの循環モデルを提示。",
+    "limitations": "効果検証の詳細は限定的。認知件数減少への寄与は因果的に確定していない",
+    "publicationType": "大学紀要",
+    "reviewStatus": "紀要",
+    "citation": "香川大学教育学部研究報告 第I部 139, 35-51",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/record/2028/files/AN00038237_139_L035.pdf",
+    "notes": "調査→開発→実践→評価の循環を明示。",
+    "sourceOrder": 7
+  },
+  {
+    "id": "study-0008",
+    "year": 2014,
+    "title": "店舗向け万引き防止対策講習会および万引き防止対策動画の効果の検討―店舗での効果的な万引き対策推進のために―",
+    "authors": [
+      "大久保智生",
+      "時岡晴美",
+      "岡田涼",
+      "尾崎祐士",
+      "藤沢隆行",
+      "有吉徳洋",
+      "西村雅之",
+      "松下昌明"
+    ],
+    "authorsText": "大久保智生・時岡晴美・岡田涼・尾崎祐士・藤沢隆行・有吉徳洋・西村雅之・松下昌明",
+    "practiceOrganizations": [
+      "香川県警察との共同事業系列"
+    ],
+    "practiceOrganizationsText": "香川県警察との共同事業系列",
+    "researchOrganizations": [
+      "香川大学ほか"
+    ],
+    "researchOrganizationsText": "香川大学ほか",
+    "themes": [
+      "万引き",
+      "店舗教育"
+    ],
+    "themesText": "万引き／店舗教育",
+    "intervention": "店舗向け講習会・防犯動画",
+    "population": "店舗関係者",
+    "comparison": "講習会参加 vs 動画視聴",
+    "outcomes": [
+      "全体評価",
+      "対策の実感"
+    ],
+    "outcomesText": "全体評価、対策の実感",
+    "design": "実践評価・群比較",
+    "sampleSize": "講習会162、動画42",
+    "result": "講習会参加者の方が全体評価と対策実感が高かった。",
+    "limitations": "自己報告アウトカム。無作為割付ではない",
+    "publicationType": "大学紀要",
+    "reviewStatus": "紀要",
+    "citation": "香川大学教育学部研究報告 第I部 142, 45-52",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/records/2058",
+    "notes": "香川系列。",
+    "sourceOrder": 8
+  },
+  {
+    "id": "study-0009",
+    "year": 2016,
+    "title": "地域防犯事業が体感治安と犯罪不安に及ぼす効果の研究―千葉県コンビニ防犯ボックスモデル事業を事例として―",
+    "authors": [
+      "山本功",
+      "島田貴仁"
+    ],
+    "authorsText": "山本功・島田貴仁",
+    "practiceOrganizations": [
+      "千葉県警察等（モデル事業）"
+    ],
+    "practiceOrganizationsText": "千葉県警察等（モデル事業）",
+    "researchOrganizations": [
+      "淑徳大学・科学警察研究所"
+    ],
+    "researchOrganizationsText": "淑徳大学・科学警察研究所",
+    "themes": [
+      "地域防犯",
+      "警察可視性"
+    ],
+    "themesText": "地域防犯／警察可視性",
+    "intervention": "コンビニ防犯ボックスモデル事業",
+    "population": "実施2地点の地域住民",
+    "comparison": "事業前 vs 事業後",
+    "outcomes": [
+      "体感治安",
+      "犯罪リスク知覚",
+      "犯罪不安"
+    ],
+    "outcomesText": "体感治安、犯罪リスク知覚、犯罪不安",
+    "design": "事前・事後住民調査",
+    "sampleSize": "未確認",
+    "result": "概して体感治安は改善した一方、一部でリスク知覚・犯罪不安が上昇。",
+    "limitations": "無作為化なし。地域差・時期差の影響が残る",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "犯罪社会学研究 41, 80-97",
+    "doi": "10.20621/jjscrim.41.0_80",
+    "url": "https://www.jstage.jst.go.jp/article/jjscrim/41/0/41_80/_article/-char/ja",
+    "notes": "効果が一方向でない点が重要。",
+    "sourceOrder": 9
+  },
+  {
+    "id": "study-0010",
+    "year": 2016,
+    "title": "コンビニエンスストアにおける犯罪発生状況と防犯施策に関する考察―福岡県警察犯罪予防研究アドバイザー制度を通して―",
+    "authors": [
+      "木下広章",
+      "柴田久",
+      "石橋知也",
+      "雨宮護",
+      "樋野公宏"
+    ],
+    "authorsText": "木下広章・柴田久・石橋知也・雨宮護・樋野公宏",
+    "practiceOrganizations": [
+      "福岡県警察"
+    ],
+    "practiceOrganizationsText": "福岡県警察",
+    "researchOrganizations": [
+      "福岡大学・筑波大学・東京大学ほか"
+    ],
+    "researchOrganizationsText": "福岡大学・筑波大学・東京大学ほか",
+    "themes": [
+      "コンビニ強盗",
+      "環境設計"
+    ],
+    "themesText": "コンビニ強盗／環境設計",
+    "intervention": "犯罪データ分析＋被害/非被害店舗の現地調査から施策提案",
+    "population": "強盗被害74店舗＋近隣非被害74店舗",
+    "comparison": "被害店舗 vs 非被害店舗",
+    "outcomes": [
+      "立地・空間環境",
+      "勤務姿勢",
+      "監視性"
+    ],
+    "outcomesText": "立地・空間環境、勤務姿勢、監視性",
+    "design": "比較観察研究・現地調査",
+    "sampleSize": "148店舗",
+    "result": "勤務姿勢、防犯指導、駐車場視認性、陳列棚による監視性等の重要性を示唆。",
+    "limitations": "介入後の効果検証ではなく施策形成段階",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "都市計画論文集 51(3), 350-356",
+    "doi": "10.11361/journalcpij.51.350",
+    "url": "https://www.jstage.jst.go.jp/article/journalcpij/51/3/51_350/_article/-char/ja/",
+    "notes": "福岡県警アドバイザー制度。",
+    "sourceOrder": 10
+  },
+  {
+    "id": "study-0011",
+    "year": 2017,
+    "title": "繁華街に設置された街頭防犯カメラの効果検証―福岡県警察犯罪予防研究アドバイザー制度に基づく分析―",
+    "authors": [
+      "雨宮護",
+      "樋野公宏",
+      "柴田久"
+    ],
+    "authorsText": "雨宮護・樋野公宏・柴田久",
+    "practiceOrganizations": [
+      "福岡県警察"
+    ],
+    "practiceOrganizationsText": "福岡県警察",
+    "researchOrganizations": [
+      "筑波大学・東京大学・福岡大学"
+    ],
+    "researchOrganizationsText": "筑波大学・東京大学・福岡大学",
+    "themes": [
+      "防犯カメラ",
+      "繁華街"
+    ],
+    "themesText": "防犯カメラ／繁華街",
+    "intervention": "街頭防犯カメラ設置",
+    "population": "博多・中洲、天神周辺地区",
+    "comparison": "設置前後＋対照地区",
+    "outcomes": [
+      "粗暴犯",
+      "ひったくり",
+      "自転車盗",
+      "車両関連犯罪",
+      "空間転移"
+    ],
+    "outcomesText": "粗暴犯、ひったくり、自転車盗、車両関連犯罪、空間転移",
+    "design": "準実験・前後比較・DID/地理分析",
+    "sampleSize": "地区単位",
+    "result": "博多・中洲で窃盗系罪種の相対減少。大きな犯罪転移は確認されず。配置と従前犯罪分布の一致が重要。",
+    "limitations": "地区数が少ない。設置位置・地域条件が異なる",
+    "publicationType": "学会研究報告",
+    "reviewStatus": "研究報告",
+    "citation": "都市計画報告集 16(1), 18-23",
+    "doi": "10.11361/reportscpij.16.1_18",
+    "url": "https://www.jstage.jst.go.jp/article/reportscpij/16/1/16_18/_article/-char/ja/",
+    "notes": "福岡県警アドバイザー制度。",
+    "sourceOrder": 11
+  },
+  {
+    "id": "study-0012",
+    "year": 2017,
+    "title": "集合住宅における侵入窃盗の時空間的近接―福岡県警察犯罪予防研究アドバイザー制度に基づく分析―",
+    "authors": [
+      "樋野公宏",
+      "雨宮護"
+    ],
+    "authorsText": "樋野公宏・雨宮護",
+    "practiceOrganizations": [
+      "福岡県警察"
+    ],
+    "practiceOrganizationsText": "福岡県警察",
+    "researchOrganizations": [
+      "東京大学・筑波大学"
+    ],
+    "researchOrganizationsText": "東京大学・筑波大学",
+    "themes": [
+      "侵入窃盗",
+      "近接反復"
+    ],
+    "themesText": "侵入窃盗／近接反復",
+    "intervention": "警察データ分析を基に適時的警戒・広報施策を提案",
+    "population": "福岡市内集合住宅の侵入窃盗",
+    "comparison": "時空間的近接の有無",
+    "outcomes": [
+      "Repeat",
+      "Near Repeat",
+      "Building Near Repeat"
+    ],
+    "outcomesText": "Repeat/Near Repeat/Building Near Repeat",
+    "design": "犯罪データ時空間分析",
+    "sampleSize": "8,845件",
+    "result": "集合住宅でも近接反復・同一建物内の近接反復を確認し、コクーン・ネイバーフッド・ウォッチ等を提案。",
+    "limitations": "直接の介入効果検証ではない",
+    "publicationType": "学会研究報告",
+    "reviewStatus": "研究報告",
+    "citation": "都市計画報告集 16(1), 24-27",
+    "doi": "10.11361/reportscpij.16.1_24",
+    "url": "https://www.jstage.jst.go.jp/article/reportscpij/16/1/16_24/_article/-char/ja",
+    "notes": "後続介入設計の基礎として保持。",
+    "sourceOrder": 12
+  },
+  {
+    "id": "study-0013",
+    "year": 2017,
+    "title": "店舗における地域と連携した防犯対策の評価―安全・安心まちづくり推進店舗の認定を通して―",
+    "authors": [
+      "大久保智生",
+      "有吉徳洋",
+      "千葉敦雄",
+      "垣見真博",
+      "山地秀一",
+      "山口真由",
+      "森田浩充"
+    ],
+    "authorsText": "大久保智生・有吉徳洋・千葉敦雄・垣見真博・山地秀一・山口真由・森田浩充",
+    "practiceOrganizations": [
+      "香川県警察との共同事業"
+    ],
+    "practiceOrganizationsText": "香川県警察との共同事業",
+    "researchOrganizations": [
+      "香川大学ほか"
+    ],
+    "researchOrganizationsText": "香川大学ほか",
+    "themes": [
+      "店舗防犯",
+      "地域連携"
+    ],
+    "themesText": "店舗防犯／地域連携",
+    "intervention": "安全・安心まちづくり推進店舗の認定・地域連携防犯",
+    "population": "認定店舗等",
+    "comparison": "認定・取組状況の比較",
+    "outcomes": [
+      "防犯対策",
+      "連携",
+      "意識等"
+    ],
+    "outcomesText": "防犯対策、連携、意識等",
+    "design": "実践評価",
+    "sampleSize": "未確認",
+    "result": "認定制度を通じた店舗防犯・地域連携の実践を評価。",
+    "limitations": "詳細効果量・因果推論は原文確認が必要",
+    "publicationType": "大学紀要",
+    "reviewStatus": "紀要",
+    "citation": "香川大学教育学部研究報告 148, 1-8",
+    "doi": "",
+    "url": "https://www.kards.kagawa-u.ac.jp/profile/ja.efaae1853d0c2ceaedc27b186c88b5bc.html",
+    "notes": "研究者業績ページで書誌確認。",
+    "sourceOrder": 13
+  },
+  {
+    "id": "study-0014",
+    "year": 2018,
+    "title": "地域で見守り活動を行うボランティア対象の研修会および店舗対象の防犯CSR講習会の効果の検討―地域と店舗の連携による地域防犯活動の活性化のために―",
+    "authors": [
+      "大久保智生ほか"
+    ],
+    "authorsText": "大久保智生ほか",
+    "practiceOrganizations": [
+      "香川県警察との共同事業系列"
+    ],
+    "practiceOrganizationsText": "香川県警察との共同事業系列",
+    "researchOrganizations": [
+      "香川大学ほか"
+    ],
+    "researchOrganizationsText": "香川大学ほか",
+    "themes": [
+      "地域防犯",
+      "防犯CSR"
+    ],
+    "themesText": "地域防犯／防犯CSR",
+    "intervention": "見守りボランティア研修会、防犯CSR講習会",
+    "population": "見守りボランティア・店舗",
+    "comparison": "研修/講習参加者内評価",
+    "outcomes": [
+      "活動意義・ポイントの実感",
+      "全体評価"
+    ],
+    "outcomesText": "活動意義・ポイントの実感、全体評価",
+    "design": "研修・講習評価",
+    "sampleSize": "ボランティア130、店舗90",
+    "result": "両群とも評価・活動意義の実感が高く、両者に正の関連。",
+    "limitations": "参加者自己報告。対照群なし",
+    "publicationType": "大学紀要",
+    "reviewStatus": "紀要",
+    "citation": "香川大学教育学部研究報告 第I部 150, 13-22",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/records/2137",
+    "notes": "香川系列。",
+    "sourceOrder": 14
+  },
+  {
+    "id": "study-0015",
+    "year": 2018,
+    "title": "大学周辺における性犯罪発生状況と女子大学生の危険意識との差異―福岡市城南区を対象として―",
+    "authors": [
+      "柴田久"
+    ],
+    "authorsText": "柴田久",
+    "practiceOrganizations": [
+      "福岡県警察"
+    ],
+    "practiceOrganizationsText": "福岡県警察",
+    "researchOrganizations": [
+      "福岡大学"
+    ],
+    "researchOrganizationsText": "福岡大学",
+    "themes": [
+      "性犯罪",
+      "危険認知"
+    ],
+    "themesText": "性犯罪／危険認知",
+    "intervention": "警察データ・現地調査・女子大学生調査を組み合わせ防犯行動を検討",
+    "population": "福岡市城南区、女子大学生",
+    "comparison": "実犯罪地点 vs 危険認知地点",
+    "outcomes": [
+      "性犯罪発生地点",
+      "危険認知",
+      "防犯意識"
+    ],
+    "outcomesText": "性犯罪発生地点、危険認知、防犯意識",
+    "design": "実態分析・意識調査",
+    "sampleSize": "性犯罪142件、重点28件ほか",
+    "result": "実発生地点と学生が危険と認識する地点にずれを確認し、防犯行動・環境改善を考察。",
+    "limitations": "直接の介入評価ではない",
+    "publicationType": "警察公的研究報告",
+    "reviewStatus": "公的資料",
+    "citation": "福岡県警察犯罪予防研究アドバイザー制度 研究成果報告書 No.2",
+    "doi": "",
+    "url": "https://www.police.pref.fukuoka.jp/data/open/cnt/3/1005/1/gaiyouban20181130.pdf?20190327181912=",
+    "notes": "福岡県警公式報告。",
+    "sourceOrder": 15
+  },
+  {
+    "id": "study-0016",
+    "year": 2019,
+    "title": "主題C「地域での防犯を考える」における実践と教育効果に関する検証―駐輪場での施錠率向上のための啓発および防犯ウォーキングアプリによる地域安全マップ作成の効果も含めた検討―",
+    "authors": [
+      "大久保智生",
+      "米谷雄介",
+      "西本佳代",
+      "吉井匡",
+      "皿谷陽子",
+      "永森美帆",
+      "八重樫理人",
+      "田中晶",
+      "髙地真由",
+      "吉見晃裕",
+      "森田浩充"
+    ],
+    "authorsText": "大久保智生・米谷雄介・西本佳代・吉井匡・皿谷陽子・永森美帆・八重樫理人・田中晶・髙地真由・吉見晃裕・森田浩充",
+    "practiceOrganizations": [
+      "香川県警察本部"
+    ],
+    "practiceOrganizationsText": "香川県警察本部",
+    "researchOrganizations": [
+      "香川大学・福山大学"
+    ],
+    "researchOrganizationsText": "香川大学・福山大学",
+    "themes": [
+      "自転車盗",
+      "防犯教育",
+      "地域安全マップ"
+    ],
+    "themesText": "自転車盗／防犯教育／地域安全マップ",
+    "intervention": "駐輪場での施錠啓発、防犯ウォーキングアプリ、県警と大学の共同授業",
+    "population": "大学生・地域等",
+    "comparison": "前後・実践内比較",
+    "outcomes": [
+      "施錠率",
+      "防犯に関する知識・意識",
+      "教育効果"
+    ],
+    "outcomesText": "施錠率、防犯に関する知識・意識、教育効果",
+    "design": "実践研究・前後評価",
+    "sampleSize": "未確認",
+    "result": "県警との共同授業で複数の実践を行い、施錠啓発や地域安全マップ作成の効果を検討。",
+    "limitations": "複数介入が含まれ、個別効果の切り分けに限界",
+    "publicationType": "大学紀要",
+    "reviewStatus": "紀要",
+    "citation": "香川大学大学教育基盤センター紀要等（PDF）",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/record/2440/files/AA1197154X_16_109-122.pdf",
+    "notes": "香川系列。",
+    "sourceOrder": 16
+  },
+  {
+    "id": "study-0017",
+    "year": 2020,
+    "title": "安全安心まちづくり推進店舗における万引き防止教育の実践―店員の防犯意識とホスピタリティに注目して―",
+    "authors": [
+      "大久保智生",
+      "皿谷陽子",
+      "尾崎祐士",
+      "田中晶",
+      "髙島知之",
+      "小野坂裕美",
+      "吉見晃裕"
+    ],
+    "authorsText": "大久保智生・皿谷陽子・尾崎祐士・田中晶・髙島知之・小野坂裕美・吉見晃裕",
+    "practiceOrganizations": [
+      "香川県警察本部"
+    ],
+    "practiceOrganizationsText": "香川県警察本部",
+    "researchOrganizations": [
+      "香川大学ほか"
+    ],
+    "researchOrganizationsText": "香川大学ほか",
+    "themes": [
+      "万引き",
+      "店員教育"
+    ],
+    "themesText": "万引き／店員教育",
+    "intervention": "安全安心まちづくり推進店舗での店員教育",
+    "population": "店舗従業員",
+    "comparison": "教育前後・1か月後等",
+    "outcomes": [
+      "防犯意識",
+      "ホスピタリティ等"
+    ],
+    "outcomesText": "防犯意識、ホスピタリティ等",
+    "design": "教育実践・前後フォロー",
+    "sampleSize": "未確認",
+    "result": "店員教育後の防犯意識・ホスピタリティ等の変化を検討。",
+    "limitations": "対照群なし等の限界",
+    "publicationType": "大学紀要",
+    "reviewStatus": "紀要",
+    "citation": "香川大学地域連携・生涯学習センター研究報告 25, 1-10",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/records/3694",
+    "notes": "香川系列。",
+    "sourceOrder": 17
+  },
+  {
+    "id": "study-0018",
+    "year": 2020,
+    "title": "犯罪多発地点の集中パトロールにおける犯罪抑止効果の評価実験",
+    "authors": [
+      "野貴泰",
+      "糸井川栄一"
+    ],
+    "authorsText": "野貴泰・糸井川栄一",
+    "practiceOrganizations": [
+      "警察情報通信研究センター（警察大学校）・実施警察"
+    ],
+    "practiceOrganizationsText": "警察情報通信研究センター（警察大学校）・実施警察",
+    "researchOrganizations": [
+      "筑波大学"
+    ],
+    "researchOrganizationsText": "筑波大学",
+    "themes": [
+      "ホットスポット・ポリシング"
+    ],
+    "themesText": "ホットスポット・ポリシング",
+    "intervention": "犯罪多発予測地点への集中パトロール",
+    "population": "長野県内の対象地域",
+    "comparison": "介入地区・期間と比較条件",
+    "outcomes": [
+      "犯罪発生件数"
+    ],
+    "outcomesText": "犯罪発生件数",
+    "design": "現場評価実験／準実験",
+    "sampleSize": "地域単位",
+    "result": "対象地域で統計的に有意な犯罪減少を報告。",
+    "limitations": "実装条件や割付の詳細、一般化可能性に留意",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "地域安全学会論文集 37, 239-248",
+    "doi": "10.11314/jisss.37.239",
+    "url": "https://www.jstage.jst.go.jp/article/jisss/37/0/37_239/_article/-char/ja",
+    "notes": "国内ホットスポット・ポリシング系の重要例。",
+    "sourceOrder": 18
+  },
+  {
+    "id": "study-0019",
+    "year": 2022,
+    "title": "自然実験を用いた犯罪抑止対策の効果検証―特殊詐欺被害防止コールセンターを題材に―",
+    "authors": [
+      "島田貴仁",
+      "齊藤知範",
+      "山根由子"
+    ],
+    "authorsText": "島田貴仁・齊藤知範・山根由子",
+    "practiceOrganizations": [
+      "科学警察研究所・関係警察/自治体"
+    ],
+    "practiceOrganizationsText": "科学警察研究所・関係警察/自治体",
+    "researchOrganizations": [
+      "科学警察研究所"
+    ],
+    "researchOrganizationsText": "科学警察研究所",
+    "themes": [
+      "特殊詐欺"
+    ],
+    "themesText": "特殊詐欺",
+    "intervention": "特殊詐欺被害防止コールセンターからの架電",
+    "population": "高齢者等",
+    "comparison": "介入への曝露差を利用",
+    "outcomes": [
+      "防犯行動",
+      "被害防止関連指標"
+    ],
+    "outcomesText": "防犯行動、被害防止関連指標",
+    "design": "自然実験",
+    "sampleSize": "未確認",
+    "result": "コールセンター施策を自然実験として評価。",
+    "limitations": "学会抄録段階。詳細な推定・結果は原文確認が必要",
+    "publicationType": "学会大会抄録",
+    "reviewStatus": "会議録",
+    "citation": "日本行動計量学会大会抄録集 50",
+    "doi": "",
+    "url": "https://www.jstage.jst.go.jp/article/pbsj/50/0/50_180/_pdf/-char/ja",
+    "notes": "査読論文と分けて保持。",
+    "sourceOrder": 19
+  },
+  {
+    "id": "study-0020",
+    "year": 2022,
+    "title": "セルフレジを悪用した万引き防止対策の提案と研究成果（ホスピタリティ型対策）",
+    "authors": [
+      "大久保智生ほか"
+    ],
+    "authorsText": "大久保智生ほか",
+    "practiceOrganizations": [
+      "香川県警察"
+    ],
+    "practiceOrganizationsText": "香川県警察",
+    "researchOrganizations": [
+      "香川大学"
+    ],
+    "researchOrganizationsText": "香川大学",
+    "themes": [
+      "万引き",
+      "セルフレジ"
+    ],
+    "themesText": "万引き／セルフレジ",
+    "intervention": "セルフレジサポーター・積極的な声かけ等のホスピタリティ型対策",
+    "population": "セルフレジ導入店舗",
+    "comparison": "導入前後等",
+    "outcomes": [
+      "店員・客の声かけ",
+      "未精算件数",
+      "店舗イメージ"
+    ],
+    "outcomesText": "店員・客の声かけ、未精算件数、店舗イメージ",
+    "design": "店舗実装・効果検証",
+    "sampleSize": "未確認",
+    "result": "大学発表では、未精算件数が約25%減少した研究成果を基に不正防止マニュアルを作成。",
+    "limitations": "詳細な研究デザインは関連査読論文（2023）確認が必要",
+    "publicationType": "大学・警察共同成果公表",
+    "reviewStatus": "公的/大学資料",
+    "citation": "香川大学プレスリリース",
+    "doi": "",
+    "url": "https://www.kagawa-u.ac.jp/29192/",
+    "notes": "後続の査読論文『ホスピタリティに着目したセルフレジ不正対策』につながる。",
+    "sourceOrder": 20
+  },
+  {
+    "id": "study-0021",
+    "year": 2023,
+    "title": "公的機関の犯罪予防のための情報発信の実験的研究―防護動機理論に基づく実装と効果検証―",
+    "authors": [
+      "白川真裕",
+      "島田貴仁",
+      "樋口匡貴"
+    ],
+    "authorsText": "白川真裕・島田貴仁・樋口匡貴",
+    "practiceOrganizations": [
+      "警視庁犯罪抑止対策本部（情報提供）・科学警察研究所"
+    ],
+    "practiceOrganizationsText": "警視庁犯罪抑止対策本部（情報提供）・科学警察研究所",
+    "researchOrganizations": [
+      "早稲田大学・上智大学ほか"
+    ],
+    "researchOrganizationsText": "早稲田大学・上智大学ほか",
+    "themes": [
+      "特殊詐欺",
+      "防犯広報"
+    ],
+    "themesText": "特殊詐欺／防犯広報",
+    "intervention": "警視庁公式Twitterの特殊詐欺防止情報を提示",
+    "population": "20～50代の参加者",
+    "comparison": "警視庁ツイート群 vs 統制群",
+    "outcomes": [
+      "脅威評価",
+      "対処評価",
+      "行動意図",
+      "実際の予防行動"
+    ],
+    "outcomesText": "脅威評価、対処評価、行動意図、実際の予防行動",
+    "design": "ランダム割付実験・多時点測定",
+    "sampleSize": "警視庁群60、統制群49",
+    "result": "情報提示で予防行動意図は高まったが、実際の行動変容には明確につながらなかった。",
+    "limitations": "オンライン/研究参加者で、実際の被害減少を直接測定していない",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "心理学研究 93(6), 516-525",
+    "doi": "10.4992/jjpsy.93.21044",
+    "url": "https://www.jstage.jst.go.jp/article/jjpsy/93/6/93_93.21044/_article/-char/ja",
+    "notes": "「意図」と「行動」の乖離を示す。",
+    "sourceOrder": 21
+  },
+  {
+    "id": "study-0022",
+    "year": 2023,
+    "title": "電話機購入費補助金制度利用者における迷惑電話防止機能の利用状況の分析",
+    "authors": [
+      "山根由子",
+      "齊藤知範",
+      "島田貴仁"
+    ],
+    "authorsText": "山根由子・齊藤知範・島田貴仁",
+    "practiceOrganizations": [
+      "科学警察研究所・関係自治体/警察施策"
+    ],
+    "practiceOrganizationsText": "科学警察研究所・関係自治体/警察施策",
+    "researchOrganizations": [
+      "科学警察研究所"
+    ],
+    "researchOrganizationsText": "科学警察研究所",
+    "themes": [
+      "特殊詐欺",
+      "電話対策"
+    ],
+    "themesText": "特殊詐欺／電話対策",
+    "intervention": "迷惑電話防止機能付き電話機等への購入費補助制度",
+    "population": "補助制度利用者",
+    "comparison": "利用状況・属性差",
+    "outcomes": [
+      "迷惑電話防止機能の実利用"
+    ],
+    "outcomesText": "迷惑電話防止機能の実利用",
+    "design": "実装・プロセス評価",
+    "sampleSize": "未確認",
+    "result": "補助制度利用者が機能を実際に利用しているかを分析。",
+    "limitations": "制度選択者のみの分析で、被害減少の因果効果は別問題",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "地域安全学会論文集 40, 71-77",
+    "doi": "10.11314/jisss.40.71",
+    "url": "https://www.jstage.jst.go.jp/article/jisss/40/0/40_71/_article/-char/ja",
+    "notes": "政策実装の到達度評価。",
+    "sourceOrder": 22
+  },
+  {
+    "id": "study-0023",
+    "year": 2023,
+    "title": "縦断社会調査による特殊詐欺被害防止介入の効果検証―警察官の戸別訪問とコールセンターからの架電―",
+    "authors": [
+      "島田貴仁",
+      "齊藤知範",
+      "山根由子",
+      "高木大資"
+    ],
+    "authorsText": "島田貴仁・齊藤知範・山根由子・高木大資",
+    "practiceOrganizations": [
+      "警察・科学警察研究所"
+    ],
+    "practiceOrganizationsText": "警察・科学警察研究所",
+    "researchOrganizations": [
+      "科学警察研究所・東京大学"
+    ],
+    "researchOrganizationsText": "科学警察研究所・東京大学",
+    "themes": [
+      "特殊詐欺"
+    ],
+    "themesText": "特殊詐欺",
+    "intervention": "警察官戸別訪問、コールセンター架電",
+    "population": "65～84歳住民",
+    "comparison": "介入曝露の有無",
+    "outcomes": [
+      "脅威認知",
+      "迷惑電話防止機能",
+      "留守電確認等"
+    ],
+    "outcomesText": "脅威認知、迷惑電話防止機能、留守電確認等",
+    "design": "3波縦断社会調査",
+    "sampleSize": "約927（要原文確認）",
+    "result": "実際の警察介入への曝露とその後の防犯認知・行動を縦断的に評価。",
+    "limitations": "学会抄録段階。無作為割付ではない可能性",
+    "publicationType": "学会大会抄録",
+    "reviewStatus": "会議録",
+    "citation": "日本行動計量学会大会抄録集 51, 134-135",
+    "doi": "10.20742/pbsj.51.0_134",
+    "url": "https://www.jstage.jst.go.jp/article/pbsj/51/0/51_134/_article/-char/ja",
+    "notes": "詳細は査読論文化の追跡対象。",
+    "sourceOrder": 23
+  },
+  {
+    "id": "study-0024",
+    "year": 2023,
+    "title": "全国初！セルフレジ不正防止マニュアルに基づいた店舗での教育実践",
+    "authors": [
+      "大久保智生ほか"
+    ],
+    "authorsText": "大久保智生ほか",
+    "practiceOrganizations": [
+      "香川県警察"
+    ],
+    "practiceOrganizationsText": "香川県警察",
+    "researchOrganizations": [
+      "香川大学"
+    ],
+    "researchOrganizationsText": "香川大学",
+    "themes": [
+      "万引き",
+      "セルフレジ"
+    ],
+    "themesText": "万引き／セルフレジ",
+    "intervention": "研究成果に基づくセルフレジ不正防止マニュアル＋店舗教育",
+    "population": "小売店舗従業員",
+    "comparison": "導入前後等",
+    "outcomes": [
+      "不正・未精算",
+      "接客・声かけ等"
+    ],
+    "outcomesText": "不正・未精算、接客・声かけ等",
+    "design": "社会実装・教育実践",
+    "sampleSize": "未確認",
+    "result": "既存研究成果を実店舗教育に展開。",
+    "limitations": "大学プレス段階。独立した効果評価の詳細は要論文確認",
+    "publicationType": "大学・警察共同実践",
+    "reviewStatus": "公的/大学資料",
+    "citation": "香川大学プレスリリース",
+    "doi": "",
+    "url": "https://www.kagawa-u.ac.jp/29502/",
+    "notes": "研究を実装に移した事例として保持。",
+    "sourceOrder": 24
+  },
+  {
+    "id": "study-0025",
+    "year": 2024,
+    "title": "商業施設における犯罪予防行動を促進するための試み―自転車施錠行動に焦点をあてた社会実験―",
+    "authors": [
+      "谷口友梨",
+      "浅野綾花",
+      "太田利歩",
+      "内片玲",
+      "川﨑杏",
+      "河原﨑柚名",
+      "渡部結",
+      "有川洋平",
+      "室谷真喜雄"
+    ],
+    "authorsText": "谷口友梨・浅野綾花・太田利歩・内片玲・川﨑杏・河原﨑柚名・渡部結・有川洋平・室谷真喜雄",
+    "practiceOrganizations": [
+      "滋賀県警察本部生活安全部"
+    ],
+    "practiceOrganizationsText": "滋賀県警察本部生活安全部",
+    "researchOrganizations": [
+      "滋賀県立大学"
+    ],
+    "researchOrganizationsText": "滋賀県立大学",
+    "themes": [
+      "自転車盗",
+      "施錠促進"
+    ],
+    "themesText": "自転車盗／施錠促進",
+    "intervention": "犯罪統計情報、社会的規範、後悔喚起等の情報提示",
+    "population": "商業施設の自転車利用者",
+    "comparison": "介入条件間",
+    "outcomes": [
+      "自転車施錠率"
+    ],
+    "outcomesText": "自転車施錠率",
+    "design": "フィールド社会実験",
+    "sampleSize": "未確認",
+    "result": "統計情報・社会的規範等の情報提示による施錠行動促進を検証。",
+    "limitations": "施設条件・非無作為要因等の詳細要確認",
+    "publicationType": "学術誌",
+    "reviewStatus": "査読状況未確認",
+    "citation": "Journal of Human Environmental Studies 22(1), 23-",
+    "doi": "",
+    "url": "https://www.jstage.jst.go.jp/article/shes/22/1/22_23/_pdf/-char/ja",
+    "notes": "警察職員が共著。",
+    "sourceOrder": 25
+  },
+  {
+    "id": "study-0026",
+    "year": 2024,
+    "title": "統計情報と社会的規範が自転車の施錠行動を増やす―商業施設における社会実験―",
+    "authors": [
+      "谷口友梨",
+      "浅野綾花",
+      "太田利歩",
+      "内片玲",
+      "川﨑杏",
+      "河原﨑柚名",
+      "渡部結",
+      "有川洋平",
+      "室谷真喜雄"
+    ],
+    "authorsText": "谷口友梨・浅野綾花・太田利歩・内片玲・川﨑杏・河原﨑柚名・渡部結・有川洋平・室谷真喜雄",
+    "practiceOrganizations": [
+      "滋賀県警察本部"
+    ],
+    "practiceOrganizationsText": "滋賀県警察本部",
+    "researchOrganizations": [
+      "滋賀県立大学"
+    ],
+    "researchOrganizationsText": "滋賀県立大学",
+    "themes": [
+      "自転車盗",
+      "施錠促進"
+    ],
+    "themesText": "自転車盗／施錠促進",
+    "intervention": "統計情報・社会規範等の介入",
+    "population": "商業施設利用者",
+    "comparison": "介入条件間",
+    "outcomes": [
+      "施錠行動"
+    ],
+    "outcomesText": "施錠行動",
+    "design": "社会実験（学会報告）",
+    "sampleSize": "未確認",
+    "result": "統計情報と社会規範が施錠行動を促進することを報告。",
+    "limitations": "学会要旨。上記論文と同一/関連実験",
+    "publicationType": "学会大会抄録",
+    "reviewStatus": "会議録",
+    "citation": "日本心理学会第88回大会",
+    "doi": "10.4992/pacjpa.88.0_1D-048-PE",
+    "url": "https://www.jstage.jst.go.jp/article/pacjpa/88/0/88_1D-048-PE/_article/-char/ja",
+    "notes": "同一系列の発表も文献として保持。",
+    "sourceOrder": 26
+  },
+  {
+    "id": "study-0027",
+    "year": 2024,
+    "title": "見せる警察活動が市民の安心感と警察への信頼の醸成に与える影響",
+    "authors": [
+      "島田貴仁",
+      "草尾祐樹"
+    ],
+    "authorsText": "島田貴仁・草尾祐樹",
+    "practiceOrganizations": [
+      "埼玉県警察（警察官集中配置）・科学警察研究所"
+    ],
+    "practiceOrganizationsText": "埼玉県警察（警察官集中配置）・科学警察研究所",
+    "researchOrganizations": [
+      "科学警察研究所（現滋賀大学含む）"
+    ],
+    "researchOrganizationsText": "科学警察研究所（現滋賀大学含む）",
+    "themes": [
+      "警察可視性",
+      "痴漢対策"
+    ],
+    "themesText": "警察可視性／痴漢対策",
+    "intervention": "共通テスト実施週末に駅・電車内へ警察官を集中配置",
+    "population": "1都3県のネットモニター",
+    "comparison": "介入前後、警察官への接触有無",
+    "outcomes": [
+      "安心感",
+      "警察への信頼等"
+    ],
+    "outcomesText": "安心感、警察への信頼等",
+    "design": "フィールド自然実験・2波縦断調査",
+    "sampleSize": "約13,760～14,000",
+    "result": "警察官への接触が電車利用者の安心や信頼とどう関連するかを評価。",
+    "limitations": "警察官配置は無作為ではない。人数は公表資料間で約100～160名と差がある",
+    "publicationType": "学会発表要旨",
+    "reviewStatus": "会議録",
+    "citation": "環境心理学研究 12(1) 大会要旨",
+    "doi": "",
+    "url": "https://kaken.nii.ac.jp/ja/report/KAKENHI-PROJECT-23K21010/23K210102023jisseki/",
+    "notes": "KAKEN実績報告では警察官160名、1.4万人。",
+    "sourceOrder": 27
+  },
+  {
+    "id": "study-0028",
+    "year": 2024,
+    "title": "近隣防犯活動への参加が住民の意識・行動に与える影響―「あいさつ・声掛け・鍵掛け運動 チャレンジ“絆”」の効果検証―",
+    "authors": [
+      "草尾祐樹",
+      "齊藤知範",
+      "山根由子",
+      "島田貴仁",
+      "高木大資",
+      "大山智也"
+    ],
+    "authorsText": "草尾祐樹・齊藤知範・山根由子・島田貴仁・高木大資・大山智也",
+    "practiceOrganizations": [
+      "奈良県警察本部・科学警察研究所"
+    ],
+    "practiceOrganizationsText": "奈良県警察本部・科学警察研究所",
+    "researchOrganizations": [
+      "東京大学ほか"
+    ],
+    "researchOrganizationsText": "東京大学ほか",
+    "themes": [
+      "地域防犯活動"
+    ],
+    "themesText": "地域防犯活動",
+    "intervention": "あいさつ・声掛け・鍵掛け運動への参加",
+    "population": "地域住民",
+    "comparison": "参加者/非参加者等",
+    "outcomes": [
+      "防犯意識・行動",
+      "地域意識等"
+    ],
+    "outcomesText": "防犯意識・行動、地域意識等",
+    "design": "施策評価・行動計量学的分析",
+    "sampleSize": "未確認",
+    "result": "地域防犯運動への参加が住民の意識・行動へ与える影響を評価。",
+    "limitations": "学会抄録段階。自己選択バイアス等に留意",
+    "publicationType": "学会大会抄録",
+    "reviewStatus": "会議録",
+    "citation": "日本行動計量学会大会抄録集 52, 108-109",
+    "doi": "10.20742/pbsj.52.0_108",
+    "url": "https://www.jstage.jst.go.jp/article/pbsj/52/0/52_108/_article/-char/ja",
+    "notes": "奈良県警職員が共著。",
+    "sourceOrder": 28
+  },
+  {
+    "id": "study-0029",
+    "year": 2024,
+    "title": "自転車盗防止ナッジ看板・横断幕の実証実験（福島県内14公共駐輪場）",
+    "authors": [
+      "鈴木あい",
+      "島田貴仁"
+    ],
+    "authorsText": "鈴木あい・島田貴仁",
+    "practiceOrganizations": [
+      "福島県警察本部生活安全部生活安全企画課"
+    ],
+    "practiceOrganizationsText": "福島県警察本部生活安全部生活安全企画課",
+    "researchOrganizations": [
+      "福島大学・科学警察研究所/滋賀大学"
+    ],
+    "researchOrganizationsText": "福島大学・科学警察研究所/滋賀大学",
+    "themes": [
+      "自転車盗",
+      "ナッジ"
+    ],
+    "themesText": "自転車盗／ナッジ",
+    "intervention": "4種類のナッジ看板・横断幕（統制、社会的証明、コスト認知、互恵性）",
+    "population": "福島県内14公共駐輪場",
+    "comparison": "介入前2回 vs 介入後7回、メッセージ条件",
+    "outcomes": [
+      "施錠率"
+    ],
+    "outcomesText": "施錠率",
+    "design": "準実験",
+    "sampleSize": "14駐輪場",
+    "result": "全メッセージで施錠率上昇。初期施錠率により効果の大きさが変化。",
+    "limitations": "大規模無作為化ではない。施設単位の交絡に留意",
+    "publicationType": "査読国際誌（2025 online / 2026 issue）",
+    "reviewStatus": "査読あり",
+    "citation": "International Criminal Justice Review 36(3), 269-293",
+    "doi": "10.1177/10575677251405837",
+    "url": "https://journals.sagepub.com/doi/10.1177/10575677251405837",
+    "notes": "介入実施は2024、論文online 2025-12、号掲載2026-09。",
+    "sourceOrder": 29
+  },
+  {
+    "id": "study-0030",
+    "year": 2024,
+    "title": "笑顔認証・寄付システムとPepperを活用した万引き防止実証実験",
+    "authors": [
+      "大久保智生ほか"
+    ],
+    "authorsText": "大久保智生ほか",
+    "practiceOrganizations": [
+      "香川県警察"
+    ],
+    "practiceOrganizationsText": "香川県警察",
+    "researchOrganizations": [
+      "香川大学・協力企業"
+    ],
+    "researchOrganizationsText": "香川大学・協力企業",
+    "themes": [
+      "万引き",
+      "店舗環境"
+    ],
+    "themesText": "万引き／店舗環境",
+    "intervention": "笑顔認証・寄付システム＋Pepper設置、死角で笑顔を促す",
+    "population": "西村ジョイ成合店",
+    "comparison": "導入前後",
+    "outcomes": [
+      "万引き被害金額",
+      "店舗雰囲気等"
+    ],
+    "outcomesText": "万引き被害金額、店舗雰囲気等",
+    "design": "単店舗フィールド実証",
+    "sampleSize": "1店舗",
+    "result": "大学・県警発表では店舗雰囲気が明るくなり、万引き被害金額が約7割減少。",
+    "limitations": "単店舗・同時期の他要因を排除できず、因果推論は限定的",
+    "publicationType": "大学・警察共同実証",
+    "reviewStatus": "公的/大学資料",
+    "citation": "香川大学プレス（結果2025）",
+    "doi": "",
+    "url": "https://www.kagawa-u.ac.jp/32649/",
+    "notes": "介入開始2024年8月、結果公表2025年2月。",
+    "sourceOrder": 30
+  },
+  {
+    "id": "study-0031",
+    "year": 2025,
+    "title": "自転車施錠行動の直接的規定要因とポスター介入の効果",
+    "authors": [
+      "大井方子",
+      "林良平",
+      "島田貴仁",
+      "日比野桂",
+      "三船恒裕",
+      "渡邊ひとみ",
+      "山川智子",
+      "近藤秀明",
+      "新土居大河",
+      "田村のぞみ"
+    ],
+    "authorsText": "大井方子・林良平・島田貴仁・日比野桂・三船恒裕・渡邊ひとみ・山川智子・近藤秀明・新土居大河・田村のぞみ",
+    "practiceOrganizations": [
+      "高知県警察本部"
+    ],
+    "practiceOrganizationsText": "高知県警察本部",
+    "researchOrganizations": [
+      "高知県立大学・高知工科大学・滋賀大学・高知大学"
+    ],
+    "researchOrganizationsText": "高知県立大学・高知工科大学・滋賀大学・高知大学",
+    "themes": [
+      "自転車盗",
+      "施錠促進"
+    ],
+    "themesText": "自転車盗／施錠促進",
+    "intervention": "習慣喚起・面倒感軽減を狙ったポスター",
+    "population": "学校・駅等の自転車利用者",
+    "comparison": "クラスター単位の介入/対照",
+    "outcomes": [
+      "自転車施錠率",
+      "ポスター認知"
+    ],
+    "outcomesText": "自転車施錠率、ポスター認知",
+    "design": "クラスターRCT",
+    "sampleSize": "未確認",
+    "result": "ポスター介入で施錠率は変化せず。ポスターが十分認知・記憶されていなかった。",
+    "limitations": "介入強度・視認性の問題。短報形式",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読状況要確認",
+    "citation": "行動経済学 18(Special issue), S1-S4",
+    "doi": "10.11167/jbef.18.S10.pp.S1-S4",
+    "url": "https://www.jstage.jst.go.jp/article/jbef/18/Special_issue/18_18.S10.pp.S1-S4/_article/-char/ja",
+    "notes": "無効結果を含む重要な実装研究。",
+    "sourceOrder": 31
+  },
+  {
+    "id": "study-0032",
+    "year": 2025,
+    "title": "路上売春客待ちに対する環境手がかりナッジによる介入",
+    "authors": [
+      "島田貴仁",
+      "北川龍",
+      "中川トモ子",
+      "大竹文雄"
+    ],
+    "authorsText": "島田貴仁・北川龍・中川トモ子・大竹文雄",
+    "practiceOrganizations": [
+      "大阪府曽根崎警察署・科学警察研究所"
+    ],
+    "practiceOrganizationsText": "大阪府曽根崎警察署・科学警察研究所",
+    "researchOrganizations": [
+      "大阪大学"
+    ],
+    "researchOrganizationsText": "大阪大学",
+    "themes": [
+      "路上売春",
+      "環境ナッジ"
+    ],
+    "themesText": "路上売春／環境ナッジ",
+    "intervention": "環境手がかりを用いたナッジ介入",
+    "population": "大阪市内の対象場所・客待ち行動",
+    "comparison": "介入前後等",
+    "outcomes": [
+      "客待ち行動等"
+    ],
+    "outcomesText": "客待ち行動等",
+    "design": "フィールド介入",
+    "sampleSize": "未確認",
+    "result": "警察現場に環境心理・行動経済学の知見を実装し、路上客待ち行動への影響を検証。",
+    "limitations": "特定地域での介入で一般化可能性に留意",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "環境心理学研究 13(1), 51-",
+    "doi": "10.20703/jenvpsy.13.1_51",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/13/1/13_51/_article/-char/ja",
+    "notes": "警察署職員が共著。",
+    "sourceOrder": 32
+  },
+  {
+    "id": "study-0033",
+    "year": 2025,
+    "title": "疑似万引き状況を用いた対策比較実験（光・音・掲示物・挨拶等）",
+    "authors": [
+      "大久保智生ほか"
+    ],
+    "authorsText": "大久保智生ほか",
+    "practiceOrganizations": [
+      "香川県警察"
+    ],
+    "practiceOrganizationsText": "香川県警察",
+    "researchOrganizations": [
+      "香川大学"
+    ],
+    "researchOrganizationsText": "香川大学",
+    "themes": [
+      "万引き",
+      "店舗ホットスポット"
+    ],
+    "themesText": "万引き／店舗ホットスポット",
+    "intervention": "実店舗で疑似万引きを行い、光・音・掲示物・挨拶等を比較",
+    "population": "大学生・大学院生",
+    "comparison": "複数対策条件",
+    "outcomes": [
+      "心拍変化",
+      "行動映像",
+      "感情状態"
+    ],
+    "outcomesText": "心拍変化、行動映像、感情状態",
+    "design": "実店舗シミュレーション実験",
+    "sampleSize": "未確認",
+    "result": "速報では自己報告感情状態等を分析し、対策別の心理的効果を比較。",
+    "limitations": "模擬行動で実犯罪とは異なる。査読論文化前",
+    "publicationType": "大学・警察共同実証",
+    "reviewStatus": "公的/大学資料",
+    "citation": "香川大学プレスリリース",
+    "doi": "",
+    "url": "https://www.kagawa-u.ac.jp/33738/33781/",
+    "notes": "2025年に実験・結果公表。",
+    "sourceOrder": 33
+  },
+  {
+    "id": "study-0034",
+    "year": 2026,
+    "title": "行動科学ナッジ理論に基づく音声メッセージを活用した万引き防止実証実験",
+    "authors": [
+      "鈴木あいほか"
+    ],
+    "authorsText": "鈴木あいほか",
+    "practiceOrganizations": [
+      "福島県警察本部"
+    ],
+    "practiceOrganizationsText": "福島県警察本部",
+    "researchOrganizations": [
+      "福島大学（現所属変更あり）"
+    ],
+    "researchOrganizationsText": "福島大学（現所属変更あり）",
+    "themes": [
+      "万引き",
+      "ナッジ"
+    ],
+    "themesText": "万引き／ナッジ",
+    "intervention": "6種類の万引き防止音声メッセージを売場で放送",
+    "population": "福島県内スーパー13店舗",
+    "comparison": "メッセージ条件・期間比較",
+    "outcomes": [
+      "商品別万引き発生等"
+    ],
+    "outcomesText": "商品別万引き発生等",
+    "design": "多店舗フィールド実証",
+    "sampleSize": "13店舗",
+    "result": "福島県警公式発表では6種のうち一部メッセージに有意な万引き防止効果。商品により有効メッセージが異なる。",
+    "limitations": "査読論文化前。店舗・商品構成などの交絡要確認",
+    "publicationType": "警察公式実証結果",
+    "reviewStatus": "公的資料",
+    "citation": "福島県警察 万引き防止対策（令和7年度重点事業）",
+    "doi": "",
+    "url": "https://www.police.pref.fukushima.jp/seianki/homepage/bouhan_taisaku/manbikitaisaku/manbikitaisaku.html",
+    "notes": "実験期間は2025年8～11月、結果発表2026年。",
+    "sourceOrder": 34
+  },
+  {
+    "id": "study-0035",
+    "year": 2026,
+    "title": "特殊詐欺等被害防止対策調査研究会（滋賀県警察本部×滋賀大学）",
+    "authors": [
+      "滋賀県警察本部",
+      "滋賀大学研究者"
+    ],
+    "authorsText": "滋賀県警察本部・滋賀大学研究者",
+    "practiceOrganizations": [
+      "滋賀県警察本部"
+    ],
+    "practiceOrganizationsText": "滋賀県警察本部",
+    "researchOrganizations": [
+      "滋賀大学データサイエンス学部／DS・AIイノベーション研究推進センター"
+    ],
+    "researchOrganizationsText": "滋賀大学データサイエンス学部／DS・AIイノベーション研究推進センター",
+    "themes": [
+      "特殊詐欺",
+      "SNS型詐欺"
+    ],
+    "themesText": "特殊詐欺／SNS型詐欺",
+    "intervention": "警察データ分析、ナッジ等を用いた社会実験を計画",
+    "population": "滋賀県民等",
+    "comparison": "今後設計",
+    "outcomes": [
+      "被害防止行動",
+      "施策効果等"
+    ],
+    "outcomesText": "被害防止行動、施策効果等",
+    "design": "共同研究・社会実験（進行中）",
+    "sampleSize": "未定",
+    "result": "2026年5月発足。警察保有データ分析と社会実験により実効性の高い対策構築を目指す。",
+    "limitations": "成果未公表の進行中研究",
+    "publicationType": "大学・警察共同研究（進行中）",
+    "reviewStatus": "進行中",
+    "citation": "滋賀大学公表",
+    "doi": "",
+    "url": "https://www.ds.shiga-u.ac.jp/information/2300/",
+    "notes": "結果未公表でも『研究は選別せず』の方針で収録。",
+    "sourceOrder": 35
+  },
+  {
+    "id": "study-0036",
+    "year": 2026,
+    "title": "奈良防犯心理研究会",
+    "authors": [
+      "奈良県警察本部",
+      "奈良大",
+      "奈良女子大",
+      "帝塚山大",
+      "滋賀大",
+      "大阪教育大の研究者"
+    ],
+    "authorsText": "奈良県警察本部・奈良大/奈良女子大/帝塚山大/滋賀大/大阪教育大の研究者",
+    "practiceOrganizations": [
+      "奈良県警察本部"
+    ],
+    "practiceOrganizationsText": "奈良県警察本部",
+    "researchOrganizations": [
+      "3府県5大学"
+    ],
+    "researchOrganizationsText": "3府県5大学",
+    "themes": [
+      "特殊詐欺・SNS型投資",
+      "ロマンス詐欺等"
+    ],
+    "themesText": "特殊詐欺・SNS型投資/ロマンス詐欺等",
+    "intervention": "心理学等の知見を用いた防犯対策の共同設計（今後実証予定）",
+    "population": "奈良県民等",
+    "comparison": "今後設計",
+    "outcomes": [
+      "対策受容・防犯行動・被害等"
+    ],
+    "outcomesText": "対策受容・防犯行動・被害等",
+    "design": "共同研究会（進行中）",
+    "sampleSize": "未定",
+    "result": "2026年発足。心理学の知見を活かし新たな防犯対策を検討。",
+    "limitations": "成果・介入結果は未公表",
+    "publicationType": "警察×大学研究会（進行中）",
+    "reviewStatus": "進行中",
+    "citation": "奈良防犯心理研究会",
+    "doi": "",
+    "url": "https://researchers.shiga-u.ac.jp/html/100003287_ja.html",
+    "notes": "研究者業績ページ等で発足確認。",
+    "sourceOrder": 36
+  },
+  {
+    "id": "study-0037",
+    "year": 2017,
+    "title": "脅威アピールでの被害の記述と受け手の脆弱性が犯罪予防行動に与える影響",
+    "authors": [
+      "島田貴仁",
+      "荒井崇史"
+    ],
+    "authorsText": "島田貴仁・荒井崇史",
+    "practiceOrganizations": [
+      "科学警察研究所"
+    ],
+    "practiceOrganizationsText": "科学警察研究所",
+    "researchOrganizations": [
+      "科学警察研究所・追手門学院大学"
+    ],
+    "researchOrganizationsText": "科学警察研究所・追手門学院大学",
+    "themes": [
+      "自転車盗",
+      "防犯メッセージ"
+    ],
+    "themesText": "自転車盗／防犯メッセージ",
+    "intervention": "自転車用追加錠を配布し、被害者記述3条件×予防行動の効果性2条件のメッセージを提示",
+    "population": "公共駐輪場4か所の自転車利用者",
+    "comparison": "無作為に割り付けたメッセージ条件間",
+    "outcomes": [
+      "介入後28日間に5回観察した追加錠の使用"
+    ],
+    "outcomesText": "介入後28日間に5回観察した追加錠の使用",
+    "design": "フィールド実験・無作為メッセージ割付",
+    "sampleSize": "256",
+    "result": "受け手の脆弱性は介入直後の追加錠使用を高めた一方、高脆弱性者で識別可能な被害者＋高効果性情報を提示した条件では、比較条件より使用が低下する傾向を報告。",
+    "limitations": "4駐輪場での実験。アウトカムは施錠行動で、実際の自転車盗発生を直接測定していない。",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "心理学研究 88(3), 230-240",
+    "doi": "10.4992/jjpsy.88.16032",
+    "url": "https://www.jstage.jst.go.jp/article/jjpsy/88/3/88_88.16032/_article/-char/ja",
+    "notes": "科警研×追手門学院大学。国内の犯罪予防フィールド実験として重要。",
+    "sourceOrder": 37
+  },
+  {
+    "id": "study-0038",
+    "year": 2018,
+    "title": "犯罪情報が犯罪予防行動の行動意図に及ぼす影響―犯罪情報への事前関心の影響―",
+    "authors": [
+      "荒井崇史",
+      "島田貴仁"
+    ],
+    "authorsText": "荒井崇史・島田貴仁",
+    "practiceOrganizations": [
+      "科学警察研究所"
+    ],
+    "practiceOrganizationsText": "科学警察研究所",
+    "researchOrganizations": [
+      "追手門学院大学・科学警察研究所"
+    ],
+    "researchOrganizationsText": "追手門学院大学・科学警察研究所",
+    "themes": [
+      "犯罪情報",
+      "防犯行動"
+    ],
+    "themesText": "犯罪情報／防犯行動",
+    "intervention": "脅威情報の有無×予防行動の効果性情報の有無を冊子で無作為提示",
+    "population": "東京都内の女子大学生",
+    "comparison": "情報条件間＋犯罪情報への事前関心高低",
+    "outcomes": [
+      "犯罪予防行動の行動意図"
+    ],
+    "outcomesText": "犯罪予防行動の行動意図",
+    "design": "実験参加者間計画",
+    "sampleSize": "41（分析40）",
+    "result": "脅威情報と効果性情報の両方を提示した場合、事前関心が高い参加者で行動意図が高く、事前関心高群では両情報提示条件が片方のみの条件より高かった。",
+    "limitations": "大学生の小規模実験。アウトカムは行動意図で、実行動や犯罪被害は測定していない。",
+    "publicationType": "大学紀要",
+    "reviewStatus": "紀要",
+    "citation": "追手門学院大学心理学部紀要 12, 1-12",
+    "doi": "",
+    "url": "https://www.i-repository.net/contents/outemon/ir/403/403180301.pdf",
+    "notes": "科警研研究者との共同研究。査読誌とは分けて保持。",
+    "sourceOrder": 38
+  },
+  {
+    "id": "study-0039",
+    "year": 2017,
+    "title": "犯罪多発地点の予測に基づく防犯パトロール経路に関する提案",
+    "authors": [
+      "野貴泰",
+      "糸井川栄一"
+    ],
+    "authorsText": "野貴泰・糸井川栄一",
+    "practiceOrganizations": [
+      "警察庁・埼玉県警察等（警察官評価）"
+    ],
+    "practiceOrganizationsText": "警察庁・埼玉県警察等（警察官評価）",
+    "researchOrganizations": [
+      "警察庁・筑波大学"
+    ],
+    "researchOrganizationsText": "警察庁・筑波大学",
+    "themes": [
+      "ホットスポット",
+      "パトロール設計"
+    ],
+    "themesText": "ホットスポット／パトロール設計",
+    "intervention": "犯罪データから高リスク地点を予測し、防犯パトロール経路を作成。担当警察官が実用性を評価",
+    "population": "さいたま市の犯罪データ・担当警察官",
+    "comparison": "予測手法・経路案に対する評価",
+    "outcomes": [
+      "経路の実用性・警察官による受容可能性"
+    ],
+    "outcomesText": "経路の実用性・警察官による受容可能性",
+    "design": "犯罪分析＋警察官質問紙による実装可能性評価",
+    "sampleSize": "警察官数は要本文確認",
+    "result": "KDE・Risk Terrain Modelingに基づく経路案について、警察官から実用性を支持する評価を得て警察本部へ提案。",
+    "limitations": "犯罪抑止効果そのものではなく、後続の現場実験に先立つ実装可能性評価。",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "地域安全学会論文集 31, 195-204",
+    "doi": "10.11314/jisss.31.195",
+    "url": "https://www.jstage.jst.go.jp/article/jisss/31/0/31_195/_article/-char/ja/",
+    "notes": "2020年の集中パトロール効果評価につながる研究系列。",
+    "sourceOrder": 39
+  },
+  {
+    "id": "study-0040",
+    "year": 2020,
+    "title": "大学生による店舗での買い物支援とその教育効果―主題C「地域での防犯を考える」での実践―",
+    "authors": [
+      "大久保智生",
+      "皿谷陽子",
+      "西本佳代",
+      "吉井匡",
+      "高山朝陽",
+      "田中晶",
+      "髙島知之",
+      "小野坂裕美",
+      "吉見晃裕"
+    ],
+    "authorsText": "大久保智生・皿谷陽子・西本佳代・吉井匡・高山朝陽・田中晶・髙島知之・小野坂裕美・吉見晃裕",
+    "practiceOrganizations": [
+      "香川県警察（安全安心まちづくり推進店舗・共同事業系列）"
+    ],
+    "practiceOrganizationsText": "香川県警察（安全安心まちづくり推進店舗・共同事業系列）",
+    "researchOrganizations": [
+      "香川大学・福山大学ほか"
+    ],
+    "researchOrganizationsText": "香川大学・福山大学ほか",
+    "themes": [
+      "店舗防犯",
+      "買物支援",
+      "地域連携"
+    ],
+    "themesText": "店舗防犯／買物支援／地域連携",
+    "intervention": "安全安心まちづくり推進店舗2店で大学生が買物支援を実践。事前に防犯・認知症支援の研修を実施",
+    "population": "香川大学生16名・協力店舗2店",
+    "comparison": "実践前後・参加学生の評価",
+    "outcomes": [
+      "地域貢献認識",
+      "教育効果",
+      "買物支援への認識"
+    ],
+    "outcomesText": "地域貢献認識、教育効果、買物支援への認識",
+    "design": "教育実践・質量的評価",
+    "sampleSize": "16名",
+    "result": "買物支援を通じた地域貢献と教育上の効果を検討。防犯店舗制度を基盤とした実践。",
+    "limitations": "小規模で、犯罪発生をアウトカムとした研究ではない。科研費資料で査読情報に不一致があるため原誌確認要。",
+    "publicationType": "大学紀要",
+    "reviewStatus": "査読状況資料間不一致",
+    "citation": "香川大学教育研究 17, 121-130",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/record/2459/files/AA1197154X_17_121-130.pdf",
+    "notes": "香川県警と香川大学の長期共同事業から派生。福山大学研究者も共著。",
+    "sourceOrder": 40
+  },
+  {
+    "id": "study-0041",
+    "year": 2023,
+    "title": "ホスピタリティに着目したセルフレジ不正対策―セルフレジサポーター導入による効果の検証―",
+    "authors": [
+      "大久保智生",
+      "徳岡大"
+    ],
+    "authorsText": "大久保智生・徳岡大",
+    "practiceOrganizations": [
+      "香川県警察とのセルフレジ不正防止共同事業系列"
+    ],
+    "practiceOrganizationsText": "香川県警察とのセルフレジ不正防止共同事業系列",
+    "researchOrganizations": [
+      "香川大学"
+    ],
+    "researchOrganizationsText": "香川大学",
+    "themes": [
+      "万引き",
+      "セルフレジ"
+    ],
+    "themesText": "万引き／セルフレジ",
+    "intervention": "セルフレジサポーターを配置し、声かけ・接客・監視をホスピタリティ型介入として実装",
+    "population": "セルフレジ導入店舗の利用客・従業員",
+    "comparison": "導入前後等",
+    "outcomes": [
+      "声かけ",
+      "アイコンタクト",
+      "移動距離",
+      "顧客評価",
+      "防犯意識等"
+    ],
+    "outcomesText": "声かけ、アイコンタクト、移動距離、顧客評価、防犯意識等",
+    "design": "店舗実装・効果検証",
+    "sampleSize": "要本文確認",
+    "result": "サポーター導入により従業員のコミュニケーション等が変化し、顧客評価や防犯意識への効果を検討。",
+    "limitations": "警察職員は著者ではなく、香川県警とのセルフレジ対策研究系列に位置づく。犯罪件数への因果効果は別問題。",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "日本ホスピタリティ・マネジメント学会誌 33, 25-33",
+    "doi": "10.57467/jashj.33.0_25",
+    "url": "https://www.jstage.jst.go.jp/article/jashj/33/0/33_25/_article/-char/ja/",
+    "notes": "既収録の2022/2023年セルフレジ対策公表と同系列。",
+    "sourceOrder": 41
+  },
+  {
+    "id": "study-0042",
+    "year": 2023,
+    "title": "防犯アプリを活用した地域安全マップ作成活動の改善と効果検証―中学生と大学生を対象とした実践から―",
+    "authors": [
+      "大久保智生",
+      "鈴木修斗",
+      "藤田然史",
+      "藤本健太",
+      "西本佳代",
+      "永冨太一",
+      "堀江良英",
+      "有吉徳洋"
+    ],
+    "authorsText": "大久保智生・鈴木修斗・藤田然史・藤本健太・西本佳代・永冨太一・堀江良英・有吉徳洋",
+    "practiceOrganizations": [
+      "香川県警察本部（アプリ開発協力）"
+    ],
+    "practiceOrganizationsText": "香川県警察本部（アプリ開発協力）",
+    "researchOrganizations": [
+      "香川大学ほか"
+    ],
+    "researchOrganizationsText": "香川大学ほか",
+    "themes": [
+      "防犯教育",
+      "地域安全マップ"
+    ],
+    "themesText": "防犯教育／地域安全マップ",
+    "intervention": "香川県警の協力下で開発した防犯ウォーキングアプリを用いて地域安全マップを作成",
+    "population": "中学生69名・大学生27名",
+    "comparison": "実践前後",
+    "outcomes": [
+      "防犯能力",
+      "防犯意識",
+      "活動評価"
+    ],
+    "outcomesText": "防犯能力、防犯意識、活動評価",
+    "design": "教育介入・前後評価",
+    "sampleSize": "96",
+    "result": "アプリを用いた活動後に防犯能力や防犯意識の向上を検討し、活動改善につなげた。",
+    "limitations": "警察の関与はアプリ開発・プロジェクト協力で、個別研究の著者には警察職員を含まない。",
+    "publicationType": "大学紀要",
+    "reviewStatus": "査読あり",
+    "citation": "香川大学教育実践総合研究 46, 53-60",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/records/11611",
+    "notes": "香川県警、立正大、福山大の協力で開発したアプリを利用。",
+    "sourceOrder": 42
+  },
+  {
+    "id": "study-0043",
+    "year": 2023,
+    "title": "サテライトセミナー参加者を対象とした防犯教育の実践―防犯アプリを活用した地域安全マップ作成活動の効果検証―",
+    "authors": [
+      "大久保智生",
+      "鈴木修斗",
+      "岸俊行",
+      "永冨太一"
+    ],
+    "authorsText": "大久保智生・鈴木修斗・岸俊行・永冨太一",
+    "practiceOrganizations": [
+      "香川県警察本部（アプリ開発協力）"
+    ],
+    "practiceOrganizationsText": "香川県警察本部（アプリ開発協力）",
+    "researchOrganizations": [
+      "香川大学"
+    ],
+    "researchOrganizationsText": "香川大学",
+    "themes": [
+      "防犯教育",
+      "地域安全マップ"
+    ],
+    "themesText": "防犯教育／地域安全マップ",
+    "intervention": "防犯アプリを使った地域安全マップ作成を一般向けセミナーで実践",
+    "population": "サテライトセミナー参加者",
+    "comparison": "実践前後等",
+    "outcomes": [
+      "防犯能力・意識・活動評価"
+    ],
+    "outcomesText": "防犯能力・意識・活動評価",
+    "design": "教育実践・効果評価",
+    "sampleSize": "要本文確認",
+    "result": "一般参加者を対象にアプリを活用した防犯教育の効果を検討。",
+    "limitations": "警察関与はアプリ開発・プロジェクト協力。査読は確認できず。",
+    "publicationType": "大学紀要",
+    "reviewStatus": "紀要",
+    "citation": "香川大学地域人材共創センター研究報告 28, 1-8",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/records/11661",
+    "notes": "同アプリ研究系列。",
+    "sourceOrder": 43
+  },
+  {
+    "id": "study-0044",
+    "year": 2024,
+    "title": "学校外の組織化された活動における防犯教育の実践―ガールスカウト，放課後児童クラブでの地域安全マップ作成活動の効果検証―",
+    "authors": [
+      "大久保智生",
+      "鈴木修斗",
+      "木戸みどり",
+      "岡野美千代",
+      "吉田恵美子"
+    ],
+    "authorsText": "大久保智生・鈴木修斗・木戸みどり・岡野美千代・吉田恵美子",
+    "practiceOrganizations": [
+      "香川県警察本部（アプリ開発協力）"
+    ],
+    "practiceOrganizationsText": "香川県警察本部（アプリ開発協力）",
+    "researchOrganizations": [
+      "香川大学"
+    ],
+    "researchOrganizationsText": "香川大学",
+    "themes": [
+      "防犯教育",
+      "子ども"
+    ],
+    "themesText": "防犯教育／子ども",
+    "intervention": "防犯アプリを用いた地域安全マップ作成活動",
+    "population": "ガールスカウト21名・放課後児童クラブ18名",
+    "comparison": "実践前後",
+    "outcomes": [
+      "防犯能力",
+      "活動評価"
+    ],
+    "outcomesText": "防犯能力、活動評価",
+    "design": "教育介入・前後評価",
+    "sampleSize": "39",
+    "result": "活動後の防犯能力向上と高い活動評価を報告。",
+    "limitations": "対象数が小さく、犯罪被害や実行動を直接測定していない。警察関与はツール開発段階。",
+    "publicationType": "大学紀要",
+    "reviewStatus": "査読あり",
+    "citation": "香川大学教育実践総合研究 48, 79-85",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/records/2000401",
+    "notes": "地域安全マップ・防犯アプリ系列。",
+    "sourceOrder": 44
+  },
+  {
+    "id": "study-0045",
+    "year": 2024,
+    "title": "感謝メッセージを用いた公共駐輪場における自転車の施錠行動の促進",
+    "authors": [
+      "鈴木あい",
+      "島田貴仁"
+    ],
+    "authorsText": "鈴木あい・島田貴仁",
+    "practiceOrganizations": [
+      "科学警察研究所"
+    ],
+    "practiceOrganizationsText": "科学警察研究所",
+    "researchOrganizations": [
+      "福島大学・科学警察研究所"
+    ],
+    "researchOrganizationsText": "福島大学・科学警察研究所",
+    "themes": [
+      "自転車盗",
+      "メッセージ介入"
+    ],
+    "themesText": "自転車盗／メッセージ介入",
+    "intervention": "3駐輪場に「奨励」「感謝」「問いかけ」の看板を設置",
+    "population": "地方部の3鉄道駅近傍の公共駐輪場",
+    "comparison": "看板条件・設置前後",
+    "outcomes": [
+      "実際の施錠率"
+    ],
+    "outcomesText": "実際の施錠率",
+    "design": "社会実験・反復観察",
+    "sampleSize": "3駐輪場",
+    "result": "奨励メッセージでは施錠率が増加した一方、感謝・問いかけでは低下。逆効果の可能性も示した。",
+    "limitations": "駐輪場数が少なく利用者入替や介入量の影響があり得る。",
+    "publicationType": "大会発表要旨",
+    "reviewStatus": "会議録",
+    "citation": "環境心理学研究 12(1), 20",
+    "doi": "10.20703/jenvpsy.12.1_20",
+    "url": "https://jsep.jp/wp-content/uploads/2024/03/JSEP17.pdf",
+    "notes": "後の福島県警14駐輪場実証の前段。無効・逆方向の結果も保持。",
+    "sourceOrder": 45
+  },
+  {
+    "id": "study-0046",
+    "year": 2024,
+    "title": "地理的犯罪分析を応用した警察の防犯戦術に関する研究",
+    "authors": [
+      "野貴泰"
+    ],
+    "authorsText": "野貴泰",
+    "practiceOrganizations": [
+      "警察庁・埼玉県警察・長野県警察等"
+    ],
+    "practiceOrganizationsText": "警察庁・埼玉県警察・長野県警察等",
+    "researchOrganizations": [
+      "警察庁・筑波大学"
+    ],
+    "researchOrganizationsText": "警察庁・筑波大学",
+    "themes": [
+      "場所ベース警察活動",
+      "地理的犯罪分析"
+    ],
+    "themesText": "場所ベース警察活動／地理的犯罪分析",
+    "intervention": "高犯罪リスク場所の特定、パトロール経路作成、警察官受容可能性評価、複数署管内でのパトロール実験",
+    "population": "埼玉・長野両県等の警察署管内",
+    "comparison": "高リスク地点・パトロール実験の比較条件",
+    "outcomes": [
+      "犯罪発生",
+      "警察官受容可能性等"
+    ],
+    "outcomesText": "犯罪発生、警察官受容可能性等",
+    "design": "博士論文：分析手法開発＋現場実験",
+    "sampleSize": "複数警察署管内",
+    "result": "国内の場所ベース警察活動について、分析・経路設計・受容可能性・犯罪抑止効果まで一連に検証。",
+    "limitations": "学位論文として複数既発表研究を統合しており、個別論文との重複あり。",
+    "publicationType": "博士論文",
+    "reviewStatus": "学位審査",
+    "citation": "筑波大学 博士（工学）",
+    "doi": "",
+    "url": "https://tsukuba.repo.nii.ac.jp/records/2012512",
+    "notes": "2017年経路提案、2020年集中パトロール研究を統合する研究系列。",
+    "sourceOrder": 46
+  },
+  {
+    "id": "study-0047",
+    "year": 2025,
+    "title": "自転車の盗難を防ぐ取り組み―高知県における警察と研究者の協働―",
+    "authors": [
+      "三船恒裕",
+      "日比野桂",
+      "島田貴仁",
+      "林良平",
+      "渡邉ひとみ",
+      "大井方子",
+      "山川智子",
+      "近藤秀明",
+      "新土居大河",
+      "田村のぞみ"
+    ],
+    "authorsText": "三船恒裕・日比野桂・島田貴仁・林良平・渡邉ひとみ・大井方子・山川智子・近藤秀明・新土居大河・田村のぞみ",
+    "practiceOrganizations": [
+      "高知県警察本部"
+    ],
+    "practiceOrganizationsText": "高知県警察本部",
+    "researchOrganizations": [
+      "高知工科大学・高知大学・滋賀大学・高知県立大学"
+    ],
+    "researchOrganizationsText": "高知工科大学・高知大学・滋賀大学・高知県立大学",
+    "themes": [
+      "自転車盗",
+      "施錠促進"
+    ],
+    "themesText": "自転車盗／施錠促進",
+    "intervention": "調査で得た施錠・未施錠要因からメッセージを設計し、介入実験へ接続",
+    "population": "中学校3校・高校5校の生徒等",
+    "comparison": "要因分析＋介入条件",
+    "outcomes": [
+      "施錠理由・未施錠理由",
+      "施錠行動"
+    ],
+    "outcomesText": "施錠理由・未施錠理由、施錠行動",
+    "design": "調査＋介入研究プロジェクト報告",
+    "sampleSize": "調査1,188名",
+    "result": "施錠行動の直接要因として習慣・当然が促進、面倒・手間が抑制。知見を介入メッセージ設計へ接続。",
+    "limitations": "大会抄録であり、詳細な介入結果は別成果（ポスター介入短報）と合わせて読む必要。",
+    "publicationType": "学会大会抄録",
+    "reviewStatus": "会議録",
+    "citation": "日本行動計量学会大会抄録集 53, 264-267",
+    "doi": "10.20742/pbsj.53.0_264",
+    "url": "https://www.jstage.jst.go.jp/article/pbsj/53/0/53_264/_pdf/-char/ja",
+    "notes": "既収録のクラスターRCTと同一共同研究系列。",
+    "sourceOrder": 47
+  },
+  {
+    "id": "study-0048",
+    "year": 2025,
+    "title": "公共駐輪場におけるナッジ理論に基づく自転車の施錠行動促進実証実験",
+    "authors": [
+      "鈴木あい",
+      "若松伸一",
+      "相良幸人",
+      "島田貴仁"
+    ],
+    "authorsText": "鈴木あい・若松伸一・相良幸人・島田貴仁",
+    "practiceOrganizations": [
+      "福島県警察本部生活安全部生活安全企画課"
+    ],
+    "practiceOrganizationsText": "福島県警察本部生活安全部生活安全企画課",
+    "researchOrganizations": [
+      "福島大学・福島県警察・滋賀大学"
+    ],
+    "researchOrganizationsText": "福島大学・福島県警察・滋賀大学",
+    "themes": [
+      "自転車盗",
+      "ナッジ"
+    ],
+    "themesText": "自転車盗／ナッジ",
+    "intervention": "14公共駐輪場に4種類のメッセージ（統制、社会規範、コスト認知、互恵性）を掲示",
+    "population": "福島県内14公共駐輪場",
+    "comparison": "介入前2回・介入後7回／メッセージ条件",
+    "outcomes": [
+      "施錠率"
+    ],
+    "outcomesText": "施錠率",
+    "design": "準実験・反復観察",
+    "sampleSize": "14駐輪場",
+    "result": "全条件で施錠率が上昇。互恵性等の条件差や初期施錠率による効果差を検討。",
+    "limitations": "同一介入は後に国際査読誌へ論文化されており重複するが、研究発展を追うため保持。",
+    "publicationType": "学会大会抄録",
+    "reviewStatus": "会議録",
+    "citation": "日本行動計量学会大会抄録集 53, 268-271",
+    "doi": "10.20742/pbsj.53.0_268",
+    "url": "https://www.jstage.jst.go.jp/article/pbsj/53/0/53_268/_pdf/-char/ja",
+    "notes": "既収録のInternational Criminal Justice Review論文と同系列。",
+    "sourceOrder": 48
+  },
+  {
+    "id": "study-0049",
+    "year": 2025,
+    "title": "大規模集合住宅駐輪場における自転車施錠率向上に向けた取組―ナッジメッセージと仕掛学タグの比較―",
+    "authors": [
+      "新田雅之",
+      "三島広之",
+      "代田友哉",
+      "島田貴仁"
+    ],
+    "authorsText": "新田雅之・三島広之・代田友哉・島田貴仁",
+    "practiceOrganizations": [
+      "兵庫県警察本部"
+    ],
+    "practiceOrganizationsText": "兵庫県警察本部",
+    "researchOrganizations": [
+      "兵庫県警察本部・滋賀大学"
+    ],
+    "researchOrganizationsText": "兵庫県警察本部・滋賀大学",
+    "themes": [
+      "自転車盗",
+      "ナッジ",
+      "仕掛学"
+    ],
+    "themesText": "自転車盗／ナッジ／仕掛学",
+    "intervention": "集合住宅18棟の駐輪場に5条件を割付：介入なし、非ナッジ、ナッジ、タグ、併用",
+    "population": "兵庫県西宮市内の大規模集合住宅駐輪場18棟",
+    "comparison": "5条件",
+    "outcomes": [
+      "4週間後の施錠率"
+    ],
+    "outcomesText": "4週間後の施錠率",
+    "design": "フィールド実験・施設単位条件割付",
+    "sampleSize": "18棟",
+    "result": "すべての介入条件で施錠率が向上し、仕掛学タグ群で有意な改善を確認。",
+    "limitations": "大会論文段階。施設単位の交絡・割付方法の詳細に留意。",
+    "publicationType": "学会大会論文",
+    "reviewStatus": "会議録",
+    "citation": "行動経済学会第19回大会 2B03",
+    "doi": "",
+    "url": "https://www.abef.jp/conf/2025/common/doc/abstract/oral/2B03.pdf",
+    "notes": "警察官3名が著者。住宅駐輪場という既存研究と異なる場面。",
+    "sourceOrder": 49
+  },
+  {
+    "id": "study-0050",
+    "year": 2025,
+    "title": "自転車盗の被害リスク分析―公営駐輪場と駅の環境要因に注目して―",
+    "authors": [
+      "大沼貴志",
+      "島田貴仁",
+      "齊藤知範"
+    ],
+    "authorsText": "大沼貴志・島田貴仁・齊藤知範",
+    "practiceOrganizations": [
+      "科学警察研究所"
+    ],
+    "practiceOrganizationsText": "科学警察研究所",
+    "researchOrganizations": [
+      "科学警察研究所"
+    ],
+    "researchOrganizationsText": "科学警察研究所",
+    "themes": [
+      "自転車盗",
+      "環境犯罪学"
+    ],
+    "themesText": "自転車盗／環境犯罪学",
+    "intervention": "公営駐輪場の構造・管理・設備等と長期の自転車盗発生を分析",
+    "population": "埼玉県内公営駐輪場417か所",
+    "comparison": "環境属性間比較・傾向スコアマッチング等",
+    "outcomes": [
+      "自転車盗被害リスク"
+    ],
+    "outcomesText": "自転車盗被害リスク",
+    "design": "観察研究・負の二項回帰・傾向スコア分析",
+    "sampleSize": "417駐輪場",
+    "result": "目につきにくい場所等のリスクが高く、管理・防犯カメラ等と被害リスクの関係を分析。",
+    "limitations": "直接介入ではないが、後続する駐輪場対策の設計根拠として保持。",
+    "publicationType": "大会発表要旨",
+    "reviewStatus": "会議録",
+    "citation": "環境心理学研究 13(1), 50",
+    "doi": "10.20703/jenvpsy.13.1_50",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/13/1/13_50/_pdf",
+    "notes": "介入研究の基礎となる警察研究として収録。",
+    "sourceOrder": 50
+  },
+  {
+    "id": "study-0051",
+    "year": 2026,
+    "title": "駅・商業施設駐輪場における自転車施錠促進のための社会実験 (1) ナッジ横断幕の掲示が施錠に与える影響",
+    "authors": [
+      "寺村研二",
+      "江口希美",
+      "井浩幸",
+      "島田貴仁"
+    ],
+    "authorsText": "寺村研二・江口希美・井浩幸・島田貴仁",
+    "practiceOrganizations": [
+      "京都府警察本部"
+    ],
+    "practiceOrganizationsText": "京都府警察本部",
+    "researchOrganizations": [
+      "京都府警察本部・滋賀大学"
+    ],
+    "researchOrganizationsText": "京都府警察本部・滋賀大学",
+    "themes": [
+      "自転車盗",
+      "施錠ナッジ"
+    ],
+    "themesText": "自転車盗／施錠ナッジ",
+    "intervention": "駅・商業施設駐輪場に複数種類のナッジ横断幕を掲示",
+    "population": "京都府内の駅・商業施設駐輪場",
+    "comparison": "無介入を含む複数メッセージ条件・前後",
+    "outcomes": [
+      "実際の施錠率"
+    ],
+    "outcomesText": "実際の施錠率",
+    "design": "フィールド社会実験・反復観察",
+    "sampleSize": "複数駐輪場",
+    "result": "介入1週後は各介入で施錠率が上昇し、直接的な施錠促進メッセージと社会規範メッセージに有意な正の効果を報告。",
+    "limitations": "大会要旨。施設特性や時期要因の影響を完全には除けない。先行福島研究と異なる結果を含む。",
+    "publicationType": "大会発表要旨",
+    "reviewStatus": "会議録",
+    "citation": "環境心理学研究 14(1), 34",
+    "doi": "10.20703/jenvpsy.14.1_34",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_34/_pdf",
+    "notes": "京都府警職員3名＋滋賀大。再現性・地域差を考える上で有用。",
+    "sourceOrder": 51
+  },
+  {
+    "id": "study-0052",
+    "year": 2026,
+    "title": "駅・商業施設駐輪場における自転車施錠促進のための社会実験 (2) 駐輪場利用者に対するアンケート調査",
+    "authors": [
+      "江口希美",
+      "寺村研二",
+      "井浩幸",
+      "島田貴仁"
+    ],
+    "authorsText": "江口希美・寺村研二・井浩幸・島田貴仁",
+    "practiceOrganizations": [
+      "京都府警察本部"
+    ],
+    "practiceOrganizationsText": "京都府警察本部",
+    "researchOrganizations": [
+      "京都府警察本部・滋賀大学"
+    ],
+    "researchOrganizationsText": "京都府警察本部・滋賀大学",
+    "themes": [
+      "自転車盗",
+      "プロセス評価"
+    ],
+    "themesText": "自転車盗／プロセス評価",
+    "intervention": "ナッジ横断幕掲示後に利用者へ認知・記憶・行動意識を聞き取り",
+    "population": "駅・商業施設駐輪場利用者",
+    "comparison": "施設種別・メッセージ条件",
+    "outcomes": [
+      "介入認知",
+      "メッセージ再認",
+      "施錠意識"
+    ],
+    "outcomesText": "介入認知、メッセージ再認、施錠意識",
+    "design": "プロセス評価・現地アンケート",
+    "sampleSize": "240",
+    "result": "商業施設では介入認知が低く、メッセージによって再認精度に差。未施錠者の一部で施錠意識への影響を報告。",
+    "limitations": "自己報告を含む。行動観察結果は(1)と合わせて解釈すべき。",
+    "publicationType": "大会発表要旨",
+    "reviewStatus": "会議録",
+    "citation": "環境心理学研究 14(1), 54",
+    "doi": "10.20703/jenvpsy.14.1_54",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_54/_pdf",
+    "notes": "同一介入のプロセス評価を別成果として保持。",
+    "sourceOrder": 52
+  },
+  {
+    "id": "study-0053",
+    "year": 2026,
+    "title": "鉄道駅における盗撮防止ミラー設置の社会実験 (1) 防犯CSRによる導入とエビデンスに基づく政策形成(EBPM)の実践",
+    "authors": [
+      "井浩幸",
+      "久保江真",
+      "朝倉あずさ",
+      "後藤教利",
+      "島田貴仁"
+    ],
+    "authorsText": "井浩幸・久保江真・朝倉あずさ・後藤教利・島田貴仁",
+    "practiceOrganizations": [
+      "京都府警察本部"
+    ],
+    "practiceOrganizationsText": "京都府警察本部",
+    "researchOrganizations": [
+      "京都府警察本部・滋賀大学"
+    ],
+    "researchOrganizationsText": "京都府警察本部・滋賀大学",
+    "themes": [
+      "盗撮",
+      "環境ナッジ",
+      "EBPM"
+    ],
+    "themesText": "盗撮／環境ナッジ／EBPM",
+    "intervention": "主要駅エスカレーターに盗撮防止ミラーを設置し視線移動を観察",
+    "population": "京都府内主要駅",
+    "comparison": "設置前 vs 設置後",
+    "outcomes": [
+      "後方・側方への視線移動"
+    ],
+    "outcomesText": "後方・側方への視線移動",
+    "design": "フィールド社会実験・行動観察",
+    "sampleSize": "主要10駅18か所導入、6駅8か所で観察",
+    "result": "設置1か月後の視線移動が設置前の約4倍。結果を根拠に府内28駅41か所へ施策拡大。",
+    "limitations": "視線行動は中間アウトカムで、盗撮件数そのものの因果効果は未検証。",
+    "publicationType": "大会発表要旨",
+    "reviewStatus": "会議録",
+    "citation": "環境心理学研究 14(1), 35",
+    "doi": "10.20703/jenvpsy.14.1_35",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_35/_pdf",
+    "notes": "研究→効果確認→施策拡張まで追えるEBPM事例。",
+    "sourceOrder": 53
+  },
+  {
+    "id": "study-0054",
+    "year": 2026,
+    "title": "鉄道駅における盗撮防止ミラー設置の社会実験 (2) 長期追跡観測による行動変化の持続性の検証",
+    "authors": [
+      "久保江真",
+      "朝倉あずさ",
+      "後藤教利",
+      "井浩幸",
+      "島田貴仁"
+    ],
+    "authorsText": "久保江真・朝倉あずさ・後藤教利・井浩幸・島田貴仁",
+    "practiceOrganizations": [
+      "京都府警察本部"
+    ],
+    "practiceOrganizationsText": "京都府警察本部",
+    "researchOrganizations": [
+      "京都府警察本部・滋賀大学"
+    ],
+    "researchOrganizationsText": "京都府警察本部・滋賀大学",
+    "themes": [
+      "盗撮",
+      "環境ナッジ"
+    ],
+    "themesText": "盗撮／環境ナッジ",
+    "intervention": "盗撮防止ミラー設置後の視線行動を長期追跡",
+    "population": "6駅8か所のエスカレーター利用者",
+    "comparison": "設置前、1週、2週、4週、6か月、12か月",
+    "outcomes": [
+      "後方・側方への視線移動"
+    ],
+    "outcomesText": "後方・側方への視線移動",
+    "design": "長期反復行動観察",
+    "sampleSize": "延べ2,400観察",
+    "result": "介入効果は全体として長期に持続。性別・年齢層で減衰の仕方に違いを報告。",
+    "limitations": "犯罪発生ではなく行動指標。利用者構成の時点差が残り得る。",
+    "publicationType": "大会発表要旨",
+    "reviewStatus": "会議録",
+    "citation": "環境心理学研究 14(1), 60",
+    "doi": "10.20703/jenvpsy.14.1_60",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_60/_pdf",
+    "notes": "(1)の長期追跡。短期効果だけでなく持続性を検証。",
+    "sourceOrder": 54
+  },
+  {
+    "id": "study-0055",
+    "year": 2026,
+    "title": "SNS型投資詐欺防止啓発のための民間事業所へのポスター掲示実験",
+    "authors": [
+      "萩谷遥平",
+      "大城海環",
+      "井上信輔",
+      "川内一郎",
+      "岩谷彩",
+      "木内聡",
+      "島田貴仁"
+    ],
+    "authorsText": "萩谷遥平・大城海環・井上信輔・川内一郎・岩谷彩・木内聡・島田貴仁",
+    "practiceOrganizations": [
+      "大阪府警察"
+    ],
+    "practiceOrganizationsText": "大阪府警察",
+    "researchOrganizations": [
+      "大阪大学・大阪府警察・滋賀大学"
+    ],
+    "researchOrganizationsText": "大阪大学・大阪府警察・滋賀大学",
+    "themes": [
+      "SNS型投資詐欺",
+      "ナッジ"
+    ],
+    "themesText": "SNS型投資詐欺／ナッジ",
+    "intervention": "大阪府内スーパーの従業員休憩室に3種類の詐欺防止ポスターを掲示",
+    "population": "スーパー15店舗の従業員",
+    "comparison": "3ポスター条件・事前事後",
+    "outcomes": [
+      "脅威評価",
+      "行動課題",
+      "ポスター認知・再認"
+    ],
+    "outcomesText": "脅威評価、行動課題、ポスター認知・再認",
+    "design": "クラスター型フィールド実験・前後調査",
+    "sampleSize": "事前事後各615、認知234、主要分析156",
+    "result": "ポスター認知率は38%程度。認知者分析でも脅威評価に明瞭な効果は乏しく、模擬広告への対処行動も大半が「何もしない」。",
+    "limitations": "介入への曝露自体が低く、実装忠実度の問題が大きい。認知者のみ分析には選択バイアス。",
+    "publicationType": "大会発表要旨",
+    "reviewStatus": "会議録",
+    "citation": "環境心理学研究 14(1), 46",
+    "doi": "10.20703/jenvpsy.14.1_46",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_46/_pdf",
+    "notes": "『広報した＝届いた』ではないことを示す重要な無効・実装失敗事例。",
+    "sourceOrder": 55
+  },
+  {
+    "id": "study-0056",
+    "year": 2026,
+    "title": "警察官の取組の継続に影響を与える内発的・外発的要因―国際電話利用休止の申込促進に対する表彰施策を例にとって―",
+    "authors": [
+      "金井大典",
+      "港淳平",
+      "島田貴仁"
+    ],
+    "authorsText": "金井大典・港淳平・島田貴仁",
+    "practiceOrganizations": [
+      "奈良県警察"
+    ],
+    "practiceOrganizationsText": "奈良県警察",
+    "researchOrganizations": [
+      "奈良県警察・滋賀大学"
+    ],
+    "researchOrganizationsText": "奈良県警察・滋賀大学",
+    "themes": [
+      "特殊詐欺",
+      "組織行動",
+      "表彰"
+    ],
+    "themesText": "特殊詐欺／組織行動／表彰",
+    "intervention": "国際電話利用休止申込の促進に取り組む警察官への生活安全部長賞表彰",
+    "population": "奈良県警察の表彰対象警察官",
+    "comparison": "取組継続者 vs 非継続者",
+    "outcomes": [
+      "取組継続",
+      "促進件数",
+      "動機づけ等"
+    ],
+    "outcomesText": "取組継続、促進件数、動機づけ等",
+    "design": "組織介入後の質問紙・回帰分析",
+    "sampleSize": "対象281、回答182",
+    "result": "表彰導入後に申込促進件数が大幅増。継続者はスキル・習慣、外発動機が高かったが、回帰分析では尺度得点の独立効果は明確でなかった。",
+    "limitations": "表彰の因果効果を無作為化で検証した研究ではない。自己報告・選択バイアスに留意。",
+    "publicationType": "大会発表要旨",
+    "reviewStatus": "会議録",
+    "citation": "環境心理学研究 14(1), 47",
+    "doi": "10.20703/jenvpsy.14.1_47",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_47/_pdf",
+    "notes": "住民向けでなく警察組織内部の実装継続を扱う珍しい研究。",
+    "sourceOrder": 56
+  },
+  {
+    "id": "study-0057",
+    "year": 2026,
+    "title": "Evaluating voice-message-based shoplifting prevention using a human-shaped device: evidence from a field experiment in supermarket stores in Japan",
+    "authors": [
+      "Ai Suzuki"
+    ],
+    "authorsText": "Ai Suzuki",
+    "practiceOrganizations": [
+      "福島県警察本部（実証事業）"
+    ],
+    "practiceOrganizationsText": "福島県警察本部（実証事業）",
+    "researchOrganizations": [
+      "福島大学（現・津田塾大学）"
+    ],
+    "researchOrganizationsText": "福島大学（現・津田塾大学）",
+    "themes": [
+      "万引き",
+      "音声ナッジ"
+    ],
+    "themesText": "万引き／音声ナッジ",
+    "intervention": "警察官型の人型デバイスから6種類の音声メッセージを商品売場で提示",
+    "population": "実験13店舗・対照3店舗",
+    "comparison": "実験店 vs 対照店、前年同月比較、メッセージ条件",
+    "outcomes": [
+      "対象7商品のロス率"
+    ],
+    "outcomesText": "対象7商品のロス率",
+    "design": "多店舗フィールド実験",
+    "sampleSize": "16店舗",
+    "result": "効果は商品ごとに不均一。道徳規範・良心に訴えるメッセージが最も有効な条件を示した。",
+    "limitations": "全商品で一様に効く介入ではない。前年同月比較を含み、店舗・時期要因に留意。",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "Journal of Experimental Criminology",
+    "doi": "10.1007/s11292-026-09763-3",
+    "url": "https://link.springer.com/article/10.1007/s11292-026-09763-3",
+    "notes": "既収録の福島県警公式実証結果を査読論文化した成果。",
+    "sourceOrder": 57
+  },
+  {
+    "id": "study-0058",
+    "year": 2026,
+    "title": "Plural policing in rural contexts: a GPS-based evaluation of multi-entity patrols against fruit theft",
+    "authors": [
+      "Mamoru Amemiya",
+      "Ai Suzuki",
+      "Takahito Shimada",
+      "Hideharu Kurita"
+    ],
+    "authorsText": "Mamoru Amemiya・Ai Suzuki・Takahito Shimada・Hideharu Kurita",
+    "practiceOrganizations": [
+      "山梨県警察ほか地域主体"
+    ],
+    "practiceOrganizationsText": "山梨県警察ほか地域主体",
+    "researchOrganizations": [
+      "筑波大学ほか"
+    ],
+    "researchOrganizationsText": "筑波大学ほか",
+    "themes": [
+      "農作物盗",
+      "複数主体パトロール"
+    ],
+    "themesText": "農作物盗／複数主体パトロール",
+    "intervention": "警察、自治体、JA、NPO等の複数主体による果物盗対策パトロールをGPSで追跡",
+    "population": "山梨県内2自治体・6組織のパトロール",
+    "comparison": "組織間の巡回特性比較",
+    "outcomes": [
+      "時間的・空間的カバレッジ",
+      "移動特性"
+    ],
+    "outcomesText": "時間的・空間的カバレッジ、移動特性",
+    "design": "GPS行動データによる実装・カバレッジ評価",
+    "sampleSize": "2自治体・6組織",
+    "result": "異なる主体の巡回特性が補完し合い、時間・空間のカバレッジを拡大することを定量的に示した。",
+    "limitations": "犯罪件数減少そのものを推定した研究ではなく、パトロール実装・配置の評価。",
+    "publicationType": "査読国際誌",
+    "reviewStatus": "査読あり",
+    "citation": "Security Journal 39, Article 28",
+    "doi": "10.1057/s41284-026-00543-2",
+    "url": "https://link.springer.com/article/10.1057/s41284-026-00543-2",
+    "notes": "地方部のplural policingを定量評価した国内事例。",
+    "sourceOrder": 58
+  },
+  {
+    "id": "study-0059",
+    "year": 2022,
+    "title": "高齢者の特殊詐欺被害防止のための固定電話着信時の確認行動の促進―社会規範アプローチと行動変容アプローチ―",
+    "authors": [
+      "島田貴仁",
+      "齊藤知範",
+      "山根由子",
+      "倉石宏樹",
+      "春田悠佳",
+      "大竹文雄"
+    ],
+    "authorsText": "島田貴仁・齊藤知範・山根由子・倉石宏樹・春田悠佳・大竹文雄",
+    "practiceOrganizations": [
+      "滋賀県警察本部・滋賀県内2警察署・科学警察研究所"
+    ],
+    "practiceOrganizationsText": "滋賀県警察本部・滋賀県内2警察署・科学警察研究所",
+    "researchOrganizations": [
+      "科学警察研究所・滋賀県警察本部・上智大学大学院・大阪大学"
+    ],
+    "researchOrganizationsText": "科学警察研究所・滋賀県警察本部・上智大学大学院・大阪大学",
+    "themes": [
+      "特殊詐欺",
+      "固定電話",
+      "社会規範・行動リハーサル"
+    ],
+    "themesText": "特殊詐欺／固定電話／社会規範・行動リハーサル",
+    "intervention": "脅威メッセージ、利他メッセージ、留守番電話の使い方提示、その場での模擬電話機による練習、帰宅後の確認電話など計5条件",
+    "population": "滋賀県の2警察署に免許更新等で来訪した、自宅に固定電話がある高齢者",
+    "comparison": "日ごとに5種類の介入条件へ割付",
+    "outcomes": [
+      "介入1週間後の実際の固定電話応答時に",
+      "留守番電話を用いて発信者を確認したか"
+    ],
+    "outcomesText": "介入1週間後の実際の固定電話応答時に、留守番電話を用いて発信者を確認したか",
+    "design": "フィールド実験・条件割付・行動観察",
+    "sampleSize": "対象597名、1週間後に本人応答した284名を分析",
+    "result": "利他メッセージ条件と、その場で模擬電話機を使ってリハーサルした条件では、統制条件等に比べて相手確認行動が約20ポイント増加。帰宅後に行う練習条件では改善が見られなかった。",
+    "limitations": "効果測定は介入1週間後の1時点。行動変容は最大でも対象者の約半数にとどまる。割付は個人完全無作為ではなく介入日単位。",
+    "publicationType": "学会大会論文",
+    "reviewStatus": "会議録",
+    "citation": "行動経済学会第16回大会 2C03",
+    "doi": "",
+    "url": "https://www.abef.jp/conf/2022/common/doc/oral/2C03.pdf",
+    "notes": "大竹文雄教授の科研費20H05632と整合する防犯フィールド実験。警察署員が介入と行動測定を担う、研究者・実務家協働の明瞭な事例。",
+    "sourceOrder": 59
+  },
+  {
+    "id": "study-0060",
+    "year": 2024,
+    "title": "駅エスカレーターへの鏡の設置による盗撮防止―社会実験による環境手がかりナッジの効果検証―",
+    "authors": [
+      "島田貴仁",
+      "大沼貴志",
+      "齊藤知範",
+      "大竹文雄"
+    ],
+    "authorsText": "島田貴仁・大沼貴志・齊藤知範・大竹文雄",
+    "practiceOrganizations": [
+      "科学警察研究所"
+    ],
+    "practiceOrganizationsText": "科学警察研究所",
+    "researchOrganizations": [
+      "科学警察研究所・大阪大学"
+    ],
+    "researchOrganizationsText": "科学警察研究所・大阪大学",
+    "themes": [
+      "盗撮",
+      "環境ナッジ"
+    ],
+    "themesText": "盗撮／環境ナッジ",
+    "intervention": "上りエスカレーターに大型鏡・小型鏡・ポスターを組み合わせて設置し、利用者の振り返り行動を促す",
+    "population": "埼玉県内4駅16か所のエスカレーター利用者",
+    "comparison": "ポスター有無×鏡（大型・小型・なし）の条件、介入前後",
+    "outcomes": [
+      "利用者が後方を振り返る行動"
+    ],
+    "outcomesText": "利用者が後方を振り返る行動",
+    "design": "フィールド社会実験・条件割付・前後行動観察",
+    "sampleSize": "4駅16か所",
+    "result": "ポスターと鏡の設置後、最大で約2割の利用者が振り返るようになった。重回帰分析では鏡の設置のみが有意に振り返り行動を促進。",
+    "limitations": "犯罪発生件数ではなく、盗撮機会を減らすと想定される振り返り行動がアウトカム。駅・施設条件による交絡の可能性。",
+    "publicationType": "学会大会論文",
+    "reviewStatus": "会議録",
+    "citation": "行動経済学会第18回大会 K03_PR0067",
+    "doi": "",
+    "url": "https://www.abef.jp/conf/2024/common/doc/abstract/K03_PR0067.pdf",
+    "notes": "後の京都府警による盗撮防止ミラーの社会実装・長期追跡研究につながる重要な前段研究。",
+    "sourceOrder": 60
+  },
+  {
+    "id": "study-0061",
+    "year": 2021,
+    "title": "新聞による情報発信が特殊詐欺に対する態度に与える影響",
+    "authors": [
+      "讃井知",
+      "島田貴仁",
+      "荒井崇史"
+    ],
+    "authorsText": "讃井知・島田貴仁・荒井崇史",
+    "practiceOrganizations": [
+      "科学警察研究所（共同著者）"
+    ],
+    "practiceOrganizationsText": "科学警察研究所（共同著者）",
+    "researchOrganizations": [
+      "筑波大学・科学警察研究所・東北大学"
+    ],
+    "researchOrganizationsText": "筑波大学・科学警察研究所・東北大学",
+    "themes": [
+      "特殊詐欺",
+      "犯罪予防情報"
+    ],
+    "themesText": "特殊詐欺／犯罪予防情報",
+    "intervention": "山形県の地方紙による特殊詐欺特集記事への接触",
+    "population": "20～69歳のインターネットモニター",
+    "comparison": "新聞記事接触の有無×3時点",
+    "outcomes": [
+      "特殊詐欺への態度",
+      "一般的・具体的な防犯行動意図",
+      "行動変容"
+    ],
+    "outcomesText": "特殊詐欺への態度、一般的・具体的な防犯行動意図、行動変容",
+    "design": "3波縦断調査・自然曝露評価",
+    "sampleSize": "500",
+    "result": "新聞記事への接触は一般的な被害予防行動意図を高めたが、より具体的な対策の行動意図や実際の行動変容には有意な影響を確認できなかった。",
+    "limitations": "無作為割付ではなく新聞接触の自己選択があり、実際の詐欺被害減少を直接測定していない。",
+    "publicationType": "学会大会抄録",
+    "reviewStatus": "会議録",
+    "citation": "日本心理学会第85回大会 PC-116",
+    "doi": "10.4992/pacjpa.85.0_PC-116",
+    "url": "https://www.jstage.jst.go.jp/article/pacjpa/85/0/85_PC-116/_article/-char/ja",
+    "notes": "讃井知の犯罪予防情報研究系列。情報接触→意図と、具体的行動の乖離を示す関連研究。",
+    "sourceOrder": 61
+  }
+]
