@@ -633,3 +633,373 @@ button{cursor:pointer}
   }
 
 }
+/* =========================================================
+   Researchers
+   ========================================================= */
+
+.researcher-toolbar{
+  margin-bottom:22px;
+}
+
+.researcher-toolbar input{
+  width:100%;
+  max-width:620px;
+  min-height:48px;
+  padding:12px 15px;
+  border:1px solid var(--line);
+  border-radius:14px;
+  background:white;
+  color:var(--ink);
+}
+
+
+.researcher-list{
+  display:grid;
+  grid-template-columns:
+    repeat(3,minmax(0,1fr));
+  gap:14px;
+}
+
+.researcher-card{
+  padding:18px;
+  background:white;
+  border:1px solid var(--line);
+  border-radius:17px;
+}
+
+.researcher-card[hidden]{
+  display:none;
+}
+
+.researcher-card-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:14px;
+}
+
+.researcher-card h2{
+  margin:0 0 3px;
+  font-size:1.12rem;
+  line-height:1.4;
+}
+
+.researcher-card h2 a{
+  color:var(--primary-dark);
+  text-decoration:none;
+}
+
+.researcher-card h2 a:hover{
+  text-decoration:underline;
+}
+
+.research-count-badge{
+  min-width:50px;
+  padding:6px 8px;
+  border-radius:12px;
+  background:var(--primary-pale);
+  color:var(--primary-dark);
+  text-align:center;
+  font-size:1rem;
+  font-weight:800;
+  line-height:1.1;
+}
+
+.research-count-badge span{
+  display:block;
+  margin-top:2px;
+  color:var(--muted);
+  font-size:.62rem;
+  font-weight:600;
+}
+
+.researcher-card-practice{
+  margin:11px 0 0;
+  color:#496562;
+  font-size:.86rem;
+  line-height:1.65;
+}
+
+
+/* ---------- researcher detail ---------- */
+
+.researcher-name{
+  margin-bottom:6px !important;
+}
+
+.researcher-affiliation{
+  margin:0 0 12px;
+  color:#496562;
+  font-size:1rem;
+}
+
+.researcher-profile-grid{
+  display:grid;
+  grid-template-columns:
+    repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+
+.researcher-profile-card{
+  padding:20px;
+  background:white;
+  border:1px solid var(--line);
+  border-radius:17px;
+}
+
+.researcher-profile-label{
+  display:inline-block;
+  margin-bottom:8px;
+  padding:4px 8px;
+  border-radius:999px;
+  background:var(--primary-soft);
+  color:var(--primary-dark);
+  font-size:.68rem;
+  font-weight:800;
+  letter-spacing:.06em;
+}
+
+.researcher-profile-card h2{
+  margin:0 0 8px;
+  color:var(--primary-dark);
+  font-size:1.15rem;
+}
+
+.researcher-profile-card p{
+  margin:0;
+}
+
+.researcher-series-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+}
+
+.researcher-series-tags span{
+  padding:6px 9px;
+  border-radius:999px;
+  background:var(--primary-pale);
+  border:1px solid var(--line);
+  color:var(--primary-dark);
+  font-size:.78rem;
+}
+
+
+.researcher-related-section,
+.researcher-program-section{
+  margin-top:40px;
+  padding-top:28px;
+  border-top:1px solid var(--line);
+}
+
+.researcher-section-head{
+  margin-bottom:17px;
+}
+
+.researcher-section-head h2{
+  margin:0;
+  color:var(--primary-dark);
+  font-size:1.5rem;
+}
+
+.researcher-section-head p{
+  margin:5px 0 0;
+  max-width:760px;
+  color:var(--muted);
+  font-size:.88rem;
+}
+
+.researcher-count{
+  display:inline-grid;
+  place-items:center;
+  min-width:30px;
+  height:30px;
+  margin-left:6px;
+  padding:0 7px;
+  border-radius:999px;
+  background:var(--primary-soft);
+  font-size:.78rem;
+  vertical-align:middle;
+}
+
+
+.researcher-study-list{
+  display:grid;
+  grid-template-columns:
+    repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+
+.researcher-study-card{
+  padding:17px;
+  background:white;
+  border:1px solid var(--line);
+  border-radius:17px;
+}
+
+.researcher-study-card h3{
+  margin:6px 0 8px;
+  font-size:1rem;
+  line-height:1.55;
+}
+
+.researcher-study-card h3 a{
+  color:var(--primary-dark);
+  text-decoration:none;
+}
+
+.researcher-study-card h3 a:hover{
+  text-decoration:underline;
+}
+
+.researcher-study-summary{
+  margin:8px 0;
+  color:#45615e;
+  font-size:.88rem;
+  line-height:1.7;
+}
+
+
+.researcher-program-list{
+  display:grid;
+  grid-template-columns:
+    repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+
+.researcher-program-card{
+  padding:17px;
+  background:#f7faf9;
+  border:1px solid var(--line);
+  border-radius:17px;
+}
+
+.researcher-program-card h3{
+  margin:6px 0 8px;
+  font-size:.98rem;
+  line-height:1.5;
+}
+
+.researcher-program-card h3 a{
+  color:var(--primary-dark);
+  text-decoration:none;
+}
+
+.researcher-program-card p{
+  margin:7px 0;
+  font-size:.86rem;
+  line-height:1.65;
+}
+
+
+/* ---------- mobile ---------- */
+
+@media (max-width:900px){
+
+  .researcher-list{
+    grid-template-columns:
+      repeat(2,minmax(0,1fr));
+  }
+
+}
+
+
+@media (max-width:767px){
+
+  .researcher-toolbar{
+    margin-bottom:16px;
+  }
+
+  .researcher-toolbar input{
+    max-width:none;
+    min-height:44px;
+    padding:10px 12px;
+    font-size:.9rem;
+  }
+
+  .researcher-list{
+    grid-template-columns:1fr;
+    gap:10px;
+  }
+
+  .researcher-card{
+    padding:14px;
+    border-radius:15px;
+  }
+
+  .researcher-card h2{
+    font-size:1rem;
+  }
+
+  .research-count-badge{
+    min-width:46px;
+    font-size:.9rem;
+  }
+
+  .researcher-card-practice{
+    font-size:.82rem;
+  }
+
+
+  .researcher-affiliation{
+    font-size:.9rem;
+  }
+
+  .researcher-profile-grid{
+    grid-template-columns:1fr;
+    gap:10px;
+  }
+
+  .researcher-profile-card{
+    padding:15px;
+    border-radius:15px;
+  }
+
+  .researcher-profile-card h2{
+    font-size:1.05rem;
+  }
+
+  .researcher-profile-card p{
+    font-size:.88rem;
+    line-height:1.7;
+  }
+
+  .researcher-series-tags span{
+    font-size:.72rem;
+  }
+
+
+  .researcher-related-section,
+  .researcher-program-section{
+    margin-top:30px;
+    padding-top:22px;
+  }
+
+  .researcher-section-head h2{
+    font-size:1.28rem;
+  }
+
+  .researcher-section-head p{
+    font-size:.82rem;
+    line-height:1.65;
+  }
+
+
+  .researcher-study-list,
+  .researcher-program-list{
+    grid-template-columns:1fr;
+    gap:10px;
+  }
+
+  .researcher-study-card,
+  .researcher-program-card{
+    padding:14px;
+    border-radius:15px;
+  }
+
+  .researcher-study-card h3,
+  .researcher-program-card h3{
+    font-size:.94rem;
+  }
+
+}
