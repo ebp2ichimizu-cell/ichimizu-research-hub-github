@@ -4,14 +4,26 @@ import {
   truncate
 } from "./utils.js";
 
+import {
+  t
+} from "./i18n.js";
+
 
 const item = (label, value) => {
+
   if (!value) return "";
 
   return `
     <div class="detail-info-item">
-      <dt>${escapeHtml(label)}</dt>
-      <dd>${escapeHtml(value)}</dd>
+
+      <dt>
+        ${escapeHtml(label)}
+      </dt>
+
+      <dd>
+        ${escapeHtml(value)}
+      </dd>
+
     </div>
   `;
 };
@@ -23,14 +35,18 @@ function renderThemeTags(study) {
 
   return `
     <div class="detail-theme-list">
+
       ${study.themes.map(theme => `
+
         <a
           class="detail-theme"
           href="#/studies?theme=${encodeURIComponent(theme)}"
         >
           ${escapeHtml(theme)}
         </a>
+
       `).join("")}
+
     </div>
   `;
 }
@@ -38,14 +54,21 @@ function renderThemeTags(study) {
 
 function findRelatedStudies(data, study) {
 
-  const currentThemes = new Set(study.themes || []);
+  const currentThemes =
+    new Set(study.themes || []);
+
 
   return data.studies
-    .filter(candidate => candidate.id !== study.id)
+    .filter(candidate =>
+      candidate.id !== study.id
+    )
     .map(candidate => {
 
-      const sharedThemes = (candidate.themes || [])
-        .filter(theme => currentThemes.has(theme));
+      const sharedThemes =
+        (candidate.themes || [])
+          .filter(theme =>
+            currentThemes.has(theme)
+          );
 
       return {
         study: candidate,
@@ -54,82 +77,132 @@ function findRelatedStudies(data, study) {
       };
 
     })
-    .filter(item => item.score > 0)
-    .sort((a, b) => {
+    .filter(item =>
+      item.score > 0
+    )
+    .sort((a,b) => {
 
       if (b.score !== a.score) {
         return b.score - a.score;
       }
 
-      return Number(b.study.year || 0) - Number(a.study.year || 0);
+      return (
+        Number(b.study.year || 0) -
+        Number(a.study.year || 0)
+      );
 
     })
-    .slice(0, 4);
+    .slice(0,4);
 }
 
 
 function renderRelatedStudies(data, study) {
 
-  const related = findRelatedStudies(data, study);
+  const related =
+    findRelatedStudies(data, study);
+
 
   if (!related.length) return "";
 
+
   return `
+
     <section class="related-section">
 
       <div class="related-heading">
-        <h2>関連する研究</h2>
+
+        <h2>
+          ${t("relatedStudies")}
+        </h2>
+
         <p>
-          同じ研究テーマを含む収録研究です。
-          内容や効果が同一であることを意味するものではありません。
+          ${t("relatedStudiesNote")}
         </p>
+
       </div>
+
 
       <div class="related-grid">
 
         ${related.map(item => {
 
-          const r = item.study;
+          const relatedStudy =
+            item.study;
 
           return `
+
             <article class="related-card">
 
               <div class="meta">
-                ${escapeHtml(r.year)}
-                ${r.publicationType
-                  ? ` ・ ${escapeHtml(r.publicationType)}`
-                  : ""
+
+                ${escapeHtml(
+                  relatedStudy.year
+                )}
+
+                ${
+                  relatedStudy.publicationType
+                    ? ` ・ ${escapeHtml(
+                        relatedStudy.publicationType
+                      )}`
+                    : ""
                 }
+
               </div>
 
+
               <h3>
-                <a href="#/study/${escapeHtml(r.id)}">
-                  ${escapeHtml(r.title)}
+
+                <a
+                  href="#/study/${escapeHtml(
+                    relatedStudy.id
+                  )}"
+                >
+                  ${escapeHtml(
+                    relatedStudy.title
+                  )}
                 </a>
+
               </h3>
 
+
               <p class="related-summary">
+
                 ${escapeHtml(
-                  truncate(r.result || r.notes || "", 115)
+                  truncate(
+                    relatedStudy.result ||
+                    relatedStudy.notes ||
+                    "",
+                    115
+                  )
                 )}
+
               </p>
 
+
               <div class="badges">
+
                 ${item.sharedThemes.map(theme => `
+
                   <span class="badge">
                     ${escapeHtml(theme)}
                   </span>
+
                 `).join("")}
+
               </div>
+
 
               <a
                 class="card-link"
-                href="#/study/${escapeHtml(r.id)}"
+                href="#/study/${escapeHtml(
+                  relatedStudy.id
+                )}"
               >
-                詳細を見る →
+                ${t("viewDetails")}
               </a>
 
             </article>
+
           `;
 
         }).join("")}
@@ -143,20 +216,27 @@ function renderRelatedStudies(data, study) {
 
 export function renderStudyDetail(data, id) {
 
-  const s = data.studies.find(study => study.id === id);
+  const study =
+    data.studies.find(
+      item => item.id === id
+    );
 
-  if (!s) {
+
+  if (!study) {
 
     return `
       <section class="section">
+
         <div class="container">
+
           <div class="empty">
-            研究が見つかりません。
+            ${t("studyNotFound")}
           </div>
+
         </div>
+
       </section>
     `;
-
   }
 
 
@@ -166,37 +246,56 @@ export function renderStudyDetail(data, id) {
 
       <div class="container">
 
-        <a class="back-link" href="#/studies">
-          ← 研究一覧に戻る
+        <a
+          class="back-link"
+          href="#/studies"
+        >
+          ${t("backToStudies")}
         </a>
 
+
         <div class="meta study-type">
-          ${escapeHtml(s.year)}
-          ${s.publicationType
-            ? ` ・ ${escapeHtml(s.publicationType)}`
-            : ""
+
+          ${escapeHtml(study.year)}
+
+          ${
+            study.publicationType
+              ? ` ・ ${escapeHtml(
+                  study.publicationType
+                )}`
+              : ""
           }
-          ${s.reviewStatus
-            ? ` ・ ${escapeHtml(s.reviewStatus)}`
-            : ""
+
+          ${
+            study.reviewStatus
+              ? ` ・ ${escapeHtml(
+                  study.reviewStatus
+                )}`
+              : ""
           }
+
         </div>
 
+
         <h1 class="detail-title">
-          ${escapeHtml(s.title)}
+          ${escapeHtml(study.title)}
         </h1>
 
+
         ${
-          s.authorsText
+          study.authorsText
             ? `
               <p class="detail-authors">
-                ${escapeHtml(s.authorsText)}
+                ${escapeHtml(
+                  study.authorsText
+                )}
               </p>
             `
             : ""
         }
 
-        ${renderThemeTags(s)}
+
+        ${renderThemeTags(study)}
 
       </div>
 
@@ -210,38 +309,41 @@ export function renderStudyDetail(data, id) {
 
         <section class="study-overview">
 
-          <h2>研究の基本情報</h2>
+          <h2>
+            ${t("studyOverview")}
+          </h2>
+
 
           <dl class="detail-info-grid">
 
             ${item(
-              "警察・実務機関",
-              s.practiceOrganizationsText
+              t("practiceOrganisation"),
+              study.practiceOrganizationsText
             )}
 
             ${item(
-              "研究機関",
-              s.researchOrganizationsText
+              t("researchOrganisation"),
+              study.researchOrganizationsText
             )}
 
             ${item(
-              "研究デザイン",
-              s.design
+              t("researchDesign"),
+              study.design
             )}
 
             ${item(
-              "対象",
-              s.population
+              t("population"),
+              study.population
             )}
 
             ${item(
-              "N / 対象数",
-              s.sampleSize
+              t("sampleSize"),
+              study.sampleSize
             )}
 
             ${item(
-              "掲載誌・資料",
-              s.citation
+              t("publication"),
+              study.citation
             )}
 
           </dl>
@@ -250,7 +352,7 @@ export function renderStudyDetail(data, id) {
 
 
         ${
-          s.intervention
+          study.intervention
             ? `
               <section class="detail-section">
 
@@ -259,11 +361,13 @@ export function renderStudyDetail(data, id) {
                 </div>
 
                 <h2>
-                  介入・施策
+                  ${t("intervention")}
                 </h2>
 
                 <p>
-                  ${escapeHtml(s.intervention)}
+                  ${escapeHtml(
+                    study.intervention
+                  )}
                 </p>
 
               </section>
@@ -273,7 +377,7 @@ export function renderStudyDetail(data, id) {
 
 
         ${
-          s.comparison
+          study.comparison
             ? `
               <section class="detail-section">
 
@@ -282,11 +386,13 @@ export function renderStudyDetail(data, id) {
                 </div>
 
                 <h2>
-                  比較
+                  ${t("comparison")}
                 </h2>
 
                 <p>
-                  ${escapeHtml(s.comparison)}
+                  ${escapeHtml(
+                    study.comparison
+                  )}
                 </p>
 
               </section>
@@ -296,7 +402,7 @@ export function renderStudyDetail(data, id) {
 
 
         ${
-          s.outcomesText
+          study.outcomesText
             ? `
               <section class="detail-section">
 
@@ -305,11 +411,13 @@ export function renderStudyDetail(data, id) {
                 </div>
 
                 <h2>
-                  アウトカム
+                  ${t("outcomes")}
                 </h2>
 
                 <p>
-                  ${escapeHtml(s.outcomesText)}
+                  ${escapeHtml(
+                    study.outcomesText
+                  )}
                 </p>
 
               </section>
@@ -319,7 +427,7 @@ export function renderStudyDetail(data, id) {
 
 
         ${
-          s.result
+          study.result
             ? `
               <section class="detail-section result-box">
 
@@ -328,11 +436,13 @@ export function renderStudyDetail(data, id) {
                 </div>
 
                 <h2>
-                  主な結果
+                  ${t("mainFindings")}
                 </h2>
 
                 <p>
-                  ${escapeHtml(s.result)}
+                  ${escapeHtml(
+                    study.result
+                  )}
                 </p>
 
               </section>
@@ -342,7 +452,7 @@ export function renderStudyDetail(data, id) {
 
 
         ${
-          s.limitations
+          study.limitations
             ? `
               <section class="detail-section warning">
 
@@ -351,11 +461,13 @@ export function renderStudyDetail(data, id) {
                 </div>
 
                 <h2>
-                  限界・注意
+                  ${t("limitations")}
                 </h2>
 
                 <p>
-                  ${escapeHtml(s.limitations)}
+                  ${escapeHtml(
+                    study.limitations
+                  )}
                 </p>
 
               </section>
@@ -365,16 +477,18 @@ export function renderStudyDetail(data, id) {
 
 
         ${
-          s.notes
+          study.notes
             ? `
               <section class="detail-section note-box">
 
                 <h2>
-                  研究HUBでの収録上の備考
+                  ${t("hubNote")}
                 </h2>
 
                 <p>
-                  ${escapeHtml(s.notes)}
+                  ${escapeHtml(
+                    study.notes
+                  )}
                 </p>
 
               </section>
@@ -384,25 +498,25 @@ export function renderStudyDetail(data, id) {
 
 
         ${
-          s.url || s.doi
+          study.url || study.doi
             ? `
               <section class="source-area">
 
                 <h2>
-                  原資料を確認する
+                  ${t("sourceHeading")}
                 </h2>
 
                 <div class="source-links">
 
                   ${externalLink(
-                    s.url,
-                    "原文・資料"
+                    study.url,
+                    t("sourceMaterial")
                   )}
 
                   ${
-                    s.doi
+                    study.doi
                       ? externalLink(
-                          `https://doi.org/${s.doi}`,
+                          `https://doi.org/${study.doi}`,
                           "DOI"
                         )
                       : ""
@@ -416,7 +530,10 @@ export function renderStudyDetail(data, id) {
         }
 
 
-        ${renderRelatedStudies(data, s)}
+        ${renderRelatedStudies(
+          data,
+          study
+        )}
 
 
       </div>
@@ -424,5 +541,4 @@ export function renderStudyDetail(data, id) {
     </section>
 
   `;
-
 }
