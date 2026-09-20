@@ -465,21 +465,24 @@
     "profileUrl": "https://www.nara-u.ac.jp/news/1347.html",
     "studyIds": []
   },
-  {
-    "id": "researcher-022",
-    "name": "竹橋洋毅",
-    "affiliation": "奈良女子大学",
-    "themes": [
-      "心理学",
-      "行動変容"
-    ],
-    "practiceConnection": "奈良防犯心理研究会参加の可能性を含め要一次確認",
-    "series": [
-      "奈良防犯心理研究会関連"
-    ],
-    "profileUrl": "https://www.nara-wu.ac.jp/",
-    "studyIds": []
-  },
+ {
+  "id": "researcher-022",
+  "name": "竹橋洋毅",
+  "affiliation": "奈良女子大学",
+  "themes": [
+    "心理学",
+    "行動変容"
+  ],
+  "practiceConnection": "奈良防犯心理研究会に参加",
+  "series": [
+    "奈良防犯心理研究会"
+  ],
+  "profileUrl": "https://www.nara-wu.ac.jp/",
+  "studyIds": [],
+  "programIds": [
+    "program-011"
+  ]
+},
   {
     "id": "researcher-023",
     "name": "柴田守",
