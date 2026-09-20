@@ -1,0 +1,192 @@
+[
+  {
+    "id": "report-001",
+    "year": 2011,
+    "title": "Study on Promoting Crime-Prevention Behaviour in Response to Local Crime Conditions: A Field Experiment in Bicycle-Parking Areas",
+    "organization": "National Police Agency / National Research Institute of Police Science",
+    "collaborators": "Researchers from the National Research Institute of Police Science",
+    "type": "Research featured in the Police White Paper",
+    "summary": "A field experiment examining subsequent use of bicycle locks after participants received crime prevention information and an additional lock.",
+    "url": "https://www.npa.go.jp/hakusyo/h23/honbun/html/2-sho5_2_6.html"
+  },
+  {
+    "id": "report-002",
+    "year": 2017,
+    "title": "Fukuoka Prefectural Police Crime Prevention Research Adviser Programme: Research Findings Report No. 1",
+    "organization": "Fukuoka Prefectural Police",
+    "collaborators": "Researchers from multiple universities",
+    "type": "Official police research report",
+    "summary": "Research concerning residential burglary, residential design, CCTV and related crime prevention issues. Individual studies are also included in the main study database where appropriate.",
+    "url": "https://www.police.pref.fukuoka.jp/seian/seian/adobaiza-seido_2.html"
+  },
+  {
+    "id": "report-003",
+    "year": 2018,
+    "title": "Fukuoka Prefectural Police Crime Prevention Research Adviser Programme: Research Findings Report No. 2",
+    "organization": "Fukuoka Prefectural Police",
+    "collaborators": "Researchers from multiple universities",
+    "type": "Official police research report",
+    "summary": "Research findings concerning sexual offences, convenience-store robbery, shoplifting and related crime prevention issues.",
+    "url": "https://www.police.pref.fukuoka.jp/data/open/cnt/3/1005/1/gaiyouban20181130.pdf?20190327181912="
+  },
+  {
+    "id": "report-004",
+    "year": 2018,
+    "title": "Designing Safer Communities for Women and Crime Prevention Measures",
+    "organization": "Fukuoka Prefectural Police",
+    "collaborators": "Takafumi Arima, Saga University",
+    "type": "Official police research report",
+    "summary": "An output of the Fukuoka Prefectural Police research adviser programme, retained because of its relevance to the design of preventive interventions.",
+    "url": "https://www.police.pref.fukuoka.jp/seian/seian/adobaiza-seido_2.html"
+  },
+  {
+    "id": "report-005",
+    "year": 2018,
+    "title": "Sexual Offending in Fukuoka Prefecture and Future Public Awareness Strategies",
+    "organization": "Fukuoka Prefectural Police",
+    "collaborators": "Keiichi Yamamoto, Hokuriku University",
+    "type": "Official police research report",
+    "summary": "Research on patterns of sexual offending and the design of public awareness and prevention strategies.",
+    "url": "https://www.police.pref.fukuoka.jp/seian/seian/adobaiza-seido_2.html"
+  },
+  {
+    "id": "report-006",
+    "year": 2018,
+    "title": "Patterns of Convenience-Store Robbery and Proposals for Crime Prevention Measures",
+    "organization": "Fukuoka Prefectural Police",
+    "collaborators": "Hisashi Shibata, Fukuoka University",
+    "type": "Official police research report",
+    "summary": "A study using crime data and field observations to develop practical prevention proposals.",
+    "url": "https://www.police.pref.fukuoka.jp/seian/seian/adobaiza-seido_2.html"
+  },
+  {
+    "id": "report-007",
+    "year": 2018,
+    "title": "Shoplifting Prevention Handbook for Store Managers and Staff",
+    "organization": "Fukuoka Prefectural Police",
+    "collaborators": "Keiichi Yamamoto, Hokuriku University",
+    "type": "Official police research report",
+    "summary": "A practice-oriented handbook translating research findings into shoplifting prevention guidance for retail settings.",
+    "url": "https://www.police.pref.fukuoka.jp/seian/seian/adobaiza-seido_2.html"
+  },
+  {
+    "id": "report-008",
+    "year": 2018,
+    "title": "Osaka Prefectural Police Collaborative Research Group for Advanced Crime Prevention",
+    "organization": "Osaka Prefectural Police",
+    "collaborators": "University researchers and other specialists",
+    "type": "Collaborative research group",
+    "summary": "Research and development concerning VR crime prevention materials, leaflets and posters, fraud-risk analysis and methods for evaluating crime prevention interventions.",
+    "url": "https://www.police.pref.osaka.lg.jp/seikatsu/anzen/bohantaisaku/19299.html"
+  },
+  {
+    "id": "report-009",
+    "year": 2024,
+    "title": "Field Experiment on Shoplifting Prevention Using Smiling Behaviour",
+    "organization": "Kagawa Prefectural Police / Kagawa University",
+    "collaborators": "Tomoo Okubo and colleagues",
+    "type": "University–police field demonstration",
+    "summary": "A retail intervention combining the Pepper robot, smile detection and a donation mechanism. Results were reported in 2025.",
+    "url": "https://www.kagawa-u.ac.jp/31963/"
+  },
+  {
+    "id": "report-010",
+    "year": 2025,
+    "title": "Comparative Experiment of Prevention Measures in Simulated Shoplifting Situations",
+    "organization": "Kagawa Prefectural Police / Kagawa University",
+    "collaborators": "Tomoo Okubo and colleagues",
+    "type": "University–police field demonstration",
+    "summary": "A comparison of lighting, sound, signage, staff greetings and other measures in real retail settings.",
+    "url": "https://www.kagawa-u.ac.jp/33673/"
+  },
+  {
+    "id": "report-011",
+    "year": 2026,
+    "title": "Field Experiment of Voice-Message Nudges for Shoplifting Prevention",
+    "organization": "Fukushima Prefectural Police / Fukushima University",
+    "collaborators": "Ai Suzuki and colleagues",
+    "type": "Official police field experiment",
+    "summary": "Multiple voice messages were tested across 13 retail stores, with evidence of effects under some intervention conditions.",
+    "url": "https://www.police.pref.fukushima.jp/seianki/homepage/bouhan_taisaku/manbikitaisaku/manbikitaisaku.html"
+  },
+  {
+    "id": "report-012",
+    "year": 2026,
+    "title": "Research Committee on Prevention of Special Fraud and Related Offences",
+    "organization": "Shiga Prefectural Police / Shiga University",
+    "collaborators": "Takahito Shimada and colleagues",
+    "type": "Ongoing collaborative research",
+    "summary": "An ongoing programme planning analysis of police-held data together with nudge-based interventions and field experiments.",
+    "url": "https://www.ds.shiga-u.ac.jp/information/2300/"
+  },
+  {
+    "id": "report-013",
+    "year": 2026,
+    "title": "Nara Crime Prevention Psychology Research Group",
+    "organization": "Nara Prefectural Police",
+    "collaborators": "Researchers in psychology and related fields from five universities",
+    "type": "Ongoing collaborative research",
+    "summary": "A collaboration designing prevention measures for special fraud, investment scams, romance scams and related offences conducted through social media.",
+    "url": "https://researchers.shiga-u.ac.jp/html/100003287_ja.html"
+  },
+  {
+    "id": "report-014",
+    "year": 2019,
+    "title": "VR-Based Crime Prevention Education for Women",
+    "organization": "Osaka Prefectural Police / Otemon Gakuin University",
+    "collaborators": "Akira Harada and colleagues",
+    "type": "University–police intervention",
+    "summary": "Osaka Prefectural Police and Otemon Gakuin University jointly developed a VR crime prevention programme enabling participants to experience risks associated with distracted smartphone use while walking. The programme was implemented in crime prevention classes.",
+    "url": "https://origin.digitalpr.jp/r/35576"
+  },
+  {
+    "id": "report-015",
+    "year": 2024,
+    "title": "Evaluation of a VR Crime Prevention Video",
+    "organization": "Osaka Prefectural Police",
+    "collaborators": "Otemon Gakuin University",
+    "type": "Research-group report / evaluation",
+    "summary": "Students from Otemon Gakuin University reported an evaluation of a VR crime prevention video within the Osaka Prefectural Police collaborative research group. Publicly available information provides limited detail on the research design and numerical results, so the material is retained separately from fully published studies.",
+    "url": "https://www.police.pref.osaka.lg.jp/seikatsu/anzen/bohantaisaku/19299.html"
+  },
+  {
+    "id": "report-016",
+    "year": 2017,
+    "title": "Residential Design and Community Activity for Crime Prevention",
+    "organization": "Fukuoka Prefectural Police",
+    "collaborators": "Ken Shibata, Kyushu University",
+    "type": "Official police research report",
+    "summary": "Research examining residential design and community activity from a crime prevention perspective. It is retained as an official report because the extent to which individual components constitute evaluated interventions requires source-specific assessment.",
+    "url": "https://www.police.pref.fukuoka.jp/seian/seian/adobaiza-seido_2.html"
+  },
+  {
+    "id": "report-017",
+    "year": 2021,
+    "title": "Development and Implementation of the Aruite Miimai Crime Prevention Walking App",
+    "organization": "Kagawa University / Kagawa Prefectural Police",
+    "collaborators": "Kagawa University, Kagawa Prefectural Police, Rissho University and Fukuyama University",
+    "type": "University–police tool development",
+    "summary": "A community safety mapping application developed with support from Kagawa Prefectural Police. It was subsequently used in evaluation studies conducted in 2023 and 2024.",
+    "url": "https://www.kagawa-u.ac.jp/81/27355/"
+  },
+  {
+    "id": "report-018",
+    "year": 2025,
+    "title": "Towards Better Evidence-Based Practice in Criminal Investigation",
+    "organization": "89th Annual Convention of the Japanese Psychological Association",
+    "collaborators": "Akemi Osugi, researchers from the National Research Institute of Police Science, prefectural police forensic laboratories, prosecutors and others",
+    "type": "Symposium / implementation support",
+    "summary": "Researchers, police practitioners and prosecution professionals considered existing and emerging investigative methods from an evidence-based practice perspective. Because the focus is investigation rather than crime prevention intervention, the material is retained separately from the core intervention database.",
+    "url": "https://www.jstage.jst.go.jp/article/pacjpa/89/0/89_100/_article/-char/ja"
+  },
+  {
+    "id": "report-019",
+    "year": 2026,
+    "title": "Research on Effective Approaches for Referring Different Types of Stalking Perpetrators to Treatment",
+    "organization": "National Police Agency",
+    "collaborators": "Takuro Suzuki, University of Toyama, and colleagues",
+    "type": "Research and implementation support (ongoing)",
+    "summary": "An ongoing study examining mechanisms for connecting stalking perpetrators with community mental-health services and developing effective approaches to referral. Takuro Suzuki participates as a supervisor. The project is retained for continued tracking as a secondary-prevention and repeat-offending-prevention initiative.",
+    "url": "https://sites.google.com/view/suzukitakuro/"
+  }
+]
