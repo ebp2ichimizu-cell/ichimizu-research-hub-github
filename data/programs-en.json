@@ -1,0 +1,254 @@
+[
+  {
+    "id": "program-001",
+    "startYear": 2010,
+    "name": "Kagawa Prefectural Police × Kagawa University Joint Shoplifting Prevention Programme",
+    "policeOrganizations": [
+      "Kagawa Prefectural Police"
+    ],
+    "researchOrganizations": [
+      "Kagawa University"
+    ],
+    "themes": [
+      "Shoplifting",
+      "Fraud prevention",
+      "Community crime prevention volunteers",
+      "Self-checkout theft",
+      "Community safety mapping"
+    ],
+    "summary": "A long-running collaboration beginning in 2010, developing from surveys to manuals, education, implementation in retail settings and subsequent evaluation.",
+    "url": "https://www.kagawa-u.ac.jp/32649/"
+  },
+  {
+    "id": "program-002",
+    "startYear": 2014,
+    "name": "Fukuoka Prefectural Police Crime Prevention Research Adviser Programme",
+    "policeOrganizations": [
+      "Fukuoka Prefectural Police"
+    ],
+    "researchOrganizations": [
+      "Researchers from the University of Tsukuba, the University of Tokyo, Fukuoka University, Kyushu University, Saga University, Hokuriku University and other institutions"
+    ],
+    "themes": [
+      "Crime data analysis",
+      "CCTV",
+      "Residential burglary",
+      "Sexual offences",
+      "Convenience-store robbery",
+      "Shoplifting"
+    ],
+    "summary": "Established in November 2014. The programme has produced Research Findings Reports No. 1 and No. 2 as well as a number of related publications.",
+    "url": "https://www.police.pref.fukuoka.jp/seian/seian/adobaiza-seido_2.html"
+  },
+  {
+    "id": "program-003",
+    "startYear": 2014,
+    "name": "Kyoto Prefectural Police Crime Deterrence Research Committee",
+    "policeOrganizations": [
+      "Kyoto Prefectural Police"
+    ],
+    "researchOrganizations": [
+      "University researchers and other specialists"
+    ],
+    "themes": [
+      "Crime prevention and deterrence measures, including responses to sexual offences"
+    ],
+    "summary": "Research subgroups, including a sexual-offence research group, have linked crime-data analysis with practical measures such as mobile CCTV and lighting. Further detailed reports remain a priority for continued searching.",
+    "url": "https://www.pref.kyoto.jp/koho/dayori/201501/keisatsu.html"
+  },
+  {
+    "id": "program-004",
+    "startYear": 2016,
+    "name": "Tokyo Metropolitan Police Department Expert Committee on the Safety of Children and Women",
+    "policeOrganizations": [
+      "Tokyo Metropolitan Police Department"
+    ],
+    "researchOrganizations": [
+      "Researchers in criminology, geography, urban planning, psychology and related fields"
+    ],
+    "themes": [
+      "Prevention of crime victimisation among children and women"
+    ],
+    "summary": "The committee has considered data analysis, public communication, crime prevention education, environmental design and related measures.",
+    "url": "https://www.keishicho.metro.tokyo.lg.jp/kurashi/anzen/anshin/kenkyukai/index.html"
+  },
+  {
+    "id": "program-005",
+    "startYear": 2018,
+    "name": "Osaka Prefectural Police Collaborative Research Group for Advanced Crime Prevention",
+    "policeOrganizations": [
+      "Osaka Prefectural Police"
+    ],
+    "researchOrganizations": [
+      "Researchers from Otemon Gakuin University, the University of Tsukuba and other institutions"
+    ],
+    "themes": [
+      "Crime analysis",
+      "Crime prevention information",
+      "Public communication",
+      "Safer place design",
+      "VR educational materials",
+      "Fraud and social-media-enabled fraud"
+    ],
+    "summary": "A continuing collaboration aimed at developing crime prevention grounded in scientific evidence, including work on VR materials, leaflets, posters and methods for evaluating preventive interventions.",
+    "url": "https://www.police.pref.osaka.lg.jp/seikatsu/anzen/bohantaisaku/19299.html"
+  },
+  {
+    "id": "program-006",
+    "startYear": 2023,
+    "name": "Shiga Prefectural Police × Osaka University Behavioural-Economics Nudge Implementation Partnership",
+    "policeOrganizations": [
+      "Shiga Prefectural Police"
+    ],
+    "researchOrganizations": [
+      "Osaka University"
+    ],
+    "themes": [
+      "Applying behavioural economics and nudges to crime prevention"
+    ],
+    "summary": "A formal partnership established in 2023 that has developed into field experiments addressing issues including bicycle theft.",
+    "url": "https://rd.iai.osaka-u.ac.jp/ja/810bce66f472cd99.html"
+  },
+  {
+    "id": "program-007",
+    "startYear": 2023,
+    "name": "Kanagawa Prefectural Police Collaborative Research Group on Crime and Traffic-Collision Analysis",
+    "policeOrganizations": [
+      "Kanagawa Prefectural Police"
+    ],
+    "researchOrganizations": [
+      "University of Tsukuba and other institutions"
+    ],
+    "themes": [
+      "Crime and traffic-collision data analysis"
+    ],
+    "summary": "Academic researchers participate as committee members. Individual intervention studies arising from the collaboration remain a target for further identification.",
+    "url": "https://trios.tsukuba.ac.jp/ja/researcher/0000003533"
+  },
+  {
+    "id": "program-008",
+    "startYear": 2024,
+    "name": "Kochi Prefectural Police × Three Kochi Universities and Partners Bicycle-Theft Research Programme",
+    "policeOrganizations": [
+      "Kochi Prefectural Police"
+    ],
+    "researchOrganizations": [
+      "University of Kochi, Kochi University of Technology, Kochi University and Shiga University"
+    ],
+    "themes": [
+      "Bicycle theft",
+      "Bicycle locking behaviour"
+    ],
+    "summary": "A collaborative programme progressing from data analysis and interviews to a cluster randomised controlled trial.",
+    "url": "https://www.jstage.jst.go.jp/article/jbef/18/Special_issue/18_18.S10.pp.S1-S4/_article/-char/ja"
+  },
+  {
+    "id": "program-009",
+    "startYear": 2025,
+    "name": "Fukushima Prefectural Police Experimental Research with Crime Prevention Advisers",
+    "policeOrganizations": [
+      "Fukushima Prefectural Police"
+    ],
+    "researchOrganizations": [
+      "Fukushima University, Shiga University and other institutions"
+    ],
+    "themes": [
+      "Bicycle theft",
+      "Shoplifting"
+    ],
+    "summary": "Field evaluations of crime prevention measures in bicycle-parking areas and retail settings, including nudge signage, banners and voice-message interventions.",
+    "url": "https://www.police.pref.fukushima.jp/seianki/homepage/bouhan_taisaku/manbikitaisaku/manbikitaisaku.html"
+  },
+  {
+    "id": "program-010",
+    "startYear": 2026,
+    "name": "Shiga Prefectural Police × Shiga University Research Committee on Fraud Prevention",
+    "policeOrganizations": [
+      "Shiga Prefectural Police"
+    ],
+    "researchOrganizations": [
+      "Shiga University"
+    ],
+    "themes": [
+      "Special fraud",
+      "Social-media-enabled fraud"
+    ],
+    "summary": "An ongoing collaboration planning analysis of police-held data together with field experiments and other evaluations.",
+    "url": "https://www.ds.shiga-u.ac.jp/information/2300/"
+  },
+  {
+    "id": "program-011",
+    "startYear": 2026,
+    "name": "Nara Crime Prevention Psychology Research Group",
+    "policeOrganizations": [
+      "Nara Prefectural Police"
+    ],
+    "researchOrganizations": [
+      "Nara University, Nara Women's University, Tezukayama University, Shiga University and Osaka Kyoiku University"
+    ],
+    "themes": [
+      "Special fraud",
+      "Investment and romance scams conducted through social media and related offences"
+    ],
+    "summary": "A collaborative research group applying psychological evidence to the design and evaluation of prevention measures.",
+    "url": "https://researchers.shiga-u.ac.jp/html/100003287_ja.html"
+  },
+  {
+    "id": "program-012",
+    "startYear": 2010,
+    "name": "Fukuyama University Criminal Psychology Laboratory × Hiroshima Prefectural Police Community Safety Mapping and Youth Support Collaboration",
+    "policeOrganizations": [
+      "Hiroshima Prefectural Police"
+    ],
+    "researchOrganizations": [
+      "Fukuyama University"
+    ],
+    "themes": [
+      "Community safety mapping",
+      "Crime prevention education",
+      "Youth support"
+    ],
+    "summary": "The collaboration began in the 2000s and continued after 2010 through community safety mapping, student crime prevention activities and youth support. Individual published intervention evaluations remain a target for further identification.",
+    "url": "https://www.pref.hiroshima.lg.jp/site/anzen/kenkeisiryou.html"
+  },
+  {
+    "id": "program-013",
+    "startYear": 2015,
+    "name": "Fukuyama University × Hiroshima Prefectural Police Traffic Safety Project and Joint Research Programme",
+    "policeOrganizations": [
+      "Traffic Department, Hiroshima Prefectural Police"
+    ],
+    "researchOrganizations": [
+      "Fukuyama University"
+    ],
+    "themes": [
+      "Driving behaviour",
+      "Simulation",
+      "Street lighting",
+      "Road safety"
+    ],
+    "summary": "A broad traffic-safety research collaboration established in 2015. Work reported in 2017 included physiological measurement, immersive driving simulation and research on blue and white street lighting. It is retained as a field adjacent to crime prevention research.",
+    "url": "https://www.fukuyama-u.ac.jp/wp-content/uploads/2021/12/H29_%E6%B4%BB%E5%8B%95%E5%A0%B1%E5%91%8A%E6%9B%B8-1.pdf"
+  },
+  {
+    "id": "program-014",
+    "startYear": 2020,
+    "name": "KAKENHI Scientific Research (S) 20H05632: Policy Applications of Behavioural Economics in Health, Disaster Prevention, Crime Prevention, Labour and Education",
+    "policeOrganizations": [
+      "Includes crime prevention research conducted with the National Research Institute of Police Science, Shiga Prefectural Police and other police partners"
+    ],
+    "researchOrganizations": [
+      "Osaka University, led by Fumio Ohtake, together with researchers from the National Research Institute of Police Science and other institutions"
+    ],
+    "themes": [
+      "Nudges",
+      "Randomised controlled trials",
+      "Field experiments",
+      "Crime prevention",
+      "Special fraud",
+      "Environmental cues"
+    ],
+    "summary": "A major 2020–2024 research project explicitly including crime prevention. Researchers included Takahito Shimada, Tomonori Saito and Yuko Yamane. It provides a useful parent project for tracing behavioural-economics interventions concerning fraud, voyeurism and other crime prevention problems.",
+    "url": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20H05632/"
+  }
+]
