@@ -14,18 +14,12 @@ import {
   activateReports
 } from "./render-reports.js";
 import {escapeHtml} from "./utils.js";
+import {renderAbout} from "./render-about.js";
 
 const app=document.querySelector("#app");
 let data=null;
 
-function renderAbout(data){
-  const p=data.policy;
-  return `<section class="page-head"><div class="container"><h1>このサイトについて</h1><p>国内の警察実務と研究者の協働による犯罪予防・警察活動研究を、研究系列ごと再利用しやすく整理する個人サイトです。</p></div></section>
-  <section class="section"><div class="container">
-    <div class="notice">掲載されていることは、その施策に効果があることや、エビデンスの確実性が高いことを意味しません。</div>
-    ${Object.entries(p).map(([k,v])=>`<div class="detail-section"><h2>${escapeHtml(k)}</h2><p>${escapeHtml(v)}</p></div>`).join("")}
-  </div></section>`;
-}
+
 function page(){
  const route=parseRoute();
  if(!data) return;
