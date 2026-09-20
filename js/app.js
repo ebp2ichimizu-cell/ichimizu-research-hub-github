@@ -32,7 +32,10 @@ function page(){
   case "study": app.innerHTML=renderStudyDetail(data,route.id); break;
   case "programs": app.innerHTML=renderPrograms(data); break;
   case "program": app.innerHTML=renderPrograms(data,route.id); break;
-  case "researchers": app.innerHTML=renderResearchers(data); break;
+  case "researchers":
+  app.innerHTML = renderResearchers(data);
+  activateResearchers();
+  break;
   case "researcher": app.innerHTML=renderResearchers(data,route.id); break;
   case "reports": app.innerHTML=renderReports(data); break;
   case "report": app.innerHTML=renderReports(data,route.id); break;
