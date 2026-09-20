@@ -1,104 +1,214 @@
 <!doctype html>
 <html lang="ja">
+
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="国内の警察と研究者による犯罪予防・EBP研究を探す・つなぐ・使うための研究知識基盤。">
-  <meta name="theme-color" content="#1f706b">
-  <title>いちみず会 研究HUB</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/responsive.css">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <meta
+    name="description"
+    content="国内の警察と研究者による犯罪予防・EBP研究を探す・つなぐ・使うための研究知識基盤。"
+  >
+
+  <meta
+    name="theme-color"
+    content="#1f706b"
+  >
+
+  <title>
+    いちみず会 研究HUB
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="./css/style.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="./css/responsive.css"
+  >
 </head>
+
+
 <body>
+
+
   <header class="site-header">
+
     <div class="header-inner">
-<a class="brand" href="#/" aria-label="Research Hub">
-  <span class="brand-small" data-i18n="siteNameSmall">
-    いちみず会
-  </span>
 
-  <span class="brand-main" data-i18n="siteName">
-    研究ハブ
-  </span>
-</a>      
-<div class="language-switch" aria-label="Language">
 
-  <button
-    class="lang"
-    type="button"
-    id="japaneseButton"
-  >
-    日本語
-  </button>
+      <a
+        class="brand"
+        href="#/"
+        aria-label="Research Hub"
+      >
 
-  <span>|</span>
+        <span
+          class="brand-small"
+          data-i18n="siteNameSmall"
+        >
+          いちみず会
+        </span>
 
-  <button
-    class="lang"
-    type="button"
-    id="englishButton"
-  >
-    English
-  </button>
+        <span
+          class="brand-main"
+          data-i18n="siteName"
+        >
+          研究ハブ
+        </span>
 
-</div>
-   <nav id="globalNav" class="global-nav" aria-label="メインメニュー">
+      </a>
 
-  <a href="#/studies" data-i18n="navStudies">
-    研究を探す
-  </a>
 
-  <a href="#/programs" data-i18n="navPrograms">
-    研究系列
-  </a>
+      <div
+        class="language-switch"
+        aria-label="Language"
+      >
 
-  <a href="#/researchers" data-i18n="navResearchers">
-    研究者・機関
-  </a>
+        <button
+          class="lang"
+          type="button"
+          id="japaneseButton"
+        >
+          日本語
+        </button>
 
-  <a href="#/reports" data-i18n="navReports">
-    公的報告
-  </a>
+        <span>|</span>
 
-  <a href="#/about" data-i18n="navAbout">
-    このサイトについて
-  </a>
+        <button
+          class="lang"
+          type="button"
+          id="englishButton"
+        >
+          English
+        </button>
 
-</nav>
-      <a href="#/about">このサイトについて</a>
+      </div>
+
+
+      <button
+        id="menuButton"
+        class="menu-button"
+        type="button"
+        aria-label="メニューを開く"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+
+    </div>
+
+
+    <nav
+      id="globalNav"
+      class="global-nav"
+      aria-label="メインメニュー"
+    >
+
+      <a
+        href="#/studies"
+        data-i18n="navStudies"
+      >
+        研究を探す
+      </a>
+
+      <a
+        href="#/programs"
+        data-i18n="navPrograms"
+      >
+        研究系列
+      </a>
+
+      <a
+        href="#/researchers"
+        data-i18n="navResearchers"
+      >
+        研究者・機関
+      </a>
+
+      <a
+        href="#/reports"
+        data-i18n="navReports"
+      >
+        公的報告
+      </a>
+
+      <a
+        href="#/about"
+        data-i18n="navAbout"
+      >
+        このサイトについて
+      </a>
+
     </nav>
+
+
   </header>
 
-  <main id="app" tabindex="-1">
-   <div class="loading" data-i18n="loading">
-  読み込み中...
-</div>
+
+  <main
+    id="app"
+    tabindex="-1"
+  >
+
+    <div
+      class="loading"
+      data-i18n="loading"
+    >
+      読み込み中...
+    </div>
+
   </main>
 
- <footer class="site-footer">
 
-  <div class="footer-inner">
+  <footer class="site-footer">
 
-    <strong>
-      <span data-i18n="siteNameSmall">いちみず会</span>
-      <span data-i18n="siteName">研究ハブ</span>
-    </strong>
+    <div class="footer-inner">
 
-    <p data-i18n="footerLead">
-      国内の犯罪予防研究を、探す・つなぐ・使う。
-    </p>
+      <strong>
 
-    <p
-      class="footer-note"
-      data-i18n="footerNote"
-    >
-      個人運営の研究知識基盤です。掲載は有効性の保証を意味しません。
-    </p>
+        <span data-i18n="siteNameSmall">
+          いちみず会
+        </span>
 
-  </div>
+        <span data-i18n="siteName">
+          研究ハブ
+        </span>
 
-</footer>
+      </strong>
 
-  <script type="module" src="./js/app.js"></script>
+
+      <p data-i18n="footerLead">
+        国内の犯罪予防研究を、探す・つなぐ・使う。
+      </p>
+
+
+      <p
+        class="footer-note"
+        data-i18n="footerNote"
+      >
+        個人運営の研究知識基盤です。掲載は有効性の保証を意味しません。
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <script
+    type="module"
+    src="./js/app.js"
+  ></script>
+
+
 </body>
 </html>
