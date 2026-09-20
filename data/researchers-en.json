@@ -1,0 +1,716 @@
+[
+  {
+    "id": "researcher-001",
+    "name": "島田貴仁",
+    "affiliation": "Shiga University",
+    "themes": [
+      "Evidence-based crime prevention",
+      "Nudges",
+      "Special fraud",
+      "Bicycle theft",
+      "Police visibility"
+    ],
+    "practiceConnection": "Former researcher at the National Research Institute of Police Science; involved in intervention and evaluation studies with multiple prefectural police forces.",
+    "series": [
+      "Special fraud",
+      "Bicycle theft",
+      "Environmental nudges",
+      "Implementation within police organisations"
+    ],
+    "profileUrl": "https://www.ds.shiga-u.ac.jp/member/1473/",
+    "studyIds": [
+      "study-0001",
+      "study-0009",
+      "study-0019",
+      "study-0021",
+      "study-0022",
+      "study-0023",
+      "study-0027",
+      "study-0028",
+      "study-0029",
+      "study-0031",
+      "study-0032",
+      "study-0037",
+      "study-0038",
+      "study-0045",
+      "study-0047",
+      "study-0048",
+      "study-0049",
+      "study-0050",
+      "study-0051",
+      "study-0052",
+      "study-0053",
+      "study-0054",
+      "study-0055",
+      "study-0056",
+      "study-0059",
+      "study-0060",
+      "study-0061"
+    ]
+  },
+  {
+    "id": "researcher-002",
+    "name": "齊藤知範",
+    "affiliation": "National Research Institute of Police Science",
+    "themes": [
+      "Crime prevention",
+      "Evaluation",
+      "GIS",
+      "Special fraud"
+    ],
+    "practiceConnection": "Crime prevention researcher at the National Research Institute of Police Science with extensive work evaluating police interventions.",
+    "series": [
+      "Special fraud",
+      "Bicycle-theft risk",
+      "Policy applications of behavioural economics"
+    ],
+    "profileUrl": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901041179849255",
+    "studyIds": [
+      "study-0019",
+      "study-0022",
+      "study-0023",
+      "study-0028",
+      "study-0050",
+      "study-0059",
+      "study-0060"
+    ]
+  },
+  {
+    "id": "researcher-003",
+    "name": "山根由子",
+    "affiliation": "National Research Institute of Police Science",
+    "themes": [
+      "Special fraud",
+      "Telephone-based prevention",
+      "Victimisation prevention interventions"
+    ],
+    "practiceConnection": "Research at the National Research Institute of Police Science on police home visits, telephone outreach and telephone-based fraud prevention measures.",
+    "series": [
+      "Special fraud interventions",
+      "Nudge-based crime prevention"
+    ],
+    "profileUrl": "https://kaken.nii.ac.jp/",
+    "studyIds": [
+      "study-0019",
+      "study-0022",
+      "study-0023",
+      "study-0028",
+      "study-0059"
+    ]
+  },
+  {
+    "id": "researcher-004",
+    "name": "雨宮護",
+    "affiliation": "University of Tsukuba",
+    "themes": [
+      "Environmental criminology",
+      "GIS",
+      "CCTV",
+      "Community crime prevention"
+    ],
+    "practiceConnection": "Has served as a crime prevention research adviser to Fukuoka Prefectural Police and in other police–research collaborations.",
+    "series": [
+      "Fukuoka Prefectural Police research adviser programme",
+      "Agricultural theft and plural policing"
+    ],
+    "profileUrl": "https://trios.tsukuba.ac.jp/",
+    "studyIds": [
+      "study-0001",
+      "study-0010",
+      "study-0011",
+      "study-0012"
+    ]
+  },
+  {
+    "id": "researcher-005",
+    "name": "大竹文雄",
+    "affiliation": "Osaka University",
+    "themes": [
+      "Behavioural economics",
+      "Nudges",
+      "Policy evaluation"
+    ],
+    "practiceConnection": "Crime prevention intervention research with the National Research Institute of Police Science, Shiga Prefectural Police, Osaka Prefectural Police and other partners.",
+    "series": [
+      "KAKENHI 20H05632",
+      "Special fraud",
+      "Voyeurism prevention",
+      "Street prostitution"
+    ],
+    "profileUrl": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20H05632/",
+    "studyIds": [
+      "study-0032",
+      "study-0059",
+      "study-0060"
+    ]
+  },
+  {
+    "id": "researcher-006",
+    "name": "大山智也",
+    "affiliation": "The University of Tokyo",
+    "themes": [
+      "Crime forecasting",
+      "Crime harm",
+      "Environmental criminology",
+      "GIS"
+    ],
+    "practiceConnection": "Involved in evaluation of crime prevention activities undertaken by Nara Prefectural Police and related work.",
+    "series": [
+      "Community crime prevention",
+      "Crime forecasting and resource allocation"
+    ],
+    "profileUrl": "https://www.u-tokyo.ac.jp/focus/ja/people/k0001_05759.html",
+    "studyIds": [
+      "study-0028"
+    ]
+  },
+  {
+    "id": "researcher-007",
+    "name": "鈴木あい",
+    "affiliation": "Tsuda University",
+    "themes": [
+      "Crime science",
+      "Evidence-Based Policing",
+      "Nudges",
+      "Bicycle theft",
+      "Shoplifting",
+      "Rural crime"
+    ],
+    "practiceConnection": "Has conducted multiple field experiments in collaboration with Fukushima Prefectural Police.",
+    "series": [
+      "Bicycle locking",
+      "Voice-message nudges against shoplifting",
+      "Rural policing",
+      "Introduction of EBP in Japan"
+    ],
+    "profileUrl": "https://www.tsuda.ac.jp/academics/dept-ps/faculty.html",
+    "studyIds": [
+      "study-0029",
+      "study-0034",
+      "study-0045",
+      "study-0048"
+    ]
+  },
+  {
+    "id": "researcher-008",
+    "name": "荒井崇史",
+    "affiliation": "Tohoku University",
+    "themes": [
+      "Crime prevention information",
+      "Preventive behaviour",
+      "Stalking",
+      "Victimisation prevention"
+    ],
+    "practiceConnection": "Field experiments with researchers from the National Research Institute of Police Science and participation in Osaka Prefectural Police collaborative research.",
+    "series": [
+      "Bicycle locking",
+      "Crime prevention information",
+      "Stalking"
+    ],
+    "profileUrl": "https://www.sal.tohoku.ac.jp/",
+    "studyIds": [
+      "study-0037",
+      "study-0038",
+      "study-0061"
+    ]
+  },
+  {
+    "id": "researcher-009",
+    "name": "原田章",
+    "affiliation": "Otemon Gakuin University",
+    "themes": [
+      "Crime analysis",
+      "Crime prevention education",
+      "Virtual reality",
+      "Training for practitioners"
+    ],
+    "practiceConnection": "Member of the Osaka Prefectural Police Collaborative Research Group for Advanced Crime Prevention.",
+    "series": [
+      "Osaka Prefectural Police × Otemon Gakuin University",
+      "VR crime prevention education",
+      "Crime analysis training"
+    ],
+    "profileUrl": "https://www.police.pref.osaka.lg.jp/seikatsu/anzen/bohantaisaku/19299.html",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-010",
+    "name": "山本功",
+    "affiliation": "Shukutoku University",
+    "themes": [
+      "Community crime prevention",
+      "Fear of crime",
+      "Stalking"
+    ],
+    "practiceConnection": "Research on initiatives including the Chiba Prefecture convenience-store crime prevention box programme.",
+    "series": [
+      "Crime prevention boxes",
+      "Stalking research"
+    ],
+    "profileUrl": "https://www.jstage.jst.go.jp/article/jjscrim/41/0/41_80/_article/-char/ja",
+    "studyIds": [
+      "study-0009"
+    ]
+  },
+  {
+    "id": "researcher-011",
+    "name": "金政祐司",
+    "affiliation": "Otemon Gakuin University",
+    "themes": [
+      "Intimate relationships",
+      "Stalking",
+      "Intimate partner violence"
+    ],
+    "practiceConnection": "Research connected with the Osaka Prefectural Police collaborative research group and other crime prevention projects.",
+    "series": [
+      "Stalking risk",
+      "Domestic violence and intimate partner violence"
+    ],
+    "profileUrl": "https://www.police.pref.osaka.lg.jp/seikatsu/anzen/bohantaisaku/19299.html",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-012",
+    "name": "讃井知",
+    "affiliation": "University of Tsukuba",
+    "themes": [
+      "Special fraud",
+      "Crime prevention behaviour",
+      "Public communication",
+      "Nudges"
+    ],
+    "practiceConnection": "Joint special-fraud research with Minato City and collaborative work with Shimada and Arai.",
+    "series": [
+      "Special-fraud communication",
+      "Nudge-based crime prevention"
+    ],
+    "profileUrl": "https://trios.tsukuba.ac.jp/researcher/0000004603",
+    "studyIds": [
+      "study-0061"
+    ]
+  },
+  {
+    "id": "researcher-013",
+    "name": "大杉朱美",
+    "affiliation": "Fukuyama University",
+    "themes": [
+      "Investigative psychology",
+      "Evidence-Based Policing",
+      "Cybercrime prevention",
+      "Community crime prevention"
+    ],
+    "practiceConnection": "Former forensic researcher with Hyogo Prefectural Police; involved in cybercrime prevention activities with Hiroshima Prefectural Police and related work.",
+    "series": [
+      "Evidence-based investigation",
+      "Cybercrime prevention",
+      "Community safety mapping"
+    ],
+    "profileUrl": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201801012518677310",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-014",
+    "name": "鈴木拓朗",
+    "affiliation": "University of Toyama",
+    "themes": [
+      "Stalking",
+      "Interventions with perpetrators",
+      "Risk assessment"
+    ],
+    "practiceConnection": "Adviser to Toyama Prefectural Police and supervisor for National Police Agency research.",
+    "series": [
+      "Interventions with stalking perpetrators",
+      "Facilitating access to treatment"
+    ],
+    "profileUrl": "https://sites.google.com/view/suzukitakuro/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-015",
+    "name": "畑倫子",
+    "affiliation": "Bunkyo Gakuin University",
+    "themes": [
+      "Child crime prevention",
+      "Environmental psychology",
+      "Community psychology"
+    ],
+    "practiceConnection": "Research on child safety with researchers from the National Research Institute of Police Science and related collaborators.",
+    "series": [
+      "Child safety",
+      "Parental behaviour",
+      "Fear of crime"
+    ],
+    "profileUrl": "https://www.bgu.ac.jp/gci/staff/tomoko-hata/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-016",
+    "name": "相馬敏彦",
+    "affiliation": "Hiroshima University",
+    "themes": [
+      "Primary prevention of domestic violence and intimate partner violence",
+      "Intimate relationships"
+    ],
+    "practiceConnection": "Work including primary-prevention programmes supported by the Nikkoso Research Foundation for Safe Society.",
+    "series": [
+      "Primary prevention of domestic violence",
+      "Stalking-related research networks"
+    ],
+    "profileUrl": "https://www.hiroshima-u.ac.jp/mgt/research/staff/category02/staff20",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-017",
+    "name": "池内裕美",
+    "affiliation": "Kansai University",
+    "themes": [
+      "Consumer psychology",
+      "Public communication",
+      "Behaviour"
+    ],
+    "practiceConnection": "Member of the Osaka Prefectural Police Collaborative Research Group for Advanced Crime Prevention.",
+    "series": [
+      "Police communication and poster improvement"
+    ],
+    "profileUrl": "https://www.police.pref.osaka.lg.jp/seikatsu/anzen/bohantaisaku/19299.html",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-018",
+    "name": "大久保智生",
+    "affiliation": "Kagawa University",
+    "themes": [
+      "Shoplifting",
+      "Crime prevention education",
+      "Retail interventions",
+      "Community safety mapping"
+    ],
+    "practiceConnection": "Long-term collaborative research with Kagawa Prefectural Police.",
+    "series": [
+      "Kagawa shoplifting-prevention research programme"
+    ],
+    "profileUrl": "https://www.kagawa-u.ac.jp/",
+    "studyIds": [
+      "study-0003",
+      "study-0004",
+      "study-0005",
+      "study-0006",
+      "study-0007",
+      "study-0008",
+      "study-0013",
+      "study-0014",
+      "study-0016",
+      "study-0017",
+      "study-0020",
+      "study-0024",
+      "study-0030",
+      "study-0033",
+      "study-0040",
+      "study-0041",
+      "study-0042",
+      "study-0043",
+      "study-0044"
+    ]
+  },
+  {
+    "id": "researcher-019",
+    "name": "高木大資",
+    "affiliation": "Kyoto University",
+    "themes": [
+      "Social psychology",
+      "Health and risk behaviour",
+      "Special-fraud prevention"
+    ],
+    "practiceConnection": "Special-fraud intervention research with the National Research Institute of Police Science and evaluation of community crime prevention with Nara Prefectural Police.",
+    "series": [
+      "Special fraud",
+      "Nara Prefectural Police Challenge Kizuna programme"
+    ],
+    "profileUrl": "https://www.kyoto-u.ac.jp/",
+    "studyIds": [
+      "study-0023",
+      "study-0028"
+    ]
+  },
+  {
+    "id": "researcher-020",
+    "name": "西田公昭",
+    "affiliation": "Rissho University",
+    "themes": [
+      "Social psychology",
+      "Fraud and deceptive commercial practices",
+      "Psychological manipulation"
+    ],
+    "practiceConnection": "Research on fraud, deceptive commercial practices and psychologically informed prevention relevant to police practice.",
+    "series": [
+      "Psychology of fraud victimisation",
+      "Persuasion and psychological manipulation"
+    ],
+    "profileUrl": "https://www.ris.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-021",
+    "name": "村上史朗",
+    "affiliation": "Nara University",
+    "themes": [
+      "Social psychology",
+      "Psychology of crime prevention"
+    ],
+    "practiceConnection": "Chair of the Nara Crime Prevention Psychology Research Group established with Nara Prefectural Police.",
+    "series": [
+      "Nara Crime Prevention Psychology Research Group",
+      "Special fraud and social-media-enabled fraud"
+    ],
+    "profileUrl": "https://www.nara-u.ac.jp/news/1347.html",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-022",
+    "name": "竹橋洋毅",
+    "affiliation": "Nara Women's University",
+    "themes": [
+      "Psychology",
+      "Behaviour change"
+    ],
+    "practiceConnection": "Participant in the Nara Crime Prevention Psychology Research Group.",
+    "series": [
+      "Nara Crime Prevention Psychology Research Group"
+    ],
+    "profileUrl": "https://www.nara-wu.ac.jp/",
+    "studyIds": [],
+    "programIds": [
+      "program-011"
+    ]
+  },
+  {
+    "id": "researcher-023",
+    "name": "柴田守",
+    "affiliation": "Dokkyo University",
+    "themes": [
+      "Criminology",
+      "Victimology",
+      "Criminal justice policy"
+    ],
+    "practiceConnection": "Research on policing, crime and criminal justice policy.",
+    "series": [
+      "Criminology",
+      "Victimology"
+    ],
+    "profileUrl": "https://www.dokkyo.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-024",
+    "name": "和智妙子",
+    "affiliation": "Surugadai University",
+    "themes": [
+      "Investigative psychology",
+      "Investigative interviewing",
+      "Offender behaviour"
+    ],
+    "practiceConnection": "Former researcher at the National Research Institute of Police Science with a focus on investigative psychology and police practice.",
+    "series": [
+      "Evidence-based investigation",
+      "Investigative interviewing"
+    ],
+    "profileUrl": "https://www.surugadai.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-025",
+    "name": "中谷友樹",
+    "affiliation": "Tohoku University",
+    "themes": [
+      "Crime geography",
+      "GIS",
+      "Spatiotemporal analysis",
+      "Crime forecasting"
+    ],
+    "practiceConnection": "Crime analysis and GIS research relevant to the diagnosis and targeting stages of crime prevention.",
+    "series": [
+      "Crime geography",
+      "Crime forecasting",
+      "GIS"
+    ],
+    "profileUrl": "https://www.kankyo.tohoku.ac.jp/teacher/tkk01.html",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-026",
+    "name": "齋藤梓",
+    "affiliation": "Sophia University",
+    "themes": [
+      "Crime victimisation",
+      "Trauma",
+      "Victim support"
+    ],
+    "practiceConnection": "Research on psychological responses to victimisation and victim support.",
+    "series": [
+      "Post-victimisation support",
+      "Trauma"
+    ],
+    "profileUrl": "https://fhs.sophia.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-027",
+    "name": "樋口匡貴",
+    "affiliation": "Sophia University",
+    "themes": [
+      "Health and social psychology",
+      "Behaviour change"
+    ],
+    "practiceConnection": "Research connected with a Tokyo Metropolitan Police Department Twitter-based special-fraud information intervention.",
+    "series": [
+      "Special-fraud communication",
+      "Protection Motivation Theory"
+    ],
+    "profileUrl": "https://www.sophia.ac.jp/",
+    "studyIds": [
+      "study-0021"
+    ]
+  },
+  {
+    "id": "researcher-028",
+    "name": "原田豊",
+    "affiliation": "Rissho University",
+    "themes": [
+      "Environmental criminology",
+      "Crime analysis",
+      "Crime prevention",
+      "Police research"
+    ],
+    "practiceConnection": "Former head of the Crime Prevention Research Division and senior research leadership at the National Research Institute of Police Science.",
+    "series": [
+      "Foundations of Japanese crime prevention research",
+      "Crime analysis",
+      "Police practice research"
+    ],
+    "profileUrl": "https://www.ris.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-029",
+    "name": "木村敦",
+    "affiliation": "Nihon University",
+    "themes": [
+      "Risk perception",
+      "Special fraud",
+      "Crime prevention behaviour"
+    ],
+    "practiceConnection": "Special-fraud research with researchers from the National Research Institute of Police Science and collaboration with Tsuzuki Police Station.",
+    "series": [
+      "Special fraud",
+      "Community crime prevention",
+      "Resident perceptions"
+    ],
+    "profileUrl": "https://researcher-web.nihon-u.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-030",
+    "name": "四方光",
+    "affiliation": "Chuo University",
+    "themes": [
+      "Public safety policy",
+      "Community crime prevention",
+      "Cybercrime",
+      "Reducing reoffending"
+    ],
+    "practiceConnection": "Former National Police Agency official with research experience in police policy and public safety.",
+    "series": [
+      "Public safety policy",
+      "Cybercrime",
+      "Community crime prevention"
+    ],
+    "profileUrl": "https://plus-c.chuo-u.ac.jp/researcher/koshikata/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-031",
+    "name": "原田知佳",
+    "affiliation": "Meijo University",
+    "themes": [
+      "Social psychology",
+      "Crime prevention and community safety"
+    ],
+    "practiceConnection": "Connected with a 2026 inter-university project on crime prevention and community safety.",
+    "series": [
+      "Crime prevention and community safety"
+    ],
+    "profileUrl": "https://www.meijo-u.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-032",
+    "name": "松村真宏",
+    "affiliation": "Osaka University",
+    "themes": [
+      "Shikakeology",
+      "Behaviour change"
+    ],
+    "practiceConnection": "Related to shikake-based themes considered in the Osaka Prefectural Police Collaborative Research Group for Advanced Crime Prevention.",
+    "series": [
+      "Shikakeology",
+      "Crime prevention implementation"
+    ],
+    "profileUrl": "https://rd.iai.osaka-u.ac.jp/ja/c92b9be476b58702.html",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-033",
+    "name": "竹中祐二",
+    "affiliation": "Setsunan University",
+    "themes": [
+      "Sociology of crime",
+      "Safer communities"
+    ],
+    "practiceConnection": "Research on community safety and crime prevention.",
+    "series": [
+      "Community crime prevention",
+      "Safer place and community development"
+    ],
+    "profileUrl": "https://www.setsunan.ac.jp/",
+    "studyIds": []
+  },
+  {
+    "id": "researcher-034",
+    "name": "谷口友梨",
+    "affiliation": "Shiga University",
+    "themes": [
+      "Bicycle theft",
+      "Bicycle locking behaviour",
+      "Behaviour change"
+    ],
+    "practiceConnection": "Field experiments on bicycle locking conducted with Shiga Prefectural Police.",
+    "series": [
+      "Shiga Prefectural Police bicycle-locking research"
+    ],
+    "profileUrl": "https://www.shiga-u.ac.jp/",
+    "studyIds": [
+      "study-0025",
+      "study-0026"
+    ]
+  },
+  {
+    "id": "researcher-035",
+    "name": "松川杏寧",
+    "affiliation": "University of Hyogo",
+    "themes": [
+      "Environmental criminology",
+      "Crime prevention",
+      "GIS",
+      "Online fraud",
+      "Violence against women"
+    ],
+    "practiceConnection": "Crime prevention research with researchers connected to the National Research Institute of Police Science and related funded projects.",
+    "series": [
+      "Online fraud",
+      "Prevention of victimisation against women",
+      "Environmental criminology"
+    ],
+    "profileUrl": "https://www-cv01.ufinity.jp/u_hyogo/cvclients/researchers/amatsuka",
+    "studyIds": []
+  }
+]
