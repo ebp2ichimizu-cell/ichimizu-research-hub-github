@@ -120,15 +120,15 @@
     "url": "https://www.ds.shiga-u.ac.jp/information/2300/"
   },
   {
-    "id": "report-013",
-    "year": 2026,
-    "title": "奈良防犯心理研究会",
-    "organization": "奈良県警察本部",
-    "collaborators": "5大学の心理学等研究者",
-    "type": "進行中共同研究",
-    "summary": "特殊詐欺・SNS型詐欺等をテーマに対策を共同設計。",
-    "url": "https://researchers.shiga-u.ac.jp/html/100003287_ja.html"
-  },
+  "id": "report-013",
+  "year": 2026,
+  "title": "奈良防犯心理研究会",
+  "organization": "奈良県警察本部",
+  "collaborators": "奈良大学・奈良女子大学・帝塚山大学・滋賀大学・大阪教育大学の研究者",
+  "type": "進行中共同研究",
+  "summary": "心理学等の知見を活用し、特殊詐欺・SNS型投資詐欺・ロマンス詐欺等の防犯対策を共同で設計・検討する研究会。",
+  "url": "https://researchers.shiga-u.ac.jp/html/100003287_ja.html"
+},
   {
     "id": "report-014",
     "year": 2019,
