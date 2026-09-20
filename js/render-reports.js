@@ -4,6 +4,11 @@ import {
   externalLink
 } from "./utils.js";
 
+import {
+  t,
+  getLanguage
+} from "./i18n.js";
+
 
 function renderReportDetail(report) {
 
@@ -17,14 +22,15 @@ function renderReportDetail(report) {
           class="back-link"
           href="#/reports"
         >
-          ← 公的報告一覧に戻る
+          ${t("backToReports")}
         </a>
 
         <div class="meta">
           ${escapeHtml(report.year)}
-          ${report.type
-            ? ` ・ ${escapeHtml(report.type)}`
-            : ""
+          ${
+            report.type
+              ? ` ・ ${escapeHtml(report.type)}`
+              : ""
           }
         </div>
 
@@ -45,15 +51,11 @@ function renderReportDetail(report) {
         <div class="report-status-note">
 
           <strong>
-            資料の位置づけ
+            ${t("reportPosition")}
           </strong>
 
           <p>
-            このページは、査読論文とは区別して、
-            公的報告、共同研究・実証、
-            進行中研究などを整理しています。
-            掲載自体は効果やエビデンスの確実性を
-            保証するものではありません。
+            ${t("reportPositionText")}
           </p>
 
         </div>
@@ -62,60 +64,29 @@ function renderReportDetail(report) {
         <section class="report-info-section">
 
           <h2>
-            基本情報
+            ${t("basicInformation")}
           </h2>
 
           <dl class="detail-info-grid">
 
             <div class="detail-info-item">
-
-              <dt>
-                年
-              </dt>
-
-              <dd>
-                ${escapeHtml(report.year)}
-              </dd>
-
+              <dt>${t("year")}</dt>
+              <dd>${escapeHtml(report.year)}</dd>
             </div>
 
-
             <div class="detail-info-item">
-
-              <dt>
-                資料種別
-              </dt>
-
-              <dd>
-                ${escapeHtml(report.type || "")}
-              </dd>
-
+              <dt>${t("materialType")}</dt>
+              <dd>${escapeHtml(report.type || "")}</dd>
             </div>
 
-
             <div class="detail-info-item">
-
-              <dt>
-                機関
-              </dt>
-
-              <dd>
-                ${escapeHtml(report.organization || "")}
-              </dd>
-
+              <dt>${t("organisation")}</dt>
+              <dd>${escapeHtml(report.organization || "")}</dd>
             </div>
 
-
             <div class="detail-info-item">
-
-              <dt>
-                研究者・協働先
-              </dt>
-
-              <dd>
-                ${escapeHtml(report.collaborators || "")}
-              </dd>
-
+              <dt>${t("collaborators")}</dt>
+              <dd>${escapeHtml(report.collaborators || "")}</dd>
             </div>
 
           </dl>
@@ -129,7 +100,7 @@ function renderReportDetail(report) {
               <section class="detail-section report-summary-box">
 
                 <h2>
-                  内容・位置づけ
+                  ${t("contentAndPosition")}
                 </h2>
 
                 <p>
@@ -148,14 +119,14 @@ function renderReportDetail(report) {
               <section class="source-area">
 
                 <h2>
-                  原資料を確認する
+                  ${t("sourceHeading")}
                 </h2>
 
                 <div class="source-links">
 
                   ${externalLink(
                     report.url,
-                    "公式資料・原資料"
+                    t("officialSource")
                   )}
 
                 </div>
@@ -165,41 +136,49 @@ function renderReportDetail(report) {
             : ""
         }
 
-
       </div>
 
     </section>
-
   `;
 }
 
 
 function renderReportList(data) {
 
-  const reports = [...data.reports]
-    .sort((a, b) => {
-
-      if (Number(b.year) !== Number(a.year)) {
-        return Number(b.year) - Number(a.year);
-      }
-
-      return a.title.localeCompare(
-        b.title,
-        "ja"
-      );
-
-    });
+  const locale =
+    getLanguage() === "en"
+      ? "en"
+      : "ja";
 
 
-  const types = [
-    ...new Set(
+  const reports =
+    [...data.reports]
+      .sort((a,b) => {
+
+        if (
+          Number(b.year) !==
+          Number(a.year)
+        ) {
+          return Number(b.year) -
+                 Number(a.year);
+        }
+
+        return a.title.localeCompare(
+          b.title,
+          locale
+        );
+      });
+
+
+  const types =
+    [...new Set(
       reports
         .map(report => report.type)
         .filter(Boolean)
-    )
-  ].sort((a, b) =>
-    a.localeCompare(b, "ja")
-  );
+    )]
+    .sort((a,b) =>
+      a.localeCompare(b,locale)
+    );
 
 
   return `
@@ -209,14 +188,11 @@ function renderReportList(data) {
       <div class="container">
 
         <h1>
-          公的報告・未論文化資料
+          ${t("reportsTitle")}
         </h1>
 
         <p>
-          査読論文とは区別して、
-          警察・大学等の公的報告、
-          共同研究・実証、
-          進行中研究などを収録しています。
+          ${t("reportsLead")}
         </p>
 
       </div>
@@ -232,16 +208,11 @@ function renderReportList(data) {
         <div class="report-guide">
 
           <strong>
-            このページの読み方
+            ${t("reportGuideTitle")}
           </strong>
 
           <p>
-            ここに掲載される資料は、
-            研究の存在や実務上の取り組みを
-            把握するための資料です。
-            掲載されていること自体は、
-            介入効果が確認されていることや、
-            査読済みであることを意味しません。
+            ${t("reportGuideText")}
           </p>
 
         </div>
@@ -252,17 +223,13 @@ function renderReportList(data) {
           <input
             id="reportSearch"
             type="search"
-            placeholder="資料名、機関、研究者・協働先"
-            aria-label="公的報告検索"
+            placeholder="${t("reportSearchPlaceholder")}"
           >
 
-          <select
-            id="reportTypeFilter"
-            aria-label="資料種別"
-          >
+          <select id="reportTypeFilter">
 
             <option value="">
-              すべての資料種別
+              ${t("allReportTypes")}
             </option>
 
             ${types.map(type => `
@@ -298,7 +265,10 @@ function renderReportList(data) {
                 report.collaborators,
                 report.type,
                 report.summary
-              ].filter(Boolean).join(" ").toLowerCase())}"
+              ]
+              .filter(Boolean)
+              .join(" ")
+              .toLowerCase())}"
             >
 
               <div class="report-card-head">
@@ -310,7 +280,10 @@ function renderReportList(data) {
                   </div>
 
                   <div class="report-type">
-                    ${escapeHtml(report.type || "資料")}
+                    ${escapeHtml(
+                      report.type ||
+                      t("genericMaterial")
+                    )}
                   </div>
 
                 </div>
@@ -319,13 +292,9 @@ function renderReportList(data) {
 
 
               <h2>
-
-                <a
-                  href="#/report/${escapeHtml(report.id)}"
-                >
+                <a href="#/report/${escapeHtml(report.id)}">
                   ${escapeHtml(report.title)}
                 </a>
-
               </h2>
 
 
@@ -345,7 +314,10 @@ function renderReportList(data) {
                   ? `
                     <p>
                       ${escapeHtml(
-                        truncate(report.summary, 160)
+                        truncate(
+                          report.summary,
+                          160
+                        )
                       )}
                     </p>
                   `
@@ -357,7 +329,7 @@ function renderReportList(data) {
                 class="card-link"
                 href="#/report/${escapeHtml(report.id)}"
               >
-                詳細を見る →
+                ${t("viewDetails")}
               </a>
 
             </article>
@@ -366,11 +338,9 @@ function renderReportList(data) {
 
         </div>
 
-
       </div>
 
     </section>
-
   `;
 }
 
@@ -390,19 +360,13 @@ export function activateReports() {
     document.querySelector("#reportResultCount");
 
 
-  if (
-    !search ||
-    !typeFilter ||
-    !list ||
-    !count
-  ) {
+  if (!search || !typeFilter || !list || !count) {
     return;
   }
 
 
-  const cards = [
-    ...list.querySelectorAll(".report-card")
-  ];
+  const cards =
+    [...list.querySelectorAll(".report-card")];
 
 
   function normalize(value) {
@@ -410,7 +374,7 @@ export function activateReports() {
     return String(value || "")
       .normalize("NFKC")
       .toLowerCase()
-      .replace(/\s+/g, " ")
+      .replace(/\s+/g," ")
       .trim();
   }
 
@@ -434,35 +398,18 @@ export function activateReports() {
       const type =
         card.dataset.type || "";
 
-
-      const matchesSearch =
-        !query ||
-        text.includes(query);
-
-
-      const matchesType =
-        !selectedType ||
-        type === selectedType;
-
-
       const show =
-        matchesSearch &&
-        matchesType;
-
+        (!query || text.includes(query)) &&
+        (!selectedType || type === selectedType);
 
       card.hidden = !show;
 
-
-      if (show) {
-        visible++;
-      }
-
+      if (show) visible++;
     });
 
 
     count.textContent =
-      `${visible}件を表示`;
-
+      `${visible}${t("reportCountSuffix")}`;
   }
 
 
@@ -471,21 +418,16 @@ export function activateReports() {
     update
   );
 
-
   typeFilter.addEventListener(
     "change",
     update
   );
 
-
   update();
 }
 
 
-export function renderReports(
-  data,
-  id = null
-) {
+export function renderReports(data,id=null) {
 
   if (id) {
 
@@ -494,27 +436,21 @@ export function renderReports(
         item => item.id === id
       );
 
-
     if (!report) {
 
       return `
         <section class="section">
           <div class="container">
-
             <div class="empty">
-              資料が見つかりません。
+              ${t("reportNotFound")}
             </div>
-
           </div>
         </section>
       `;
-
     }
-
 
     return renderReportDetail(report);
   }
-
 
   return renderReportList(data);
 }
