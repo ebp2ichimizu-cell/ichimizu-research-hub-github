@@ -4,6 +4,11 @@ import {
   truncate
 } from "./utils.js";
 
+import {
+  t,
+  getLanguage
+} from "./i18n.js";
+
 
 function renderTags(values = []) {
 
@@ -18,6 +23,18 @@ function renderTags(values = []) {
       `).join("")}
     </div>
   `;
+}
+
+
+function separator() {
+  return getLanguage() === "en" ? ", " : "、";
+}
+
+
+function yearLabel(year) {
+  return getLanguage() === "en"
+    ? escapeHtml(year)
+    : `${escapeHtml(year)}年`;
 }
 
 
@@ -69,16 +86,11 @@ function findRelatedCandidates(data, program) {
       if (org) score += 2;
       if (theme) score += 1;
 
-      return {
-        study,
-        score,
-        org,
-        theme
-      };
+      return {study, score};
 
     })
     .filter(item => item.score >= 2)
-    .sort((a, b) => {
+    .sort((a,b) => {
 
       if (b.score !== a.score) {
         return b.score - a.score;
@@ -88,7 +100,7 @@ function findRelatedCandidates(data, program) {
              Number(a.study.year || 0);
 
     })
-    .slice(0, 6);
+    .slice(0,6);
 }
 
 
@@ -97,23 +109,26 @@ function renderCandidateStudies(data, program) {
   const candidates =
     findRelatedCandidates(data, program);
 
+
   if (!candidates.length) {
 
     return `
       <section class="program-related-section">
 
         <div class="program-section-head">
-          <h2>関連する個別研究</h2>
+
+          <h2>
+            ${t("relatedIndividualStudies")}
+          </h2>
 
           <p>
-            現在の公開データから明確に対応する
-            個別研究を抽出できませんでした。
+            ${t("noRelatedStudies")}
           </p>
+
         </div>
 
       </section>
     `;
-
   }
 
 
@@ -123,13 +138,11 @@ function renderCandidateStudies(data, program) {
       <div class="program-section-head">
 
         <h2>
-          関連する個別研究
+          ${t("relatedIndividualStudies")}
         </h2>
 
         <p>
-          機関または研究テーマが重なる収録研究です。
-          現段階では研究系列への正式な所属を
-          意味するものではありません。
+          ${t("candidateStudiesNote")}
         </p>
 
       </div>
@@ -139,55 +152,55 @@ function renderCandidateStudies(data, program) {
 
         ${candidates.map(item => {
 
-          const s = item.study;
+          const study = item.study;
 
           return `
             <article class="program-study-card">
 
               <div class="meta">
-                ${escapeHtml(s.year)}
+                ${escapeHtml(study.year)}
                 ${
-                  s.publicationType
-                    ? ` ・ ${escapeHtml(s.publicationType)}`
+                  study.publicationType
+                    ? ` ・ ${escapeHtml(study.publicationType)}`
                     : ""
                 }
               </div>
 
               <h3>
-                <a href="#/study/${escapeHtml(s.id)}">
-                  ${escapeHtml(s.title)}
+                <a href="#/study/${escapeHtml(study.id)}">
+                  ${escapeHtml(study.title)}
                 </a>
               </h3>
 
               ${
-                s.authorsText
+                study.authorsText
                   ? `
                     <p class="program-study-authors">
-                      ${escapeHtml(s.authorsText)}
+                      ${escapeHtml(study.authorsText)}
                     </p>
                   `
                   : ""
               }
 
               ${
-                s.result
+                study.result
                   ? `
                     <p class="program-study-summary">
                       ${escapeHtml(
-                        truncate(s.result, 125)
+                        truncate(study.result,125)
                       )}
                     </p>
                   `
                   : ""
               }
 
-              ${renderTags(s.themes || [])}
+              ${renderTags(study.themes || [])}
 
               <a
                 class="card-link"
-                href="#/study/${escapeHtml(s.id)}"
+                href="#/study/${escapeHtml(study.id)}"
               >
-                詳細を見る →
+                ${t("viewDetails")}
               </a>
 
             </article>
@@ -214,7 +227,7 @@ function renderProgramDetail(data, program) {
           class="back-link"
           href="#/programs"
         >
-          ← 研究系列一覧に戻る
+          ${t("backToProgrammes")}
         </a>
 
         <div class="meta">
@@ -236,7 +249,6 @@ function renderProgramDetail(data, program) {
 
       <div class="container">
 
-
         <section class="program-summary-box">
 
           <div class="program-summary-label">
@@ -244,7 +256,7 @@ function renderProgramDetail(data, program) {
           </div>
 
           <h2>
-            この研究系列について
+            ${t("aboutProgramme")}
           </h2>
 
           <p>
@@ -257,69 +269,44 @@ function renderProgramDetail(data, program) {
         <section class="program-info-section">
 
           <h2>
-            関係機関
+            ${t("organisations")}
           </h2>
 
           <dl class="detail-info-grid">
 
             <div class="detail-info-item">
-
-              <dt>
-                警察・実務機関
-              </dt>
-
+              <dt>${t("practiceOrganisation")}</dt>
               <dd>
                 ${escapeHtml(
                   (program.policeOrganizations || [])
-                    .join("、")
+                    .join(separator())
                 )}
               </dd>
-
             </div>
 
-
             <div class="detail-info-item">
-
-              <dt>
-                研究機関
-              </dt>
-
+              <dt>${t("researchOrganisation")}</dt>
               <dd>
                 ${escapeHtml(
                   (program.researchOrganizations || [])
-                    .join("、")
+                    .join(separator())
                 )}
               </dd>
-
             </div>
 
-
             <div class="detail-info-item">
-
-              <dt>
-                開始年
-              </dt>
-
-              <dd>
-                ${escapeHtml(program.startYear)}年
-              </dd>
-
+              <dt>${t("startYear")}</dt>
+              <dd>${yearLabel(program.startYear)}</dd>
             </div>
 
-
             <div class="detail-info-item">
-
-              <dt>
-                主なテーマ
-              </dt>
-
+              <dt>${t("mainThemes")}</dt>
               <dd>
                 ${escapeHtml(
                   (program.themes || [])
-                    .join("、")
+                    .join(separator())
                 )}
               </dd>
-
             </div>
 
           </dl>
@@ -333,16 +320,14 @@ function renderProgramDetail(data, program) {
               <section class="source-area">
 
                 <h2>
-                  公式情報を確認する
+                  ${t("officialInformation")}
                 </h2>
 
                 <div class="source-links">
-
                   ${externalLink(
                     program.url,
-                    "公式情報"
+                    t("officialInformationLink")
                   )}
-
                 </div>
 
               </section>
@@ -350,14 +335,11 @@ function renderProgramDetail(data, program) {
             : ""
         }
 
-
-        ${renderCandidateStudies(data, program)}
-
+        ${renderCandidateStudies(data,program)}
 
       </div>
 
     </section>
-
   `;
 }
 
@@ -365,7 +347,7 @@ function renderProgramDetail(data, program) {
 function renderProgramList(data) {
 
   const programs = [...data.programs]
-    .sort((a, b) =>
+    .sort((a,b) =>
       Number(a.startYear || 0) -
       Number(b.startYear || 0)
     );
@@ -378,13 +360,11 @@ function renderProgramList(data) {
       <div class="container">
 
         <h1>
-          研究系列
+          ${t("programmesTitle")}
         </h1>
 
         <p>
-          単発の研究だけでなく、
-          警察と研究者による継続的な共同研究や
-          社会実装の流れをたどります。
+          ${t("programmesLead")}
         </p>
 
       </div>
@@ -409,9 +389,7 @@ function renderProgramList(data) {
               <div class="program-list-main">
 
                 <h2>
-                  <a
-                    href="#/program/${escapeHtml(program.id)}"
-                  >
+                  <a href="#/program/${escapeHtml(program.id)}">
                     ${escapeHtml(program.name)}
                   </a>
                 </h2>
@@ -426,7 +404,7 @@ function renderProgramList(data) {
                   class="card-link"
                   href="#/program/${escapeHtml(program.id)}"
                 >
-                  系列を見る →
+                  ${t("viewProgramme")}
                 </a>
 
               </div>
@@ -440,17 +418,18 @@ function renderProgramList(data) {
       </div>
 
     </section>
-
   `;
 }
 
 
-export function renderPrograms(data, id = null) {
+export function renderPrograms(data,id=null) {
 
   if (id) {
 
     const program =
-      data.programs.find(item => item.id === id);
+      data.programs.find(
+        item => item.id === id
+      );
 
     if (!program) {
 
@@ -458,20 +437,15 @@ export function renderPrograms(data, id = null) {
         <section class="section">
           <div class="container">
             <div class="empty">
-              研究系列が見つかりません。
+              ${t("programmeNotFound")}
             </div>
           </div>
         </section>
       `;
-
     }
 
-    return renderProgramDetail(
-      data,
-      program
-    );
+    return renderProgramDetail(data,program);
   }
-
 
   return renderProgramList(data);
 }
