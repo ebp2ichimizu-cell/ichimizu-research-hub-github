@@ -12,39 +12,92 @@
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="#/" aria-label="研究HUBトップ">
-        <span class="brand-small">いちみず会</span>
-        <span class="brand-main">研究ハブ</span>
-      </a>
-      <div class="language-switch" aria-label="言語切替">
-        <button class="lang active" type="button">日本語</button>
-        <span>|</span>
-        <button class="lang" type="button" id="englishButton" title="英語版は次段階で実装">English</button>
-      </div>
-      <button id="menuButton" class="menu-button" aria-label="メニューを開く" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-    <nav id="globalNav" class="global-nav" aria-label="メインメニュー">
-      <a href="#/studies">研究を探す</a>
-      <a href="#/programs">研究系列</a>
-      <a href="#/researchers">研究者・機関</a>
-      <a href="#/reports">公的報告</a>
+<a class="brand" href="#/" aria-label="Research Hub">
+  <span class="brand-small" data-i18n="siteNameSmall">
+    いちみず会
+  </span>
+
+  <span class="brand-main" data-i18n="siteName">
+    研究ハブ
+  </span>
+</a>      
+<div class="language-switch" aria-label="Language">
+
+  <button
+    class="lang"
+    type="button"
+    id="japaneseButton"
+  >
+    日本語
+  </button>
+
+  <span>|</span>
+
+  <button
+    class="lang"
+    type="button"
+    id="englishButton"
+  >
+    English
+  </button>
+
+</div>
+   <nav id="globalNav" class="global-nav" aria-label="メインメニュー">
+
+  <a href="#/studies" data-i18n="navStudies">
+    研究を探す
+  </a>
+
+  <a href="#/programs" data-i18n="navPrograms">
+    研究系列
+  </a>
+
+  <a href="#/researchers" data-i18n="navResearchers">
+    研究者・機関
+  </a>
+
+  <a href="#/reports" data-i18n="navReports">
+    公的報告
+  </a>
+
+  <a href="#/about" data-i18n="navAbout">
+    このサイトについて
+  </a>
+
+</nav>
       <a href="#/about">このサイトについて</a>
     </nav>
   </header>
 
   <main id="app" tabindex="-1">
-    <div class="loading">読み込み中...</div>
+   <div class="loading" data-i18n="loading">
+  読み込み中...
+</div>
   </main>
 
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <strong>いちみず会 研究HUB</strong>
-      <p>国内の犯罪予防研究を、探す・つなぐ・使う。</p>
-      <p class="footer-note">個人運営の研究知識基盤です。掲載は有効性の保証を意味しません。</p>
-    </div>
-  </footer>
+ <footer class="site-footer">
+
+  <div class="footer-inner">
+
+    <strong>
+      <span data-i18n="siteNameSmall">いちみず会</span>
+      <span data-i18n="siteName">研究ハブ</span>
+    </strong>
+
+    <p data-i18n="footerLead">
+      国内の犯罪予防研究を、探す・つなぐ・使う。
+    </p>
+
+    <p
+      class="footer-note"
+      data-i18n="footerNote"
+    >
+      個人運営の研究知識基盤です。掲載は有効性の保証を意味しません。
+    </p>
+
+  </div>
+
+</footer>
 
   <script type="module" src="./js/app.js"></script>
 </body>
