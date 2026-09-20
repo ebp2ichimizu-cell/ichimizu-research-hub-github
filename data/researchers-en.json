@@ -2,6 +2,8 @@
   {
     "id": "researcher-001",
     "name": "島田貴仁",
+    "nameEn": "Takahito Shimada",
+    "nameJa": "島田貴仁",
     "affiliation": "Shiga University",
     "themes": [
       "Evidence-based crime prevention",
@@ -51,6 +53,8 @@
   {
     "id": "researcher-002",
     "name": "齊藤知範",
+    "nameEn": "Tomonori Saito",
+    "nameJa": "齊藤知範",
     "affiliation": "National Research Institute of Police Science",
     "themes": [
       "Crime prevention",
@@ -78,6 +82,8 @@
   {
     "id": "researcher-003",
     "name": "山根由子",
+    "nameEn": "Yuko Yamane",
+    "nameJa": "山根由子",
     "affiliation": "National Research Institute of Police Science",
     "themes": [
       "Special fraud",
@@ -101,6 +107,8 @@
   {
     "id": "researcher-004",
     "name": "雨宮護",
+    "nameEn": "Mamoru Amemiya",
+    "nameJa": "雨宮護",
     "affiliation": "University of Tsukuba",
     "themes": [
       "Environmental criminology",
@@ -124,6 +132,8 @@
   {
     "id": "researcher-005",
     "name": "大竹文雄",
+    "nameEn": "Fumio Ohtake",
+    "nameJa": "大竹文雄",
     "affiliation": "Osaka University",
     "themes": [
       "Behavioural economics",
@@ -147,6 +157,8 @@
   {
     "id": "researcher-006",
     "name": "大山智也",
+    "nameEn": "Tomoya Oyama",
+    "nameJa": "大山智也",
     "affiliation": "The University of Tokyo",
     "themes": [
       "Crime forecasting",
@@ -167,6 +179,8 @@
   {
     "id": "researcher-007",
     "name": "鈴木あい",
+    "nameEn": "Ai Suzuki",
+    "nameJa": "鈴木あい",
     "affiliation": "Tsuda University",
     "themes": [
       "Crime science",
@@ -194,6 +208,8 @@
   {
     "id": "researcher-008",
     "name": "荒井崇史",
+    "nameEn": "Takashi Arai",
+    "nameJa": "荒井崇史",
     "affiliation": "Tohoku University",
     "themes": [
       "Crime prevention information",
@@ -217,6 +233,8 @@
   {
     "id": "researcher-009",
     "name": "原田章",
+    "nameEn": "Akira Harada",
+    "nameJa": "原田章",
     "affiliation": "Otemon Gakuin University",
     "themes": [
       "Crime analysis",
@@ -236,6 +254,8 @@
   {
     "id": "researcher-010",
     "name": "山本功",
+    "nameEn": "Isao Yamamoto",
+    "nameJa": "山本功",
     "affiliation": "Shukutoku University",
     "themes": [
       "Community crime prevention",
@@ -255,6 +275,8 @@
   {
     "id": "researcher-011",
     "name": "金政祐司",
+    "nameEn": "Yuji Kanemasa",
+    "nameJa": "金政祐司",
     "affiliation": "Otemon Gakuin University",
     "themes": [
       "Intimate relationships",
@@ -272,6 +294,8 @@
   {
     "id": "researcher-012",
     "name": "讃井知",
+    "nameEn": "Sato Sanai",
+    "nameJa": "讃井知",
     "affiliation": "University of Tsukuba",
     "themes": [
       "Special fraud",
@@ -292,6 +316,8 @@
   {
     "id": "researcher-013",
     "name": "大杉朱美",
+    "nameEn": "Akemi Osugi",
+    "nameJa": "大杉朱美",
     "affiliation": "Fukuyama University",
     "themes": [
       "Investigative psychology",
@@ -311,6 +337,8 @@
   {
     "id": "researcher-014",
     "name": "鈴木拓朗",
+    "nameEn": "Takuro Suzuki",
+    "nameJa": "鈴木拓朗",
     "affiliation": "University of Toyama",
     "themes": [
       "Stalking",
@@ -328,6 +356,8 @@
   {
     "id": "researcher-015",
     "name": "畑倫子",
+    "nameEn": "Tomoko Hata",
+    "nameJa": "畑倫子",
     "affiliation": "Bunkyo Gakuin University",
     "themes": [
       "Child crime prevention",
@@ -346,6 +376,8 @@
   {
     "id": "researcher-016",
     "name": "相馬敏彦",
+    "nameEn": "Toshihiko Souma",
+    "nameJa": "相馬敏彦",
     "affiliation": "Hiroshima University",
     "themes": [
       "Primary prevention of domestic violence and intimate partner violence",
@@ -362,6 +394,8 @@
   {
     "id": "researcher-017",
     "name": "池内裕美",
+    "nameEn": "Hiromi Ikeuchi",
+    "nameJa": "池内裕美",
     "affiliation": "Kansai University",
     "themes": [
       "Consumer psychology",
@@ -378,6 +412,8 @@
   {
     "id": "researcher-018",
     "name": "大久保智生",
+    "nameEn": "Tomoo Okubo",
+    "nameJa": "大久保智生",
     "affiliation": "Kagawa University",
     "themes": [
       "Shoplifting",
@@ -415,6 +451,8 @@
   {
     "id": "researcher-019",
     "name": "高木大資",
+    "nameEn": "Daisuke Takagi",
+    "nameJa": "高木大資",
     "affiliation": "Kyoto University",
     "themes": [
       "Social psychology",
@@ -435,6 +473,8 @@
   {
     "id": "researcher-020",
     "name": "西田公昭",
+    "nameEn": "Kimiaki Nishida",
+    "nameJa": "西田公昭",
     "affiliation": "Rissho University",
     "themes": [
       "Social psychology",
@@ -452,6 +492,8 @@
   {
     "id": "researcher-021",
     "name": "村上史朗",
+    "nameEn": "Fumio Murakami",
+    "nameJa": "村上史朗",
     "affiliation": "Nara University",
     "themes": [
       "Social psychology",
@@ -468,6 +510,8 @@
   {
     "id": "researcher-022",
     "name": "竹橋洋毅",
+    "nameEn": "Hiroki Takehashi",
+    "nameJa": "竹橋洋毅",
     "affiliation": "Nara Women's University",
     "themes": [
       "Psychology",
@@ -486,6 +530,8 @@
   {
     "id": "researcher-023",
     "name": "柴田守",
+    "nameEn": "Mamoru Shibata",
+    "nameJa": "柴田守",
     "affiliation": "Dokkyo University",
     "themes": [
       "Criminology",
@@ -503,6 +549,8 @@
   {
     "id": "researcher-024",
     "name": "和智妙子",
+    "nameEn": "Taeko Wachi",
+    "nameJa": "和智妙子",
     "affiliation": "Surugadai University",
     "themes": [
       "Investigative psychology",
@@ -520,6 +568,8 @@
   {
     "id": "researcher-025",
     "name": "中谷友樹",
+    "nameEn": "Tomoki Nakaya",
+    "nameJa": "中谷友樹",
     "affiliation": "Tohoku University",
     "themes": [
       "Crime geography",
@@ -539,6 +589,8 @@
   {
     "id": "researcher-026",
     "name": "齋藤梓",
+    "nameEn": "Azusa Saito",
+    "nameJa": "齋藤梓",
     "affiliation": "Sophia University",
     "themes": [
       "Crime victimisation",
@@ -556,6 +608,8 @@
   {
     "id": "researcher-027",
     "name": "樋口匡貴",
+    "nameEn": "Masataka Higuchi",
+    "nameJa": "樋口匡貴",
     "affiliation": "Sophia University",
     "themes": [
       "Health and social psychology",
@@ -574,6 +628,8 @@
   {
     "id": "researcher-028",
     "name": "原田豊",
+    "nameEn": "Yutaka Harada",
+    "nameJa": "原田豊",
     "affiliation": "Rissho University",
     "themes": [
       "Environmental criminology",
@@ -593,6 +649,8 @@
   {
     "id": "researcher-029",
     "name": "木村敦",
+    "nameEn": "Atsushi Kimura",
+    "nameJa": "木村敦",
     "affiliation": "Nihon University",
     "themes": [
       "Risk perception",
@@ -611,6 +669,8 @@
   {
     "id": "researcher-030",
     "name": "四方光",
+    "nameEn": "Ko Shikata",
+    "nameJa": "四方光",
     "affiliation": "Chuo University",
     "themes": [
       "Public safety policy",
@@ -630,6 +690,8 @@
   {
     "id": "researcher-031",
     "name": "原田知佳",
+    "nameEn": "Chika Harada",
+    "nameJa": "原田知佳",
     "affiliation": "Meijo University",
     "themes": [
       "Social psychology",
@@ -645,6 +707,8 @@
   {
     "id": "researcher-032",
     "name": "松村真宏",
+    "nameEn": "Naohiro Matsumura",
+    "nameJa": "松村真宏",
     "affiliation": "Osaka University",
     "themes": [
       "Shikakeology",
@@ -661,6 +725,8 @@
   {
     "id": "researcher-033",
     "name": "竹中祐二",
+    "nameEn": "Yuji Takenaka",
+    "nameJa": "竹中祐二",
     "affiliation": "Setsunan University",
     "themes": [
       "Sociology of crime",
@@ -677,6 +743,8 @@
   {
     "id": "researcher-034",
     "name": "谷口友梨",
+    "nameEn": "Yuri Taniguchi",
+    "nameJa": "谷口友梨",
     "affiliation": "Shiga University",
     "themes": [
       "Bicycle theft",
@@ -696,6 +764,8 @@
   {
     "id": "researcher-035",
     "name": "松川杏寧",
+    "nameEn": "Anna Matsukawa",
+    "nameJa": "松川杏寧",
     "affiliation": "University of Hyogo",
     "themes": [
       "Environmental criminology",
