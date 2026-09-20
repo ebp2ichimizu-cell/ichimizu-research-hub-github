@@ -248,13 +248,13 @@ const messages = {
       "このサイトについて",
 
     aboutLead:
-      "国内の犯罪予防・警察活動研究を、単発の論文だけでなく、研究者・研究系列・実務とのつながりから探せるように整理した研究知識基盤です。",
+      "日本国内で、警察組織と大学・研究者等が関与した犯罪予防・警察活動研究を、個別研究だけでなく、研究者・研究系列・実務とのつながりから探せるように整理した研究知識基盤です。",
 
     aboutPurposeTitle:
       "国内のEBPを「探す・つなぐ・使う」",
 
     aboutPurpose1:
-      "日本国内では、警察と大学・研究者が連携した犯罪予防研究、社会実験、効果検証が各地で行われています。",
+      "日本国内では、警察組織と大学・研究者等が連携した犯罪予防研究、社会実験、実証研究、効果検証が各地で行われています。",
 
     aboutPurpose2:
       "一方で、それらは学術論文、大学紀要、警察の公式資料、学会発表などに分散しています。この研究HUBでは、それらを横断的に整理し、個別研究だけでなく継続する研究系列までたどれることを重視しています。",
@@ -655,13 +655,13 @@ const messages = {
       "About this site",
 
     aboutLead:
-      "A research knowledge base for exploring crime prevention and policing research in Japan through studies, researchers, research programmes and links with practice.",
+      "A research knowledge base for exploring crime prevention and policing research in Japan involving police organisations and academic researchers, through individual studies, researchers, research programmes and links with practice.",
 
     aboutPurposeTitle:
       "Discover, connect and use Japanese EBP research",
 
     aboutPurpose1:
-      "Police organisations, universities and researchers across Japan conduct crime prevention studies, field experiments and evaluations.",
+      "Across Japan, police organisations, universities and researchers collaborate on crime prevention research, field experiments, implementation studies and evaluations.",
 
     aboutPurpose2:
       "These materials are dispersed across academic journals, university bulletins, official police publications and conference proceedings. This Research Hub brings them together and aims to make both individual studies and longer-term research programmes traceable.",
