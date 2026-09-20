@@ -5,7 +5,10 @@ import {renderHome} from "./render-home.js";
 import {renderStudies,activateStudies} from "./render-studies.js";
 import {renderStudyDetail} from "./render-study-detail.js";
 import {renderPrograms} from "./render-programs.js";
-import {renderResearchers} from "./render-researchers.js";
+import {
+  renderResearchers,
+  activateResearchers
+} from "./render-researchers.js";
 import {renderReports} from "./render-reports.js";
 import {escapeHtml} from "./utils.js";
 
