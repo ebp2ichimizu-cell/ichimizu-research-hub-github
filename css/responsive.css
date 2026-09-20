@@ -28,3 +28,537 @@
   .detail-grid dt{border-bottom:0;padding-bottom:5px}
   .detail-grid dd{border-left:0;padding-top:5px}
 }
+/* =========================================================
+   Mobile refinement
+   GitHub Research Hub
+   2026-09
+   ========================================================= */
+
+@media (max-width: 767px){
+
+  /* ---------- 基本 ---------- */
+
+  body{
+    line-height:1.72;
+    overflow-wrap:anywhere;
+  }
+
+  .container{
+    padding-left:16px;
+    padding-right:16px;
+  }
+
+
+  /* ---------- ヘッダー ---------- */
+
+  .header-inner{
+    min-height:72px;
+    padding:12px 16px;
+    gap:12px;
+    flex-wrap:wrap;
+    align-items:flex-start;
+  }
+
+  .brand{
+    order:0;
+    gap:1px;
+  }
+
+  .brand-small{
+    font-size:.74rem;
+    line-height:1.15;
+  }
+
+  .brand-main{
+    font-size:1.35rem;
+    line-height:1.08;
+    margin-top:2px;
+  }
+
+  .language-switch{
+    order:1;
+    margin-left:auto;
+    font-size:.9rem;
+    gap:8px;
+    white-space:nowrap;
+  }
+
+  .lang{
+    padding:4px 0;
+  }
+
+  .lang.active{
+    border-bottom-width:2px;
+  }
+
+  .menu-button{
+    display:block;
+    order:2;
+    width:40px;
+    padding:5px 7px;
+    margin-top:-2px;
+  }
+
+  .menu-button span{
+    height:2.5px;
+    margin:5px 0;
+  }
+
+  .global-nav{
+    display:none;
+    flex-direction:column;
+    padding:8px 16px 16px;
+    gap:8px;
+    font-size:.94rem;
+  }
+
+  .global-nav.open{
+    display:flex;
+  }
+
+  .global-nav a{
+    padding:8px 0;
+    border-bottom:1px solid rgba(200,221,218,.65);
+  }
+
+  .global-nav a:last-child{
+    border-bottom:0;
+  }
+
+
+  /* ---------- ヒーロー ---------- */
+
+  .hero{
+    background:
+      radial-gradient(
+        circle at 98% 8%,
+        rgba(31,112,107,.045) 0 22%,
+        transparent 22.5%
+      ),
+      radial-gradient(
+        circle at 96% 7%,
+        transparent 0 31%,
+        rgba(31,112,107,.035) 31.5% 32.3%,
+        transparent 32.8%
+      ),
+      linear-gradient(
+        135deg,
+        #f3faf9 0%,
+        #e8f3f1 100%
+      );
+  }
+
+  .hero-inner{
+    grid-template-columns:1fr;
+    gap:12px;
+    padding:28px 16px 26px;
+  }
+
+  .hero-logo{
+    width:72px;
+    height:72px;
+    margin:0 0 4px;
+    filter:drop-shadow(0 5px 10px rgba(16,63,60,.10));
+  }
+
+  .eyebrow{
+    font-size:.82rem;
+    line-height:1.45;
+    margin:3px 0 8px;
+    letter-spacing:.05em;
+  }
+
+  .hero h1{
+    font-size:2rem;
+    line-height:1.2;
+    margin:0 0 14px;
+    letter-spacing:0;
+  }
+
+  .hero-lead{
+    font-size:.96rem;
+    line-height:1.8;
+    margin:0 0 18px;
+  }
+
+
+  /* ---------- 検索 ---------- */
+
+  .search-shell{
+    max-width:none;
+    padding:12px;
+    border-radius:18px;
+    box-shadow:0 7px 20px rgba(16,63,60,.07);
+  }
+
+  .search-row{
+    grid-template-columns:minmax(0,1fr) auto;
+    gap:8px;
+  }
+
+  .search-input{
+    width:100%;
+    min-height:46px;
+    padding:12px 13px;
+    border-radius:13px;
+    font-size:.9rem;
+  }
+
+  .primary-btn{
+    min-height:46px;
+    min-width:62px;
+    padding:10px 14px;
+    border-radius:13px;
+    font-size:.9rem;
+  }
+
+  .search-link{
+    margin:9px 2px 0;
+    font-size:.88rem;
+  }
+
+
+  /* ---------- 統計 ---------- */
+
+  .stats{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:8px;
+    margin-top:20px;
+    padding-top:16px;
+  }
+
+  .stat{
+    min-width:0;
+  }
+
+  .stat strong{
+    font-size:1.5rem;
+    line-height:1.1;
+    white-space:nowrap;
+  }
+
+  .stat span{
+    display:block;
+    margin-top:3px;
+    font-size:.72rem;
+    line-height:1.35;
+  }
+
+
+  /* ---------- セクション ---------- */
+
+  .section{
+    padding:30px 0;
+  }
+
+  .section-head{
+    display:block;
+    margin-bottom:15px;
+  }
+
+  .section h2{
+    font-size:1.42rem;
+    line-height:1.35;
+  }
+
+  .section-note{
+    margin-top:5px;
+    font-size:.88rem;
+    line-height:1.65;
+  }
+
+
+  /* ---------- トピック ---------- */
+
+  .topic-grid{
+    grid-template-columns:1fr;
+    gap:9px;
+  }
+
+  .topic-button{
+    min-height:50px;
+    padding:11px 13px;
+    border-radius:14px;
+    font-size:.92rem;
+  }
+
+  .topic-count{
+    min-width:28px;
+    width:28px;
+    height:28px;
+    font-size:.75rem;
+  }
+
+
+  /* ---------- 一般カード ---------- */
+
+  .grid{
+    grid-template-columns:1fr;
+    gap:11px;
+  }
+
+  .card{
+    padding:15px;
+    border-radius:15px;
+  }
+
+  .card h3{
+    margin:6px 0 8px;
+    font-size:.98rem;
+    line-height:1.5;
+  }
+
+  .card p{
+    margin:6px 0;
+    font-size:.9rem;
+    line-height:1.7;
+  }
+
+  .meta{
+    font-size:.78rem;
+    line-height:1.55;
+  }
+
+  .badges{
+    gap:5px;
+    margin-top:10px;
+  }
+
+  .badge{
+    padding:3px 7px;
+    font-size:.7rem;
+  }
+
+  .card-link{
+    margin-top:10px;
+    font-size:.88rem;
+  }
+
+
+  /* ---------- 一覧ページ ---------- */
+
+  .page-head .container{
+    padding-top:27px;
+    padding-bottom:24px;
+  }
+
+  .page-head h1{
+    font-size:1.65rem;
+    line-height:1.4;
+  }
+
+  .toolbar{
+    grid-template-columns:1fr;
+    gap:8px;
+    margin:18px 0;
+  }
+
+  .toolbar input,
+  .toolbar select{
+    width:100%;
+    min-height:44px;
+    padding:10px 12px;
+    border-radius:12px;
+    font-size:.9rem;
+  }
+
+  .result-count{
+    margin-bottom:12px;
+    font-size:.86rem;
+  }
+
+  .list{
+    gap:10px;
+  }
+
+  .study-row{
+    padding:14px;
+    border-radius:15px;
+  }
+
+  .study-row h2{
+    font-size:1rem;
+    line-height:1.55;
+    margin:5px 0 7px;
+  }
+
+  .study-row .row-top{
+    gap:6px;
+  }
+
+
+  /* ---------- 研究詳細ページ ---------- */
+
+  .detail{
+    padding:24px 0 42px;
+  }
+
+  .detail-title{
+    font-size:1.48rem;
+    line-height:1.5;
+    margin:7px 0 12px;
+  }
+
+  .page-head .meta{
+    font-size:.76rem;
+  }
+
+  .page-head p{
+    margin:.5rem 0 0;
+    font-size:.9rem;
+    line-height:1.7;
+  }
+
+  .detail-grid{
+    grid-template-columns:1fr;
+    margin:16px 0;
+    border-radius:15px;
+  }
+
+  .detail-grid dt,
+  .detail-grid dd{
+    padding:10px 12px;
+    font-size:.9rem;
+    line-height:1.65;
+  }
+
+  .detail-grid dt{
+    border-bottom:0;
+    background:#eef7f6;
+    padding-bottom:5px;
+  }
+
+  .detail-grid dd{
+    border-left:0;
+    padding-top:3px;
+    border-bottom:1px solid #e3eeec;
+  }
+
+  .detail-grid dd:last-child{
+    border-bottom:0;
+  }
+
+  .detail-section{
+    padding:15px;
+    margin:11px 0;
+    border-radius:15px;
+  }
+
+  .detail-section h2{
+    font-size:1.05rem;
+    line-height:1.45;
+    margin-bottom:7px;
+  }
+
+  .detail-section p{
+    margin:.25rem 0 0;
+    font-size:.92rem;
+    line-height:1.78;
+  }
+
+  .warning{
+    border-left-width:4px;
+  }
+
+  .source-links{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:8px;
+    margin-top:15px;
+  }
+
+  .source-links a{
+    display:block;
+    width:100%;
+    padding:11px 13px;
+    border-radius:11px;
+    font-size:.9rem;
+    text-align:center;
+  }
+
+
+  /* ---------- 注意・空表示 ---------- */
+
+  .notice{
+    padding:12px 13px;
+    margin:14px 0;
+    border-radius:12px;
+    font-size:.88rem;
+    line-height:1.7;
+  }
+
+  .empty{
+    padding:20px 15px;
+    border-radius:14px;
+    font-size:.9rem;
+  }
+
+
+  /* ---------- フッター ---------- */
+
+  .footer-inner{
+    padding:28px 16px;
+  }
+
+  .footer-inner strong{
+    font-size:.98rem;
+  }
+
+  .footer-inner p{
+    font-size:.84rem;
+    line-height:1.65;
+  }
+
+  .footer-note{
+    font-size:.78rem;
+  }
+
+}
+
+
+/* =========================================================
+   Very small screens
+   iPhone SE class etc.
+   ========================================================= */
+
+@media (max-width: 390px){
+
+  .hero h1{
+    font-size:1.82rem;
+  }
+
+  .hero-logo{
+    width:66px;
+    height:66px;
+  }
+
+  .search-input{
+    font-size:.84rem;
+    padding-left:11px;
+    padding-right:11px;
+  }
+
+  .primary-btn{
+    min-width:58px;
+    padding-left:11px;
+    padding-right:11px;
+  }
+
+  .stats{
+    gap:5px;
+  }
+
+  .stat strong{
+    font-size:1.35rem;
+  }
+
+  .stat span{
+    font-size:.68rem;
+  }
+
+  .detail-title{
+    font-size:1.35rem;
+  }
+
+}
