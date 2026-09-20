@@ -1,19 +1,59 @@
+import {getLanguage} from "./i18n.js";
 
-const files = {
-  studies: "./data/studies-ja.json",
-  programs: "./data/programs-ja.json",
-  researchers: "./data/researchers-ja.json",
-  reports: "./data/reports-ja.json",
-  policy: "./data/site-policy-ja.json"
-};
 
 export async function loadAllData(){
-  const entries = await Promise.all(
-    Object.entries(files).map(async ([key,url])=>{
-      const res = await fetch(url);
-      if(!res.ok) throw new Error(`${url} の読み込みに失敗しました`);
-      return [key, await res.json()];
-    })
-  );
+
+  const lang =
+    getLanguage();
+
+  const suffix =
+    lang === "en"
+      ? "en"
+      : "ja";
+
+
+  const files = {
+    studies:
+      `./data/studies-${suffix}.json`,
+
+    programs:
+      `./data/programs-${suffix}.json`,
+
+    researchers:
+      `./data/researchers-${suffix}.json`,
+
+    reports:
+      `./data/reports-${suffix}.json`,
+
+    policy:
+      `./data/site-policy-${suffix}.json`
+  };
+
+
+  const entries =
+    await Promise.all(
+
+      Object.entries(files)
+        .map(async ([key,url])=>{
+
+          const res =
+            await fetch(url);
+
+          if(!res.ok){
+            throw new Error(
+              `${url} could not be loaded`
+            );
+          }
+
+          return [
+            key,
+            await res.json()
+          ];
+
+        })
+
+    );
+
+
   return Object.fromEntries(entries);
 }
