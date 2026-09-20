@@ -138,6 +138,67 @@ function renderStudies(data, researcher) {
 }
 
 
+function renderConfirmedPrograms(data, researcher) {
+
+  const ids = researcher.programIds || [];
+
+  if (!ids.length) return "";
+
+  const programs = data.programs
+    .filter(program => ids.includes(program.id));
+
+  if (!programs.length) return "";
+
+  return `
+    <section class="researcher-program-section">
+
+      <div class="researcher-section-head">
+
+        <h2>
+          関連する研究系列
+        </h2>
+
+        <p>
+          研究者マスターで正式に紐づけられている研究系列です。
+        </p>
+
+      </div>
+
+      <div class="researcher-program-list">
+
+        ${programs.map(program => `
+          <article class="researcher-program-card">
+
+            <div class="meta">
+              ${escapeHtml(program.startYear)}〜
+            </div>
+
+            <h3>
+              <a href="#/program/${escapeHtml(program.id)}">
+                ${escapeHtml(program.name)}
+              </a>
+            </h3>
+
+            <p>
+              ${escapeHtml(program.summary || "")}
+            </p>
+
+            <a
+              class="card-link"
+              href="#/program/${escapeHtml(program.id)}"
+            >
+              系列を見る →
+            </a>
+
+          </article>
+        `).join("")}
+
+      </div>
+
+    </section>
+  `;
+}
+
 
 function renderResearcherDetail(data, researcher) {
 
@@ -267,6 +328,8 @@ function renderResearcherDetail(data, researcher) {
 
 
         ${renderStudies(data, researcher)}
+        
+        ${renderConfirmedPrograms(data, researcher)}
 
 
       </div>
