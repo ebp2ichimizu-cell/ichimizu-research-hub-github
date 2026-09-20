@@ -34,59 +34,6 @@ function getResearcherStudies(data, researcher) {
 }
 
 
-function programText(program) {
-
-  return normalizeText([
-    program.name,
-    program.summary,
-    ...(program.themes || []),
-    ...(program.policeOrganizations || []),
-    ...(program.researchOrganizations || [])
-  ].join(" "));
-}
-
-
-function findRelatedPrograms(data, researcher) {
-
-  const keys = [
-    ...(researcher.series || []),
-    ...(researcher.themes || [])
-  ]
-    .map(normalizeText)
-    .filter(Boolean);
-
-
-  return data.programs
-    .map(program => {
-
-      const text = programText(program);
-
-      const matches = keys.filter(key =>
-        text.includes(key) ||
-        key.includes(text)
-      );
-
-      return {
-        program,
-        score: matches.length,
-        matches
-      };
-
-    })
-    .filter(item => item.score > 0)
-    .sort((a, b) => {
-
-      if (b.score !== a.score) {
-        return b.score - a.score;
-      }
-
-      return Number(b.program.startYear || 0) -
-             Number(a.program.startYear || 0);
-
-    })
-    .slice(0, 4);
-}
-
 
 function renderStudies(data, researcher) {
 
@@ -190,76 +137,6 @@ function renderStudies(data, researcher) {
   `;
 }
 
-
-function renderPrograms(data, researcher) {
-
-  const programs =
-    findRelatedPrograms(data, researcher);
-
-  if (!programs.length) return "";
-
-
-  return `
-    <section class="researcher-program-section">
-
-      <div class="researcher-section-head">
-
-        <h2>
-          関連する研究系列候補
-        </h2>
-
-        <p>
-          研究者マスターの「主な研究系列」や
-          研究テーマと、研究系列データの記述が
-          重なるものを表示しています。
-          正式な所属関係を意味するものではありません。
-        </p>
-
-      </div>
-
-
-      <div class="researcher-program-list">
-
-        ${programs.map(item => {
-
-          const p = item.program;
-
-          return `
-            <article class="researcher-program-card">
-
-              <div class="meta">
-                ${escapeHtml(p.startYear)}〜
-              </div>
-
-              <h3>
-                <a href="#/program/${escapeHtml(p.id)}">
-                  ${escapeHtml(p.name)}
-                </a>
-              </h3>
-
-              <p>
-                ${escapeHtml(
-                  truncate(p.summary || "", 110)
-                )}
-              </p>
-
-              <a
-                class="card-link"
-                href="#/program/${escapeHtml(p.id)}"
-              >
-                系列を見る →
-              </a>
-
-            </article>
-          `;
-
-        }).join("")}
-
-      </div>
-
-    </section>
-  `;
-}
 
 
 function renderResearcherDetail(data, researcher) {
@@ -390,8 +267,6 @@ function renderResearcherDetail(data, researcher) {
 
 
         ${renderStudies(data, researcher)}
-
-        ${renderPrograms(data, researcher)}
 
 
       </div>
