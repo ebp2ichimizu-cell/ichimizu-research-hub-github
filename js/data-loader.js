@@ -1,4 +1,6 @@
-import {getLanguage} from "./i18n.js";
+import {
+  getLanguage
+} from "./i18n.js";
 
 
 export async function loadAllData(){
@@ -13,6 +15,7 @@ export async function loadAllData(){
 
 
   const files = {
+
     studies:
       `./data/studies-${suffix}.json`,
 
@@ -27,6 +30,7 @@ export async function loadAllData(){
 
     policy:
       `./data/site-policy-${suffix}.json`
+
   };
 
 
@@ -37,13 +41,22 @@ export async function loadAllData(){
         .map(async ([key,url])=>{
 
           const res =
-            await fetch(url);
+            await fetch(
+              url,
+              {
+                cache: "no-store"
+              }
+            );
+
 
           if(!res.ok){
+
             throw new Error(
-              `${url} could not be loaded`
+              `${url} could not be loaded (${res.status})`
             );
+
           }
+
 
           return [
             key,
@@ -56,4 +69,5 @@ export async function loadAllData(){
 
 
   return Object.fromEntries(entries);
+
 }
