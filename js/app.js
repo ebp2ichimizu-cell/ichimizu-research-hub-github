@@ -9,7 +9,10 @@ import {
   renderResearchers,
   activateResearchers
 } from "./render-researchers.js";
-import {renderReports} from "./render-reports.js";
+import {
+  renderReports,
+  activateReports
+} from "./render-reports.js";
 import {escapeHtml} from "./utils.js";
 
 const app=document.querySelector("#app");
@@ -37,7 +40,10 @@ function page(){
   activateResearchers();
   break;
   case "researcher": app.innerHTML=renderResearchers(data,route.id); break;
-  case "reports": app.innerHTML=renderReports(data); break;
+　case "reports":
+  app.innerHTML = renderReports(data);
+  activateReports();
+  break;
   case "report": app.innerHTML=renderReports(data,route.id); break;
   case "about": app.innerHTML=renderAbout(data); break;
   default: app.innerHTML=`<section class="section"><div class="container"><div class="empty">ページが見つかりません。</div></div></section>`;
