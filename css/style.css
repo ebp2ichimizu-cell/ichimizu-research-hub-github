@@ -382,3 +382,254 @@ button{cursor:pointer}
   }
 
 }
+/* =========================================================
+   Research programs / series
+   ========================================================= */
+
+.program-list{
+  display:grid;
+  gap:14px;
+}
+
+.program-list-card{
+  display:grid;
+  grid-template-columns:115px 1fr;
+  gap:22px;
+  padding:22px;
+  background:white;
+  border:1px solid var(--line);
+  border-radius:18px;
+}
+
+.program-year{
+  color:var(--primary);
+  font-size:1.25rem;
+  font-weight:800;
+}
+
+.program-list-main h2{
+  margin:0 0 8px;
+  font-size:1.2rem;
+  line-height:1.5;
+}
+
+.program-list-main h2 a{
+  color:var(--primary-dark);
+  text-decoration:none;
+}
+
+.program-list-main h2 a:hover{
+  text-decoration:underline;
+}
+
+.program-list-main p{
+  margin:0;
+  color:#486461;
+}
+
+
+.program-title{
+  max-width:900px;
+}
+
+
+.program-summary-box{
+  position:relative;
+  padding:24px;
+  margin-bottom:24px;
+  background:
+    linear-gradient(
+      135deg,
+      var(--primary-pale),
+      white
+    );
+  border:1px solid var(--line);
+  border-radius:18px;
+}
+
+.program-summary-label{
+  display:inline-block;
+  margin-bottom:8px;
+  padding:4px 9px;
+  border-radius:999px;
+  background:var(--primary);
+  color:white;
+  font-size:.68rem;
+  font-weight:800;
+  letter-spacing:.08em;
+}
+
+.program-summary-box h2{
+  margin:0 0 8px;
+  color:var(--primary-dark);
+  font-size:1.3rem;
+}
+
+.program-summary-box p{
+  margin:0;
+}
+
+
+.program-info-section{
+  margin-bottom:28px;
+}
+
+.program-info-section > h2{
+  margin:0 0 12px;
+  color:var(--primary-dark);
+  font-size:1.25rem;
+}
+
+
+.program-related-section{
+  margin-top:40px;
+  padding-top:30px;
+  border-top:1px solid var(--line);
+}
+
+.program-section-head{
+  margin-bottom:18px;
+}
+
+.program-section-head h2{
+  margin:0;
+  color:var(--primary-dark);
+  font-size:1.5rem;
+}
+
+.program-section-head p{
+  margin:5px 0 0;
+  max-width:760px;
+  color:var(--muted);
+  font-size:.9rem;
+}
+
+
+.program-study-list{
+  display:grid;
+  grid-template-columns:
+    repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+
+.program-study-card{
+  padding:17px;
+  background:white;
+  border:1px solid var(--line);
+  border-radius:17px;
+}
+
+.program-study-card h3{
+  margin:6px 0 8px;
+  font-size:1rem;
+  line-height:1.55;
+}
+
+.program-study-card h3 a{
+  color:var(--primary-dark);
+  text-decoration:none;
+}
+
+.program-study-card h3 a:hover{
+  text-decoration:underline;
+}
+
+.program-study-authors{
+  margin:6px 0;
+  color:var(--muted);
+  font-size:.8rem;
+  line-height:1.6;
+}
+
+.program-study-summary{
+  margin:8px 0;
+  color:#45615e;
+  font-size:.88rem;
+  line-height:1.7;
+}
+
+
+/* ---------- mobile ---------- */
+
+@media (max-width:767px){
+
+  .program-list{
+    gap:10px;
+  }
+
+  .program-list-card{
+    grid-template-columns:1fr;
+    gap:5px;
+    padding:15px;
+    border-radius:15px;
+  }
+
+  .program-year{
+    font-size:.82rem;
+  }
+
+  .program-list-main h2{
+    font-size:1rem;
+    line-height:1.5;
+  }
+
+  .program-list-main p{
+    font-size:.88rem;
+    line-height:1.7;
+  }
+
+
+  .program-summary-box{
+    padding:16px;
+    margin-bottom:17px;
+    border-radius:15px;
+  }
+
+  .program-summary-box h2{
+    font-size:1.1rem;
+  }
+
+  .program-summary-box p{
+    font-size:.9rem;
+    line-height:1.75;
+  }
+
+
+  .program-info-section{
+    margin-bottom:20px;
+  }
+
+  .program-info-section > h2{
+    font-size:1.1rem;
+  }
+
+
+  .program-related-section{
+    margin-top:30px;
+    padding-top:23px;
+  }
+
+  .program-section-head h2{
+    font-size:1.3rem;
+  }
+
+  .program-section-head p{
+    font-size:.82rem;
+    line-height:1.65;
+  }
+
+  .program-study-list{
+    grid-template-columns:1fr;
+    gap:10px;
+  }
+
+  .program-study-card{
+    padding:14px;
+    border-radius:15px;
+  }
+
+  .program-study-card h3{
+    font-size:.94rem;
+  }
+
+}
