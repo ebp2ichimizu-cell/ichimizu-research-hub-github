@@ -5,6 +5,11 @@ import {
   normalizeText
 } from "./utils.js";
 
+import {
+  t,
+  getLanguage
+} from "./i18n.js";
+
 
 function renderTags(values = []) {
 
@@ -22,23 +27,27 @@ function renderTags(values = []) {
 }
 
 
-function getResearcherStudies(data, researcher) {
+function getResearcherStudies(data,researcher) {
 
-  const ids = new Set(researcher.studyIds || []);
+  const ids =
+    new Set(researcher.studyIds || []);
 
   return data.studies
-    .filter(study => ids.has(study.id))
-    .sort((a, b) =>
-      Number(b.year || 0) - Number(a.year || 0)
+    .filter(study =>
+      ids.has(study.id)
+    )
+    .sort((a,b) =>
+      Number(b.year || 0) -
+      Number(a.year || 0)
     );
 }
 
 
-
-function renderStudies(data, researcher) {
+function renderStudies(data,researcher) {
 
   const studies =
-    getResearcherStudies(data, researcher);
+    getResearcherStudies(data,researcher);
+
 
   if (!studies.length) {
 
@@ -48,20 +57,17 @@ function renderStudies(data, researcher) {
         <div class="researcher-section-head">
 
           <h2>
-            関連する収録研究
+            ${t("relatedRecordedStudies")}
           </h2>
 
           <p>
-            現在の研究マスターでは、
-            この研究者に紐づく個別研究は
-            登録されていません。
+            ${t("noResearcherStudies")}
           </p>
 
         </div>
 
       </section>
     `;
-
   }
 
 
@@ -71,15 +77,15 @@ function renderStudies(data, researcher) {
       <div class="researcher-section-head">
 
         <h2>
-          関連する収録研究
+          ${t("relatedRecordedStudies")}
+
           <span class="researcher-count">
             ${studies.length}
           </span>
         </h2>
 
         <p>
-          研究マスターでこの研究者に
-          明示的に紐づけられている研究です。
+          ${t("researcherStudiesNote")}
         </p>
 
       </div>
@@ -111,7 +117,7 @@ function renderStudies(data, researcher) {
                 ? `
                   <p class="researcher-study-summary">
                     ${escapeHtml(
-                      truncate(study.result, 130)
+                      truncate(study.result,130)
                     )}
                   </p>
                 `
@@ -124,7 +130,7 @@ function renderStudies(data, researcher) {
               class="card-link"
               href="#/study/${escapeHtml(study.id)}"
             >
-              詳細を見る →
+              ${t("viewDetails")}
             </a>
 
           </article>
@@ -138,16 +144,23 @@ function renderStudies(data, researcher) {
 }
 
 
-function renderConfirmedPrograms(data, researcher) {
+function renderConfirmedPrograms(data,researcher) {
 
-  const ids = researcher.programIds || [];
+  const ids =
+    researcher.programIds || [];
 
   if (!ids.length) return "";
 
-  const programs = data.programs
-    .filter(program => ids.includes(program.id));
+
+  const programs =
+    data.programs.filter(
+      program =>
+        ids.includes(program.id)
+    );
+
 
   if (!programs.length) return "";
+
 
   return `
     <section class="researcher-program-section">
@@ -155,18 +168,20 @@ function renderConfirmedPrograms(data, researcher) {
       <div class="researcher-section-head">
 
         <h2>
-          関連する研究系列
+          ${t("confirmedProgrammes")}
         </h2>
 
         <p>
-          研究者マスターで正式に紐づけられている研究系列です。
+          ${t("confirmedProgrammesNote")}
         </p>
 
       </div>
 
+
       <div class="researcher-program-list">
 
         ${programs.map(program => `
+
           <article class="researcher-program-card">
 
             <div class="meta">
@@ -187,10 +202,11 @@ function renderConfirmedPrograms(data, researcher) {
               class="card-link"
               href="#/program/${escapeHtml(program.id)}"
             >
-              系列を見る →
+              ${t("viewProgramme")}
             </a>
 
           </article>
+
         `).join("")}
 
       </div>
@@ -200,7 +216,7 @@ function renderConfirmedPrograms(data, researcher) {
 }
 
 
-function renderResearcherDetail(data, researcher) {
+function renderResearcherDetail(data,researcher) {
 
   return `
 
@@ -212,11 +228,11 @@ function renderResearcherDetail(data, researcher) {
           class="back-link"
           href="#/researchers"
         >
-          ← 研究者一覧に戻る
+          ${t("backToResearchers")}
         </a>
 
         <div class="meta">
-          研究者
+          ${t("researcherLabel")}
         </div>
 
         <h1 class="researcher-name">
@@ -244,7 +260,6 @@ function renderResearcherDetail(data, researcher) {
 
       <div class="container">
 
-
         <section class="researcher-profile-grid">
 
           ${
@@ -257,7 +272,7 @@ function renderResearcherDetail(data, researcher) {
                   </div>
 
                   <h2>
-                    警察・実務との接点
+                    ${t("practiceConnection")}
                   </h2>
 
                   <p>
@@ -282,7 +297,7 @@ function renderResearcherDetail(data, researcher) {
                   </div>
 
                   <h2>
-                    主な研究系列
+                    ${t("mainResearchSeries")}
                   </h2>
 
                   <div class="researcher-series-tags">
@@ -309,14 +324,14 @@ function renderResearcherDetail(data, researcher) {
               <section class="source-area">
 
                 <h2>
-                  研究者情報を確認する
+                  ${t("researcherProfileHeading")}
                 </h2>
 
                 <div class="source-links">
 
                   ${externalLink(
                     researcher.profileUrl,
-                    "研究者プロフィール"
+                    t("researcherProfileLink")
                   )}
 
                 </div>
@@ -327,10 +342,9 @@ function renderResearcherDetail(data, researcher) {
         }
 
 
-        ${renderStudies(data, researcher)}
-        
-        ${renderConfirmedPrograms(data, researcher)}
+        ${renderStudies(data,researcher)}
 
+        ${renderConfirmedPrograms(data,researcher)}
 
       </div>
 
@@ -341,13 +355,19 @@ function renderResearcherDetail(data, researcher) {
 
 function renderResearcherList(data) {
 
-  const researchers = [...data.researchers]
-    .sort((a, b) =>
-      a.name.localeCompare(
-        b.name,
-        "ja"
-      )
-    );
+  const locale =
+    getLanguage() === "en"
+      ? "en"
+      : "ja";
+
+  const researchers =
+    [...data.researchers]
+      .sort((a,b) =>
+        a.name.localeCompare(
+          b.name,
+          locale
+        )
+      );
 
 
   return `
@@ -357,12 +377,11 @@ function renderResearcherList(data) {
       <div class="container">
 
         <h1>
-          研究者・機関
+          ${t("researchersTitle")}
         </h1>
 
         <p>
-          国内の犯罪予防・警察活動研究に関わる研究者を、
-          所属・研究テーマ・実務との接点からたどります。
+          ${t("researchersLead")}
         </p>
 
       </div>
@@ -379,8 +398,7 @@ function renderResearcherList(data) {
           <input
             id="researcherSearch"
             type="search"
-            placeholder="研究者名、所属、研究テーマ"
-            aria-label="研究者検索"
+            placeholder="${t("researcherSearchPlaceholder")}"
           >
 
           <div
@@ -416,9 +434,7 @@ function renderResearcherList(data) {
                 <div>
 
                   <h2>
-                    <a
-                      href="#/researcher/${escapeHtml(researcher.id)}"
-                    >
+                    <a href="#/researcher/${escapeHtml(researcher.id)}">
                       ${escapeHtml(researcher.name)}
                     </a>
                   </h2>
@@ -431,16 +447,23 @@ function renderResearcherList(data) {
 
                 </div>
 
+
                 <div class="research-count-badge">
+
                   ${(researcher.studyIds || []).length}
-                  <span>研究</span>
+
+                  <span>
+                    ${t("researchCountLabel")}
+                  </span>
+
                 </div>
 
               </div>
 
 
               ${renderTags(
-                (researcher.themes || []).slice(0, 5)
+                (researcher.themes || [])
+                  .slice(0,5)
               )}
 
 
@@ -464,7 +487,7 @@ function renderResearcherList(data) {
                 class="card-link"
                 href="#/researcher/${escapeHtml(researcher.id)}"
               >
-                詳細を見る →
+                ${t("viewDetails")}
               </a>
 
             </article>
@@ -476,7 +499,6 @@ function renderResearcherList(data) {
       </div>
 
     </section>
-
   `;
 }
 
@@ -496,9 +518,8 @@ export function activateResearchers() {
   if (!input || !list || !count) return;
 
 
-  const cards = [
-    ...list.querySelectorAll(".researcher-card")
-  ];
+  const cards =
+    [...list.querySelectorAll(".researcher-card")];
 
 
   function update() {
@@ -525,8 +546,7 @@ export function activateResearchers() {
 
 
     count.textContent =
-      `${visible}名を表示`;
-
+      `${visible}${t("researcherCountSuffix")}`;
   }
 
 
@@ -539,10 +559,7 @@ export function activateResearchers() {
 }
 
 
-export function renderResearchers(
-  data,
-  id = null
-) {
+export function renderResearchers(data,id=null) {
 
   if (id) {
 
@@ -551,28 +568,24 @@ export function renderResearchers(
         item => item.id === id
       );
 
-
     if (!researcher) {
 
       return `
         <section class="section">
           <div class="container">
             <div class="empty">
-              研究者が見つかりません。
+              ${t("researcherNotFound")}
             </div>
           </div>
         </section>
       `;
-
     }
-
 
     return renderResearcherDetail(
       data,
       researcher
     );
   }
-
 
   return renderResearcherList(data);
 }
