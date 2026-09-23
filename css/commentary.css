@@ -1,0 +1,321 @@
+/* =========================================================
+   Research Hub commentary
+   Uses the existing Research Hub design tokens from style.css.
+   No new brand colours are introduced here.
+   ========================================================= */
+
+.commentary-page-head .commentary-study-reference{
+  max-width:900px;
+  margin:10px 0 0;
+  color:var(--muted);
+  font-size:.95rem;
+  line-height:1.7;
+}
+
+.commentary-article{
+  max-width:920px;
+  margin:0 auto;
+}
+
+.commentary-body{
+  overflow-wrap:anywhere;
+}
+
+.commentary-body > h1{
+  margin:0 0 10px;
+  color:var(--primary-dark);
+  font-size:clamp(1.65rem,3.2vw,2.45rem);
+  line-height:1.4;
+}
+
+.commentary-body > h2{
+  margin:42px 0 12px;
+  padding-top:4px;
+  color:var(--primary-dark);
+  font-size:1.45rem;
+  line-height:1.5;
+}
+
+.commentary-body > h3{
+  margin:28px 0 10px;
+  color:var(--primary-dark);
+  font-size:1.15rem;
+  line-height:1.55;
+}
+
+.commentary-body > h4,
+.commentary-body > h5,
+.commentary-body > h6{
+  color:var(--primary-dark);
+}
+
+.commentary-body p{
+  margin:12px 0;
+}
+
+.commentary-body strong{
+  color:var(--primary-deep);
+}
+
+.commentary-body a{
+  color:var(--primary);
+  font-weight:700;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+
+.commentary-body a:hover{
+  color:var(--primary-dark);
+}
+
+.commentary-body ul,
+.commentary-body ol{
+  margin:12px 0 18px;
+  padding-left:1.6rem;
+}
+
+.commentary-body li{
+  margin:5px 0;
+}
+
+.commentary-body hr{
+  margin:34px 0;
+  border:0;
+  border-top:1px solid var(--line);
+}
+
+.commentary-body pre{
+  max-width:100%;
+  margin:16px 0;
+  padding:16px;
+  overflow-x:auto;
+  border:1px solid var(--line);
+  border-radius:14px;
+  background:var(--primary-pale);
+  color:var(--ink);
+  line-height:1.55;
+  white-space:pre-wrap;
+  word-break:break-word;
+}
+
+.commentary-body code{
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:.9em;
+}
+
+.commentary-quote{
+  margin:18px 0;
+  padding:15px 17px;
+  border-left:4px solid var(--line);
+  border-radius:0 14px 14px 0;
+  background:var(--surface);
+}
+
+.commentary-quote p:first-child{
+  margin-top:0;
+}
+
+.commentary-quote p:last-child{
+  margin-bottom:0;
+}
+
+.commentary-about-box{
+  border-left-color:var(--primary);
+  background:var(--primary-pale);
+}
+
+.commentary-about-box strong{
+  color:var(--primary-dark);
+}
+
+.hub-commentary-heading{
+  padding:13px 16px !important;
+  border-left:5px solid var(--primary);
+  border-radius:0 14px 14px 0;
+  background:var(--primary-pale);
+}
+
+.original-source-heading{
+  color:var(--primary-dark);
+}
+
+.commentary-stats{
+  margin:28px 0 34px;
+  overflow:hidden;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:var(--surface);
+  box-shadow:0 5px 16px rgba(16,63,60,.04);
+}
+
+.commentary-stats summary{
+  display:flex;
+  align-items:center;
+  gap:9px;
+  min-height:56px;
+  padding:14px 17px;
+  background:var(--primary-pale);
+  color:var(--primary-dark);
+  font-weight:800;
+  cursor:pointer;
+  user-select:none;
+  list-style:none;
+}
+
+.commentary-stats summary::-webkit-details-marker{
+  display:none;
+}
+
+.commentary-stats summary::before{
+  content:"▶";
+  width:1.2em;
+  flex:0 0 auto;
+  color:var(--primary);
+}
+
+.commentary-stats[open] summary::before{
+  content:"▼";
+}
+
+.commentary-stats[open] summary{
+  border-bottom:1px solid var(--line);
+}
+
+.commentary-stats-content{
+  padding:8px 20px 22px;
+}
+
+.commentary-stats-content > h2:first-child,
+.commentary-stats-content > h3:first-child{
+  margin-top:18px;
+}
+
+.commentary-table-wrap{
+  width:100%;
+  margin:18px 0;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+}
+
+.commentary-table-wrap table{
+  width:100%;
+  border-collapse:collapse;
+  background:var(--surface);
+  font-size:.9rem;
+}
+
+.commentary-table-wrap th,
+.commentary-table-wrap td{
+  padding:10px 11px;
+  border:1px solid var(--line);
+  text-align:left;
+  vertical-align:top;
+  overflow-wrap:anywhere;
+}
+
+.commentary-table-wrap th{
+  background:var(--primary-pale);
+  color:var(--primary-dark);
+  font-weight:800;
+}
+
+.commentary-original-source{
+  margin-top:46px;
+  padding-top:28px;
+  border-top:1px solid var(--line);
+}
+
+.commentary-original-source h2{
+  margin:0 0 12px;
+  color:var(--primary-dark);
+  font-size:1.35rem;
+}
+
+
+/* ---------- mobile ---------- */
+
+@media (max-width:767px){
+
+  .commentary-page-head .commentary-study-reference{
+    font-size:.84rem;
+  }
+
+  .commentary-body > h1{
+    font-size:1.55rem;
+    line-height:1.5;
+  }
+
+  .commentary-body > h2{
+    margin-top:32px;
+    font-size:1.22rem;
+  }
+
+  .commentary-body > h3{
+    margin-top:23px;
+    font-size:1.05rem;
+  }
+
+  .commentary-body{
+    font-size:.92rem;
+    line-height:1.78;
+  }
+
+  .commentary-body ul,
+  .commentary-body ol{
+    padding-left:1.35rem;
+  }
+
+  .commentary-body pre{
+    padding:13px;
+    border-radius:12px;
+    font-size:.78rem;
+  }
+
+  .commentary-quote{
+    padding:13px 14px;
+    border-radius:0 12px 12px 0;
+  }
+
+  .hub-commentary-heading{
+    padding:11px 13px !important;
+  }
+
+  .commentary-stats{
+    margin:22px 0 28px;
+    border-radius:15px;
+  }
+
+  .commentary-stats summary{
+    min-height:52px;
+    padding:12px 14px;
+    font-size:.9rem;
+  }
+
+  .commentary-stats-content{
+    padding:6px 13px 17px;
+  }
+
+  .commentary-table-wrap table{
+    font-size:.78rem;
+  }
+
+  .commentary-table-wrap th,
+  .commentary-table-wrap td{
+    padding:7px 7px;
+  }
+
+  .commentary-original-source{
+    margin-top:34px;
+    padding-top:22px;
+  }
+
+  .commentary-original-source .source-links{
+    display:grid;
+    grid-template-columns:1fr;
+  }
+
+  .commentary-original-source .source-links a{
+    text-align:center;
+  }
+
+}
