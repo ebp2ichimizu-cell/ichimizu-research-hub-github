@@ -116,8 +116,17 @@ function inlineMarkdown(value = "") {
 
   text =
     text.replace(
-      /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
+      /\[([^\]]+)\]\((https?:\/\/[^)\s]+|#\/[^)\s]+)\)/g,
       (_,label,url) => {
+
+        if (url.startsWith("#/")) {
+
+          return token(
+            `<a href="${escapeHtml(url)}">${escapeHtml(label)}</a>`
+          );
+
+        }
+
 
         const safe =
           safeUrl(url);
