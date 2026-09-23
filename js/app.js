@@ -1,4 +1,3 @@
-
 import {loadAllData} from "./data-loader.js";
 import {parseRoute,startRouter} from "./router.js";
 import {renderHome} from "./render-home.js";
@@ -13,6 +12,10 @@ import {
   renderReports,
   activateReports
 } from "./render-reports.js";
+import {
+  renderCommentary,
+  activateCommentary
+} from "./render-commentary.js";
 import {escapeHtml} from "./utils.js";
 import {renderAbout} from "./render-about.js";
 import {
@@ -33,6 +36,10 @@ function page(){
   case "home": case "": app.innerHTML=renderHome(data); activateHome(); break;
   case "studies": app.innerHTML=renderStudies(data); activateStudies(data); break;
   case "study": app.innerHTML=renderStudyDetail(data,route.id); break;
+  case "commentary":
+    app.innerHTML=renderCommentary(data,route.id);
+    activateCommentary(data,route.id);
+    break;
   case "programs": app.innerHTML=renderPrograms(data); break;
   case "program": app.innerHTML=renderPrograms(data,route.id); break;
   case "researchers":
@@ -46,7 +53,7 @@ function page(){
   break;
   case "report": app.innerHTML=renderReports(data,route.id); break;
   case "about": app.innerHTML=renderAbout(data); break;
-  default: app.innerHTML=`<section class="section"><div class="container"><div class="empty">ページが見つかりません。</div></div></section>`;
+  default: app.innerHTML=`<section class="section"><div class="container"><div class="empty">${t("notFound")}</div></div></section>`;
  }
  window.scrollTo({top:0,behavior:"instant"});
  app.focus({preventScroll:true});
@@ -134,5 +141,5 @@ try{
  data=await loadAllData();
  startRouter(page);
 }catch(err){
- app.innerHTML=`<section class="section"><div class="container"><div class="empty">データの読み込みに失敗しました。GitHub Pages等のWebサーバー上で開いてください。<br>${escapeHtml(err.message)}</div></div></section>`;
+ app.innerHTML=`<section class="section"><div class="container"><div class="empty">${t("loadError")}<br>${escapeHtml(err.message)}</div></div></section>`;
 }

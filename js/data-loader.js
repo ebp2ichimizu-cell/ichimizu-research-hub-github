@@ -68,6 +68,54 @@ export async function loadAllData(){
     );
 
 
-  return Object.fromEntries(entries);
+  const data =
+    Object.fromEntries(entries);
 
+
+  /*
+   * Commentary metadata is intentionally kept in a separate public index.
+   * This keeps the commentary feature independent from the research master
+   * while still attaching has_commentary / commentary_slug to study objects
+   * at runtime.
+   *
+   * The index is optional so a staged GitHub upload cannot break the
+   * existing Research Hub if this file has not yet been uploaded.
+   */
+  try {
+
+    const commentaryResponse =
+      await fetch(
+        "./data/commentary-index.json",
+        {
+          cache: "no-store"
+        }
+      );
+
+
+    data.commentary =
+      commentaryResponse.ok
+        ? await commentaryResponse.json()
+        : {};
+
+  } catch {
+
+    data.commentary = {};
+
+  }
+
+
+  data.studies =
+    data.studies.map(study => ({
+
+      ...study,
+
+      ...(
+        data.commentary?.[study.id] ||
+        {}
+      )
+
+    }));
+
+
+  return data;
 }

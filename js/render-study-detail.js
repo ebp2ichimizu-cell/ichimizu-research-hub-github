@@ -5,7 +5,8 @@ import {
 } from "./utils.js";
 
 import {
-  t
+  t,
+  getLanguage
 } from "./i18n.js";
 
 
@@ -27,6 +28,22 @@ const item = (label, value) => {
     </div>
   `;
 };
+
+
+function commentaryLabels() {
+
+  return getLanguage() === "en"
+    ? {
+        heading: "Continue reading",
+        commentary: "Read the Research Hub commentary",
+        original: "Read the original study"
+      }
+    : {
+        heading: "さらに詳しく読む",
+        commentary: "サイトの独自解説で詳しく見る",
+        original: "原著を読む"
+      };
+}
 
 
 function renderThemeTags(study) {
@@ -206,6 +223,89 @@ function renderRelatedStudies(data, study) {
           `;
 
         }).join("")}
+
+      </div>
+
+    </section>
+  `;
+}
+
+
+function renderReadingActions(study) {
+
+  if (!study.url && !study.doi && !study.has_commentary) {
+    return "";
+  }
+
+
+  if (!study.has_commentary) {
+
+    return `
+      <section class="source-area">
+
+        <h2>
+          ${t("sourceHeading")}
+        </h2>
+
+        <div class="source-links">
+
+          ${externalLink(
+            study.url,
+            t("sourceMaterial")
+          )}
+
+          ${
+            study.doi
+              ? externalLink(
+                  `https://doi.org/${study.doi}`,
+                  "DOI"
+                )
+              : ""
+          }
+
+        </div>
+
+      </section>
+    `;
+  }
+
+
+  const labels =
+    commentaryLabels();
+
+  const slug =
+    study.commentary_slug ||
+    study.id;
+
+
+  return `
+    <section class="source-area">
+
+      <h2>
+        ${labels.heading}
+      </h2>
+
+      <div class="source-links">
+
+        <a
+          href="#/commentary/${escapeHtml(slug)}"
+        >
+          ${labels.commentary}
+        </a>
+
+        ${externalLink(
+          study.url,
+          labels.original
+        )}
+
+        ${
+          study.doi
+            ? externalLink(
+                `https://doi.org/${study.doi}`,
+                "DOI"
+              )
+            : ""
+        }
 
       </div>
 
@@ -497,37 +597,7 @@ export function renderStudyDetail(data, id) {
         }
 
 
-        ${
-          study.url || study.doi
-            ? `
-              <section class="source-area">
-
-                <h2>
-                  ${t("sourceHeading")}
-                </h2>
-
-                <div class="source-links">
-
-                  ${externalLink(
-                    study.url,
-                    t("sourceMaterial")
-                  )}
-
-                  ${
-                    study.doi
-                      ? externalLink(
-                          `https://doi.org/${study.doi}`,
-                          "DOI"
-                        )
-                      : ""
-                  }
-
-                </div>
-
-              </section>
-            `
-            : ""
-        }
+        ${renderReadingActions(study)}
 
 
         ${renderRelatedStudies(
