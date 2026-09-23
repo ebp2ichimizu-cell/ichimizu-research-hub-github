@@ -43,5 +43,14 @@
       "ja",
       "en"
     ]
+  },
+  "study-0018": {
+    "has_commentary": true,
+    "commentary_slug": "study-0018",
+    "commentary_updated": "2026-09-23",
+    "commentary_languages": [
+      "ja",
+      "en"
+    ]
   }
 }
