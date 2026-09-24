@@ -120,15 +120,15 @@
     "url": "https://www.ds.shiga-u.ac.jp/information/2300/"
   },
   {
-  "id": "report-013",
-  "year": 2026,
-  "title": "奈良防犯心理研究会",
-  "organization": "奈良県警察本部",
-  "collaborators": "奈良大学・奈良女子大学・帝塚山大学・滋賀大学・大阪教育大学の研究者",
-  "type": "進行中共同研究",
-  "summary": "心理学等の知見を活用し、特殊詐欺・SNS型投資詐欺・ロマンス詐欺等の防犯対策を共同で設計・検討する研究会。",
-  "url": "https://researchers.shiga-u.ac.jp/html/100003287_ja.html"
-},
+    "id": "report-013",
+    "year": 2026,
+    "title": "奈良防犯心理研究会",
+    "organization": "奈良県警察本部",
+    "collaborators": "5大学の心理学等研究者",
+    "type": "進行中共同研究",
+    "summary": "特殊詐欺・SNS型詐欺等をテーマに対策を共同設計。",
+    "url": "https://researchers.shiga-u.ac.jp/html/100003287_ja.html"
+  },
   {
     "id": "report-014",
     "year": 2019,
@@ -188,5 +188,15 @@
     "type": "研究・実装支援（進行中）",
     "summary": "ストーカー行為者を地域精神科医療等へつなぐ仕組みと効果的な働き掛け方法を検討。鈴木拓朗がスーパーバイザーとして参画。二次予防・再発防止系列として継続探索。",
     "url": "https://sites.google.com/view/suzukitakuro/"
+  },
+  {
+    "id": "report-020",
+    "year": 2026,
+    "title": "犯罪予防における研究者と実務家の協働の展開―エビデンスに基づく実務に向けて―",
+    "organization": "日本社会心理学会第67回大会",
+    "collaborators": "島田貴仁・荒井崇史・原田知佳・竹橋洋毅・三船恒裕ほか",
+    "type": "学会ワークショップ・実務家協働",
+    "summary": "犯罪予防における研究者と実務家の協働を扱うワークショップ。個別介入の効果研究ではないため、研究一覧ではなく実装支援・研究交流資料として保持。",
+    "url": "https://www.socialpsychology.jp/conf2026/abstract/contents/WS03.html"
   }
 ]

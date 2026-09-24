@@ -120,15 +120,15 @@
     "url": "https://www.ds.shiga-u.ac.jp/information/2300/"
   },
   {
-  "id": "report-013",
-  "year": 2026,
-  "title": "Nara Crime Prevention Psychology Research Group",
-  "organization": "Nara Prefectural Police",
-  "collaborators": "Researchers from Nara University, Nara Women's University, Tezukayama University, Shiga University and Osaka Kyoiku University",
-  "type": "Ongoing collaborative research",
-  "summary": "A collaborative research group applying psychological evidence to the design and evaluation of prevention measures addressing special fraud, investment scams, romance scams and related offences conducted through social media.",
-  "url": "https://researchers.shiga-u.ac.jp/html/100003287_ja.html"
-},
+    "id": "report-013",
+    "year": 2026,
+    "title": "Nara Crime Prevention Psychology Research Group",
+    "organization": "Nara Prefectural Police",
+    "collaborators": "Researchers in psychology and related fields from five universities",
+    "type": "Ongoing collaborative research",
+    "summary": "A collaboration designing prevention measures for special fraud, social-media-based scams and related offences.",
+    "url": "https://researchers.shiga-u.ac.jp/html/100003287_ja.html"
+  },
   {
     "id": "report-014",
     "year": 2019,
@@ -188,5 +188,15 @@
     "type": "Research and implementation support (ongoing)",
     "summary": "An ongoing study examining mechanisms for connecting stalking perpetrators with community mental-health services and developing effective approaches to referral. Takuro Suzuki participates as a supervisor. The project is retained for continued tracking as a secondary-prevention and repeat-offending-prevention initiative.",
     "url": "https://sites.google.com/view/suzukitakuro/"
+  },
+  {
+    "id": "report-020",
+    "year": 2026,
+    "title": "Developing Researcher–Practitioner Collaboration in Crime Prevention: Towards Evidence-Based Practice",
+    "organization": "67th Annual Meeting of the Japanese Society of Social Psychology",
+    "collaborators": "Takahito Shimada, Takashi Arai, Chika Harada, Hiroki Takehashi, Tsunehiro Mifune and others",
+    "type": "Conference workshop / researcher–practitioner collaboration",
+    "summary": "A workshop on collaboration between researchers and practitioners in crime prevention. Because it is not an effectiveness evaluation of an individual intervention, it is retained as implementation-support and research-exchange material rather than as a study record.",
+    "url": "https://www.socialpsychology.jp/conf2026/abstract/contents/WS03.html"
   }
 ]

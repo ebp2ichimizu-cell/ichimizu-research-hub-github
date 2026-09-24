@@ -2697,5 +2697,91 @@
     "url": "https://www.jstage.jst.go.jp/article/pacjpa/85/0/85_PC-116/_article/-char/ja",
     "notes": "讃井知の犯罪予防情報研究系列。情報接触→意図と、具体的行動の乖離を示す関連研究。",
     "sourceOrder": 61
+  },
+  {
+    "id": "study-0062",
+    "year": 2024,
+    "title": "公共駐輪場における自転車盗の被害リスク分析",
+    "authors": [
+      "大沼貴志",
+      "齊藤知範",
+      "島田貴仁"
+    ],
+    "authorsText": "大沼貴志・齊藤知範・島田貴仁",
+    "practiceOrganizations": [
+      "科学警察研究所"
+    ],
+    "practiceOrganizationsText": "科学警察研究所",
+    "researchOrganizations": [
+      "科学警察研究所"
+    ],
+    "researchOrganizationsText": "科学警察研究所",
+    "themes": [
+      "自転車盗",
+      "GIS",
+      "環境犯罪学"
+    ],
+    "themesText": "自転車盗／GIS／環境犯罪学",
+    "intervention": "公営駐輪場の環境属性と自転車盗被害リスクを空間的に分析",
+    "population": "埼玉県内の公営駐輪場（詳細は原文要確認。後続要旨では417か所）",
+    "comparison": "駐輪場・駅の環境属性間比較",
+    "outcomes": [
+      "自転車盗被害リスク"
+    ],
+    "outcomesText": "自転車盗被害リスク",
+    "design": "観察研究・GIS分析（詳細方法は原文要確認）",
+    "sampleSize": "原文要確認（後続要旨では417駐輪場・被害5,172件）",
+    "result": "埼玉県内の公共駐輪場を対象とする被害リスク分析を地理情報システム学会で報告。詳細な結果は原文確認が必要。",
+    "limitations": "J-GLOBALで書誌情報を確認した段階。方法・統計結果は後続の2025年大会要旨と同一と推定せず、原文確認まで保留。",
+    "publicationType": "学会大会論文",
+    "reviewStatus": "会議録",
+    "citation": "地理情報システム学会講演論文集 2024, P2-31",
+    "doi": "",
+    "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602212450231619",
+    "notes": "既収録の2025年環境心理学会要旨、2025年行動計量学会要旨と同一研究系列の別文献。",
+    "sourceOrder": 62
+  },
+  {
+    "id": "study-0063",
+    "year": 2025,
+    "title": "自転車盗の被害リスク分析―公営駐輪場と駅の環境要因に注目して―",
+    "authors": [
+      "大沼貴志",
+      "齊藤知範",
+      "島田貴仁"
+    ],
+    "authorsText": "大沼貴志・齊藤知範・島田貴仁",
+    "practiceOrganizations": [
+      "埼玉県警察本部・科学警察研究所"
+    ],
+    "practiceOrganizationsText": "埼玉県警察本部・科学警察研究所",
+    "researchOrganizations": [
+      "埼玉県警察本部・科学警察研究所・滋賀大学"
+    ],
+    "researchOrganizationsText": "埼玉県警察本部・科学警察研究所・滋賀大学",
+    "themes": [
+      "自転車盗",
+      "環境犯罪学",
+      "警察データ分析"
+    ],
+    "themesText": "自転車盗／環境犯罪学／警察データ分析",
+    "intervention": "公営駐輪場417か所の構造・設備等と66か月間の自転車盗被害を分析",
+    "population": "埼玉県内63市町村の駅周辺公営駐輪場417か所",
+    "comparison": "駐輪場・駅の環境属性間比較、傾向スコアマッチング",
+    "outcomes": [
+      "66か月間の自転車盗被害5,172件"
+    ],
+    "outcomesText": "66か月間の自転車盗被害5,172件",
+    "design": "マルチレベル負の二項回帰・傾向スコアマッチング",
+    "sampleSize": "417駐輪場・被害5,172件",
+    "result": "目につきにくい場所や管理人のいる駐輪場ではリスクが低く、道路上・無料駐輪場では高かった。被害占有率を考慮すると一部要因は非有意となり、マッチングでは防犯カメラと無料駐輪場が有意、管理人は非有意。",
+    "limitations": "観察研究であり因果効果を確定しない。駅ごとの被害占有率の扱いで結果が変わる要因があり、施設選択・未観測交絡にも留意。",
+    "publicationType": "学会大会抄録",
+    "reviewStatus": "会議録",
+    "citation": "日本行動計量学会大会抄録集 53, 262-263",
+    "doi": "10.20742/pbsj.53.0_262",
+    "url": "https://www.jstage.jst.go.jp/article/pbsj/53/0/53_262/_article/-char/ja",
+    "notes": "既収録の2025年環境心理学会要旨と同一研究系列の別文献。埼玉県警察本部所属の著者を明示。",
+    "sourceOrder": 63
   }
 ]

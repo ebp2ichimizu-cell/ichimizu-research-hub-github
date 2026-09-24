@@ -2440,5 +2440,87 @@
     "url": "https://www.jstage.jst.go.jp/article/pacjpa/85/0/85_PC-116/_article/-char/ja",
     "notes": "Part of Tomo Sanui’s crime-prevention information research stream; another example of the gap between information exposure, intention and concrete behaviour.",
     "sourceOrder": 61
+  },
+  {
+    "id": "study-0062",
+    "year": 2024,
+    "title": "Analysis of Bicycle-Theft Victimisation Risk in Public Bicycle-Parking Facilities",
+    "authors": [
+      "大沼貴志・齊藤知範・島田貴仁"
+    ],
+    "authorsText": "大沼貴志・齊藤知範・島田貴仁",
+    "practiceOrganizations": [
+      "National Research Institute of Police Science"
+    ],
+    "practiceOrganizationsText": "National Research Institute of Police Science",
+    "researchOrganizations": [
+      "National Research Institute of Police Science"
+    ],
+    "researchOrganizationsText": "National Research Institute of Police Science",
+    "themes": [
+      "Bicycle theft",
+      "GIS",
+      "Environmental criminology"
+    ],
+    "themesText": "Bicycle theft / GIS / Environmental criminology",
+    "intervention": "Spatial analysis of environmental attributes of public bicycle-parking facilities and bicycle-theft victimisation risk.",
+    "population": "Public bicycle-parking facilities in Saitama Prefecture (details require confirmation from the original paper; the later abstract reports 417 facilities).",
+    "comparison": "Comparison across environmental attributes of bicycle-parking facilities and railway stations.",
+    "outcomes": [
+      "Bicycle-theft victimisation risk."
+    ],
+    "outcomesText": "Bicycle-theft victimisation risk.",
+    "design": "Observational study / GIS analysis (detailed methods require confirmation from the original paper).",
+    "sampleSize": "Requires confirmation from the original paper (the later abstract reports 417 facilities and 5,172 theft incidents).",
+    "result": "Reported a bicycle-theft victimisation-risk analysis of public bicycle-parking facilities in Saitama Prefecture at the GIS Association of Japan conference. Detailed findings require confirmation from the original paper.",
+    "limitations": "Bibliographic details have been confirmed through J-GLOBAL. Methods and statistical findings are not assumed to be identical to the later 2025 conference abstract and remain pending confirmation from the original paper.",
+    "publicationType": "Conference paper",
+    "reviewStatus": "Conference proceedings",
+    "citation": "GIS Association of Japan Conference Proceedings 2024, P2-31",
+    "doi": "",
+    "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602212450231619",
+    "notes": "A separate publication within the same research stream as the 2025 environmental-psychology and behaviormetrics conference abstracts.",
+    "sourceOrder": 62
+  },
+  {
+    "id": "study-0063",
+    "year": 2025,
+    "title": "Victimisation Risk Analysis of Bicycle Theft: Environmental Factors at Public Bicycle-Parking Facilities and Railway Stations",
+    "authors": [
+      "大沼貴志・齊藤知範・島田貴仁"
+    ],
+    "authorsText": "大沼貴志・齊藤知範・島田貴仁",
+    "practiceOrganizations": [
+      "Saitama Prefectural Police / National Research Institute of Police Science"
+    ],
+    "practiceOrganizationsText": "Saitama Prefectural Police / National Research Institute of Police Science",
+    "researchOrganizations": [
+      "Saitama Prefectural Police / National Research Institute of Police Science / Shiga University"
+    ],
+    "researchOrganizationsText": "Saitama Prefectural Police / National Research Institute of Police Science / Shiga University",
+    "themes": [
+      "Bicycle theft",
+      "Environmental criminology",
+      "Police data analysis"
+    ],
+    "themesText": "Bicycle theft / Environmental criminology / Police data analysis",
+    "intervention": "Analysis of structural and facility characteristics of 417 public bicycle-parking facilities and bicycle-theft victimisation over 66 months.",
+    "population": "417 public bicycle-parking facilities around railway stations in 63 municipalities in Saitama Prefecture.",
+    "comparison": "Comparison across environmental attributes of bicycle-parking facilities and railway stations, including propensity-score matching.",
+    "outcomes": [
+      "5,172 bicycle-theft victimisation incidents over 66 months."
+    ],
+    "outcomesText": "5,172 bicycle-theft victimisation incidents over 66 months.",
+    "design": "Multilevel negative-binomial regression and propensity-score matching.",
+    "sampleSize": "417 bicycle-parking facilities; 5,172 theft incidents",
+    "result": "Risk was lower at less conspicuous locations and at facilities with attendants, and higher at on-street and free bicycle-parking facilities. After accounting for the station-level share of thefts, some factors were no longer statistically significant; in matched analyses, CCTV and free parking remained significant while attendants did not.",
+    "limitations": "Observational study; causal effects are not established. Some estimates change depending on how station-level victimisation share is handled, and facility selection and unobserved confounding remain relevant.",
+    "publicationType": "Conference abstract",
+    "reviewStatus": "Conference proceedings",
+    "citation": "Proceedings of the 53rd Annual Meeting of the Behaviormetric Society of Japan, 262-263",
+    "doi": "10.20742/pbsj.53.0_262",
+    "url": "https://www.jstage.jst.go.jp/article/pbsj/53/0/53_262/_article/-char/ja",
+    "notes": "A separate publication within the same research stream as the 2025 environmental-psychology abstract. A Saitama Prefectural Police affiliation is explicitly recorded in the master.",
+    "sourceOrder": 63
   }
 ]

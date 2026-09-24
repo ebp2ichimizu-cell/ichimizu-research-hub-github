@@ -47,7 +47,9 @@
       "study-0056",
       "study-0059",
       "study-0060",
-      "study-0061"
+      "study-0061",
+      "study-0062",
+      "study-0063"
     ]
   },
   {
@@ -76,7 +78,9 @@
       "study-0028",
       "study-0050",
       "study-0059",
-      "study-0060"
+      "study-0060",
+      "study-0062",
+      "study-0063"
     ]
   },
   {
@@ -745,7 +749,7 @@
     "name": "谷口友梨",
     "nameEn": "Yuri Taniguchi",
     "nameJa": "谷口友梨",
-    "affiliation": "The University of Shiga Prefecture",
+    "affiliation": "Shiga University",
     "themes": [
       "Bicycle theft",
       "Bicycle locking behaviour",
