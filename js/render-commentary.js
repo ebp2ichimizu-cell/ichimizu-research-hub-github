@@ -695,6 +695,25 @@ function renderOriginalActions(study) {
 }
 
 
+function findCommentaryStudy(data, id) {
+
+  /*
+   * Shared commentary slugs are used for research series.
+   * Always prefer an exact study ID match before falling back to a shared slug.
+   * This prevents an earlier related study from taking over the representative
+   * study page when several records point to the same commentary file.
+   */
+  return (
+    data.studies.find(
+      item => item.id === id
+    ) ||
+    data.studies.find(
+      item => item.commentary_slug === id
+    )
+  );
+}
+
+
 export function renderCommentary(
   data,
   id
@@ -708,10 +727,9 @@ export function renderCommentary(
 
 
   const study =
-    data.studies.find(
-      item =>
-        item.id === id ||
-        item.commentary_slug === id
+    findCommentaryStudy(
+      data,
+      id
     );
 
 
@@ -823,10 +841,9 @@ export async function activateCommentary(
 
 
   const study =
-    data.studies.find(
-      item =>
-        item.id === id ||
-        item.commentary_slug === id
+    findCommentaryStudy(
+      data,
+      id
     );
 
 
