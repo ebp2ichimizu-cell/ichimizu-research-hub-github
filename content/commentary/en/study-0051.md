@@ -2,37 +2,66 @@
 study_id: "study-0051"
 paired_study_id: "study-0052"
 title: "Field Experiment to Promote Bicycle Locking at Railway-Station and Commercial-Facility Parking Areas"
+authors: "Kenji Teramura・Nozomi Eguchi・Hiroyuki I・Takahito Shimada"
 year: 2026
+publication: "19th Annual Meeting of the Japanese Society of Environmental Psychology; 14(1), 34 and 54"
 commentary_language: "en"
 commentary_status: "reviewed-paired-conference-abstracts"
 ---
 
-# Field Experiment to Promote Bicycle Locking at Railway-Station and Commercial-Facility Parking Areas
+# Field Experiment to Promote Bicycle Locking
+## Pairing outcome evaluation with process evaluation
 
 > **About this commentary**  
 > This page is an independent commentary prepared by the Research Hub to help police practitioners and crime-prevention professionals understand the study and its evidential limits. It is not an explanation provided or endorsed by the original authors. Please consult the original source for the exact study details.
 
-This paired commentary combines **study-0051 outcome evaluation** and **study-0052 process evaluation**.
+The two conference abstracts should be read together:
 
-From 2023 to 2025, 47.7% of railway-station bicycle thefts (243/509) occurred at the top 13 parking areas and 33.4% of commercial-facility thefts (269/805) at the top 12 facilities.
+- study-0051: observed locking behavior;
+- study-0052: user recognition, recall and self-reported process measures.
 
-Four message conditions plus no signage were assigned. Locking was observed twice before and four times after intervention.
-
-At week 1, locking increased under all intervention conditions. Regression identified statistically positive effects for the direct/control message and social-norm message. The pattern did not reproduce the earlier Fukushima result exactly.
+The sites were selected using crime concentration rather than convenience alone.
 
 <!-- STATS_DETAIL_START -->
 
 ## Check the statistics
 
-The public abstract confirms significant positive regression effects for the control/direct message and social-norm message, but the table is not sufficiently machine-readable to reproduce exact coefficients safely.
+Targeting:
 
-The paired process study examined whether users noticed and recognized the banner and whether it affected locking intention. Commercial-facility recognition was relatively low and recognition accuracy differed across messages.
+- railway stations: 243/509 thefts (**47.7%**) concentrated in the top 13 parking areas;
+- commercial facilities: 269/805 (**33.4%**) concentrated in the top 12 facilities.
+
+The outcome study observed locking at six time points. At one week, all intervention conditions showed higher locking, and regression analysis identified positive effects for the direct/control message and social-norm message.
+
+The process study surveyed 240 users.
+
+Railway-station users were more likely to report prior unlocked parking:
+**χ²(1)=12.8, OR=3.05, 95%CI [1.63–5.71], p<.001.**
+
+Commercial-facility users were more likely not to know about the intervention:
+**χ²(1)=15.1, OR=2.8, 95%CI [1.66–4.73], p<.001.**
+
+Among 31 respondents with prior unlocked parking who noticed the banner, 15 reported becoming more conscious of locking.
 
 <!-- STATS_DETAIL_END -->
 
 ## Research Hub commentary
 
-A non-replication is not a failed study. It shifts the question from “Which message is best?” to **“Which message works for which users and settings, and was it actually noticed?”**
+The Kyoto results did not reproduce the Fukushima message pattern exactly.
+
+That is not a failed replication. It is evidence that context, user population and exposure may modify intervention effects.
+
+The paired design is useful because it moves from:
+
+**Did locking change?**
+
+to:
+
+**Was the intervention noticed, remembered and plausibly linked to the change?**
+
+## Key takeaway
+
+Outcome evaluation and process evaluation should be paired whenever possible.
 
 ## Read the original study
 - https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_34/_article/-char/ja
