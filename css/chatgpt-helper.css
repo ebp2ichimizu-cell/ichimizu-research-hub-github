@@ -204,3 +204,22 @@
   }
 
 }
+
+
+.chatgpt-browser-note{
+  margin:12px 0 0;
+  color:var(--primary-dark);
+  font-size:.9rem;
+  font-weight:700;
+}
+
+.chatgpt-external-browser-note{
+  margin:4px 0 0;
+  color:var(--muted);
+  font-size:.78rem;
+}
+
+.chatgpt-open-link{
+  font:inherit;
+  cursor:pointer;
+}
