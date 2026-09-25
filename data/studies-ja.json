@@ -42,7 +42,30 @@
     "doi": "10.20621/jjscrim.35.0_132",
     "url": "https://www.jstage.jst.go.jp/article/jjscrim/35/0/35_KJ00006662066/_article/-char/ja",
     "notes": "介入そのものより施策認知の評価。収集対象として保持。",
-    "sourceOrder": 1
+    "sourceOrder": 1,
+    "aiQuestions": [
+      {
+        "question": "青色防犯パトロールを見た人ほど被害リスクを高く感じたのは、どう解釈すべき？",
+        "purpose": "可視的防犯活動が安心感だけでなく危険認知を高め得る点を理解する。",
+        "checkPoints": "被害リスク認知・犯罪不安・治安評価・地区満足感が別指標であること、パトロール認知との関連。",
+        "keywords": "risk perception fear of crime visible patrol",
+        "caution": "横断調査なので、パトロールが危険認知を高めたと因果断定しない。"
+      },
+      {
+        "question": "犯罪発生マップは『不安を高める情報』なのか、それとも『地域評価を改善する情報』なのか？",
+        "purpose": "犯罪情報提供の複数アウトカムを分けて読む。",
+        "checkPoints": "マップ閲覧と地区満足感・治安評価・犯罪不安の関係を別々に確認する。",
+        "keywords": "crime map neighborhood satisfaction fear",
+        "caution": "一つの心理指標だけで施策全体を評価しない。"
+      },
+      {
+        "question": "この研究でいう『安心感』を1つの指標にまとめてはいけないのはなぜ？",
+        "purpose": "評価指標設計の学習。",
+        "checkPoints": "個人×認知、個人×感情、地区×認知、地区×感情の4区分。",
+        "keywords": "perceived risk fear neighborhood evaluation satisfaction",
+        "caution": "概念の違いを保つ。"
+      }
+    ]
   },
   {
     "id": "study-0002",
@@ -82,7 +105,8 @@
     "doi": "",
     "url": "https://www.npa.go.jp/hakusyo/h23/honbun/html/2-sho5_2_6.html",
     "notes": "科警研の社会実験。原著・所報の追跡対象。",
-    "sourceOrder": 2
+    "sourceOrder": 2,
+    "aiQuestions": []
   },
   {
     "id": "study-0003",
@@ -127,7 +151,30 @@
     "doi": "",
     "url": "https://kagawa-u.repo.nii.ac.jp/record/4478/files/AA1147009X_25_57-68.pdf",
     "notes": "香川県警×香川大学の長期共同事業系列。",
-    "sourceOrder": 3
+    "sourceOrder": 3,
+    "aiQuestions": [
+      {
+        "question": "啓発動画を『見る人』と『作る人』では、期待される変化はどう違う？",
+        "purpose": "参加型教育と受動的視聴を区別する。",
+        "checkPoints": "大学生・中学生の制作参加者と視聴者の評価・意識変化の測定対象。",
+        "keywords": "participatory video shoplifting prevention education",
+        "caution": "意識変化を万引き件数の減少と同一視しない。"
+      },
+      {
+        "question": "動画制作への参加そのものに教育効果があると言える根拠はどこまである？",
+        "purpose": "教育実践のエビデンス強度を読む。",
+        "checkPoints": "前後調査、比較の有無、自己報告指標、参加者選択。",
+        "keywords": "pre-post educational intervention",
+        "caution": "対照群や長期追跡の有無を確認する。"
+      },
+      {
+        "question": "この研究を店舗対策ではなく青少年教育として読むと、何が見える？",
+        "purpose": "研究系列内での役割を理解する。",
+        "checkPoints": "香川の万引き防止系列で対象が店舗から青少年へ拡張された位置づけ。",
+        "keywords": "shoplifting prevention youth education",
+        "caution": "犯罪発生アウトカムではない。"
+      }
+    ]
   },
   {
     "id": "study-0004",
@@ -172,7 +219,30 @@
     "doi": "",
     "url": "https://kagawa-u.repo.nii.ac.jp/record/2020/files/AN00038237_138_L075.pdf",
     "notes": "EBPを明示した初期の実務連携研究。",
-    "sourceOrder": 4
+    "sourceOrder": 4,
+    "aiQuestions": [
+      {
+        "question": "作ったマニュアルは、店舗で実際にどこまで使われた？",
+        "purpose": "配布数ではなく利用・実装を見る。",
+        "checkPoints": "店舗内設置、店員教育等の利用状況と、企画への評価。",
+        "keywords": "implementation uptake manual shoplifting",
+        "caution": "自己申告の利用と実際の遵守は区別する。"
+      },
+      {
+        "question": "マニュアルを配るだけでは足りないと分かった点は何？",
+        "purpose": "実装上のボトルネックを把握する。",
+        "checkPoints": "利用状況調査から次の声かけマニュアル改訂へつながった点。",
+        "keywords": "implementation feedback cycle",
+        "caution": "実装評価であり犯罪減少の因果効果ではない。"
+      },
+      {
+        "question": "この研究は、EBPのどの段階に位置づく？",
+        "purpose": "研究→実装→再評価の循環を理解する。",
+        "checkPoints": "実態調査をもとにマニュアルを作成し、利用状況を測り、次の介入設計へつないだ流れ。",
+        "keywords": "evidence-based practice implementation cycle",
+        "caution": "単独研究ではなく系列で読む。"
+      }
+    ]
   },
   {
     "id": "study-0005",
@@ -219,7 +289,30 @@
     "doi": "",
     "url": "https://kagawa-u.repo.nii.ac.jp/records/2015",
     "notes": "後続のマニュアル・声かけ介入の基礎研究として保持。",
-    "sourceOrder": 5
+    "sourceOrder": 5,
+    "aiQuestions": [
+      {
+        "question": "万引きの多い店舗では、どんな特徴が重なっていた？",
+        "purpose": "介入前の問題分析を理解する。",
+        "checkPoints": "店舗調査で比較された店舗特性と万引き認知件数の関係。",
+        "keywords": "shoplifting store characteristics situational prevention",
+        "caution": "関連であり因果ではない。"
+      },
+      {
+        "question": "見つかった特徴のうち、現場で変えられるものはどれ？",
+        "purpose": "観察研究を介入仮説へ変換する。",
+        "checkPoints": "店舗レイアウト、従業員行動、監視性など介入可能な候補を抽出する。",
+        "keywords": "modifiable risk factors retail theft",
+        "caution": "観察結果から有効策を直接断定しない。"
+      },
+      {
+        "question": "この調査結果が、後の声かけマニュアルにどうつながった？",
+        "purpose": "系列研究のAnalysis→Responseを理解する。",
+        "checkPoints": "study-0007との接続、店内声かけ・監視性の発想。",
+        "keywords": "shoplifting prevention manual greeting",
+        "caution": "後続介入の根拠の一部として読む。"
+      }
+    ]
   },
   {
     "id": "study-0006",
@@ -263,7 +356,30 @@
     "doi": "",
     "url": "https://kagawa-u.repo.nii.ac.jp/records/4492",
     "notes": "県警少年課職員が共著。",
-    "sourceOrder": 6
+    "sourceOrder": 6,
+    "aiQuestions": [
+      {
+        "question": "保護者向け教育で、何を変えようとしていた？",
+        "purpose": "教育介入の想定メカニズムを整理する。",
+        "checkPoints": "保護者の知識・態度・家庭内での働きかけ等のアウトカム。",
+        "keywords": "parent education shoplifting youth prevention",
+        "caution": "保護者の意識変化と青少年の実行動は別。"
+      },
+      {
+        "question": "保護者に働きかけることは、店舗での万引き防止とどうつながる？",
+        "purpose": "多層的予防の発想を理解する。",
+        "checkPoints": "店舗外の家庭・教育場面を防犯系列へ広げた位置づけ。",
+        "keywords": "family-based prevention shoplifting",
+        "caution": "媒介経路は直接検証されていない可能性を確認する。"
+      },
+      {
+        "question": "このプログラムの効果を次に確かめるなら、何を追うべき？",
+        "purpose": "教育評価から行動評価への発展を考える。",
+        "checkPoints": "長期保持、家庭内会話、青少年の行動、学校・地域との接続。",
+        "keywords": "follow-up behavioral outcomes",
+        "caution": "原著で測っていない結果を既存効果として扱わない。"
+      }
+    ]
   },
   {
     "id": "study-0007",
@@ -311,7 +427,37 @@
     "doi": "",
     "url": "https://kagawa-u.repo.nii.ac.jp/record/2028/files/AN00038237_139_L035.pdf",
     "notes": "調査→開発→実践→評価の循環を明示。",
-    "sourceOrder": 7
+    "sourceOrder": 7,
+    "aiQuestions": [
+      {
+        "question": "この研究系列は、調査結果をどうやって次の対策に反映した？",
+        "purpose": "EBPの反復サイクルを具体化する。",
+        "checkPoints": "店舗調査→マニュアル→利用状況→声かけマニュアル→試行→研修等の流れ。",
+        "keywords": "evidence-based practice cycle shoplifting",
+        "caution": "単一介入の効果研究ではない。"
+      },
+      {
+        "question": "『店内声かけ』は、なぜ防犯対策として考えられた？",
+        "purpose": "介入メカニズムを理解する。",
+        "checkPoints": "接客・ホスピタリティと監視性、潜在的行為者への認知手がかり。",
+        "keywords": "greeting natural surveillance shoplifting",
+        "caution": "メカニズム仮説と犯罪件数への因果効果を区別する。"
+      },
+      {
+        "question": "この系列の中で、強いエビデンスと弱いエビデンスはどう違う？",
+        "purpose": "複数研究を一括評価しない姿勢を身につける。",
+        "checkPoints": "横断調査、前後調査、利用状況調査、店舗試行のデザイン差。",
+        "keywords": "study design evidence hierarchy implementation",
+        "caution": "系列全体を一つの効果量として扱わない。"
+      },
+      {
+        "question": "一度作った対策を修正し続けたことに、どんな実務的価値がある？",
+        "purpose": "EBPを『正解導入』ではなく改善サイクルとして理解する。",
+        "checkPoints": "現場フィードバックを用いた継続改善。",
+        "keywords": "iterative implementation continuous improvement",
+        "caution": "成功物語として単純化しない。"
+      }
+    ]
   },
   {
     "id": "study-0008",
@@ -359,7 +505,30 @@
     "doi": "",
     "url": "https://kagawa-u.repo.nii.ac.jp/records/2058",
     "notes": "香川系列。",
-    "sourceOrder": 8
+    "sourceOrder": 8,
+    "aiQuestions": [
+      {
+        "question": "対面講習と動画では、参加者の反応にどんな違いがあった？",
+        "purpose": "教育手段の比較を理解する。",
+        "checkPoints": "講習会群と動画群の評価・対策実感等の差。",
+        "keywords": "training video comparison shoplifting prevention",
+        "caution": "参加者構成や割付方法を確認する。"
+      },
+      {
+        "question": "動画は『効果が低い』のか、それとも到達しやすさに別の利点がある？",
+        "purpose": "効果と実装容易性を分けて考える。",
+        "checkPoints": "対面講習と動画の強み・弱み、到達範囲、継続利用。",
+        "keywords": "implementation reach training delivery",
+        "caution": "評価尺度の差だけで総合優劣を決めない。"
+      },
+      {
+        "question": "教育の評価を犯罪予防の評価につなげるには、次に何を測るべき？",
+        "purpose": "中間アウトカムから実行動へ進む。",
+        "checkPoints": "店舗行動、対策実施、万引き認知件数等。",
+        "keywords": "behavioral implementation outcome",
+        "caution": "研究で未測定なら推測として扱う。"
+      }
+    ]
   },
   {
     "id": "study-0009",
@@ -402,7 +571,30 @@
     "doi": "10.20621/jjscrim.41.0_80",
     "url": "https://www.jstage.jst.go.jp/article/jjscrim/41/0/41_80/_article/-char/ja",
     "notes": "効果が一方向でない点が重要。",
-    "sourceOrder": 9
+    "sourceOrder": 9,
+    "aiQuestions": [
+      {
+        "question": "体感治安が良くなっても、犯罪不安が下がらなかったのはなぜ考えられる？",
+        "purpose": "地域評価と個人感情を分ける。",
+        "checkPoints": "体感治安・リスク知覚・犯罪不安の異なる動き。",
+        "keywords": "perceived safety fear of crime reassurance policing",
+        "caution": "因果メカニズムは直接確定していない。"
+      },
+      {
+        "question": "防犯ボックスに近い住民ほど結果が違ったのは、どう読むべき？",
+        "purpose": "距離と施策曝露の関係を考える。",
+        "checkPoints": "徒歩5分・10分圏の結果、認知・接触の可能性。",
+        "keywords": "proximity police box reassurance",
+        "caution": "近距離群は無作為ではなく地域特性が異なる可能性。"
+      },
+      {
+        "question": "防犯ボックスの効果を評価するなら、犯罪件数以外に何を分けて測るべき？",
+        "purpose": "複数アウトカム設計を理解する。",
+        "checkPoints": "治安評価、リスク知覚、不安、認知、接触。",
+        "keywords": "reassurance policing outcomes",
+        "caution": "一つの『安心感』指標に統合しない。"
+      }
+    ]
   },
   {
     "id": "study-0010",
@@ -448,7 +640,30 @@
     "doi": "10.11361/journalcpij.51.350",
     "url": "https://www.jstage.jst.go.jp/article/journalcpij/51/3/51_350/_article/-char/ja/",
     "notes": "福岡県警アドバイザー制度。",
-    "sourceOrder": 10
+    "sourceOrder": 10,
+    "aiQuestions": [
+      {
+        "question": "被害店舗で見つかった『視認性の悪さ』は、強盗の原因と考えてよい？",
+        "purpose": "観察研究の因果限界を理解する。",
+        "checkPoints": "被害店・近隣非被害店比較、視認性差、p値、相関。",
+        "keywords": "robbery convenience store visibility CPTED",
+        "caution": "傾向や関連を因果効果に読み替えない。"
+      },
+      {
+        "question": "駐車場の大きさ・照明・人通りは、なぜ別々に考えにくい？",
+        "purpose": "環境要因の共変を理解する。",
+        "checkPoints": "駐車台数と街灯・視認性・歩行者等の相関。",
+        "keywords": "environmental correlates multicollinearity",
+        "caution": "一変数だけを施策対象として断定しない。"
+      },
+      {
+        "question": "この研究から安全に導ける店舗改善案はどこまで？",
+        "purpose": "Analysisから介入設計への移行を学ぶ。",
+        "checkPoints": "棚配置、窓際視認性、照明、店員の位置・挨拶等を『検証候補』として扱う。",
+        "keywords": "CPTED natural surveillance retail robbery",
+        "caution": "店員の物理的抵抗を推奨しない。強盗時の安全確保を優先。"
+      }
+    ]
   },
   {
     "id": "study-0011",
@@ -494,7 +709,30 @@
     "doi": "10.11361/reportscpij.16.1_18",
     "url": "https://www.jstage.jst.go.jp/article/reportscpij/16/1/16_18/_article/-char/ja/",
     "notes": "福岡県警アドバイザー制度。",
-    "sourceOrder": 11
+    "sourceOrder": 11,
+    "aiQuestions": [
+      {
+        "question": "防犯カメラ設置前後の変化は、単純な前後比較と何が違う？",
+        "purpose": "DID等の比較設計を理解する。",
+        "checkPoints": "設置地区と比較地区、設置前後、差の差の考え方。",
+        "keywords": "CCTV difference-in-differences crime prevention",
+        "caution": "比較地区のトレンド仮定を確認する。"
+      },
+      {
+        "question": "カメラ周辺で犯罪が減ったとき、周辺への移動はどう確認した？",
+        "purpose": "犯罪転移と利益の拡散を理解する。",
+        "checkPoints": "設置地点周辺・隣接地域の地理的分析。",
+        "keywords": "crime displacement diffusion of benefits CCTV",
+        "caution": "周辺変化だけで転移・拡散を断定しない。"
+      },
+      {
+        "question": "防犯カメラの『効果』を、どの犯罪・どの範囲で読むべき？",
+        "purpose": "対象犯罪と空間範囲を限定する。",
+        "checkPoints": "原著の対象罪種、分析距離、期間。",
+        "keywords": "CCTV crime type spatial buffer",
+        "caution": "他地域・他罪種へそのまま一般化しない。"
+      }
+    ]
   },
   {
     "id": "study-0012",
@@ -537,7 +775,30 @@
     "doi": "10.11361/reportscpij.16.1_24",
     "url": "https://www.jstage.jst.go.jp/article/reportscpij/16/1/16_24/_article/-char/ja",
     "notes": "後続介入設計の基礎として保持。",
-    "sourceOrder": 12
+    "sourceOrder": 12,
+    "aiQuestions": [
+      {
+        "question": "侵入窃盗の『近接反復』は、発生後どのくらいの期間・距離で強かった？",
+        "purpose": "重点警戒の時間窓・空間窓を理解する。",
+        "checkPoints": "同一建物、100m、200m、300m、10日・30日等の結果。",
+        "keywords": "near repeat burglary Knox test",
+        "caution": "Knox比は絶対確率の倍率ではない。"
+      },
+      {
+        "question": "同じ建物の再被害と、近くの別建物の被害はどう違う？",
+        "purpose": "repeat と near repeat を区別する。",
+        "checkPoints": "建物反復、住戸反復、近接反復の時間パターン。",
+        "keywords": "repeat victimization near repeat burglary",
+        "caution": "分析単位を混同しない。"
+      },
+      {
+        "question": "この分析を重点パトロールに使うなら、どう検証すべき？",
+        "purpose": "予測分析を介入評価へつなぐ。",
+        "checkPoints": "発生後の一時的重点警戒、対象エリア、比較条件、犯罪転移。",
+        "keywords": "predictive policing temporary patrol near repeat",
+        "caution": "本研究自体は介入効果を検証していない。"
+      }
+    ]
   },
   {
     "id": "study-0013",
@@ -585,7 +846,30 @@
     "doi": "",
     "url": "https://www.kards.kagawa-u.ac.jp/profile/ja.efaae1853d0c2ceaedc27b186c88b5bc.html",
     "notes": "研究者業績ページで書誌確認。",
-    "sourceOrder": 13
+    "sourceOrder": 13,
+    "aiQuestions": [
+      {
+        "question": "『安全・安心まちづくり推進店舗』の認定で、店舗の何が変わった？",
+        "purpose": "認定制度の実装効果を整理する。",
+        "checkPoints": "店舗の防犯意識、地域連携、活動内容等。",
+        "keywords": "crime prevention certification stores community partnership",
+        "caution": "自己報告や参加店舗の選択を考慮する。"
+      },
+      {
+        "question": "店舗を地域防犯の担い手にする仕組みは、万引き対策とどう違う？",
+        "purpose": "店舗内対策から地域連携への拡張を理解する。",
+        "checkPoints": "系列内での位置づけ、店舗外の見守り・地域活動。",
+        "keywords": "retail crime prevention community partnership",
+        "caution": "犯罪減少効果を直接示す研究とは限らない。"
+      },
+      {
+        "question": "認定制度を評価するとき、認定件数以外に何を測るべき？",
+        "purpose": "実装KPIを考える。",
+        "checkPoints": "活動実施率、継続率、連携頻度、店舗・住民の認知。",
+        "keywords": "implementation fidelity certification program",
+        "caution": "制度参加と実際の行動を区別する。"
+      }
+    ]
   },
   {
     "id": "study-0014",
@@ -626,7 +910,30 @@
     "doi": "",
     "url": "https://kagawa-u.repo.nii.ac.jp/records/2137",
     "notes": "香川系列。",
-    "sourceOrder": 14
+    "sourceOrder": 14,
+    "aiQuestions": [
+      {
+        "question": "見守りボランティア研修と店舗CSR講習では、狙っていた行動はどう違う？",
+        "purpose": "対象主体ごとの実装経路を理解する。",
+        "checkPoints": "ボランティアと店舗の役割、研修後評価、活動意義。",
+        "keywords": "volunteer training crime prevention CSR",
+        "caution": "満足度・意識変化と実際の活動を区別する。"
+      },
+      {
+        "question": "講習後の高い評価は、そのまま防犯効果と考えてよい？",
+        "purpose": "研修評価の限界を理解する。",
+        "checkPoints": "参加者自己報告、対照群の有無、犯罪アウトカムの有無。",
+        "keywords": "training evaluation self-report",
+        "caution": "肯定的評価を犯罪減少に読み替えない。"
+      },
+      {
+        "question": "地域と店舗の連携を本当に評価するなら、何を追跡すべき？",
+        "purpose": "連携の実装測定を考える。",
+        "checkPoints": "共同活動、情報共有、継続参加、地域での行動。",
+        "keywords": "community partnership implementation",
+        "caution": "原著未測定の指標は次回評価案として扱う。"
+      }
+    ]
   },
   {
     "id": "study-0015",
@@ -668,7 +975,30 @@
     "doi": "",
     "url": "https://www.police.pref.fukuoka.jp/data/open/cnt/3/1005/1/gaiyouban20181130.pdf?20190327181912=",
     "notes": "福岡県警公式報告。",
-    "sourceOrder": 15
+    "sourceOrder": 15,
+    "aiQuestions": [
+      {
+        "question": "学生が『危ない』と感じた場所と、実際の性犯罪発生地点はどれくらい一致した？",
+        "purpose": "主観的危険認知と実リスクのずれを理解する。",
+        "checkPoints": "20発生地点のうち危険認知との重なり、未認知地点。",
+        "keywords": "risk perception sexual offences spatial mismatch",
+        "caution": "警察記録は全被害を完全には捉えない。"
+      },
+      {
+        "question": "『暗い・人が少ない・道が狭い』だけで危険場所を判断すると、何を見落とす？",
+        "purpose": "単一の環境手がかりの限界を理解する。",
+        "checkPoints": "照度・道路幅・夜間活動・監視の目と発生地点の関係。",
+        "keywords": "CPTED lighting natural surveillance sexual crime",
+        "caution": "明るさと犯罪リスクの因果関係を断定しない。"
+      },
+      {
+        "question": "スマホ・イヤホン利用の記録を、被害者側の原因として読んではいけないのはなぜ？",
+        "purpose": "被害者非難を避け、記述データを正しく読む。",
+        "checkPoints": "事案時の行動記述と因果推論の違い。",
+        "keywords": "victim behavior exposure sexual offences",
+        "caution": "記述割合は原因割合ではない。"
+      }
+    ]
   },
   {
     "id": "study-0016",
@@ -721,7 +1051,30 @@
     "doi": "",
     "url": "https://kagawa-u.repo.nii.ac.jp/record/2440/files/AA1197154X_16_109-122.pdf",
     "notes": "香川系列。",
-    "sourceOrder": 16
+    "sourceOrder": 16,
+    "aiQuestions": [
+      {
+        "question": "施錠啓発と地域安全マップ作成は、同じ『防犯教育』でも何が違う？",
+        "purpose": "複合教育プログラムの目的を分ける。",
+        "checkPoints": "施錠行動とアプリを使った危険発見・地図作成の異なるアウトカム。",
+        "keywords": "crime prevention education locking safety map",
+        "caution": "複数構成要素の効果を一括しない。"
+      },
+      {
+        "question": "防犯ウォーキングアプリは、何を学ばせるために使われた？",
+        "purpose": "ツール利用の教育メカニズムを理解する。",
+        "checkPoints": "地域観察、危険・安全要因の発見、マップ化。",
+        "keywords": "safety map app crime prevention education",
+        "caution": "アプリ使用自体を犯罪減少効果とみなさない。"
+      },
+      {
+        "question": "教育効果が出ても、地域の犯罪が減ったとは言えないのはなぜ？",
+        "purpose": "教育アウトカムと犯罪アウトカムを区別する。",
+        "checkPoints": "前後評価で測った知識・意識・行動意図等。",
+        "keywords": "educational outcomes crime outcomes",
+        "caution": "研究で測定していない結果は主張しない。"
+      }
+    ]
   },
   {
     "id": "study-0017",
@@ -768,7 +1121,30 @@
     "doi": "",
     "url": "https://kagawa-u.repo.nii.ac.jp/records/3694",
     "notes": "香川系列。",
-    "sourceOrder": 17
+    "sourceOrder": 17,
+    "aiQuestions": [
+      {
+        "question": "万引き防止教育と『ホスピタリティ』を結びつけた狙いは何？",
+        "purpose": "接客と監視性の両立メカニズムを理解する。",
+        "checkPoints": "店員の防犯意識、声かけ、接客姿勢。",
+        "keywords": "hospitality shoplifting prevention employee training",
+        "caution": "ホスピタリティ向上を犯罪減少と同一視しない。"
+      },
+      {
+        "question": "教育後に変わったのは、知識・意識・行動のどこ？",
+        "purpose": "中間アウトカムを分解する。",
+        "checkPoints": "店員・役職者の前後指標、フォローアップ。",
+        "keywords": "employee training pre-post shoplifting",
+        "caution": "対照群なしなら時間効果を除けない。"
+      },
+      {
+        "question": "店舗研修を定着させるには、次に何を測るとよい？",
+        "purpose": "実装継続を考える。",
+        "checkPoints": "声かけ実施率、管理者支援、継続教育、万引き事案。",
+        "keywords": "implementation fidelity staff training",
+        "caution": "次回評価案と既存結果を分ける。"
+      }
+    ]
   },
   {
     "id": "study-0018",
@@ -808,7 +1184,37 @@
     "doi": "10.11314/jisss.37.239",
     "url": "https://www.jstage.jst.go.jp/article/jisss/37/0/37_239/_article/-char/ja",
     "notes": "国内ホットスポット・ポリシング系の重要例。",
-    "sourceOrder": 18
+    "sourceOrder": 18,
+    "aiQuestions": [
+      {
+        "question": "リスクマップで選んだ場所に集中パトロールすることの価値は、単に『警察を増やす』のと何が違う？",
+        "purpose": "場所選定と資源配分のEBP的意味を理解する。",
+        "checkPoints": "犯罪分析によるリスクエリア選定、活動記録、比較署。",
+        "keywords": "hot spots policing risk mapping patrol targeting",
+        "caution": "無作為化実験ではない。"
+      },
+      {
+        "question": "パトロールの『量』はどこまで測れていて、何がまだ分からない？",
+        "purpose": "実装量と最適用量を区別する。",
+        "checkPoints": "滞在時間・回数等の記録、最適時間・手段が未確定。",
+        "keywords": "patrol dosage hot spots policing",
+        "caution": "犯罪減少がパトロール量だけで説明できるとは限らない。"
+      },
+      {
+        "question": "周辺で犯罪が増減したとき、犯罪転移と利益の拡散をどう見分ける？",
+        "purpose": "空間的副作用の評価を理解する。",
+        "checkPoints": "リスクエリア内外の結果、エリア外活動量未測定という限界。",
+        "keywords": "displacement diffusion of benefits hot spots",
+        "caution": "周辺変化の解釈には追加データが必要。"
+      },
+      {
+        "question": "この研究をSARAモデルで読むと、各段階はどう対応する？",
+        "purpose": "問題解決型警察活動との接続を理解する。",
+        "checkPoints": "Scanning・Analysis・Response・Assessment の対応。",
+        "keywords": "SARA problem-oriented policing",
+        "caution": "研究HUBの整理と原著の記述を区別する。"
+      }
+    ]
   },
   {
     "id": "study-0019",
@@ -850,7 +1256,30 @@
     "doi": "",
     "url": "https://www.jstage.jst.go.jp/article/pbsj/50/0/50_180/_pdf/-char/ja",
     "notes": "査読論文と分けて保持。",
-    "sourceOrder": 19
+    "sourceOrder": 19,
+    "aiQuestions": [
+      {
+        "question": "コールセンター導入の係数は、なぜ『10.1%減』のようにそのまま読めない？",
+        "purpose": "負の二項回帰等の係数解釈を慎重にする。",
+        "checkPoints": "実装係数 .101、モデル仕様、著者の解釈。",
+        "keywords": "negative binomial coefficient fraud call center",
+        "caution": "係数を単純な百分率に変換しない。"
+      },
+      {
+        "question": "都道府県ごとの導入時期の違いを使う『自然実験』には、どんな強みと弱みがある？",
+        "purpose": "政策評価デザインを理解する。",
+        "checkPoints": "47都道府県×51か月、固定効果、導入前後の比較構造。",
+        "keywords": "natural experiment panel fixed effects fraud",
+        "caution": "同時期の他施策や実装差が残る。"
+      },
+      {
+        "question": "コールセンターは、被害防止のどの段階に働きかける施策と考えられる？",
+        "purpose": "介入経路を系列研究とつなぐ。",
+        "checkPoints": "情報到達、対策認知、行動実施、被害防止の段階。",
+        "keywords": "fraud prevention call center behavioral pathway",
+        "caution": "犯罪件数の関連と個人行動のメカニズムを分ける。"
+      }
+    ]
   },
   {
     "id": "study-0020",
@@ -892,7 +1321,30 @@
     "doi": "",
     "url": "https://www.kagawa-u.ac.jp/29192/",
     "notes": "後続の査読論文『ホスピタリティに着目したセルフレジ不正対策』につながる。",
-    "sourceOrder": 20
+    "sourceOrder": 20,
+    "aiQuestions": [
+      {
+        "question": "セルフレジサポーターは、監視強化ではなく『ホスピタリティ型』とされるのはなぜ？",
+        "purpose": "介入メカニズムを理解する。",
+        "checkPoints": "利用者支援、声かけ、可視的存在、自然監視。",
+        "keywords": "self-checkout shoplifting hospitality supporter",
+        "caution": "抑止メカニズムは一つに特定できない。"
+      },
+      {
+        "question": "この段階の公表結果と、後の査読研究study-0041はどうつながる？",
+        "purpose": "研究系列の発展を理解する。",
+        "checkPoints": "提案・実装→査読研究による効果検証の流れ。",
+        "keywords": "self-checkout fraud implementation evaluation",
+        "caution": "初期公表を最終的な因果証拠として扱わない。"
+      },
+      {
+        "question": "店舗に導入するとき、サポーター配置以外に何を記録すべき？",
+        "purpose": "実装評価の指標を考える。",
+        "checkPoints": "配置時間、声かけ数、利用者反応、不正疑い事案、店舗条件。",
+        "keywords": "implementation fidelity self-checkout",
+        "caution": "未測定項目は今後の評価案として扱う。"
+      }
+    ]
   },
   {
     "id": "study-0021",
@@ -937,7 +1389,37 @@
     "doi": "10.4992/jjpsy.93.21044",
     "url": "https://www.jstage.jst.go.jp/article/jjpsy/93/6/93_93.21044/_article/-char/ja",
     "notes": "「意図」と「行動」の乖離を示す。",
-    "sourceOrder": 21
+    "sourceOrder": 21,
+    "aiQuestions": [
+      {
+        "question": "『やろうと思う』が増えても『実際にやる』が増えなかったのは、どこで行動が止まった可能性がある？",
+        "purpose": "意図―行動ギャップを理解する。",
+        "checkPoints": "行動意図、対策効果性認知、実際の行動の差。",
+        "keywords": "intention behavior gap protection motivation theory",
+        "caution": "研究から特定できるボトルネックと推測を分ける。"
+      },
+      {
+        "question": "脅威・対策の効果性・自己効力は、それぞれ何を変えようとする情報？",
+        "purpose": "防護動機理論の構成要素を実務に結びつける。",
+        "checkPoints": "脅威評価と対処評価、Twitter投稿の段階的提示。",
+        "keywords": "Protection Motivation Theory threat response efficacy self-efficacy",
+        "caution": "理論概念を単純な恐怖喚起と同一視しない。"
+      },
+      {
+        "question": "6回繰り返し質問したこと自体が結果に影響する可能性は？",
+        "purpose": "測定反応性を理解する。",
+        "checkPoints": "統制群でも時間変化がみられた点、繰り返し測定。",
+        "keywords": "measurement reactivity panel survey",
+        "caution": "介入効果と質問による意識化を区別する。"
+      },
+      {
+        "question": "無作為割付後に分析対象が177人から109人に減ったことは、結果の読み方にどう影響する？",
+        "purpose": "脱落・除外後の比較可能性を理解する。",
+        "checkPoints": "群別残存人数、除外基準、attrition。",
+        "keywords": "attrition randomized experiment",
+        "caution": "当初の無作為化の利点が完全に維持されたとは限らない。"
+      }
+    ]
   },
   {
     "id": "study-0022",
@@ -979,7 +1461,30 @@
     "doi": "10.11314/jisss.40.71",
     "url": "https://www.jstage.jst.go.jp/article/jisss/40/0/40_71/_article/-char/ja",
     "notes": "政策実装の到達度評価。",
-    "sourceOrder": 22
+    "sourceOrder": 22,
+    "aiQuestions": [
+      {
+        "question": "同じ電話機でも、留守番電話・自動通話録音・着信拒否で利用率が違ったのはなぜ？",
+        "purpose": "機能別の実装難易度を理解する。",
+        "checkPoints": "83.8%、69.5%、47.5%という利用状況と操作複雑性。",
+        "keywords": "fraud prevention phone answering machine call recording call blocking",
+        "caution": "利用率の差を防犯効果の差とみなさない。"
+      },
+      {
+        "question": "『誰が設定したか』より『使い方が分かるか』が重要だった可能性は？",
+        "purpose": "支援設計の焦点を考える。",
+        "checkPoints": "設定者と継続利用、着信拒否機能の理解との関連。",
+        "keywords": "device setup usability implementation",
+        "caution": "関連であり因果ではない。"
+      },
+      {
+        "question": "補助金制度のKPIを『購入件数』で止めると、何を見落とす？",
+        "purpose": "政策実装評価を理解する。",
+        "checkPoints": "申請→購入→設定→継続利用→被害防止の段階。",
+        "keywords": "implementation funnel subsidy fraud prevention",
+        "caution": "本研究は被害減少を直接測っていない。"
+      }
+    ]
   },
   {
     "id": "study-0023",
@@ -1023,7 +1528,37 @@
     "doi": "10.20742/pbsj.51.0_134",
     "url": "https://www.jstage.jst.go.jp/article/pbsj/51/0/51_134/_article/-char/ja",
     "notes": "詳細は査読論文化の追跡対象。",
-    "sourceOrder": 23
+    "sourceOrder": 23,
+    "aiQuestions": [
+      {
+        "question": "戸別訪問とコールセンター架電は、同じ特殊詐欺対策でも行動変容のどの段階に効きやすかった？",
+        "purpose": "介入経路の違いを理解する。",
+        "checkPoints": "迷惑電話防止機能利用、留守番電話での相手確認、対策有効性認知。",
+        "keywords": "home visit call center fraud prevention longitudinal",
+        "caution": "介入曝露は無作為割付ではない。"
+      },
+      {
+        "question": "単身世帯と2人世帯で、対策行動の関連が違ったのはどう読む？",
+        "purpose": "世帯構成による条件差を考える。",
+        "checkPoints": "単身・2人世帯と迷惑電話機能・留守番電話利用のOR。",
+        "keywords": "household composition fraud prevention answering machine",
+        "caution": "サブグループ結果を一般化しすぎない。"
+      },
+      {
+        "question": "戸別訪問のOR=1.51は、どんな意味で『効果』と呼べる／呼べない？",
+        "purpose": "オッズ比と観察研究の因果限界を理解する。",
+        "checkPoints": "対象927人、曝露自己報告、調整の有無、95%CI。",
+        "keywords": "odds ratio longitudinal survey home visit",
+        "caution": "ORを確率差にそのまま読み替えない。"
+      },
+      {
+        "question": "同じ系列のstudy-0019と合わせると、個人行動と都道府県レベルの結果はどう補い合う？",
+        "purpose": "異なる分析単位の研究を統合して読む。",
+        "checkPoints": "個人の行動変化と都道府県パネルの被害件数。",
+        "keywords": "multilevel evidence fraud prevention",
+        "caution": "異なる研究デザインの結果を一つの因果推定として合算しない。"
+      }
+    ]
   },
   {
     "id": "study-0024",
@@ -1064,7 +1599,30 @@
     "doi": "",
     "url": "https://www.kagawa-u.ac.jp/29502/",
     "notes": "研究を実装に移した事例として保持。",
-    "sourceOrder": 24
+    "sourceOrder": 24,
+    "aiQuestions": [
+      {
+        "question": "セルフレジ不正防止マニュアルは、現場教育でどのように使われた？",
+        "purpose": "実装方法を具体化する。",
+        "checkPoints": "店舗教育、サポーター、ホスピタリティ型対応との接続。",
+        "keywords": "self-checkout manual staff training",
+        "caution": "実施報告と効果検証を区別する。"
+      },
+      {
+        "question": "マニュアル導入時に『守られているか』をどう確かめるべき？",
+        "purpose": "実装忠実度の測定を考える。",
+        "checkPoints": "研修受講、現場行動、声かけ、サポーター配置。",
+        "keywords": "implementation fidelity retail manual",
+        "caution": "原著未測定項目は次回評価案。"
+      },
+      {
+        "question": "study-0041と一緒に読むと、研究→実装のどの流れが見える？",
+        "purpose": "査読研究と社会実装資料をつなぐ。",
+        "checkPoints": "効果検証、マニュアル化、店舗教育。",
+        "keywords": "research to practice self-checkout",
+        "caution": "実装資料だけで因果効果を主張しない。"
+      }
+    ]
   },
   {
     "id": "study-0025",
@@ -1112,7 +1670,30 @@
     "doi": "",
     "url": "https://www.jstage.jst.go.jp/article/shes/22/1/22_23/_pdf/-char/ja",
     "notes": "警察職員が共著。",
-    "sourceOrder": 25
+    "sourceOrder": 25,
+    "aiQuestions": [
+      {
+        "question": "統計情報や社会的規範のメッセージは、なぜ施錠行動を変えると考えられた？",
+        "purpose": "ナッジの想定メカニズムを理解する。",
+        "checkPoints": "情報提示、社会規範、施錠行動。",
+        "keywords": "social norms statistical information bicycle locking",
+        "caution": "メッセージ認知を実際に測ったか確認する。"
+      },
+      {
+        "question": "商業施設という場所の条件は、結果の一般化にどう影響する？",
+        "purpose": "場面依存性を考える。",
+        "checkPoints": "施設利用者、駐輪環境、観察期間。",
+        "keywords": "field experiment bicycle parking generalizability",
+        "caution": "駅前・住宅地等へそのまま一般化しない。"
+      },
+      {
+        "question": "施錠率が上がっても、自転車盗が減ったとはまだ言えないのはなぜ？",
+        "purpose": "行動アウトカムと被害アウトカムを区別する。",
+        "checkPoints": "施錠行動を主要アウトカムとしている点。",
+        "keywords": "behavioral outcome theft outcome",
+        "caution": "盗難件数を直接測っていない場合は因果主張しない。"
+      }
+    ]
   },
   {
     "id": "study-0026",
@@ -1160,7 +1741,30 @@
     "doi": "10.4992/pacjpa.88.0_1D-048-PE",
     "url": "https://www.jstage.jst.go.jp/article/pacjpa/88/0/88_1D-048-PE/_article/-char/ja",
     "notes": "同一系列の発表も文献として保持。",
-    "sourceOrder": 26
+    "sourceOrder": 26,
+    "aiQuestions": [
+      {
+        "question": "『統計情報』と『社会的規範』は、利用者に何を伝えるメッセージだった？",
+        "purpose": "メッセージ設計の違いを理解する。",
+        "checkPoints": "各条件の内容と想定メカニズム。",
+        "keywords": "statistical information social norm bicycle locking",
+        "caution": "文言の詳細は原著・大会資料で確認する。"
+      },
+      {
+        "question": "同じ実験系列のstudy-0025と比べて、この報告で確認しやすい点は何？",
+        "purpose": "重複資料の役割を理解する。",
+        "checkPoints": "学会報告と学術誌版の記述差。",
+        "keywords": "conference report field experiment locking",
+        "caution": "重複データを別研究として二重計上しない。"
+      },
+      {
+        "question": "ナッジの効果を判断する前に、どの程度メッセージが見られたか確認すべき？",
+        "purpose": "到達・認知の重要性を理解する。",
+        "checkPoints": "掲示位置、認知、曝露の測定有無。",
+        "keywords": "nudge exposure salience",
+        "caution": "認知未測定ならメカニズムを断定しない。"
+      }
+    ]
   },
   {
     "id": "study-0027",
@@ -1202,7 +1806,30 @@
     "doi": "",
     "url": "https://kaken.nii.ac.jp/ja/report/KAKENHI-PROJECT-23K21010/23K210102023jisseki/",
     "notes": "KAKEN実績報告では警察官160名、1.4万人。",
-    "sourceOrder": 27
+    "sourceOrder": 27,
+    "aiQuestions": [
+      {
+        "question": "警察官を『見た』ことと、目的を説明するポスターを『見た』ことでは、市民の評価にどんな違いがあった？",
+        "purpose": "可視性と意味づけの違いを理解する。",
+        "checkPoints": "警察官認知とポスター認知が competence, integrity, shared values, reassurance, trust, satisfaction に示した係数。",
+        "keywords": "reassurance policing procedural justice police visibility",
+        "caution": "曝露は無作為ではなく、係数の大小だけで優劣を断定しない。"
+      },
+      {
+        "question": "ポスター認知が4.6%程度だったことは、施策評価でなぜ重要？",
+        "purpose": "到達率を実装ボトルネックとして理解する。",
+        "checkPoints": "全体・埼玉の認知率、効果があっても届かなければ全体影響が小さい点。",
+        "keywords": "reach exposure implementation police poster",
+        "caution": "認知者は自己選択される可能性がある。"
+      },
+      {
+        "question": "『安心感』『信頼』『満足』は、なぜ別々に測る必要がある？",
+        "purpose": "警察活動の副次アウトカムを分解する。",
+        "checkPoints": "reassurance, trust, satisfaction等の異なる結果。",
+        "keywords": "police trust reassurance satisfaction",
+        "caution": "一つの『警察への評価』にまとめない。"
+      }
+    ]
   },
   {
     "id": "study-0028",
@@ -1247,7 +1874,30 @@
     "doi": "10.20742/pbsj.52.0_108",
     "url": "https://www.jstage.jst.go.jp/article/pbsj/52/0/52_108/_article/-char/ja",
     "notes": "奈良県警職員が共著。",
-    "sourceOrder": 28
+    "sourceOrder": 28,
+    "aiQuestions": [
+      {
+        "question": "対象世帯から実際の活動参加まで、どの段階で人数が減った？",
+        "purpose": "実装ファネルを理解する。",
+        "checkPoints": "配布・読了・集会参加・シート掲示の到達率。",
+        "keywords": "implementation funnel community crime prevention",
+        "caution": "登録世帯数を参加者数とみなさない。"
+      },
+      {
+        "question": "集会参加者でシート掲示率が高かったことは、集会の効果と言える？",
+        "purpose": "自己選択バイアスを理解する。",
+        "checkPoints": "参加者61.5% vs 非参加24.4%、χ²、参加の非ランダム性。",
+        "keywords": "self-selection meeting participation neighborhood watch",
+        "caution": "因果効果として断定しない。"
+      },
+      {
+        "question": "介入群と対照群で意識指標に明確な変化がなかったとき、まず何を確認する？",
+        "purpose": "『効かなかった』前に実装状況を見る。",
+        "checkPoints": "資料受領、読了、集会、掲示率。",
+        "keywords": "implementation fidelity community intervention",
+        "caution": "低曝露と介入理論の失敗を区別する。"
+      }
+    ]
   },
   {
     "id": "study-0029",
@@ -1288,7 +1938,37 @@
     "doi": "10.1177/10575677251405837",
     "url": "https://journals.sagepub.com/doi/10.1177/10575677251405837",
     "notes": "介入実施は2024、論文online 2025-12、号掲載2026-09。",
-    "sourceOrder": 29
+    "sourceOrder": 29,
+    "aiQuestions": [
+      {
+        "question": "4種類のメッセージは、それぞれどんな心理メカニズムを狙っていた？",
+        "purpose": "ナッジ条件の違いを理解する。",
+        "checkPoints": "統制、社会的証明、反応コスト認知、互恵性の各条件。",
+        "keywords": "social proof response cost reciprocity bicycle locking",
+        "caution": "条件名と実際の掲示文を原著で確認する。"
+      },
+      {
+        "question": "統制条件でも施錠率が上がっていたことは、結果の読み方をどう変える？",
+        "purpose": "時間変化・観察効果等を踏まえる。",
+        "checkPoints": "全条件の係数、変化モデル、介入固有効果。",
+        "keywords": "quasi experiment control trend bicycle locking",
+        "caution": "『全ナッジが同程度に効いた』と単純化しない。"
+      },
+      {
+        "question": "初期施錠率が結果に強く関係したのは、なぜ実務上重要？",
+        "purpose": "ベースラインによる効果差を理解する。",
+        "checkPoints": "初期施錠率の係数とモデル変化。",
+        "keywords": "baseline locking rate moderator",
+        "caution": "高・低ベースラインで同じ介入効果を仮定しない。"
+      },
+      {
+        "question": "メッセージをローテーションすれば効果が高まると言える？",
+        "purpose": "実装工夫とエビデンス強度を分ける。",
+        "checkPoints": "rotation係数と不確実性。",
+        "keywords": "message rotation nudge",
+        "caution": "統計的に明確でない結果を推奨に変えない。"
+      }
+    ]
   },
   {
     "id": "study-0030",
@@ -1329,7 +2009,8 @@
     "doi": "",
     "url": "https://www.kagawa-u.ac.jp/32649/",
     "notes": "介入開始2024年8月、結果公表2025年2月。",
-    "sourceOrder": 30
+    "sourceOrder": 30,
+    "aiQuestions": []
   },
   {
     "id": "study-0031",
@@ -1379,7 +2060,30 @@
     "doi": "10.11167/jbef.18.S10.pp.S1-S4",
     "url": "https://www.jstage.jst.go.jp/article/jbef/18/Special_issue/18_18.S10.pp.S1-S4/_article/-char/ja",
     "notes": "無効結果を含む重要な実装研究。",
-    "sourceOrder": 31
+    "sourceOrder": 31,
+    "aiQuestions": [
+      {
+        "question": "ポスター介入で施錠率が変わらなかったとき、最初に疑うべきボトルネックは何だった？",
+        "purpose": "認知不足という実装要因を理解する。",
+        "checkPoints": "ポスター認知・到達と施錠行動の関係。",
+        "keywords": "poster awareness bicycle locking cluster randomized trial",
+        "caution": "介入理論の無効と曝露不足を区別する。"
+      },
+      {
+        "question": "『施錠する人の特徴』と『ポスターの効果』は、どう分けて分析された？",
+        "purpose": "規定要因分析と介入効果を区別する。",
+        "checkPoints": "直接的規定要因、介入群比較、クラスター割付。",
+        "keywords": "determinants bicycle locking cluster RCT",
+        "caution": "相関要因を介入効果と混同しない。"
+      },
+      {
+        "question": "クラスターRCTでは、個人RCTと何が違う点に注意する？",
+        "purpose": "割付単位と分析単位を理解する。",
+        "checkPoints": "駐輪場等のクラスター単位割付、クラスター数・群間差。",
+        "keywords": "cluster randomized trial intracluster correlation",
+        "caution": "個々の自転車を独立な割付単位とみなさない。"
+      }
+    ]
   },
   {
     "id": "study-0032",
@@ -1422,7 +2126,30 @@
     "doi": "10.20703/jenvpsy.13.1_51",
     "url": "https://www.jstage.jst.go.jp/article/jenvpsy/13/1/13_51/_article/-char/ja",
     "notes": "警察署職員が共著。",
-    "sourceOrder": 32
+    "sourceOrder": 32,
+    "aiQuestions": [
+      {
+        "question": "黄色い路面・水槽アート・カフェ等のうち、どの要素が効いたのか分かる？",
+        "purpose": "複合介入の分離困難性を理解する。",
+        "checkPoints": "複数の環境手がかり、警戒・広報等が同時実施された点。",
+        "keywords": "multi-component intervention environmental cues street prostitution",
+        "caution": "個別構成要素の因果効果は切り分けられない。"
+      },
+      {
+        "question": "隣接路地の観察は、犯罪転移の検証としてどこまで使える？",
+        "purpose": "隣接地点比較の意味と限界を理解する。",
+        "checkPoints": "介入路地と隣接路地の客待ち人数の推移。",
+        "keywords": "displacement adjacent alley street prostitution",
+        "caution": "未処置対照群ではない。"
+      },
+      {
+        "question": "6週後・8週後の結果から、効果の持続性をどこまで言える？",
+        "purpose": "短期追跡の限界を理解する。",
+        "checkPoints": "介入前・6週・8週の観察、後日の再出現情報との区別。",
+        "keywords": "follow-up persistence field intervention",
+        "caution": "短期減少を長期持続と断定しない。"
+      }
+    ]
   },
   {
     "id": "study-0033",
@@ -1464,7 +2191,8 @@
     "doi": "",
     "url": "https://www.kagawa-u.ac.jp/33738/33781/",
     "notes": "2025年に実験・結果公表。",
-    "sourceOrder": 33
+    "sourceOrder": 33,
+    "aiQuestions": []
   },
   {
     "id": "study-0034",
@@ -1504,7 +2232,30 @@
     "doi": "",
     "url": "https://www.police.pref.fukushima.jp/seianki/homepage/bouhan_taisaku/manbikitaisaku/manbikitaisaku.html",
     "notes": "実験期間は2025年8～11月、結果発表2026年。",
-    "sourceOrder": 34
+    "sourceOrder": 34,
+    "aiQuestions": [
+      {
+        "question": "人型装置から流す音声メッセージは、何を変えることで万引きを抑えようとした？",
+        "purpose": "介入メカニズムを理解する。",
+        "checkPoints": "音声、存在感、監視されている感覚、行動科学的手がかり。",
+        "keywords": "voice message shoplifting human-shaped device deterrence",
+        "caution": "具体的メカニズムは原著の記述範囲で確認する。"
+      },
+      {
+        "question": "警察の実証事業の公表結果と、査読論文study-0057はどう使い分ける？",
+        "purpose": "実装情報と学術評価を区別する。",
+        "checkPoints": "公的資料の現場実装と査読論文の研究デザイン・分析。",
+        "keywords": "field experiment shoplifting police implementation",
+        "caution": "公的資料の要約だけで効果量を確定しない。"
+      },
+      {
+        "question": "複数店舗で試したことは、単店舗実証と比べて何が強み？",
+        "purpose": "外的妥当性と店舗差を考える。",
+        "checkPoints": "店舗間のばらつき、複数サイトでの実施。",
+        "keywords": "multi-site field experiment retail theft",
+        "caution": "店舗数が増えても無条件に一般化できるわけではない。"
+      }
+    ]
   },
   {
     "id": "study-0035",
@@ -1546,7 +2297,8 @@
     "doi": "",
     "url": "https://www.ds.shiga-u.ac.jp/information/2300/",
     "notes": "結果未公表でも『研究は選別せず』の方針で収録。",
-    "sourceOrder": 35
+    "sourceOrder": 35,
+    "aiQuestions": []
   },
   {
     "id": "study-0036",
@@ -1591,7 +2343,8 @@
     "doi": "",
     "url": "https://researchers.shiga-u.ac.jp/html/100003287_ja.html",
     "notes": "研究者業績ページ等で発足確認。",
-    "sourceOrder": 36
+    "sourceOrder": 36,
+    "aiQuestions": []
   },
   {
     "id": "study-0037",
@@ -1632,7 +2385,30 @@
     "doi": "10.4992/jjpsy.88.16032",
     "url": "https://www.jstage.jst.go.jp/article/jjpsy/88/3/88_88.16032/_article/-char/ja",
     "notes": "科警研×追手門学院大学。国内の犯罪予防フィールド実験として重要。",
-    "sourceOrder": 37
+    "sourceOrder": 37,
+    "aiQuestions": [
+      {
+        "question": "脅威を強く伝えるだけでは、防犯行動につながらないのはなぜ？",
+        "purpose": "防護動機理論の脅威評価と対処評価を理解する。",
+        "checkPoints": "被害記述、脆弱性、追加錠行動への影響。",
+        "keywords": "threat appeal vulnerability protection motivation bicycle locking",
+        "caution": "恐怖を高めること自体を目的化しない。"
+      },
+      {
+        "question": "受け手の『自分も被害に遭いそうだ』という脆弱性は、メッセージ効果をどう変えた？",
+        "purpose": "個人差による条件効果を理解する。",
+        "checkPoints": "脆弱性とメッセージ条件の関係。",
+        "keywords": "perceived vulnerability threat appeal",
+        "caution": "交互作用・サブグループ結果を過大解釈しない。"
+      },
+      {
+        "question": "この研究では、意図ではなく実際の追加錠行動をどう測った？",
+        "purpose": "行動アウトカムの価値を理解する。",
+        "checkPoints": "フィールドでの施錠行動、無作為メッセージ割付。",
+        "keywords": "behavioral outcome bicycle double lock",
+        "caution": "観察方法・脱落を原著で確認する。"
+      }
+    ]
   },
   {
     "id": "study-0038",
@@ -1673,7 +2449,30 @@
     "doi": "",
     "url": "https://www.i-repository.net/contents/outemon/ir/403/403180301.pdf",
     "notes": "科警研研究者との共同研究。査読誌とは分けて保持。",
-    "sourceOrder": 38
+    "sourceOrder": 38,
+    "aiQuestions": [
+      {
+        "question": "犯罪情報に元々関心が高い人と低い人で、メッセージの受け止め方はどう違った？",
+        "purpose": "事前関心というモデレーターを理解する。",
+        "checkPoints": "事前関心と行動意図の関係。",
+        "keywords": "prior interest crime information behavioral intention",
+        "caution": "個人差結果を対象選別の根拠として乱用しない。"
+      },
+      {
+        "question": "『行動意図』が高まったことを、実際の防犯行動と同じと考えてはいけないのはなぜ？",
+        "purpose": "意図と行動を区別する。",
+        "checkPoints": "主要アウトカムが行動意図である点。",
+        "keywords": "behavioral intention actual behavior",
+        "caution": "実行動未測定なら行動効果を主張しない。"
+      },
+      {
+        "question": "study-0037と合わせると、脅威情報の効果は『誰にでも同じ』ではないことがどう見える？",
+        "purpose": "系列の理論的共通点を理解する。",
+        "checkPoints": "脆弱性・事前関心など受け手特性。",
+        "keywords": "message tailoring threat appeal",
+        "caution": "別研究の結果を直接合算しない。"
+      }
+    ]
   },
   {
     "id": "study-0039",
@@ -1714,7 +2513,30 @@
     "doi": "10.11314/jisss.31.195",
     "url": "https://www.jstage.jst.go.jp/article/jisss/31/0/31_195/_article/-char/ja/",
     "notes": "2020年の集中パトロール効果評価につながる研究系列。",
-    "sourceOrder": 39
+    "sourceOrder": 39,
+    "aiQuestions": [
+      {
+        "question": "犯罪予測からパトロール経路を作るとき、何を基準に『行く場所』を選んだ？",
+        "purpose": "Targetingの設計を理解する。",
+        "checkPoints": "犯罪多発地点予測、経路作成、現場制約。",
+        "keywords": "crime forecasting patrol route optimization",
+        "caution": "予測精度と介入効果は別。"
+      },
+      {
+        "question": "第一線警察官の『使いやすさ評価』は、なぜ効果検証とは別に重要？",
+        "purpose": "実装可能性を理解する。",
+        "checkPoints": "警察官質問紙、経路の実用性・受容性。",
+        "keywords": "implementation feasibility patrol route",
+        "caution": "主観評価だけで犯罪抑止効果は分からない。"
+      },
+      {
+        "question": "study-0018につながる前段研究として、何を準備した研究？",
+        "purpose": "分析→実装→評価の系列を理解する。",
+        "checkPoints": "ルート設計と実用性評価から集中パトロール実験への接続。",
+        "keywords": "targeting implementation evaluation hot spots",
+        "caution": "後続研究の結果を本研究の結果として混同しない。"
+      }
+    ]
   },
   {
     "id": "study-0040",
@@ -1765,7 +2587,8 @@
     "doi": "",
     "url": "https://kagawa-u.repo.nii.ac.jp/record/2459/files/AA1197154X_17_121-130.pdf",
     "notes": "香川県警と香川大学の長期共同事業から派生。福山大学研究者も共著。",
-    "sourceOrder": 40
+    "sourceOrder": 40,
+    "aiQuestions": []
   },
   {
     "id": "study-0041",
@@ -1810,7 +2633,30 @@
     "doi": "10.57467/jashj.33.0_25",
     "url": "https://www.jstage.jst.go.jp/article/jashj/33/0/33_25/_article/-char/ja/",
     "notes": "既収録の2022/2023年セルフレジ対策公表と同系列。",
-    "sourceOrder": 41
+    "sourceOrder": 41,
+    "aiQuestions": [
+      {
+        "question": "セルフレジサポーターは、どんな行動を通じて不正を防ぐ想定だった？",
+        "purpose": "ホスピタリティ型介入のメカニズムを理解する。",
+        "checkPoints": "利用者支援、声かけ、可視的なスタッフ存在。",
+        "keywords": "self-checkout supporter hospitality shoplifting",
+        "caution": "複数メカニズムを単一原因に決めつけない。"
+      },
+      {
+        "question": "店舗への導入効果を見るとき、どの店舗条件を考慮する必要がある？",
+        "purpose": "店舗差・一般化可能性を考える。",
+        "checkPoints": "レイアウト、利用者数、スタッフ配置等の条件。",
+        "keywords": "retail field experiment heterogeneity",
+        "caution": "対象店舗外への一般化に注意。"
+      },
+      {
+        "question": "study-0020・0024を一緒に読むと、研究成果が現場実装へ移る過程はどう見える？",
+        "purpose": "研究→マニュアル→教育実践の流れを理解する。",
+        "checkPoints": "査読研究、マニュアル、公的実践資料の役割分担。",
+        "keywords": "research translation implementation self-checkout",
+        "caution": "資料種別ごとのエビデンス強度を区別する。"
+      }
+    ]
   },
   {
     "id": "study-0042",
@@ -1859,7 +2705,30 @@
     "doi": "",
     "url": "https://kagawa-u.repo.nii.ac.jp/records/11611",
     "notes": "香川県警、立正大、福山大の協力で開発したアプリを利用。",
-    "sourceOrder": 42
+    "sourceOrder": 42,
+    "aiQuestions": [
+      {
+        "question": "地域安全マップ作成で、参加者は何を学ぶことを期待されていた？",
+        "purpose": "教育メカニズムを理解する。",
+        "checkPoints": "危険・安全要因の観察、地域理解、アプリ活用。",
+        "keywords": "safety map crime prevention education app",
+        "caution": "教育効果と地域犯罪減少を区別する。"
+      },
+      {
+        "question": "中学生と大学生では、同じ活動でも得られる効果が違う可能性は？",
+        "purpose": "対象者特性による効果差を考える。",
+        "checkPoints": "年齢・経験・役割、前後指標。",
+        "keywords": "age differences safety education",
+        "caution": "サブグループ差が検証されている範囲に限定する。"
+      },
+      {
+        "question": "アプリを使うこと自体ではなく、どの学習プロセスが重要？",
+        "purpose": "ツール依存を避ける。",
+        "checkPoints": "歩く・観察する・記録する・話し合う・地図化する過程。",
+        "keywords": "experiential learning safety map",
+        "caution": "研究HUBの解釈と原著の記述を分ける。"
+      }
+    ]
   },
   {
     "id": "study-0043",
@@ -1902,7 +2771,30 @@
     "doi": "",
     "url": "https://kagawa-u.repo.nii.ac.jp/records/11661",
     "notes": "同アプリ研究系列。",
-    "sourceOrder": 43
+    "sourceOrder": 43,
+    "aiQuestions": [
+      {
+        "question": "一般参加者向けのサテライトセミナーでは、地域安全マップ活動をどう展開した？",
+        "purpose": "対象拡張の実装を理解する。",
+        "checkPoints": "セミナー参加者、アプリ、地域観察、前後評価。",
+        "keywords": "community seminar safety map crime prevention",
+        "caution": "参加者は自己選択された集団。"
+      },
+      {
+        "question": "学校教育でなくても同じ防犯教育は成立する？",
+        "purpose": "実施場面の違いを考える。",
+        "checkPoints": "study-0042との対象・場面の違い。",
+        "keywords": "adult education community crime prevention",
+        "caution": "別対象への一般化は実証範囲で判断する。"
+      },
+      {
+        "question": "短期の学習成果を、地域活動の継続につなげるには何を測るべき？",
+        "purpose": "継続実装の評価を考える。",
+        "checkPoints": "再参加、地域活動、行動継続。",
+        "keywords": "sustainability community education",
+        "caution": "既存研究結果と今後の評価項目を区別する。"
+      }
+    ]
   },
   {
     "id": "study-0044",
@@ -1947,7 +2839,30 @@
     "doi": "",
     "url": "https://kagawa-u.repo.nii.ac.jp/records/2000401",
     "notes": "地域安全マップ・防犯アプリ系列。",
-    "sourceOrder": 44
+    "sourceOrder": 44,
+    "aiQuestions": [
+      {
+        "question": "ガールスカウトや放課後児童クラブで実施する場合、学校内の授業と何が違う？",
+        "purpose": "組織化された学校外活動の条件を理解する。",
+        "checkPoints": "対象年齢、活動時間、指導体制、地域観察。",
+        "keywords": "out-of-school crime prevention education safety map",
+        "caution": "場面差を無視して一律に一般化しない。"
+      },
+      {
+        "question": "地域安全マップ活動のどの部分が、子どもの防犯理解に結びついた？",
+        "purpose": "学習プロセスを確認する。",
+        "checkPoints": "観察、話し合い、地図作成、前後指標。",
+        "keywords": "experiential learning children safety map",
+        "caution": "前後差だけで因果効果を断定しない。"
+      },
+      {
+        "question": "study-0042系列で対象を広げたことから、何が分かり、何がまだ分からない？",
+        "purpose": "外的妥当性を考える。",
+        "checkPoints": "中学生・大学生・一般参加者・学校外組織への展開。",
+        "keywords": "generalizability safety education",
+        "caution": "各研究のデザイン差を保つ。"
+      }
+    ]
   },
   {
     "id": "study-0045",
@@ -1988,7 +2903,30 @@
     "doi": "10.20703/jenvpsy.12.1_20",
     "url": "https://jsep.jp/wp-content/uploads/2024/03/JSEP17.pdf",
     "notes": "後の福島県警14駐輪場実証の前段。無効・逆方向の結果も保持。",
-    "sourceOrder": 45
+    "sourceOrder": 45,
+    "aiQuestions": [
+      {
+        "question": "『感謝メッセージ』は、なぜ施錠を促すと考えられた？",
+        "purpose": "互恵性・感謝の手がかりという仮説を理解する。",
+        "checkPoints": "掲示メッセージ、施錠率の反復観察。",
+        "keywords": "gratitude reciprocity bicycle locking nudge",
+        "caution": "メカニズムはパイロット段階。"
+      },
+      {
+        "question": "小規模パイロットから、どこまで一般化してよい？",
+        "purpose": "仮説生成研究の位置づけを理解する。",
+        "checkPoints": "対象駐輪場数、観察回数、統計情報の限界。",
+        "keywords": "pilot field experiment external validity",
+        "caution": "後続のstudy-0029等と区別する。"
+      },
+      {
+        "question": "この研究が後の14駐輪場研究につながる点は何？",
+        "purpose": "研究プログラムの発展を理解する。",
+        "checkPoints": "感謝・互恵性メッセージを拡張検証した系列。",
+        "keywords": "reciprocity nudge bicycle locking",
+        "caution": "後続研究の結果を遡って本研究の効果とみなさない。"
+      }
+    ]
   },
   {
     "id": "study-0046",
@@ -2029,7 +2967,30 @@
     "doi": "",
     "url": "https://tsukuba.repo.nii.ac.jp/records/2012512",
     "notes": "2017年経路提案、2020年集中パトロール研究を統合する研究系列。",
-    "sourceOrder": 46
+    "sourceOrder": 46,
+    "aiQuestions": [
+      {
+        "question": "博士論文では、地理的犯罪分析から現場介入までをどう一本化している？",
+        "purpose": "方法論開発と実装・評価の統合を理解する。",
+        "checkPoints": "study-0039の経路提案、study-0018の集中パトロール等の位置づけ。",
+        "keywords": "geographic crime analysis policing tactics dissertation",
+        "caution": "博士論文全体と個別論文のアウトカムを区別する。"
+      },
+      {
+        "question": "『予測精度が高い』ことと『犯罪が減る』ことの間には、何が必要？",
+        "purpose": "予測モデルと介入効果のギャップを理解する。",
+        "checkPoints": "Targeting→Response→Assessmentの連結。",
+        "keywords": "predictive accuracy intervention effectiveness policing",
+        "caution": "予測の良さを施策効果とみなさない。"
+      },
+      {
+        "question": "この研究系列で、現場実装の可否をどう確認した？",
+        "purpose": "実装可能性評価を理解する。",
+        "checkPoints": "警察官評価、パトロール活動記録、現場実験。",
+        "keywords": "implementation feasibility geographic policing",
+        "caution": "実務受容性と犯罪抑止効果は別指標。"
+      }
+    ]
   },
   {
     "id": "study-0047",
@@ -2079,7 +3040,30 @@
     "doi": "10.20742/pbsj.53.0_264",
     "url": "https://www.jstage.jst.go.jp/article/pbsj/53/0/53_264/_pdf/-char/ja",
     "notes": "既収録のクラスターRCTと同一共同研究系列。",
-    "sourceOrder": 47
+    "sourceOrder": 47,
+    "aiQuestions": [
+      {
+        "question": "高知県で警察と研究者は、自転車盗対策の問題設定をどう共有した？",
+        "purpose": "共同研究の役割分担を理解する。",
+        "checkPoints": "調査、介入、現場協働の研究プロジェクト構造。",
+        "keywords": "police researcher collaboration bicycle theft",
+        "caution": "プロジェクト紹介と個別効果研究を区別する。"
+      },
+      {
+        "question": "ポスター介入が十分に認知されなかったことは、協働プロジェクトの次の改善にどうつながる？",
+        "purpose": "失敗・不明確な結果を改善材料として使う。",
+        "checkPoints": "study-0031の認知ボトルネックとの接続。",
+        "keywords": "implementation feedback poster awareness",
+        "caution": "推測は独自解説として明示する。"
+      },
+      {
+        "question": "研究者との協働で、警察側が用意すべきデータや実装記録は何？",
+        "purpose": "実務で再現可能な評価基盤を考える。",
+        "checkPoints": "施錠率、掲示期間、認知、場所特性等。",
+        "keywords": "data collection police academic partnership",
+        "caution": "原著で実際に収集した項目と提案を分ける。"
+      }
+    ]
   },
   {
     "id": "study-0048",
@@ -2122,7 +3106,30 @@
     "doi": "10.20742/pbsj.53.0_268",
     "url": "https://www.jstage.jst.go.jp/article/pbsj/53/0/53_268/_pdf/-char/ja",
     "notes": "既収録のInternational Criminal Justice Review論文と同系列。",
-    "sourceOrder": 48
+    "sourceOrder": 48,
+    "aiQuestions": [
+      {
+        "question": "4種類のナッジ条件のうち、結果の違いをどう比較した？",
+        "purpose": "条件比較の読み方を理解する。",
+        "checkPoints": "統制・社会的証明・反応コスト認知・互恵性、初期施錠率調整。",
+        "keywords": "nudge conditions bicycle locking quasi experiment",
+        "caution": "学会報告の詳細統計と査読論文の要約を混同しない。"
+      },
+      {
+        "question": "初期施錠率をモデルに入れると結論が変わるのはなぜ？",
+        "purpose": "ベースライン調整の重要性を理解する。",
+        "checkPoints": "初期施錠率の係数、各モデルの条件係数。",
+        "keywords": "baseline adjustment bicycle locking",
+        "caution": "モデル仕様依存性を確認する。"
+      },
+      {
+        "question": "施錠行動の改善から、盗難被害の減少までには何が残っている？",
+        "purpose": "中間アウトカムと最終アウトカムを区別する。",
+        "checkPoints": "施錠率を主要結果としている点。",
+        "keywords": "locking behavior theft victimization",
+        "caution": "盗難件数への効果を直接推定しない。"
+      }
+    ]
   },
   {
     "id": "study-0049",
@@ -2166,7 +3173,30 @@
     "doi": "",
     "url": "https://www.abef.jp/conf/2025/common/doc/abstract/oral/2B03.pdf",
     "notes": "警察官3名が著者。住宅駐輪場という既存研究と異なる場面。",
-    "sourceOrder": 49
+    "sourceOrder": 49,
+    "aiQuestions": [
+      {
+        "question": "ナッジメッセージと『仕掛学タグ』は、行動を変える仕組みがどう違う？",
+        "purpose": "情報的介入と物理的手がかりを区別する。",
+        "checkPoints": "メッセージ掲示と自転車へのタグ等の具体的介入。",
+        "keywords": "nudge message shikakeology tag bicycle locking",
+        "caution": "実際の介入仕様を原著で確認する。"
+      },
+      {
+        "question": "施設単位で条件を割り当てると、どんな比較上の問題が起こり得る？",
+        "purpose": "クラスター・施設差を理解する。",
+        "checkPoints": "駐輪場ごとのベースライン、利用者構成、条件割付。",
+        "keywords": "site-level assignment field experiment",
+        "caution": "個人レベルの無作為化と同等に扱わない。"
+      },
+      {
+        "question": "大規模集合住宅という環境は、駅前駐輪場と何が違う？",
+        "purpose": "場所条件による一般化可能性を考える。",
+        "checkPoints": "居住者中心、繰り返し利用、管理環境。",
+        "keywords": "residential bicycle parking generalizability",
+        "caution": "異なる利用者流動性へそのまま適用しない。"
+      }
+    ]
   },
   {
     "id": "study-0050",
@@ -2208,7 +3238,30 @@
     "doi": "10.20703/jenvpsy.13.1_50",
     "url": "https://www.jstage.jst.go.jp/article/jenvpsy/13/1/13_50/_pdf",
     "notes": "介入研究の基礎となる警察研究として収録。",
-    "sourceOrder": 50
+    "sourceOrder": 50,
+    "aiQuestions": [
+      {
+        "question": "無料・有人・ゲート・防犯カメラなど、駐輪場の要因はモデルを変えると結論がどう変わった？",
+        "purpose": "モデル仕様による関連の変化を理解する。",
+        "checkPoints": "基本モデルと被害シェア調整後の係数変化。",
+        "keywords": "negative binomial bicycle theft parking facility",
+        "caution": "係数変化を『真の効果が消えた』と単純化しない。"
+      },
+      {
+        "question": "傾向スコア分析で防犯カメラや無料駐輪場に差が出ても、なぜ因果効果とは言い切れない？",
+        "purpose": "観察研究の調整限界を理解する。",
+        "checkPoints": "マッチング、ATE、未測定交絡。",
+        "keywords": "propensity score matching bicycle theft CCTV",
+        "caution": "『12.1件減らす』のような因果表現を避ける。"
+      },
+      {
+        "question": "駅周辺の環境要因と駐輪場内部の条件は、どう切り分けて考える？",
+        "purpose": "多層的環境要因を理解する。",
+        "checkPoints": "駅への近接、駐輪場形態・設備、駅単位のネスト。",
+        "keywords": "multilevel bicycle theft station parking",
+        "caution": "分析階層を混同しない。"
+      }
+    ]
   },
   {
     "id": "study-0051",
@@ -2251,7 +3304,30 @@
     "doi": "10.20703/jenvpsy.14.1_34",
     "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_34/_pdf",
     "notes": "京都府警職員3名＋滋賀大。再現性・地域差を考える上で有用。",
-    "sourceOrder": 51
+    "sourceOrder": 51,
+    "aiQuestions": [
+      {
+        "question": "横断幕を掲示しても、利用者が見ていなければ何が起こる？",
+        "purpose": "介入曝露と行動変化を分ける。",
+        "checkPoints": "横断幕掲示、施錠率、study-0052の認知調査。",
+        "keywords": "banner exposure bicycle locking",
+        "caution": "掲示＝曝露とみなさない。"
+      },
+      {
+        "question": "駅駐輪場と商業施設駐輪場で、同じ横断幕が同じように働くと考えてよい？",
+        "purpose": "場所による条件差を考える。",
+        "checkPoints": "利用者属性、滞在・利用パターン、ベースライン。",
+        "keywords": "site heterogeneity bicycle parking nudge",
+        "caution": "サイト差を無視しない。"
+      },
+      {
+        "question": "行動観察とアンケートを組み合わせると、何が分かるようになる？",
+        "purpose": "効果とプロセス評価の統合を理解する。",
+        "checkPoints": "施錠率変化と認知・記憶・理解。",
+        "keywords": "outcome process evaluation",
+        "caution": "自己報告と観察値の性質を区別する。"
+      }
+    ]
   },
   {
     "id": "study-0052",
@@ -2296,7 +3372,30 @@
     "doi": "10.20703/jenvpsy.14.1_54",
     "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_54/_pdf",
     "notes": "同一介入のプロセス評価を別成果として保持。",
-    "sourceOrder": 52
+    "sourceOrder": 52,
+    "aiQuestions": [
+      {
+        "question": "横断幕を見た人は、何を覚えていて、どう受け止めていた？",
+        "purpose": "プロセス評価でメッセージ到達を確認する。",
+        "checkPoints": "認知、記憶、理解、態度等のアンケート項目。",
+        "keywords": "message recall awareness bicycle locking",
+        "caution": "自己申告の認知には誤記憶の可能性。"
+      },
+      {
+        "question": "study-0051の施錠率結果を解釈するとき、このアンケートがなぜ必要？",
+        "purpose": "行動変化のメカニズム確認を理解する。",
+        "checkPoints": "見た→理解した→行動したという経路。",
+        "keywords": "process evaluation mechanism nudge",
+        "caution": "相関から媒介を断定しない。"
+      },
+      {
+        "question": "アンケート回答者は、駐輪場利用者全体をどこまで代表している？",
+        "purpose": "回答者バイアスを理解する。",
+        "checkPoints": "調査方法、回答率、回答時間帯。",
+        "keywords": "survey response bias bicycle parking",
+        "caution": "非回答者との差を考慮する。"
+      }
+    ]
   },
   {
     "id": "study-0053",
@@ -2341,7 +3440,30 @@
     "doi": "10.20703/jenvpsy.14.1_35",
     "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_35/_pdf",
     "notes": "研究→効果確認→施策拡張まで追えるEBPM事例。",
-    "sourceOrder": 53
+    "sourceOrder": 53,
+    "aiQuestions": [
+      {
+        "question": "盗撮防止ミラーは、どんな『環境手がかり』を与える介入？",
+        "purpose": "環境ナッジのメカニズムを理解する。",
+        "checkPoints": "鏡の存在、視線・監視の知覚、行動変化。",
+        "keywords": "mirror environmental cue voyeurism prevention",
+        "caution": "犯罪者心理のメカニズムを断定しすぎない。"
+      },
+      {
+        "question": "防犯CSRを通じて鉄道事業者に導入したことは、研究上どんな意味がある？",
+        "purpose": "実装経路と組織協働を理解する。",
+        "checkPoints": "警察・企業・研究者の役割、導入過程。",
+        "keywords": "crime prevention CSR railways implementation",
+        "caution": "実装成功と犯罪抑止効果を区別する。"
+      },
+      {
+        "question": "初期の社会実験から政策拡大へ進むとき、何を再確認すべき？",
+        "purpose": "EBPMの段階的拡大を理解する。",
+        "checkPoints": "効果、実装、費用、持続性、別地点への一般化。",
+        "keywords": "scale-up evidence-based policy",
+        "caution": "小規模結果の単純外挿を避ける。"
+      }
+    ]
   },
   {
     "id": "study-0054",
@@ -2385,7 +3507,30 @@
     "doi": "10.20703/jenvpsy.14.1_60",
     "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_60/_pdf",
     "notes": "(1)の長期追跡。短期効果だけでなく持続性を検証。",
-    "sourceOrder": 54
+    "sourceOrder": 54,
+    "aiQuestions": [
+      {
+        "question": "ミラー設置後の行動変化は、どのくらい持続した？",
+        "purpose": "持続性評価を理解する。",
+        "checkPoints": "長期追跡の観察時点と行動指標。",
+        "keywords": "long-term follow-up mirror intervention voyeurism",
+        "caution": "追跡期間を超えた持続を推測しない。"
+      },
+      {
+        "question": "時間がたっても効果が続く／薄れる理由として、何が考えられる？",
+        "purpose": "慣れ・学習・環境維持等を考える。",
+        "checkPoints": "長期データのパターンと著者の解釈。",
+        "keywords": "habituation persistence environmental nudge",
+        "caution": "メカニズムは著者の検討範囲に限定する。"
+      },
+      {
+        "question": "study-0060の初期実験と合わせると、短期効果と長期効果はどう整理できる？",
+        "purpose": "系列で時間軸を読む。",
+        "checkPoints": "初期前後比較と2026年長期追跡。",
+        "keywords": "short-term long-term intervention effect",
+        "caution": "異なる時点・条件のデータを同一分析として扱わない。"
+      }
+    ]
   },
   {
     "id": "study-0055",
@@ -2433,7 +3578,30 @@
     "doi": "10.20703/jenvpsy.14.1_46",
     "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_46/_pdf",
     "notes": "『広報した＝届いた』ではないことを示す重要な無効・実装失敗事例。",
-    "sourceOrder": 55
+    "sourceOrder": 55,
+    "aiQuestions": [
+      {
+        "question": "ポスターを見た人が約38%程度だったことは、結果の解釈にどう影響する？",
+        "purpose": "到達率をボトルネックとして理解する。",
+        "checkPoints": "認知率と主要アウトカム。",
+        "keywords": "poster exposure investment fraud prevention",
+        "caution": "低認知のため全体効果が希釈された可能性と、介入自体の無効を区別する。"
+      },
+      {
+        "question": "民間事業所に掲示するという方法は、誰に届きやすく誰に届きにくい？",
+        "purpose": "ターゲティングの適合性を考える。",
+        "checkPoints": "事業所利用者・従業員、SNS型投資詐欺の対象層。",
+        "keywords": "workplace poster scam prevention reach",
+        "caution": "対象者の代表性を確認する。"
+      },
+      {
+        "question": "効果が明確でなかったとき、次に変えるべきなのはメッセージ内容か掲示方法か？",
+        "purpose": "改善仮説を分解する。",
+        "checkPoints": "到達・認知・理解・態度・行動の各段階。",
+        "keywords": "implementation bottleneck poster campaign",
+        "caution": "現研究で特定できない場合は複数仮説として扱う。"
+      }
+    ]
   },
   {
     "id": "study-0056",
@@ -2478,7 +3646,30 @@
     "doi": "10.20703/jenvpsy.14.1_47",
     "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_47/_pdf",
     "notes": "住民向けでなく警察組織内部の実装継続を扱う珍しい研究。",
-    "sourceOrder": 56
+    "sourceOrder": 56,
+    "aiQuestions": [
+      {
+        "question": "警察官が取組を続ける理由として、内発的要因と外発的要因はどう違った？",
+        "purpose": "組織内実装の動機づけを理解する。",
+        "checkPoints": "使命感・成果実感等と表彰等の外発的要因、回帰分析。",
+        "keywords": "intrinsic extrinsic motivation police implementation",
+        "caution": "関連分析であり動機の因果効果ではない。"
+      },
+      {
+        "question": "表彰施策は、短期的な件数増加だけでなく継続にどう関係した？",
+        "purpose": "持続可能な実装を考える。",
+        "checkPoints": "国際電話利用休止申込促進、表彰経験、取組継続意向。",
+        "keywords": "recognition award police behavior sustainability",
+        "caution": "表彰が唯一の要因と断定しない。"
+      },
+      {
+        "question": "市民向け介入ではなく『警察官自身の行動』を測ることに、どんなEBP上の意味がある？",
+        "purpose": "実装主体の行動を評価対象に含める。",
+        "checkPoints": "施策の実施量・継続は職員行動に依存する点。",
+        "keywords": "implementation science police behavior",
+        "caution": "市民アウトカムとの接続は別途検証が必要。"
+      }
+    ]
   },
   {
     "id": "study-0057",
@@ -2518,7 +3709,37 @@
     "doi": "10.1007/s11292-026-09763-3",
     "url": "https://link.springer.com/article/10.1007/s11292-026-09763-3",
     "notes": "既収録の福島県警公式実証結果を査読論文化した成果。",
-    "sourceOrder": 57
+    "sourceOrder": 57,
+    "aiQuestions": [
+      {
+        "question": "人型デバイスの音声メッセージは、単なる掲示物と何が違う介入？",
+        "purpose": "サリエンス・監視知覚等の介入特徴を理解する。",
+        "checkPoints": "音声、視覚的な人型装置、店舗内配置。",
+        "keywords": "voice message human-shaped device shoplifting deterrence",
+        "caution": "具体的メカニズムは原著で示された範囲に限定する。"
+      },
+      {
+        "question": "複数店舗のフィールド実験で、店舗差はどう扱われた？",
+        "purpose": "多店舗デザインの分析を理解する。",
+        "checkPoints": "店舗ごとのベースライン、介入・比較、統計モデル。",
+        "keywords": "multi-store field experiment shoplifting",
+        "caution": "店舗数と分析単位を確認する。"
+      },
+      {
+        "question": "この研究の結果は『万引きが減った』のか、それとも別の行動指標が変わったのか？",
+        "purpose": "主要アウトカムを正確に確認する。",
+        "checkPoints": "原著の主要アウトカム、観察単位、期間。",
+        "keywords": "primary outcome shoplifting field experiment",
+        "caution": "アウトカム定義を確認してから因果表現を使う。"
+      },
+      {
+        "question": "警察の実証事業study-0034と査読論文では、どこまで同じ研究系列なのか？",
+        "purpose": "公的実装資料と原著の関係を確認する。",
+        "checkPoints": "対象店舗・時期・介入装置・研究系列の対応。",
+        "keywords": "Fukushima police shoplifting voice message",
+        "caution": "同一研究か一部重複かを原資料で確認する。"
+      }
+    ]
   },
   {
     "id": "study-0058",
@@ -2562,7 +3783,30 @@
     "doi": "10.1057/s41284-026-00543-2",
     "url": "https://link.springer.com/article/10.1057/s41284-026-00543-2",
     "notes": "地方部のplural policingを定量評価した国内事例。",
-    "sourceOrder": 58
+    "sourceOrder": 58,
+    "aiQuestions": [
+      {
+        "question": "GPSデータを使うと、パトロールの『やったつもり』ではなく何が測れる？",
+        "purpose": "実装量・カバレッジの客観測定を理解する。",
+        "checkPoints": "移動経路、滞在、対象地域カバー、多主体の活動。",
+        "keywords": "GPS patrol coverage plural policing",
+        "caution": "GPSで犯罪抑止効果そのものが直接分かるわけではない。"
+      },
+      {
+        "question": "警察だけでなく複数主体が巡回する『plural policing』では、役割分担をどう見る？",
+        "purpose": "多主体協働の実装を理解する。",
+        "checkPoints": "警察・地域・民間等の活動範囲・重複・補完。",
+        "keywords": "plural policing multi-entity patrol rural theft",
+        "caution": "主体ごとの活動量と効果を混同しない。"
+      },
+      {
+        "question": "農村部の果物盗という文脈は、都市部のパトロール研究と何が違う？",
+        "purpose": "文脈依存性を理解する。",
+        "checkPoints": "広い地理、季節性、対象資産、担い手。",
+        "keywords": "rural policing fruit theft generalizability",
+        "caution": "都市部ホットスポットへ単純一般化しない。"
+      }
+    ]
   },
   {
     "id": "study-0059",
@@ -2609,7 +3853,37 @@
     "doi": "",
     "url": "https://www.abef.jp/conf/2022/common/doc/oral/2C03.pdf",
     "notes": "大竹文雄教授の科研費20H05632と整合する防犯フィールド実験。警察署員が介入と行動測定を担う、研究者・実務家協働の明瞭な事例。",
-    "sourceOrder": 59
+    "sourceOrder": 59,
+    "aiQuestions": [
+      {
+        "question": "利他的・社会規範メッセージだけでなく『その場で練習する』ことに、どんな意味があった？",
+        "purpose": "情報提示と行動リハーサルの違いを理解する。",
+        "checkPoints": "社会規範＋留守番電話説明、模擬電話リハーサル、翌日確認の各条件。",
+        "keywords": "behavioral rehearsal social norms fraud prevention",
+        "caution": "条件の複合性に注意し、単一要素の効果と断定しない。"
+      },
+      {
+        "question": "留守番電話を使う割合が約20ポイント高かった条件は、何と何を比較した結果？",
+        "purpose": "群比較を正確に読む。",
+        "checkPoints": "C2 vs C1、C4 vs C3、各群の構成と割合。",
+        "keywords": "answering machine activation chi-square fraud prevention",
+        "caution": "残差分析・多重比較の扱いを原著で確認する。"
+      },
+      {
+        "question": "597人から最終的に284人を分析したことは、結果にどう影響し得る？",
+        "purpose": "選択・脱落の影響を理解する。",
+        "checkPoints": "固定電話を本人が取った対象、追跡条件。",
+        "keywords": "attrition field experiment older adults",
+        "caution": "最終分析者が元の対象全体を代表するとは限らない。"
+      },
+      {
+        "question": "この研究は特殊詐欺被害そのものを減らしたかまで分かる？",
+        "purpose": "行動アウトカムと被害アウトカムを区別する。",
+        "checkPoints": "留守番電話設定・着信時確認行動が主要アウトカム。",
+        "keywords": "behavioral outcome fraud victimization",
+        "caution": "被害件数への効果は直接検証していない。"
+      }
+    ]
   },
   {
     "id": "study-0060",
@@ -2652,7 +3926,30 @@
     "doi": "",
     "url": "https://www.abef.jp/conf/2024/common/doc/abstract/K03_PR0067.pdf",
     "notes": "後の京都府警による盗撮防止ミラーの社会実装・長期追跡研究につながる重要な前段研究。",
-    "sourceOrder": 60
+    "sourceOrder": 60,
+    "aiQuestions": [
+      {
+        "question": "鏡を設置するだけで、なぜ盗撮関連行動が変わると考えられた？",
+        "purpose": "環境手がかりナッジの想定メカニズムを理解する。",
+        "checkPoints": "鏡による自己・周囲の視認、監視手がかり、エスカレーター行動。",
+        "keywords": "environmental cue mirror voyeurism prevention",
+        "caution": "犯罪者心理を直接測っていない場合は仮説として扱う。"
+      },
+      {
+        "question": "介入地点と比較条件はどう設定され、何を前後で観察した？",
+        "purpose": "フィールド実験の比較構造を理解する。",
+        "checkPoints": "条件割付、観察時点、主要行動指標。",
+        "keywords": "field experiment mirror escalator",
+        "caution": "割付単位と分析単位を確認する。"
+      },
+      {
+        "question": "後続の2026年研究を合わせると、EBPMの『導入→拡大→長期確認』はどう見える？",
+        "purpose": "系列として政策形成過程を理解する。",
+        "checkPoints": "study-0053の拡大・CSR、study-0054の長期追跡。",
+        "keywords": "EBPM scale-up long-term follow-up",
+        "caution": "後続結果を初期実験の結果として混同しない。"
+      }
+    ]
   },
   {
     "id": "study-0061",
@@ -2696,7 +3993,30 @@
     "doi": "10.4992/pacjpa.85.0_PC-116",
     "url": "https://www.jstage.jst.go.jp/article/pacjpa/85/0/85_PC-116/_article/-char/ja",
     "notes": "讃井知の犯罪予防情報研究系列。情報接触→意図と、具体的行動の乖離を示す関連研究。",
-    "sourceOrder": 61
+    "sourceOrder": 61,
+    "aiQuestions": [
+      {
+        "question": "新聞記事を読んだ人で、変わったのは『態度』のどの部分？",
+        "purpose": "情報曝露の中間アウトカムを理解する。",
+        "checkPoints": "3波調査での態度・意図・具体行動等の変化。",
+        "keywords": "newspaper exposure fraud prevention attitude",
+        "caution": "自然曝露なので読者選択を考慮する。"
+      },
+      {
+        "question": "一般的な防犯意識が高まっても、具体的行動が変わらないのはなぜ重要？",
+        "purpose": "態度―行動ギャップを理解する。",
+        "checkPoints": "一般的意図と具体的な予防行動の違い。",
+        "keywords": "attitude behavior gap fraud prevention",
+        "caution": "行動未変化を『情報発信は無意味』と単純化しない。"
+      },
+      {
+        "question": "新聞による情報発信を因果効果として読むのが難しいのはなぜ？",
+        "purpose": "自然曝露評価の限界を理解する。",
+        "checkPoints": "記事への接触は無作為ではない、3波縦断。",
+        "keywords": "natural exposure longitudinal survey",
+        "caution": "関心の高い人ほど読む可能性がある。"
+      }
+    ]
   },
   {
     "id": "study-0062",
@@ -2739,7 +4059,30 @@
     "doi": "",
     "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602212450231619",
     "notes": "既収録の2025年環境心理学会要旨、2025年行動計量学会要旨と同一研究系列の別文献。",
-    "sourceOrder": 62
+    "sourceOrder": 62,
+    "aiQuestions": [
+      {
+        "question": "GISで『被害リスクの高い駐輪場』を探すとき、どんな場所要因を見ていた？",
+        "purpose": "空間分析の着眼点を理解する。",
+        "checkPoints": "駐輪場・駅周辺の環境要因、位置関係。",
+        "keywords": "GIS bicycle theft parking risk",
+        "caution": "詳細方法は原文要確認とする。"
+      },
+      {
+        "question": "この2024年研究と後続study-0063では、分析がどう発展した？",
+        "purpose": "研究系列の発展を理解する。",
+        "checkPoints": "GIS分析から417駐輪場・5,172件のマルチレベル負の二項回帰・PSMへ。",
+        "keywords": "bicycle theft GIS multilevel negative binomial",
+        "caution": "0063の統計値を0062の結果として遡及しない。"
+      },
+      {
+        "question": "リスク分析の結果を、どのように介入候補の選定へ使える？",
+        "purpose": "観察研究をTargetingへつなぐ。",
+        "checkPoints": "高リスク条件の仮説化、次の前向き介入検証。",
+        "keywords": "risk factor targeting bicycle theft",
+        "caution": "関連要因をそのまま対策効果とみなさない。"
+      }
+    ]
   },
   {
     "id": "study-0063",
@@ -2782,6 +4125,36 @@
     "doi": "10.20742/pbsj.53.0_262",
     "url": "https://www.jstage.jst.go.jp/article/pbsj/53/0/53_262/_article/-char/ja",
     "notes": "既収録の2025年環境心理学会要旨と同一研究系列の別文献。埼玉県警察本部所属の著者を明示。",
-    "sourceOrder": 63
+    "sourceOrder": 63,
+    "aiQuestions": [
+      {
+        "question": "建物型・地下・路上・一時利用・無料・ゲート・有人などの要因は、モデルを変えるとどう動いた？",
+        "purpose": "多変量モデルの頑健性を理解する。",
+        "checkPoints": "基本モデルと被害シェア調整後の係数。",
+        "keywords": "negative binomial parking characteristics bicycle theft",
+        "caution": "単一モデルだけで結論を固定しない。"
+      },
+      {
+        "question": "防犯カメラのATE -12.1は、『カメラで12.1件減る』と読んでよい？",
+        "purpose": "傾向スコアマッチングの因果限界を理解する。",
+        "checkPoints": "マッチング134、ATEとCI、未測定交絡。",
+        "keywords": "propensity score matching ATE CCTV bicycle theft",
+        "caution": "観察研究の調整後差であり、無作為実験の因果効果ではない。"
+      },
+      {
+        "question": "無料駐輪場が高リスクに見える結果は、『有料化すれば減る』ことを意味する？",
+        "purpose": "政策変数と交絡を区別する。",
+        "checkPoints": "無料条件の係数・PSM、利用者構成や立地等。",
+        "keywords": "free parking bicycle theft confounding",
+        "caution": "有料化の介入効果は検証していない。"
+      },
+      {
+        "question": "417駐輪場・5,172件という大規模データでも残る弱点は何？",
+        "purpose": "大規模観察研究の限界を理解する。",
+        "checkPoints": "実利用回転数、施錠率、未測定環境要因、犯罪転移。",
+        "keywords": "observational study exposure denominator displacement",
+        "caution": "サンプルサイズが大きくても未測定交絡は消えない。"
+      }
+    ]
   }
 ]
