@@ -25,6 +25,8 @@ function labels() {
         launchNote: "This Research Hub does not open or recommend a specific AI service.",
         siteNote: "This website does not generate the AI answer.",
         choose: "1. Choose what you want to ask",
+        commonQuestions: "Common questions",
+        specificQuestions: "Questions specific to this study",
         prompt: "2. Question prompt for AI",
         copy: "Copy question prompt",
         copied: "Question prompt copied. Paste it into the generative AI service you normally use.",
@@ -46,6 +48,8 @@ function labels() {
         launchNote: "研究HUBから特定の生成AIサービスを直接開くことはありません。",
         siteNote: "このサイト内でAIが回答する仕組みではありません。",
         choose: "1. 聞きたい項目を選ぶ",
+        commonQuestions: "共通質問",
+        specificQuestions: "この研究についてさらに聞く",
         prompt: "2. AIに送る質問文",
         copy: "質問文をコピー",
         copied: "質問文をコピーしました。普段お使いの生成AIに貼り付けてください。",
@@ -56,7 +60,7 @@ function labels() {
 }
 
 
-function questions() {
+function commonQuestions() {
 
   if (getLanguage() === "en") {
 
@@ -183,6 +187,69 @@ Prioritise points that support concrete practical decisions.`
 海外研究の場合、日本でも同じ結果になるとは仮定しないでください。
 具体的な実務判断につながる内容を優先してください。`
     }
+  ];
+}
+
+
+function specificQuestions(study) {
+
+  if (
+    getLanguage() === "en" ||
+    !Array.isArray(study?.aiQuestions)
+  ) {
+    return [];
+  }
+
+
+  return study.aiQuestions
+    .filter(item =>
+      item &&
+      typeof item.question === "string" &&
+      item.question.trim()
+    )
+    .map((item,index) => ({
+
+      id:
+        `specific-${index}`,
+
+      label:
+        item.question.trim(),
+
+      text:
+`次の資料固有の問いについて、簡潔に説明してください。
+
+【問い】
+${item.question || ""}
+
+【この問いの狙い】
+${item.purpose || ""}
+
+【確認するポイント】
+${item.checkPoints || ""}
+
+【解釈上の注意】
+${item.caution || ""}
+
+【参考キーワード】
+${item.keywords || ""}
+
+問いそのものに直接答えることを優先し、周辺論点へ広げすぎないでください。`,
+
+      kind:
+        "specific"
+
+    }));
+}
+
+
+function allQuestions(study) {
+
+  return [
+    ...commonQuestions().map(item => ({
+      ...item,
+      kind: "common"
+    })),
+    ...specificQuestions(study)
   ];
 }
 
@@ -374,7 +441,7 @@ export function renderAskChatGptPage(
 
 
   const items =
-    questions();
+    allQuestions(study);
 
 
   const initial =
@@ -449,29 +516,86 @@ export function renderAskChatGptPage(
           </h2>
 
           <div
-            class="chatgpt-options"
+            class="chatgpt-question-groups"
             role="radiogroup"
             aria-label="${escapeHtml(l.choose)}"
           >
 
-            ${items.map(
-              (item,index) => `
-                <label class="chatgpt-option">
+            <div class="chatgpt-question-group">
 
-                  <input
-                    type="radio"
-                    name="chatgptQuestion"
-                    value="${escapeHtml(item.id)}"
-                    ${index === 0 ? "checked" : ""}
-                  >
+              <h3>
+                ${escapeHtml(l.commonQuestions)}
+              </h3>
 
-                  <span>
-                    ${escapeHtml(item.label)}
-                  </span>
+              <div class="chatgpt-options">
 
-                </label>
-              `
-            ).join("")}
+                ${items
+                  .filter(item =>
+                    item.kind === "common"
+                  )
+                  .map(
+                    (item,index) => `
+                      <label class="chatgpt-option">
+
+                        <input
+                          type="radio"
+                          name="chatgptQuestion"
+                          value="${escapeHtml(item.id)}"
+                          ${index === 0 ? "checked" : ""}
+                        >
+
+                        <span>
+                          ${escapeHtml(item.label)}
+                        </span>
+
+                      </label>
+                    `
+                  ).join("")}
+
+              </div>
+
+            </div>
+
+
+            ${
+              items.some(item =>
+                item.kind === "specific"
+              )
+                ? `
+                  <div class="chatgpt-question-group chatgpt-specific-group">
+
+                    <h3>
+                      ${escapeHtml(l.specificQuestions)}
+                    </h3>
+
+                    <div class="chatgpt-options">
+
+                      ${items
+                        .filter(item =>
+                          item.kind === "specific"
+                        )
+                        .map(item => `
+                          <label class="chatgpt-option">
+
+                            <input
+                              type="radio"
+                              name="chatgptQuestion"
+                              value="${escapeHtml(item.id)}"
+                            >
+
+                            <span>
+                              ${escapeHtml(item.label)}
+                            </span>
+
+                          </label>
+                        `).join("")}
+
+                    </div>
+
+                  </div>
+                `
+                : ""
+            }
 
           </div>
 
@@ -598,7 +722,7 @@ export function activateAskChatGpt(
 
 
   const items =
-    questions();
+    allQuestions(study);
 
 
   const byId =
