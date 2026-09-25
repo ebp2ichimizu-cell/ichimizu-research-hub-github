@@ -319,3 +319,13 @@
   }
 
 }
+
+.commentary-body .commentary-original-source .source-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.commentary-body .commentary-original-source .source-links a:hover {
+  color: #fff;
+  background: var(--primary-dark);
+}
