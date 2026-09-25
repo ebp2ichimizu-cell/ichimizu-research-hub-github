@@ -76,60 +76,59 @@ function questions() {
         id: "findings",
         label: "What this study found",
         text:
-`Explain what this study examined and what it found in language that can be understood by someone without a background in statistics or research methods.
+`Explain this study briefly, focusing on these three points:
 
-In particular, organise:
-- the research question
-- what kind of study and data were used
-- the most important findings
-- what can reasonably be concluded from those findings
-- what cannot yet be concluded`
+1. What the study examined
+2. The most important finding
+3. The main caution when interpreting the result
+
+Do not list detailed statistics unless they are essential. Prioritise a short explanation of the overall meaning of the study.`
       },
       {
         id: "statistics",
         label: "Read the statistics",
         text:
-`Explain the statistical results so that someone learning statistics for the first time can understand them.
+`Explain the main statistical result briefly for someone learning statistics for the first time.
 
-Do not simply list the numbers. Explain:
-- what each statistical measure represents
-- what a larger or smaller value means
-- whether statistical significance and practical importance are the same thing
-- whether an effect size can be converted directly into a statement such as “a X% reduction”
-- how to interpret confidence intervals, variation and uncertainty
+Focus on these three points:
 
-If you use a technical term, immediately add a short plain-language explanation.`
+1. What the most important number or indicator is
+2. What that number means
+3. What could easily be misread
+
+If you use a statistical term, immediately add a short plain-language explanation.
+Do not use formulas.
+If the result cannot be read simply as “X% lower”, explain why briefly.`
       },
       {
         id: "limitations",
         label: "Examine the limitations",
         text:
-`Explain the limitations of this study in language that can be understood by someone without specialist research-methods training.
+`Explain the main limitations of this study briefly for someone without specialist research-methods training.
 
-In particular, explain:
-- conditions under which the effect may be weaker or not demonstrated
-- differences between relevant studies
-- measurement constraints
-- limitations of the research design
-- cautions when generalising the findings
-- what cannot be decided from this study alone
+Focus on these three points:
 
-Do not reduce the conclusion to “it did not work”. Distinguish what is known from what remains uncertain.`
+1. The most important limitation
+2. How far the result can be generalised
+3. What this study still cannot tell us
+
+Do not list too many limitations. Prioritise those that matter most for judgement.
+Do not reduce the conclusion to “it did not work”; distinguish what is known from what remains uncertain.`
       },
       {
         id: "practice",
         label: "Implications for practice",
         text:
-`Organise what Japanese police and local-government crime-prevention practitioners could learn from this study, for readers without specialist training in statistics or research methods.
+`Briefly organise what Japanese police and local-government crime-prevention practitioners could learn from this study.
 
-In particular, explain:
-- the conditions under which the findings are more readily applicable
-- aspects that may not transfer directly to Japanese practice
-- what should be measured if the intervention is implemented
-- what comparisons or evaluation designs would be useful
-- what should be reviewed if results do not develop as expected
+Focus on these three points:
 
-Do not assume that findings from an overseas study would automatically be reproduced in Japan.`
+1. What is useful for practice
+2. What would be risky to apply directly
+3. What should be checked or measured if it is implemented
+
+For overseas studies, do not assume the same result would occur in Japan.
+Prioritise points that support concrete practical decisions.`
       }
     ];
 
@@ -141,65 +140,59 @@ Do not assume that findings from an overseas study would automatically be reprod
       id: "findings",
       label: "この研究で分かったこと",
       text:
-`この研究で何を調べ、何が分かったのかを、統計や研究方法に詳しくない人にも分かる言葉で説明してください。
+`この研究について、次の3点を中心に簡潔に説明してください。
 
-特に、
-・研究上の問い
-・どのような研究・データを使ったのか
-・最も重要な結果
-・その結果から「言えること」
-・まだ「言えないこと」
-を整理してください。`
+1. 何を調べた研究か
+2. 最も重要な結果は何か
+3. 結果を読むうえでの注意点は何か
+
+細かな統計値を列挙せず、まず研究全体の意味が分かる説明を優先してください。`
     },
     {
       id: "statistics",
       label: "統計を読む",
       text:
-`この研究の統計結果を、統計を初めて学ぶ人にも理解できるように説明してください。
+`この研究の主要な統計結果を、統計を初めて学ぶ人向けに簡潔に説明してください。
 
-数値を示すだけでなく、
-・その統計指標は何を表しているのか
-・数値が大きい／小さいとはどういう意味か
-・統計的有意性と実務的な重要性は同じなのか
-・効果量がある場合、それを「○％減った」などと単純に読み替えてよいのか
-・信頼区間、ばらつき、不確実性をどう読めばよいか
-を平易に説明してください。
+次の3点を中心にしてください。
 
-専門用語を使う場合は、直後に短い日本語説明を付けてください。`
+1. 最も重要な数字・指標は何か
+2. その数字は何を意味するのか
+3. 読み違えやすい点は何か
+
+統計用語を使う場合は、直後に短い説明を付けてください。
+数式は使わないでください。
+「○％減った」と単純に読み替えられない場合は、その理由を短く説明してください。`
     },
     {
       id: "limitations",
       label: "限界を見る",
       text:
-`この研究の限界を、研究方法に詳しくない人にも分かるように整理してください。
+`この研究の主な限界を、研究方法に詳しくない人向けに簡潔に説明してください。
 
-特に、
-・どのような条件では効果が弱い、または確認できないのか
-・研究間の違い
-・測定上の制約
-・研究デザイン上の制約
-・結果を一般化するときの注意
-・この研究だけでは判断できないこと
-を説明してください。
+次の3点を中心にしてください。
 
-単純に「効果がない」とまとめず、
-どこまで分かっていて、どこから先が不確実なのかを区別してください。`
+1. 最も重要な限界
+2. どこまで結果を一般化できるか
+3. この研究だけではまだ分からないこと
+
+限界を列挙しすぎず、判断に重要なものを優先してください。
+単純に「効果がない」とまとめず、「どこまで分かっていて、どこから先が不確実か」を示してください。`
     },
     {
       id: "practice",
       label: "実務への示唆",
       text:
-`この研究から、日本の警察・自治体の犯罪予防実務に参考にできる点を、統計や研究方法に詳しくない実務家向けに整理してください。
+`この研究から、日本の警察・自治体の犯罪予防実務で参考にできる点を簡潔に整理してください。
 
-特に、
-・どの条件なら参考にしやすいか
-・そのまま日本へ適用しにくい点
-・実施するなら何を測るべきか
-・どのような比較や効果検証を行えばよいか
-・結果が期待どおりでなかった場合、何を見直すべきか
-を示してください。
+次の3点を中心にしてください。
 
-海外研究の結果を、そのまま日本でも再現すると仮定しないでください。`
+1. 実務で参考になる点
+2. そのまま適用すると危険な点
+3. 実施するなら何を確認・測定すべきか
+
+海外研究の場合、日本でも同じ結果になるとは仮定しないでください。
+具体的な実務判断につながる内容を優先してください。`
     }
   ];
 }
@@ -257,7 +250,7 @@ function buildPrompt(
 
   if (getLanguage() === "en") {
 
-    return `Please explain the following study for readers who are new to research methods and statistics.
+    return `Please explain the following study for police and local-government practitioners who are not familiar with statistics or research methods.
 
 [Study title]
 ${study.title || ""}
@@ -268,18 +261,19 @@ ${summaryText(study)}
 [What I want to check]
 ${question.text}
 
-[Explanation policy]
-- The intended readers are police and local-government practitioners who are not specialists in statistics, research methods or criminology.
-- Do not merely list technical terms or statistical values; explain in plain language what the result means.
-- Avoid formula-centred explanations. If a formula or technical term is necessary, add an intuitive explanation or concrete example.
-- Clearly distinguish study findings, the authors' interpretation, and your own supplementary explanation or inference.
+[Answer rules]
+- Keep the answer concise: about 180–300 words as a guide.
+- Use no more than 3–5 points.
+- State the most important conclusion first.
+- Use plain language.
+- If you use a technical term, explain it briefly.
+- Do not centre the answer on formulas.
+- Do not mix study findings, the authors' interpretation and your own supplementary explanation.
 - Do not make causal claims stronger than the original study supports.
-- Do not stop at “effective / ineffective”; explain under what conditions, what changed, and by how much.
-- Discuss not only statistical significance but also effect size, uncertainty and practical meaning.
-- Identify conditions that limit generalisation, contrary evidence and research limitations.
-- If the available information is insufficient, say that it cannot be determined from the information provided rather than guessing.
-- When discussing practical application, do not assume that findings will automatically reproduce in Japan. Explain applicable conditions and the need for additional evaluation.
-- Where possible, tell a beginner what part of the original source to inspect.
+- Where needed, briefly mention effect size, uncertainty and conditions of application.
+- Briefly note the main limitation or contrary evidence if relevant.
+- If the information is insufficient, do not guess.
+- Do not expand into background knowledge that is not directly needed for the question.
 
 [Original source]
 ${source || "Not provided in the Research Hub record"}
@@ -289,7 +283,7 @@ ${hub}`;
   }
 
 
-  return `以下の研究について、研究・統計の初学者向けに解説してください。
+  return `以下の研究について、統計・研究方法に詳しくない実務家向けに説明してください。
 
 【研究タイトル】
 ${study.title || ""}
@@ -300,18 +294,19 @@ ${summaryText(study)}
 【今回確認したいこと】
 ${question.text}
 
-【このサイトの解説方針】
-・対象は、統計・研究方法・犯罪学に詳しくない警察・自治体等の実務家です。
-・専門用語や統計値を並べるだけでなく、「その結果が何を意味するのか」を平易な日本語で説明してください。
-・数式中心の説明は避け、必要な場合は直感的な例を添えてください。
-・研究結果、著者の解釈、あなた自身の補足・推論を明確に区別してください。
-・因果関係を原著以上に強く表現しないでください。
-・「効果あり／なし」だけで終わらず、どの条件で、何が、どの程度確認されたのかを整理してください。
-・統計的有意性だけでなく、効果の大きさ、不確実性、実務上の意味も説明してください。
-・結果を一般化できない条件、反証材料、研究上の限界も必ず示してください。
-・根拠が不足する点は推測で補わず、「この情報だけでは判断できない」としてください。
-・実務への応用を述べる場合は、日本でそのまま再現するとは仮定せず、適用条件と追加検証の必要性を示してください。
-・初学者が原著を確認するとき、「どこを見ればよいか」も可能であれば示してください。
+【回答のルール】
+・原則300〜500字程度
+・3〜5項目以内
+・最初に最も重要な結論を示す
+・平易な日本語を使う
+・専門用語を使う場合は短く意味を説明する
+・数式中心の説明はしない
+・研究結果、著者の解釈、あなた自身の補足を混同しない
+・因果関係を原著以上に強く表現しない
+・必要に応じて効果の大きさ、不確実性、適用条件を示す
+・主な限界や反証材料がある場合は簡潔に示す
+・根拠が不足する場合は推測しない
+・質問に直接関係しない周辺知識は広げすぎない
 
 【原著】
 ${source || "研究HUBの登録情報には原著URLがありません"}
