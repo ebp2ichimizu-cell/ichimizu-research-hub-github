@@ -23,16 +23,18 @@ function labels() {
           "Choose what you want to ask about.",
           "Check the question text shown below.",
           "Select “Copy the full text”.",
-          "Select “Open ChatGPT”.",
+          "Select “Open ChatGPT in your browser”.",
           "Paste the copied text into ChatGPT and send it."
         ],
-        launchNote: "On devices with the ChatGPT app, the app may open. If the app is not installed, you can still use ChatGPT in a web browser. Behaviour varies by device and settings.",
+        launchNote: "Selecting “Open ChatGPT in your browser” opens the web version of ChatGPT. Paste the copied text there and send it.",
         siteNote: "This website does not generate the AI answer.",
         choose: "1. Choose what you want to ask",
         prompt: "2. Text to copy into ChatGPT",
         copy: "Copy the full text",
         copied: "The full question text has been copied.",
-        open: "Open ChatGPT",
+        open: "Open ChatGPT in your browser",
+        browserNote: "The web version of ChatGPT will open. Paste the copied text and send it.",
+        externalBrowserNote: "If the page does not display correctly, open it in an external browser such as Safari.",
         aiWarning: "AI answers are not the original research source. Check the original study for important decisions or quotations. If AI goes beyond the Research Hub material, treat that part separately.",
         back: "← Back to study details",
         promptLanguageNote: "The generated prompt follows the language of the current Research Hub page."
@@ -46,16 +48,18 @@ function labels() {
           "聞きたい項目を選ぶ",
           "下に表示される質問文を確認する",
           "「文章を全文コピー」を押す",
-          "「ChatGPTで確認する」を押す",
+          "「ブラウザー版ChatGPTで確認する」を押す",
           "コピーした文章をChatGPTへ貼り付けて送信する"
         ],
-        launchNote: "ChatGPTアプリを利用している端末ではアプリで開く場合があります。アプリをインストールしていない場合でも、ブラウザー版ChatGPTを開いて利用できます。端末や設定によって開き方は異なります。",
+        launchNote: "「ブラウザー版ChatGPTで確認する」を押すと、ブラウザー版ChatGPTを開きます。コピーした文章を貼り付けて送信してください。",
         siteNote: "このサイト内でAIが回答する仕組みではありません。",
         choose: "1. 聞きたい項目を選ぶ",
         prompt: "2. ChatGPTにコピーする文章",
         copy: "文章を全文コピー",
         copied: "質問文を全文コピーしました。",
-        open: "ChatGPTで確認する",
+        open: "ブラウザー版ChatGPTで確認する",
+        browserNote: "ブラウザー版ChatGPTを開きます。コピーした文章を貼り付けて送信してください。",
+        externalBrowserNote: "※表示が崩れる場合は、Safariなどの外部ブラウザーで開いてください。",
         aiWarning: "AIの回答は研究原著そのものではありません。重要な判断や引用では原著を確認してください。AIが研究HUBの記載を超えて推測した場合は、その部分を区別して扱ってください。",
         back: "← 研究整理ページに戻る",
         promptLanguageNote: "質問文は現在表示している研究HUBの言語に合わせて生成されます。"
@@ -515,17 +519,24 @@ export function renderAskChatGptPage(
             ${escapeHtml(l.copy)}
           </button>
 
-          <a
+          <button
             id="openChatgpt"
             class="chatgpt-open-link"
-            href="${CHATGPT_URL}"
-            target="_blank"
-            rel="noopener noreferrer"
+            type="button"
           >
             ${escapeHtml(l.open)}
-          </a>
+          </button>
 
         </div>
+
+
+        <p class="chatgpt-browser-note">
+          ${escapeHtml(l.browserNote)}
+        </p>
+
+        <p class="chatgpt-external-browser-note">
+          ${escapeHtml(l.externalBrowserNote)}
+        </p>
 
 
         <p
@@ -711,6 +722,26 @@ export function activateAskChatGpt(
         }
 
       }
+
+    }
+  );
+
+
+  const openButton =
+    document.querySelector(
+      "#openChatgpt"
+    );
+
+
+  openButton?.addEventListener(
+    "click",
+    () => {
+
+      window.open(
+        CHATGPT_URL,
+        "_blank",
+        "noopener,noreferrer"
+      );
 
     }
   );
