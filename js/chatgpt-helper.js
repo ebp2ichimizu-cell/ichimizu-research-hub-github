@@ -7,59 +7,48 @@ import {
 } from "./i18n.js";
 
 
-const CHATGPT_URL =
-  "https://chatgpt.com/";
-
 
 function labels() {
 
   return getLanguage() === "en"
     ? {
-        button: "Ask ChatGPT",
-        pageTitle: "Use AI to understand this study",
-        lead: "After reading the Research Hub material, you can use your own ChatGPT to clarify or organise points you want to understand better.",
+        button: "Ask AI",
+        pageTitle: "Ask AI about this study",
+        lead: "This page creates a question prompt for generative AI. Choose what you want to ask, copy the prompt, and paste it into the generative AI service you normally use.",
         howTo: "How to use",
         steps: [
           "Choose what you want to ask about.",
-          "Check the question text shown below.",
-          "Select “Copy the full text”.",
-          "Select “Open ChatGPT”.",
-          "Paste the copied text into ChatGPT and send it."
+          "Check the generated question prompt.",
+          "Select “Copy question prompt”.",
+          "Paste it into the generative AI service you normally use."
         ],
-        launchNote: "Selecting “Open ChatGPT” opens ChatGPT. Paste the copied text there and send it.",
+        launchNote: "This Research Hub does not open or recommend a specific AI service.",
         siteNote: "This website does not generate the AI answer.",
         choose: "1. Choose what you want to ask",
-        prompt: "2. Text to copy into ChatGPT",
-        copy: "Copy the full text",
-        copied: "The full question text has been copied.",
-        open: "Open ChatGPT",
-        browserNote: "ChatGPT will open. Paste the copied text and send it.",
-        externalBrowserNote: "If the page does not display correctly, open it in an external browser such as Safari.",
+        prompt: "2. Question prompt for AI",
+        copy: "Copy question prompt",
+        copied: "Question prompt copied. Paste it into the generative AI service you normally use.",
         aiWarning: "AI answers are not the original research source. Check the original study for important decisions or quotations. If AI goes beyond the Research Hub material, treat that part separately.",
         back: "← Back to study details",
         promptLanguageNote: "The generated prompt follows the language of the current Research Hub page."
       }
     : {
-        button: "ChatGPTに尋ねる",
-        pageTitle: "AIでこの研究への理解を深める",
-        lead: "研究HUBの解説を読んだあと、利用者自身のChatGPTで追加の確認や整理ができます。",
+        button: "AIに聞いてみる",
+        pageTitle: "AIに聞いてみる",
+        lead: "この研究について、生成AIに聞くための質問文を作成します。聞きたい内容を選び、作成された質問文をコピーしてください。普段お使いの生成AIに貼り付けて利用できます。",
         howTo: "利用方法",
         steps: [
           "聞きたい項目を選ぶ",
           "下に表示される質問文を確認する",
-          "「文章を全文コピー」を押す",
-          "「ChatGPTで確認する」を押す",
-          "コピーした文章をChatGPTへ貼り付けて送信する"
+          "「質問文をコピー」を押す",
+          "普段お使いの生成AIに貼り付けて質問する"
         ],
-        launchNote: "「ChatGPTで確認する」を押すと、ChatGPTを開きます。コピーした文章を貼り付けて送信してください。",
+        launchNote: "研究HUBから特定の生成AIサービスを直接開くことはありません。",
         siteNote: "このサイト内でAIが回答する仕組みではありません。",
         choose: "1. 聞きたい項目を選ぶ",
-        prompt: "2. ChatGPTにコピーする文章",
-        copy: "文章を全文コピー",
-        copied: "質問文を全文コピーしました。",
-        open: "ChatGPTで確認する",
-        browserNote: "ChatGPTを開きます。コピーした文章を貼り付けて送信してください。",
-        externalBrowserNote: "※画面が正しく表示されない場合は、Safariなどの外部ブラウザーで開いてください。",
+        prompt: "2. AIに送る質問文",
+        copy: "質問文をコピー",
+        copied: "質問文をコピーしました。普段お使いの生成AIに貼り付けてください。",
         aiWarning: "AIの回答は研究原著そのものではありません。重要な判断や引用では原著を確認してください。AIが研究HUBの記載を超えて推測した場合は、その部分を区別して扱ってください。",
         back: "← 研究整理ページに戻る",
         promptLanguageNote: "質問文は現在表示している研究HUBの言語に合わせて生成されます。"
@@ -268,7 +257,7 @@ ${question.text}
 - Use plain language.
 - If you use a technical term, explain it briefly.
 - Do not centre the answer on formulas.
-- Do not mix study findings, the authors' interpretation and your own supplementary explanation.
+- Do not mix study findings, the authors' interpretation and AI-generated supplementary explanation.
 - Do not make causal claims stronger than the original study supports.
 - Where needed, briefly mention effect size, uncertainty and conditions of application.
 - Briefly note the main limitation or contrary evidence if relevant.
@@ -301,11 +290,11 @@ ${question.text}
 ・平易な日本語を使う
 ・専門用語を使う場合は短く意味を説明する
 ・数式中心の説明はしない
-・研究結果、著者の解釈、あなた自身の補足を混同しない
+・研究結果、著者の解釈、AIによる補足を混同しない
 ・因果関係を原著以上に強く表現しない
 ・必要に応じて効果の大きさ、不確実性、適用条件を示す
 ・主な限界や反証材料がある場合は簡潔に示す
-・根拠が不足する場合は推測しない
+・根拠が不足する場合は推測せず、「この情報だけでは判断できない」とする
 ・質問に直接関係しない周辺知識は広げすぎない
 
 【原著】
@@ -514,24 +503,10 @@ export function renderAskChatGptPage(
             ${escapeHtml(l.copy)}
           </button>
 
-          <button
-            id="openChatgpt"
-            class="chatgpt-open-link"
-            type="button"
-          >
-            ${escapeHtml(l.open)}
-          </button>
 
         </div>
 
 
-        <p class="chatgpt-browser-note">
-          ${escapeHtml(l.browserNote)}
-        </p>
-
-        <p class="chatgpt-external-browser-note">
-          ${escapeHtml(l.externalBrowserNote)}
-        </p>
 
 
         <p
@@ -722,22 +697,4 @@ export function activateAskChatGpt(
   );
 
 
-  const openButton =
-    document.querySelector(
-      "#openChatgpt"
-    );
-
-
-  openButton?.addEventListener(
-    "click",
-    () => {
-
-      window.open(
-        CHATGPT_URL,
-        "_blank",
-        "noopener,noreferrer"
-      );
-
-    }
-  );
 }
