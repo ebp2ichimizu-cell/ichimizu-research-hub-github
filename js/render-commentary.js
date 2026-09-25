@@ -7,6 +7,10 @@ import {
   getLanguage
 } from "./i18n.js";
 
+import {
+  renderAskChatGptLink
+} from "./chatgpt-helper.js";
+
 
 function labels() {
 
@@ -695,6 +699,43 @@ function renderOriginalActions(study) {
 }
 
 
+function renderCommentaryNextActions(study) {
+
+  const l =
+    labels();
+
+  const originalUrl =
+    study?.url ||
+    (
+      study?.doi
+        ? `https://doi.org/${study.doi}`
+        : ""
+    );
+
+
+  return `
+    <section class="commentary-original-source commentary-next-actions">
+
+      <div class="source-links">
+
+        ${
+          originalUrl
+            ? externalLink(
+                originalUrl,
+                l.original
+              )
+            : ""
+        }
+
+        ${renderAskChatGptLink(study)}
+
+      </div>
+
+    </section>
+  `;
+}
+
+
 function findCommentaryStudy(data, id) {
 
   /*
@@ -939,6 +980,7 @@ export async function activateCommentary(
           ? ""
           : renderOriginalActions(study)
       }
+      ${renderCommentaryNextActions(study)}
     `;
 
 

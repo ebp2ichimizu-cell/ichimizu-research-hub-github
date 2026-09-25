@@ -9,6 +9,10 @@ import {
   getLanguage
 } from "./i18n.js";
 
+import {
+  renderAskChatGptLink
+} from "./chatgpt-helper.js";
+
 
 const item = (label, value) => {
 
@@ -233,43 +237,6 @@ function renderRelatedStudies(data, study) {
 
 function renderReadingActions(study) {
 
-  if (!study.url && !study.doi && !study.has_commentary) {
-    return "";
-  }
-
-
-  if (!study.has_commentary) {
-
-    return `
-      <section class="source-area">
-
-        <h2>
-          ${t("sourceHeading")}
-        </h2>
-
-        <div class="source-links">
-
-          ${externalLink(
-            study.url,
-            t("sourceMaterial")
-          )}
-
-          ${
-            study.doi
-              ? externalLink(
-                  `https://doi.org/${study.doi}`,
-                  "DOI"
-                )
-              : ""
-          }
-
-        </div>
-
-      </section>
-    `;
-  }
-
-
   const labels =
     commentaryLabels();
 
@@ -287,16 +254,28 @@ function renderReadingActions(study) {
 
       <div class="source-links">
 
-        <a
-          href="#/commentary/${escapeHtml(slug)}"
-        >
-          ${labels.commentary}
-        </a>
+        ${
+          study.has_commentary
+            ? `
+              <a
+                href="#/commentary/${escapeHtml(slug)}"
+              >
+                ${labels.commentary}
+              </a>
+            `
+            : ""
+        }
 
-        ${externalLink(
-          study.url,
-          labels.original
-        )}
+        ${
+          study.url
+            ? externalLink(
+                study.url,
+                labels.original
+              )
+            : ""
+        }
+
+        ${renderAskChatGptLink(study)}
 
         ${
           study.doi

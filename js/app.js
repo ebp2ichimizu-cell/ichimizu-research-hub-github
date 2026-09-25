@@ -16,6 +16,10 @@ import {
   renderCommentary,
   activateCommentary
 } from "./render-commentary.js";
+import {
+  renderAskChatGptPage,
+  activateAskChatGpt
+} from "./chatgpt-helper.js";
 import {escapeHtml} from "./utils.js";
 import {renderAbout} from "./render-about.js";
 import {
@@ -39,6 +43,10 @@ function page(){
   case "commentary":
     app.innerHTML=renderCommentary(data,route.id);
     activateCommentary(data,route.id);
+    break;
+  case "ask":
+    app.innerHTML=renderAskChatGptPage(data,route.id);
+    activateAskChatGpt(data,route.id);
     break;
   case "programs": app.innerHTML=renderPrograms(data); break;
   case "program": app.innerHTML=renderPrograms(data,route.id); break;
