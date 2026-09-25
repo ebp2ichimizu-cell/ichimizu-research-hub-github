@@ -188,3 +188,29 @@
 }
 
 
+
+
+.chatgpt-question-group + .chatgpt-question-group{
+  margin-top:20px;
+  padding-top:18px;
+  border-top:1px solid var(--line);
+}
+
+.chatgpt-question-group h3{
+  margin:0 0 10px;
+  color:var(--primary-dark);
+  font-size:1rem;
+}
+
+@media (max-width:767px){
+
+  .chatgpt-question-group + .chatgpt-question-group{
+    margin-top:16px;
+    padding-top:14px;
+  }
+
+  .chatgpt-question-group h3{
+    font-size:.94rem;
+  }
+
+}
