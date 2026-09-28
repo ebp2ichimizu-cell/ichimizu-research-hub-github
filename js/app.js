@@ -23,29 +23,18 @@ import {
 import {escapeHtml} from "./utils.js";
 import {renderAbout} from "./render-about.js";
 import {
-  getLanguage,
-  setLanguage,
-  applyStaticTranslations,
-  t
-} from "./i18n.js";
-import {
   renderUpdates,
   activateUpdates
 } from "./render-updates.js";
 import {
   activateHubNumberUi
 } from "./hub-number-ui.js";
-
-switch(route.page) 内の case "about" の前あたりへ追加:
-
-  case "updates":
-    app.innerHTML = renderUpdates();
-    activateUpdates(data);
-    break;
-
-switch 文の終了後、window.scrollTo(...) の前へ追加:
-
- activateHubNumberUi(data);
+import {
+  getLanguage,
+  setLanguage,
+  applyStaticTranslations,
+  t
+} from "./i18n.js";
 
 const app=document.querySelector("#app");
 let data=null;
@@ -54,49 +43,115 @@ let data=null;
 function page(){
  const route=parseRoute();
  if(!data) return;
+
  switch(route.page){
-  case "home": case "": app.innerHTML=renderHome(data); activateHome(); break;
-  case "studies": app.innerHTML=renderStudies(data); activateStudies(data); break;
-  case "study": app.innerHTML=renderStudyDetail(data,route.id); break;
+  case "home":
+  case "":
+    app.innerHTML=renderHome(data);
+    activateHome();
+    break;
+
+  case "studies":
+    app.innerHTML=renderStudies(data);
+    activateStudies(data);
+    break;
+
+  case "study":
+    app.innerHTML=renderStudyDetail(data,route.id);
+    break;
+
   case "commentary":
     app.innerHTML=renderCommentary(data,route.id);
     activateCommentary(data,route.id);
     break;
+
   case "ask":
     app.innerHTML=renderAskChatGptPage(data,route.id);
     activateAskChatGpt(data,route.id);
     break;
-  case "programs": app.innerHTML=renderPrograms(data); break;
-  case "program": app.innerHTML=renderPrograms(data,route.id); break;
+
+  case "programs":
+    app.innerHTML=renderPrograms(data);
+    break;
+
+  case "program":
+    app.innerHTML=renderPrograms(data,route.id);
+    break;
+
   case "researchers":
-  app.innerHTML = renderResearchers(data);
-  activateResearchers();
-  break;
-  case "researcher": app.innerHTML=renderResearchers(data,route.id); break;
+    app.innerHTML=renderResearchers(data);
+    activateResearchers();
+    break;
+
+  case "researcher":
+    app.innerHTML=renderResearchers(data,route.id);
+    break;
+
   case "reports":
-  app.innerHTML = renderReports(data);
-  activateReports();
-  break;
-  case "report": app.innerHTML=renderReports(data,route.id); break;
-  case "about": app.innerHTML=renderAbout(data); break;
-  default: app.innerHTML=`<section class="section"><div class="container"><div class="empty">${t("notFound")}</div></div></section>`;
+    app.innerHTML=renderReports(data);
+    activateReports();
+    break;
+
+  case "report":
+    app.innerHTML=renderReports(data,route.id);
+    break;
+
+  case "updates":
+    app.innerHTML=renderUpdates();
+    activateUpdates(data);
+    break;
+
+  case "about":
+    app.innerHTML=renderAbout(data);
+    break;
+
+  default:
+    app.innerHTML=`<section class="section"><div class="container"><div class="empty">${t("notFound")}</div></div></section>`;
  }
+
+ activateHubNumberUi(data);
+
  window.scrollTo({top:0,behavior:"instant"});
  app.focus({preventScroll:true});
 }
+
+
 function activateHome(){
   const form=document.querySelector("#homeSearch");
-  if(form) form.addEventListener("submit",e=>{
-    e.preventDefault();
-    const q=new FormData(form).get("q")||"";
-    location.hash=`#/studies?q=${encodeURIComponent(q)}`;
-  });
+
+  if(form) {
+    form.addEventListener("submit",e=>{
+      e.preventDefault();
+      const q=new FormData(form).get("q")||"";
+      location.hash=`#/studies?q=${encodeURIComponent(q)}`;
+    });
+  }
 }
-document.querySelector("#menuButton").addEventListener("click",()=>{
-  const nav=document.querySelector("#globalNav"),btn=document.querySelector("#menuButton");
-  nav.classList.toggle("open");btn.setAttribute("aria-expanded",String(nav.classList.contains("open")));
-});
-document.querySelector("#globalNav").addEventListener("click",()=>document.querySelector("#globalNav").classList.remove("open"));
+
+
+document
+  .querySelector("#menuButton")
+  .addEventListener("click",()=>{
+    const nav=document.querySelector("#globalNav");
+    const btn=document.querySelector("#menuButton");
+
+    nav.classList.toggle("open");
+    btn.setAttribute(
+      "aria-expanded",
+      String(nav.classList.contains("open"))
+    );
+  });
+
+
+document
+  .querySelector("#globalNav")
+  .addEventListener("click",()=>{
+    document
+      .querySelector("#globalNav")
+      .classList.remove("open");
+  });
+
+
 async function changeLanguage(language){
 
   if(
@@ -158,11 +213,15 @@ document
     "click",
     () => changeLanguage("en")
   );
+
+
 setLanguage(
   getLanguage()
 );
 
 applyStaticTranslations();
+
+
 try{
  data=await loadAllData();
  startRouter(page);
