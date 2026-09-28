@@ -9,6 +9,7 @@ const messages = {
     navPrograms: "研究系列",
     navResearchers: "研究者・機関",
     navReports: "公的報告",
+    navUpdates: "更新履歴", 
     navAbout: "このサイトについて",
 
     footerLead:
@@ -361,6 +362,7 @@ const messages = {
     navPrograms: "Research Programmes",
     navResearchers: "Researchers & Institutions",
     navReports: "Official & Other Reports",
+    navUpdates: "Update history",
     navAbout: "About",
 
     footerLead:
