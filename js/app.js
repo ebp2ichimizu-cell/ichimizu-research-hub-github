@@ -28,6 +28,24 @@ import {
   applyStaticTranslations,
   t
 } from "./i18n.js";
+import {
+  renderUpdates,
+  activateUpdates
+} from "./render-updates.js";
+import {
+  activateHubNumberUi
+} from "./hub-number-ui.js";
+
+switch(route.page) 内の case "about" の前あたりへ追加:
+
+  case "updates":
+    app.innerHTML = renderUpdates();
+    activateUpdates(data);
+    break;
+
+switch 文の終了後、window.scrollTo(...) の前へ追加:
+
+ activateHubNumberUi(data);
 
 const app=document.querySelector("#app");
 let data=null;
