@@ -1,0 +1,30 @@
+/* 研究HUB 検索・研究比較 v1 既存CSS非改変の追加スタイル */
+.study-filter-toolbar{grid-template-columns:repeat(3,minmax(0,1fr))}
+.study-filter-toolbar>*{min-width:0;width:100%}
+.study-filter-note{color:var(--muted,#64748b);font-size:.83rem;line-height:1.7;margin:-10px 0 16px}
+.study-compare-inner{display:flex;gap:14px;align-items:flex-start}
+.study-check-label{display:inline-flex;flex:none;align-items:flex-start;padding:6px 2px;cursor:pointer}
+.study-compare-check{width:19px;height:19px;accent-color:var(--primary,#263e67);cursor:pointer}
+.study-row-main{flex:1;min-width:0}
+.study-facet-pills{margin-top:10px}
+.study-snapshot{margin:12px 0;display:grid;gap:6px;font-size:.88rem;line-height:1.6}
+.study-snapshot>div{display:grid;grid-template-columns:78px minmax(0,1fr);gap:10px}
+.study-snapshot dt{font-weight:700;color:var(--primary-dark,#314b76)}
+.study-snapshot dd{margin:0;overflow-wrap:anywhere}
+.study-result{line-height:1.75}
+.study-comparison-controls{margin:15px 0 20px}
+.study-compare-toolbar{border:1px solid var(--line,#ddd);background:#fff;border-radius:15px;padding:12px;display:flex;align-items:center;flex-wrap:wrap;gap:10px}
+.study-compare-toolbar button{background:var(--primary,#243f6e);color:#fff;border:none;border-radius:10px;padding:10px 12px;font:inherit;cursor:pointer}
+.study-compare-toolbar button:last-of-type{background:#eceff3;color:#2b3c51}
+.study-compare-toolbar button:disabled{opacity:.45;cursor:not-allowed}
+.study-compare-toolbar small{color:#5f6570}
+.study-compare-caution{font-size:.88rem;line-height:1.65;margin:14px 0;color:#535b68}
+.study-compare-scroll{overflow-x:auto;max-width:100%;border:1px solid var(--line,#ddd);border-radius:14px;background:white;-webkit-overflow-scrolling:touch}
+.study-compare-table{border-collapse:collapse;min-width:740px;width:100%;table-layout:fixed;text-align:left;font-size:.88rem;line-height:1.65}
+.study-compare-table th,.study-compare-table td{padding:13px 12px;border-right:1px solid #e4e8ed;border-bottom:1px solid #e4e8ed;vertical-align:top;overflow-wrap:anywhere;white-space:pre-wrap}
+.study-compare-table th:first-child{width:128px;background:#f0f3f8;position:sticky;left:0;z-index:1}
+.study-compare-table thead th{background:#eff2f6}
+.study-compare-table thead th:first-child{z-index:2}
+.study-compare-table th:not(:first-child){min-width:220px}
+@media(max-width:820px){.study-filter-toolbar{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.study-filter-toolbar{grid-template-columns:1fr}.study-compare-inner{gap:8px}.study-snapshot>div{grid-template-columns:64px minmax(0,1fr);gap:8px}.study-compare-toolbar button{flex:1}.study-compare-table{min-width:740px}}
