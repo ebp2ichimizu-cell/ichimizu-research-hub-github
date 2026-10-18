@@ -1,5 +1,5 @@
 ---
-title: "Using GPS to Evaluate Multi-Entity Patrols Against Fruit Theft"
+title: "From Victimisation Patterns to Patrol Deployment: Reading an Agricultural-Theft Research Series"
 original_title: "Plural policing in rural contexts: a GPS-based evaluation of multi-entity patrols against fruit theft"
 authors: "Mamoru Amemiya・Ai Suzuki・Takahito Shimada・Hideharu Kurita"
 year: 2026
@@ -8,135 +8,148 @@ doi: "10.1057/s41284-026-00543-2"
 source_language: "en"
 commentary_language: "en"
 commentary_status: "draft-review"
-commentary_updated: "2026-09-23"
+commentary_updated: "2026-10-18"
 tags:
   - agricultural theft
-  - patrol
+  - rural criminology
   - plural policing
+  - Japan Agricultural Cooperatives
+  - patrol
   - GPS
   - implementation evaluation
-  - Yamanashi
+  - 23K17782
 ---
 
-# Using GPS to Evaluate Multi-Entity Patrols Against Fruit Theft
-## Moving from patrol counts to understanding who covers which places and times
+# From Victimisation Patterns to Patrol Deployment
+## Reading a national JA survey, qualitative interviews, and GPS patrol evaluation as one rural-crime research series
 
-**Original study: Amemiya, Suzuki, Shimada & Kurita (2026)**
+**Representative study: Amemiya, Suzuki, Shimada & Kurita (2026)**
+
+**Related studies:**
+- study-0068: national questionnaire survey of Japan Agricultural Cooperatives
+- study-0067: qualitative interviews with JA stakeholders
+- study-0058: GPS evaluation of multi-entity patrols
 
 > **About this commentary**  
-> This page is an independent commentary prepared by the Research Hub to help police practitioners, crime prevention professionals, and other readers understand the study, its methodology, findings, limitations, and practical implications. It is not an explanation provided or endorsed by the original authors. Please consult the original publication for the complete methodology, results, and authors’ interpretations.
+> This page is an independent commentary prepared by the Research Hub to help police practitioners, crime prevention professionals, and other readers understand the study, its methodology, findings, limitations, and practical implications. It is not an explanation provided or endorsed by the original authors. Please consult the original publications for the complete methodology, results, and authors’ interpretations.
 
 ---
 
-## What did the study do?
+## What does this research series do?
 
-This study used GPS data to examine patrols conducted to prevent fruit theft in Minami-Alps City and Fuefuki City, Yamanashi Prefecture.
+Agricultural theft, particularly fruit theft, is difficult to understand through police-recorded crime data alone.
 
-Six non-police organizations—including municipal government, JA, a volunteer fire department, a security company, and NPOs—were tracked during the 2023 fruit harvest season. The researchers analyzed 339 patrols for which GPS logs could be matched with patrol diaries.
+Some victimisation is not reported, farmland is geographically dispersed, and risk changes by crop and harvest period.
 
-Rather than asking only how many patrols had been conducted, the study examined:
+The JSPS project 23K17782 approached this problem through several methods:
+
+1. a **national questionnaire survey of JAs** to describe victimisation and current prevention;
+2. **qualitative interviews** to examine barriers, reporting, and collaboration; and
+3. **GPS measurement of patrols** to examine where and when different organisations actually operate.
+
+The Research Hub therefore treats the 2026 GPS article as the representative commentary page and integrates the two 2025 studies as part of the same research sequence.
+
+---
+
+## Study 1: what did the national JA survey reveal?
+
+study-0068 surveyed **563 Japan Agricultural Cooperatives** and analysed **260 responses**.
+
+Approximately half of the responding JAs reported experience of fruit theft within their areas.
+
+Grapes, mandarins/oranges and pears were among the most frequently reported crops, with theft concentrated around the July–September harvest period and often at night.
+
+Patrols and CCTV were among the countermeasures reported.
+
+Advice to producers more commonly involved:
+
+- securing greenhouses and storage facilities;
+- insurance or mutual-aid schemes;
+- removing equipment and materials from fields; and
+- not leaving harvested produce in the field.
+
+The unit of analysis is important.
+
+This does **not** mean that half of Japanese farmers were victimised.
+
+It is an organisational survey of JA respondents, not a national farm-level victimisation rate.
+
+---
+
+## Study 2: why can prevention be difficult to implement?
+
+study-0067 selected **11 JAs** for semi-structured interviews after the national survey.
+
+The interviews identified several practical barriers:
+
+- theft circumstances differed by area and crop;
+- poor harvest conditions may increase theft risk;
+- CCTV and other measures can be costly;
+- ageing farmers may not be able to conduct night patrols safely;
+- noise and lighting may create local complaints;
+- some farmers are reluctant to report victimisation to police; and
+- sustained collaboration between police, municipalities, JAs and residents can be difficult.
+
+Seven interviewees referred to cooperation with local police.
+
+Examples included regular meetings, intensified patrols during high-risk periods, information sharing, and local systems that helped police identify farmland ownership.
+
+The role of this study is not to estimate national percentages.
+
+It is to identify **implementation barriers, local variation and forms of cooperation** that a questionnaire cannot fully explain.
+
+---
+
+## Study 3: are multiple patrol providers actually complementary?
+
+study-0058 tracked patrols in Minami-Alps City and Fuefuki City, Yamanashi Prefecture, during the 2023 fruit harvest season.
+
+Six organisations—including municipal bodies, JA, a volunteer fire department, a private security company and NPOs—were included.
+
+The analysis used **339 patrols** with matched GPS logs and activity diaries.
+
+It compared:
 
 - spatial range;
-- movement patterns;
-- timing;
-- route characteristics; and
-- the extent to which different organizations complemented one another.
-
-The study found clear differences between organizations, and combining their activities increased both temporal and spatial coverage.
-
-Importantly, this was **not a study of whether fruit theft declined**.
-
-Its practical contribution was to make visible something that had previously been difficult to see: **where multiple patrol providers overlap, and where their different operational patterns fill one another’s gaps.**
-
----
-
-## Why was the study conducted?
-
-Rural areas often require large territories to be covered with relatively limited policing resources.
-
-Fruit-growing areas add further challenges:
-
-- farmland is geographically dispersed;
-- theft risk may change across harvest periods;
-- surveillance may be needed at different times of day; and
-- police alone cannot continuously cover every place.
-
-For this reason, local government, agricultural organizations, volunteer groups, and private security may all contribute to safety.
-
-The involvement of multiple actors in policing and security is commonly described as **plural policing**.
-
-However, simply having more organizations involved does not guarantee efficient coverage.
-
-Several organizations may repeatedly patrol the same places and times while other areas remain uncovered.
-
-The study therefore used GPS tracking to examine whether different organizations actually provided complementary coverage.
-
----
-
-## What was measured?
-
-Participating organizations carried small GPS loggers that recorded location at 30-second intervals.
-
-The researchers examined indicators including:
-
-- patrol range;
 - route length;
-- movement speed;
-- start time and duration;
+- speed;
+- timing;
 - road characteristics; and
 - proximity to agricultural land.
 
-They also created two coverage measures.
+The organisations showed clearly different operational patterns.
 
-### Temporal coverage
+When combined, they expanded temporal and spatial coverage.
 
-The day was divided into 15-minute units. Temporal coverage represented the proportion of those units in which at least one patrol occurred.
+The evaluation therefore moved beyond “patrols were conducted” to:
 
-### Spatial coverage
+> **who covered which places and times, and where different organisations filled one another’s gaps.**
 
-Spatial coverage represented the proportion of agricultural land for which a road within 30 metres had been traversed by a patrol.
+---
 
-The evaluation therefore moved through the following sequence:
+## What becomes visible when the three studies are combined?
+
+Together, the series forms a practical problem-solving sequence:
 
 ```text
-Patrol activity
-     ↓
-Who patrols?
-     ↓
-When do they patrol?
-     ↓
-Where do they patrol?
-     ↓
-Where do activities overlap?
-     ↓
-Where do different organizations fill gaps?
+National JA survey
+“What is the pattern of victimisation and current prevention?”
+        ↓
+Qualitative interviews
+“Why is prevention difficult, and how do organisations cooperate?”
+        ↓
+GPS patrol evaluation
+“Where and when is prevention activity actually delivered?”
+        ↓
+Next question
+“Does that deployment cover high-risk places and times?”
 ```
 
----
+The series has not yet reached a definitive outcome evaluation of how much theft was prevented.
 
-## What did the study find?
+Its strength is that it covers the earlier EBP stages:
 
-### 1. Patrol organizations had different operational patterns
-
-Across the 339 recorded patrols, organizations differed significantly in spatial scale, movement speed, timing, and route characteristics.
-
-For example, municipal and JA patrols tended to cover broader areas in Minami-Alps City, whereas the volunteer fire department operated more locally. In Fuefuki City, the contracted security company covered wide areas, while one NPO showed distinctive coverage of particular areas and later time periods.
-
----
-
-### 2. Combining organizations increased coverage
-
-When patrol activities were combined, temporal coverage reached:
-
-- **67.7% in Minami-Alps City**
-- **82.3% in Fuefuki City**
-
-Spatial coverage reached:
-
-- **65.3% in Minami-Alps City**
-- **61.2% in Fuefuki City**
-
-The organizations were therefore not simply duplicating the same activity. Their different operating patterns created complementary temporal and spatial coverage.
+**measure the problem → diagnose implementation barriers → measure delivery.**
 
 ---
 
@@ -144,50 +157,37 @@ The organizations were therefore not simply duplicating the same activity. Their
 
 ## Check the statistics
 
-The statistics in this study evaluate patrol characteristics and coverage, not crime reduction.
+### study-0068: national JA questionnaire
 
-### What was analyzed?
+- target organisations: **563 JAs**
+- analysed responses: **260**
+- approximate response rate: **46%**
 
-There were **339 valid patrols** with matched GPS and diary data.
+About half of responding JAs reported experience of fruit theft.
 
-The number of patrols ranged from **12 for NPO B** to **148 for the contracted security company**.
+Calls to secure greenhouses or storage facilities were reported by **34.6% (90 responses)**, while insurance or mutual-aid enrolment was reported by **34.2% (89 responses)**.
 
-Indicators included:
+Calls to install CCTV were reported by **17.3% (45 responses)**.
 
-- spatial extent;
-- route length;
-- speed;
-- stays;
-- start time;
-- duration;
-- road characteristics; and
-- surrounding land use.
+These percentages describe JA responses.
 
-### Were the organizations statistically different?
+They are not farm-level victimisation or treatment-effect estimates.
 
-The researchers used the **Kruskal–Wallis test** to compare patrol organizations.
+### study-0067: qualitative interviews
 
-Significant differences were found across all calculated indicators:
+Twenty-eight survey respondents expressed willingness to be interviewed; **11 JAs** were selected, including those with recent agricultural-theft experience expected to provide additional insight.
 
-**p < .001**
+This is a purposive qualitative sample.
 
-Pairwise comparisons used **Mann–Whitney U tests with Bonferroni correction**.
+For example, seven interviewees mentioned police collaboration, but this cannot be converted into a national prevalence estimate such as “64% of Japanese JAs cooperate with police”.
 
-The comparisons showed, for example, that:
+The value is in identifying mechanisms, barriers and organisational practices.
 
-- municipal patrols tended to cover wider spatial areas;
-- volunteer fire department patrols were more local and shorter; and
-- NPO B tended to operate later in the day.
+### study-0058: GPS patrol evaluation
 
-### How should this be read?
+There were **339 valid patrols**.
 
-The p-value supports the conclusion that the organizations did not operate in the same way.
-
-It does **not** tell us which organization prevented the most crime.
-
-The statistical result concerns **heterogeneity in implementation**.
-
-### How much coverage was achieved?
+Kruskal–Wallis tests found differences between organisations across all calculated patrol indicators (**p < .001**).
 
 Maximum combined coverage was:
 
@@ -196,198 +196,191 @@ Maximum combined coverage was:
 | Minami-Alps City | 67.7% | 65.3% |
 | Fuefuki City | 82.3% | 61.2% |
 
-Temporal coverage was the proportion of 15-minute units in which at least one patrol occurred.
+These are **coverage rates, not crime-reduction rates**.
 
-Spatial coverage was the proportion of agricultural land for which a road within 30 m had been patrolled at least once.
-
-### What did the statistics help decompose?
-
-Instead of reporting only:
-
-> 339 patrols were conducted,
-
-the analysis showed:
+### Reading the numbers as a sequence
 
 ```text
-339 patrols
-    ↓
-different organizations have different operational patterns
-    ↓
-different strengths by time and place
-    ↓
-combined patrols expand coverage
+“About half of responding JAs report victimisation”
+      ↓ describes the problem
+
+“11 qualitative cases”
+      ↓ explains barriers and cooperation
+
+“339 GPS patrols”
+      ↓ measures delivery in the field
 ```
 
-The next analytical step is to overlay these implementation data with theft risk and victimization data.
+The numbers answer different questions and should not be collapsed into one overall “effect size”.
 
-### Where to verify this in the original article
+### Where to verify
 
-- **Table 1**: patrol counts and movement indicators
-- **Figure 6**: multiple comparisons
-- **Table 2**: temporal and spatial coverage
-- **Figures 7–10**: patrol frequency by time and farmland
+**study-0068**
+- sampling and response count;
+- crop, timing and prevention frequencies;
+- advice provided to producers.
+
+**study-0067**
+- interview-selection procedure;
+- police and local-government cooperation;
+- budget, ageing and reporting barriers.
+
+**study-0058**
+- Table 1: patrol characteristics;
+- Table 2: temporal and spatial coverage;
+- Figures 7–10: patrol frequency by time and farmland.
 
 <!-- STATS_DETAIL_END -->
 
-## How should the findings be interpreted?
+## How should the series be interpreted?
 
-### What the study directly shows
+### Directly supported
 
-Different organizations performing “patrols” were actually operating in different places, at different times, and under different movement conditions.
+- responding JAs reported substantial experience of fruit theft and seasonal patterns;
+- qualitative interviews identified local implementation barriers and forms of cooperation;
+- patrol organisations differed in their operating patterns and collectively expanded coverage.
 
-Combining these activities expanded coverage beyond what any single organization provided.
+### Reasonably suggested
 
-### What the study reasonably suggests
+Agricultural-theft prevention may need a **plural-policing approach** involving police, JAs, local government, private providers and community actors.
 
-In plural policing, the key issue is not simply the number of participating organizations.
+Ageing and limited budgets may also make farmer-only self-protection increasingly difficult in some areas.
 
-It is whether their different capacities and constraints produce a useful division of coverage.
+### Not established
 
-GPS and similar behavioral data can turn broad activity reporting into a more precise assessment of deployment.
+The studies do not establish:
 
-### What the study does not establish
-
-The study does **not** demonstrate that multi-entity patrols reduced fruit theft.
-
-Crime-event data were not included, so it cannot determine:
-
-- the optimal patrol location;
-- the optimal patrol time;
-- the amount of crime prevented; or
-- which organization produced a crime-control effect.
-
-The outcome was **implementation and coverage**, not crime reduction.
+- the percentage reduction in theft from a particular measure;
+- whether CCTV is superior to patrol;
+- whether multi-entity patrols reduced agricultural theft; or
+- whether the same coordination model works in every rural area.
 
 ---
 
 ## Limitations and the next information needed
 
-### Crime data were not overlaid with patrol data
+### Victimisation denominators remain incomplete
 
-A high coverage rate is not necessarily an effective one.
+The JA survey does not directly estimate farm-level risk using a denominator such as farms, hectares or production volume.
 
-The more important question is whether patrols cover **high-risk places and times**.
+### Under-reporting matters
 
-### Rural risk changes with agricultural activity
+The qualitative study found that some farmers were reluctant to report theft to police.
 
-Harvest timing, farming routines, and other seasonal activities may shift when and where theft opportunities emerge.
+Police-recorded crime may therefore understate the problem.
 
-### Police patrols were not included in the GPS analysis
+### Police patrols were not included in the GPS tracking
 
-The study therefore does not capture the full patrol ecology of the two municipalities.
+The GPS study concerns plural policing but did not include police patrol GPS data.
+
+It therefore does not capture the complete deployment environment.
+
+### High coverage is not automatically good coverage
+
+The next question is whether patrols cover **high-risk places and times**, not merely a large share of time or space.
 
 ---
 
-# Research Hub commentary: turning patrol activity into a deployment problem
+# Research Hub commentary: turning “limited resources” into a deployment and coordination problem
 
-From an EBP perspective, the most useful feature of the study is not simply the finding that collaboration is beneficial.
+Rural practitioners often face broad constraints:
 
-Before measurement, practitioners may know only that:
+> large areas, few personnel, ageing communities and limited police coverage.
 
-> several organizations are patrolling the area.
+“Do more patrols” is not a workable response by itself.
 
-GPS data allow that broad statement to be decomposed:
+The research series helps decompose the problem:
 
 ```text
-Patrols are occurring
-        ↓
-Who is patrolling?
-        ↓
-Which times are covered?
-        ↓
-Which places are covered?
-        ↓
-Where is there duplication?
-        ↓
-Where are the gaps?
+Where is victimisation occurring?
+       ↓
+Is it being reported?
+       ↓
+What prevention is currently used?
+       ↓
+What blocks implementation?
+       ↓
+Which actors can patrol?
+       ↓
+Which places and times does each actor cover?
+       ↓
+Where are the remaining gaps?
 ```
 
-Once these components are visible, improvement options become more specific.
+This changes the discussion from “we do not have enough personnel” to the more testable question:
 
-For example:
-
-- heavy overlap at the same time  
-  → consider shifting some activity to uncovered periods;
-
-- repeated use of the same major roads  
-  → examine whether another organization can cover smaller or more local routes;
-
-- limited nighttime coverage  
-  → identify organizations capable of operating later;
-
-- broad coverage that misses high-risk sites  
-  → overlay patrol routes with victimization or environmental-risk data.
-
-Evaluation therefore turns the vague objective of “increasing patrols” into the operational question of **who should be deployed where and when**.
+**how can available organisations be combined to cover priority risks?**
 
 ---
 
-## What should be added in the next evaluation?
+## What should the next evaluation add?
 
-A further evaluation could combine GPS data with:
+A stronger outcome evaluation could combine:
 
-- reported agricultural theft;
-- farmer victimization surveys, including unreported incidents;
-- harvest schedules;
-- visibility and accessibility of farmland;
-- road access;
-- local activity patterns; and
-- police patrol data.
+- anonymous farmer victimisation surveys;
+- police reports;
+- crop and harvest schedules;
+- road access and visibility;
+- historical theft locations;
+- police and non-police patrol GPS;
+- CCTV or sensor deployment; and
+- possible displacement.
 
-That would move the question from:
+The objective would be to move from:
 
-**“Are we covering a large area?”**
+**“Are patrols covering a large area?”**
 
 to:
 
-**“Are we covering the places and times where protection is most needed?”**
+**“Are they covering the places and times where protection is most needed, and does theft decline?”**
 
 ---
 
 ## Related concepts
 
+### Rural criminology
+
+Rural criminology examines how crime is shaped by low population density, agricultural activity, mobility, social relationships and limited formal policing resources.
+
 ### Plural policing
 
-Plural policing describes security provision involving actors beyond the public police, including public agencies, private organizations, and community groups.
+Plural policing describes security provision involving public police alongside local government, private organisations and community groups.
 
-The practical issue is not simply participation but coordination between actors with different resources, constraints, and strengths.
+### Mixed methods
 
-### Implementation evaluation
+Questionnaires show breadth, interviews explain mechanisms and barriers, and GPS provides behavioural implementation data.
 
-This study measures how a crime-prevention activity is actually delivered rather than whether crime ultimately declines.
-
-It therefore provides a useful example of assessing implementation before making claims about final outcomes.
+The combination is more informative than any one method alone.
 
 ---
 
 ## Key takeaway
 
-**Patrol volume alone does not tell us what patrol activity is accomplishing.**
+The series does not begin by asking for a single “best countermeasure”.
 
-GPS data can reveal:
+It first:
 
-- who patrols;
-- when they patrol;
-- where they patrol; and
-- how organizations complement or duplicate each other.
+**measures victimisation → diagnoses implementation barriers → measures actual deployment.**
 
-The study did not directly test crime reduction, but it created the implementation evidence needed for the next stage of evaluation.
-
-A practical EBP cycle is:
-
-**measure activity → decompose deployment → identify gaps and overlaps → combine with risk information → redesign deployment.**
+That sequence is valuable because outcome evaluation is more meaningful when the problem and the intervention have first been measured clearly.
 
 ---
 
-## Read the original study
+## Read the original studies
 
-- [Springer Nature: original article](https://link.springer.com/article/10.1057/s41284-026-00543-2)
-- [DOI: 10.1057/s41284-026-00543-2](https://doi.org/10.1057/s41284-026-00543-2)
+### study-0058: GPS patrol evaluation
+- [Springer Nature](https://link.springer.com/article/10.1057/s41284-026-00543-2)
 - [University of Tsukuba repository](https://tsukuba.repo.nii.ac.jp/records/2025018)
+- [DOI: 10.1057/s41284-026-00543-2](https://doi.org/10.1057/s41284-026-00543-2)
 
-### Citation
+### study-0067: qualitative JA study
+- [International Journal of Rural Criminology full text](https://ruralcriminology.org/article/4242/galley/4483/download/)
+- [DOI: 10.18061/ijrc.v9i1.10235](https://doi.org/10.18061/ijrc.v9i1.10235)
 
-Amemiya, M., Suzuki, A., Shimada, T., & Kurita, H. (2026).  
-*Plural policing in rural contexts: a GPS-based evaluation of multi-entity patrols against fruit theft.*  
-Security Journal, 39, Article 28.  
-https://doi.org/10.1057/s41284-026-00543-2
+### study-0068: national JA questionnaire
+- [J-STAGE article](https://www.jstage.jst.go.jp/article/reportscpij/24/2/24_318/_article/-char/ja)
+- [DOI: 10.11361/reportscpij.24.2_318](https://doi.org/10.11361/reportscpij.24.2_318)
+
+### Research programme
+
+All three records are linked to JSPS KAKENHI **23K17782** (official Japanese project title: **「日本における農村犯罪学の創成に向けた萌芽研究：窃盗犯を事例とする実態分析」**).
