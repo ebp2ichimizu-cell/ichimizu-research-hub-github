@@ -11,7 +11,7 @@
   "study-0058": {
     "has_commentary": true,
     "commentary_slug": "study-0058",
-    "commentary_updated": "2026-09-23",
+    "commentary_updated": "2026-10-18",
     "commentary_languages": [
       "ja",
       "en"
@@ -507,6 +507,60 @@
     "has_commentary": true,
     "commentary_slug": "study-0028",
     "commentary_updated": "2026-09-25",
+    "commentary_languages": [
+      "ja",
+      "en"
+    ]
+  },
+  "study-0065": {
+    "has_commentary": true,
+    "commentary_slug": "study-0065",
+    "commentary_updated": "2026-10-18",
+    "commentary_languages": [
+      "ja",
+      "en"
+    ]
+  },
+  "study-0070": {
+    "has_commentary": true,
+    "commentary_slug": "study-0070",
+    "commentary_updated": "2026-10-18",
+    "commentary_languages": [
+      "ja",
+      "en"
+    ]
+  },
+  "study-0033": {
+    "has_commentary": true,
+    "commentary_slug": "study-0070",
+    "commentary_updated": "2026-10-18",
+    "commentary_languages": [
+      "ja",
+      "en"
+    ]
+  },
+  "study-0071": {
+    "has_commentary": true,
+    "commentary_slug": "study-0070",
+    "commentary_updated": "2026-10-18",
+    "commentary_languages": [
+      "ja",
+      "en"
+    ]
+  },
+  "study-0067": {
+    "has_commentary": true,
+    "commentary_slug": "study-0058",
+    "commentary_updated": "2026-10-18",
+    "commentary_languages": [
+      "ja",
+      "en"
+    ]
+  },
+  "study-0068": {
+    "has_commentary": true,
+    "commentary_slug": "study-0058",
+    "commentary_updated": "2026-10-18",
     "commentary_languages": [
       "ja",
       "en"

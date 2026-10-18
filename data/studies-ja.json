@@ -760,9 +760,7 @@
     "population": "福岡市内集合住宅の侵入窃盗",
     "comparison": "時空間的近接の有無",
     "outcomes": [
-      "Repeat",
-      "Near Repeat",
-      "Building Near Repeat"
+      "Repeat/Near Repeat/Building Near Repeat"
     ],
     "outcomesText": "Repeat/Near Repeat/Building Near Repeat",
     "design": "犯罪データ時空間分析",
@@ -2190,7 +2188,7 @@
     "citation": "香川大学プレスリリース",
     "doi": "",
     "url": "https://www.kagawa-u.ac.jp/33738/33781/",
-    "notes": "2025年に実験・結果公表。",
+    "notes": "2025年の大学・警察共同実証公表。後続の2026年日本環境心理学会要旨 study-0070（心理状態・躊躇）と study-0071（心拍数）が同一実験を詳細化。",
     "sourceOrder": 33,
     "aiQuestions": []
   },
@@ -2306,11 +2304,7 @@
     "title": "奈良防犯心理研究会",
     "authors": [
       "奈良県警察本部",
-      "奈良大",
-      "奈良女子大",
-      "帝塚山大",
-      "滋賀大",
-      "大阪教育大の研究者"
+      "奈良大/奈良女子大/帝塚山大/滋賀大/大阪教育大の研究者"
     ],
     "authorsText": "奈良県警察本部・奈良大/奈良女子大/帝塚山大/滋賀大/大阪教育大の研究者",
     "practiceOrganizations": [
@@ -2341,7 +2335,7 @@
     "reviewStatus": "進行中",
     "citation": "奈良防犯心理研究会",
     "doi": "",
-    "url": "https://www.police.pref.nara.jp/0000007830.html",
+    "url": "https://researchers.shiga-u.ac.jp/html/100003287_ja.html",
     "notes": "研究者業績ページ等で発足確認。",
     "sourceOrder": 36,
     "aiQuestions": []
@@ -3302,7 +3296,7 @@
     "reviewStatus": "会議録",
     "citation": "環境心理学研究 14(1), 34",
     "doi": "10.20703/jenvpsy.14.1_34",
-    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_34/_pdf",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_34/_article/-char/ja",
     "notes": "京都府警職員3名＋滋賀大。再現性・地域差を考える上で有用。",
     "sourceOrder": 51,
     "aiQuestions": [
@@ -3370,7 +3364,7 @@
     "reviewStatus": "会議録",
     "citation": "環境心理学研究 14(1), 54",
     "doi": "10.20703/jenvpsy.14.1_54",
-    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_54/_pdf",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_54/_article/-char/ja",
     "notes": "同一介入のプロセス評価を別成果として保持。",
     "sourceOrder": 52,
     "aiQuestions": [
@@ -3438,7 +3432,7 @@
     "reviewStatus": "会議録",
     "citation": "環境心理学研究 14(1), 35",
     "doi": "10.20703/jenvpsy.14.1_35",
-    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_35/_pdf",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_35/_article/-char/ja",
     "notes": "研究→効果確認→施策拡張まで追えるEBPM事例。",
     "sourceOrder": 53,
     "aiQuestions": [
@@ -3505,7 +3499,7 @@
     "reviewStatus": "会議録",
     "citation": "環境心理学研究 14(1), 60",
     "doi": "10.20703/jenvpsy.14.1_60",
-    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_60/_pdf",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_60/_article/-char/ja",
     "notes": "(1)の長期追跡。短期効果だけでなく持続性を検証。",
     "sourceOrder": 54,
     "aiQuestions": [
@@ -3576,7 +3570,7 @@
     "reviewStatus": "会議録",
     "citation": "環境心理学研究 14(1), 46",
     "doi": "10.20703/jenvpsy.14.1_46",
-    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_46/_pdf",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_46/_article/-char/ja",
     "notes": "『広報した＝届いた』ではないことを示す重要な無効・実装失敗事例。",
     "sourceOrder": 55,
     "aiQuestions": [
@@ -3644,7 +3638,7 @@
     "reviewStatus": "会議録",
     "citation": "環境心理学研究 14(1), 47",
     "doi": "10.20703/jenvpsy.14.1_47",
-    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_47/_pdf",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_47/_article/-char/ja",
     "notes": "住民向けでなく警察組織内部の実装継続を扱う珍しい研究。",
     "sourceOrder": 56,
     "aiQuestions": [
@@ -3782,7 +3776,7 @@
     "citation": "Security Journal 39, Article 28",
     "doi": "10.1057/s41284-026-00543-2",
     "url": "https://link.springer.com/article/10.1057/s41284-026-00543-2",
-    "notes": "地方部のplural policingを定量評価した国内事例。",
+    "notes": "地方部のplural policingを定量評価した国内事例。JSPS KAKENHI 23K17782の成果で、study-0067・0068と同一の農村犯罪学研究系列。",
     "sourceOrder": 58,
     "aiQuestions": [
       {
@@ -4112,7 +4106,8 @@
     "population": "埼玉県内63市町村の駅周辺公営駐輪場417か所",
     "comparison": "駐輪場・駅の環境属性間比較、傾向スコアマッチング",
     "outcomes": [
-      "66か月間の自転車盗被害5,172件"
+      "66か月間の自転車盗被害5",
+      "172件"
     ],
     "outcomesText": "66か月間の自転車盗被害5,172件",
     "design": "マルチレベル負の二項回帰・傾向スコアマッチング",
@@ -4156,5 +4151,407 @@
         "caution": "サンプルサイズが大きくても未測定交絡は消えない。"
       }
     ]
+  },
+  {
+    "id": "study-0064",
+    "year": 2026,
+    "title": "The paradox of school-based crime prevention programs: its effects on mothers’ fear of strangers",
+    "authors": [
+      "Tomoko Doi Hata",
+      "Takahito Shimada"
+    ],
+    "authorsText": "Tomoko Doi Hata・Takahito Shimada",
+    "practiceOrganizations": [
+      "科学警察研究所（データ収集時の島田貴仁所属）"
+    ],
+    "practiceOrganizationsText": "科学警察研究所（データ収集時の島田貴仁所属）",
+    "researchOrganizations": [
+      "文京学院大学・滋賀大学"
+    ],
+    "researchOrganizationsText": "文京学院大学・滋賀大学",
+    "themes": [
+      "子どもの防犯",
+      "学校防犯",
+      "犯罪不安",
+      "子どもの移動自由性"
+    ],
+    "themesText": "子どもの防犯／学校防犯／犯罪不安／子どもの移動自由性",
+    "intervention": "学校で実施・参加した複数の防犯プログラムへの曝露（無作為介入ではなく観察された実施・参加）",
+    "population": "東京都在住で小学3～6年の女子児童をもつ母親",
+    "comparison": "防犯プログラムの実施・参加状況を比較し、親・子ども・近隣要因を統制",
+    "outcomes": [
+      "母親の『見知らぬ人への恐怖』"
+    ],
+    "outcomesText": "母親の『見知らぬ人への恐怖』",
+    "design": "横断オンライン調査・多重回帰分析",
+    "sampleSize": "275",
+    "result": "恐怖を低下させる方向と関連した防犯プログラムは確認されず、3種類の学校防犯プログラムは母親の恐怖が高いことと統計的に関連していた。",
+    "limitations": "観察研究であり、プログラムが恐怖を因果的に高めたとは断定できない。自己選択・逆因果の可能性がある。母親・女子児童に対象が限定され、犯罪発生件数は測定していない。出版社本文は購読制。",
+    "publicationType": "査読国際誌",
+    "reviewStatus": "査読あり",
+    "citation": "Crime Prevention and Community Safety 27(3-4), 93-112",
+    "doi": "10.1057/s41300-026-00230-9",
+    "url": "https://link.springer.com/article/10.1057/s41300-026-00230-9",
+    "notes": "study-0064。JSPS KAKENHI 17H02467の成果。出版社はVersion of recordを2026-04-30とする一方、巻号ページでは2025表記がみられるため年は出版社公開年2026を採用。両著者の警視庁有識者研究会委員歴は研究委託・共同評価を意味しない。",
+    "sourceOrder": 64,
+    "aiQuestions": []
+  },
+  {
+    "id": "study-0065",
+    "year": 2026,
+    "title": "警察官の性犯罪被害者に対する態度が捜査面接に与える効果",
+    "authors": [
+      "平間一樹",
+      "横田賀英子",
+      "和智妙子",
+      "渡邉和美",
+      "古橋健悟",
+      "大塚祐輔",
+      "島田貴仁"
+    ],
+    "authorsText": "平間一樹・横田賀英子・和智妙子・渡邉和美・古橋健悟・大塚祐輔・島田貴仁",
+    "practiceOrganizations": [
+      "科学警察研究所・全国都道府県警察"
+    ],
+    "practiceOrganizationsText": "科学警察研究所・全国都道府県警察",
+    "researchOrganizations": [
+      "科学警察研究所・駿河台大学・滋賀大学"
+    ],
+    "researchOrganizationsText": "科学警察研究所・駿河台大学・滋賀大学",
+    "themes": [
+      "性犯罪",
+      "被害者対応",
+      "捜査面接",
+      "手続き的公正"
+    ],
+    "themesText": "性犯罪／被害者対応／捜査面接／手続き的公正",
+    "intervention": "性犯罪被害者への事情聴取時の警察官の態度を、被害者側・警察官側の双方から評価（実験介入ではない）",
+    "population": "2017年10月～2018年12月に全国都道府県警察が認知した対象事件の成人被害者と担当警察官",
+    "comparison": "被害者と担当警察官のペア評価、および双方の適正態度認知の関連を分析",
+    "outcomes": [
+      "被害情報の提供",
+      "必要な捜査情報の獲得",
+      "被害者の救済感"
+    ],
+    "outcomesText": "被害情報の提供、必要な捜査情報の獲得、被害者の救済感",
+    "design": "ペア質問紙調査・カテゴリカル探索的因子分析・Actor-Partner Interdependence Model",
+    "sampleSize": "122ペア",
+    "result": "被害者が警察官の対応を適正と認知するほど、被害情報の提供（β=.66, p<.001）、必要な捜査情報の獲得（β=.30, p=.015）、救済感（β=.70, p<.001）が高い方向の関連を示した。警察官自身の適正態度評価も救済感と関連した（β=.21, p=.046）。",
+    "limitations": "調査同意者への選択バイアス、尺度ラベルによる回答バイアス、情報量・捜査貢献度が主観指標である点、事件進展状況による残余交絡がある。観察的関連であり訓練・態度介入の因果効果ではない。",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "心理学研究 97(2), 102-109",
+    "doi": "10.4992/jjpsy.97.23332",
+    "url": "https://www.jstage.jst.go.jp/article/jjpsy/97/2/97_97.23332/_article/-char/ja",
+    "notes": "study-0065。犯罪予防に加え警察実務EBPの対象として収録。横田らの同一基礎データを用いる既報とは分析目的が異なる。",
+    "sourceOrder": 65,
+    "aiQuestions": []
+  },
+  {
+    "id": "study-0066",
+    "year": 2026,
+    "title": "犯罪発生に関わる人間の空間移動パターン―仙台市において発生した車上ねらいに着目して―",
+    "authors": [
+      "平間一樹",
+      "矢部直人",
+      "横田賀英子",
+      "大塚祐輔",
+      "古橋健悟",
+      "寺本純也",
+      "渡邉和美"
+    ],
+    "authorsText": "平間一樹・矢部直人・横田賀英子・大塚祐輔・古橋健悟・寺本純也・渡邉和美",
+    "practiceOrganizations": [
+      "科学警察研究所・警視庁"
+    ],
+    "practiceOrganizationsText": "科学警察研究所・警視庁",
+    "researchOrganizations": [
+      "科学警察研究所・東京都立大学・警視庁"
+    ],
+    "researchOrganizationsText": "科学警察研究所・東京都立大学・警視庁",
+    "themes": [
+      "車上ねらい",
+      "GIS",
+      "犯罪パターン理論",
+      "犯罪予測"
+    ],
+    "themesText": "車上ねらい／GIS／犯罪パターン理論／犯罪予測",
+    "intervention": "過去の車上ねらい犯の流入トリップと一般人口のパーソントリップを用いた犯罪発生予測（介入ではない）",
+    "population": "仙台市の車上ねらい発生データと人の空間移動データ",
+    "comparison": "地理的加重ポアソン回帰（GWPR）と全域ポアソン回帰（PR）を比較",
+    "outcomes": [
+      "将来の車上ねらい発生件数"
+    ],
+    "outcomesText": "将来の車上ねらい発生件数",
+    "design": "観察研究・GIS空間分析・地理的加重ポアソン回帰",
+    "sampleSize": "仙台市の犯罪・移動データ（単位数は原著本文参照）",
+    "result": "GWPRは全域モデルより適合が良く、過去の犯行者の流入トリップは将来の車上ねらいと正の関連を示した。一方、一般人口の流入は郊外部で負の関連を示し、都市構造による空間的不均一性が示された。",
+    "limitations": "単一都市の観察データに基づく関連であり、移動量を変えれば犯罪が変化するという因果効果ではない。過去犯行者の移動データやモデル仕様への依存にも留意。",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "GIS-理論と応用 34(1), 37-47",
+    "doi": "10.5638/thagis.34.1.5",
+    "url": "https://www.jstage.jst.go.jp/article/thagis/34/1/34_34.1.5/_article/-char/ja",
+    "notes": "study-0066。場所ベース警察活動・犯罪分析のTargeting段階に関係する基礎分析として収録。",
+    "sourceOrder": 66,
+    "aiQuestions": []
+  },
+  {
+    "id": "study-0067",
+    "year": 2025,
+    "title": "Investigating Agricultural Theft in Japan: A Qualitative Study of Japan Agricultural Cooperatives",
+    "authors": [
+      "Ai Suzuki",
+      "Mamoru Amemiya",
+      "Hideharu Kurita",
+      "Takahito Shimada"
+    ],
+    "authorsText": "Ai Suzuki・Mamoru Amemiya・Hideharu Kurita・Takahito Shimada",
+    "practiceOrganizations": [
+      "科学警察研究所（研究分担・著者所属）"
+    ],
+    "practiceOrganizationsText": "科学警察研究所（研究分担・著者所属）",
+    "researchOrganizations": [
+      "福島大学・筑波大学・農研機構・科学警察研究所"
+    ],
+    "researchOrganizationsText": "福島大学・筑波大学・農研機構・科学警察研究所",
+    "themes": [
+      "農作物盗",
+      "農村犯罪学",
+      "被害申告",
+      "地域連携"
+    ],
+    "themesText": "農作物盗／農村犯罪学／被害申告／地域連携",
+    "intervention": "JA関係者への半構造化インタビューにより、農作物・農機具盗の被害、対策、関係主体との協力を把握（介入なし）",
+    "population": "日本の農業協同組合（JA）関係者",
+    "comparison": "地域ごとの被害・対策・警察への申告等を質的に比較",
+    "outcomes": [
+      "農作物盗の被害実態",
+      "対策導入",
+      "申告行動",
+      "実装上の課題"
+    ],
+    "outcomesText": "農作物盗の被害実態、対策導入、申告行動、実装上の課題",
+    "design": "質的研究・半構造化インタビュー",
+    "sampleSize": "11",
+    "result": "農作物盗の状況は地域で異なり、不作時に盗難リスクが高まる可能性、予算制約と農業者の高齢化による対策困難、警察への被害申告をためらう農業者の存在が示された。収穫期に申告しやすい仕組みや地域特性に応じた対策の必要性を指摘。",
+    "limitations": "少数の目的抽出インタビューによる質的研究で、全国の被害率や対策の因果効果を推定する研究ではない。申告されない被害を含む実態把握にも限界がある。",
+    "publicationType": "査読国際誌",
+    "reviewStatus": "査読あり",
+    "citation": "International Journal of Rural Criminology 9(1), 77-104",
+    "doi": "10.18061/ijrc.v9i1.10235",
+    "url": "https://ruralcriminology.org/article/4242/galley/4483/download/",
+    "notes": "study-0067。JSPS KAKENHI 23K17782の成果。study-0058・study-0068と同一の農村犯罪学研究系列。",
+    "sourceOrder": 67,
+    "aiQuestions": []
+  },
+  {
+    "id": "study-0068",
+    "year": 2025,
+    "title": "全国のJAを対象とする果物盗被害に関するアンケート調査報告",
+    "authors": [
+      "雨宮護",
+      "鈴木あい",
+      "栗田英治",
+      "島田貴仁"
+    ],
+    "authorsText": "雨宮護・鈴木あい・栗田英治・島田貴仁",
+    "practiceOrganizations": [
+      "科学警察研究所（科研費23K17782の研究分担機関）"
+    ],
+    "practiceOrganizationsText": "科学警察研究所（科研費23K17782の研究分担機関）",
+    "researchOrganizations": [
+      "筑波大学・福島大学・農研機構・滋賀大学"
+    ],
+    "researchOrganizationsText": "筑波大学・福島大学・農研機構・滋賀大学",
+    "themes": [
+      "農作物盗",
+      "農村犯罪学",
+      "被害調査",
+      "防犯対策"
+    ],
+    "themesText": "農作物盗／農村犯罪学／被害調査／防犯対策",
+    "intervention": "全国のJAを対象に果物盗の被害実態と対策を質問紙で把握（介入なし）",
+    "population": "全国の農業協同組合（JA）563機関",
+    "comparison": "被害経験、品目、時期、対策、関係主体との協力等を記述比較",
+    "outcomes": [
+      "果物盗被害の経験",
+      "盗難品目・時期",
+      "犯人把握",
+      "パトロール・防犯カメラ等の対策"
+    ],
+    "outcomesText": "果物盗被害の経験、盗難品目・時期、犯人把握、パトロール・防犯カメラ等の対策",
+    "design": "全国質問紙調査・記述分析",
+    "sampleSize": "563機関へ送付、260回答",
+    "result": "約半数のJAが果物盗被害を経験。ぶどう・みかん・なしが上位で、7～9月の収穫期・深夜に多く、犯人不明が多かった。対策としてパトロールや防犯カメラ等が実施されていた。",
+    "limitations": "JA組織による回答であり個々の生産者被害を直接測定していない。未申告・記憶誤差があり、対策の有効性を因果的に評価した研究ではない。",
+    "publicationType": "研究報告書・技術報告書",
+    "reviewStatus": "査読なし",
+    "citation": "都市計画報告集 24(2), 318-321",
+    "doi": "10.11361/reportscpij.24.2_318",
+    "url": "https://www.jstage.jst.go.jp/article/reportscpij/24/2/24_318/_article/-char/ja",
+    "notes": "study-0068。JSPS KAKENHI 23K17782の成果。都市計画報告集は査読プロセスのない論文報告集。study-0058・study-0067と同一系列。",
+    "sourceOrder": 68,
+    "aiQuestions": []
+  },
+  {
+    "id": "study-0069",
+    "year": 2026,
+    "title": "警察官を装った模擬的特殊詐欺の実験―携帯電話への架電から被害に至る心理プロセスの検討―",
+    "authors": [
+      "有賀敦紀",
+      "久保夏海",
+      "木次恵",
+      "髙橋靖知"
+    ],
+    "authorsText": "有賀敦紀・久保夏海・木次恵・髙橋靖知",
+    "practiceOrganizations": [
+      "神奈川県警察本部（研究協力・模擬架電を警察官が担当）"
+    ],
+    "practiceOrganizationsText": "神奈川県警察本部（研究協力・模擬架電を警察官が担当）",
+    "researchOrganizations": [
+      "中央大学・日本貸金業協会"
+    ],
+    "researchOrganizationsText": "中央大学・日本貸金業協会",
+    "themes": [
+      "特殊詐欺",
+      "ニセ警察詐欺",
+      "被害化プロセス",
+      "認知心理"
+    ],
+    "themesText": "特殊詐欺／ニセ警察詐欺／被害化プロセス／認知心理",
+    "intervention": "警察官を装った模擬的特殊詐欺電話を大学生へ架電し、通話継続・個人情報提供直前までの過程を観察",
+    "population": "中央大学の学生",
+    "comparison": "電話に出た／出なかった参加者、通話の各段階、事後アンケートを比較",
+    "outcomes": [
+      "着信応答",
+      "疑念",
+      "通話継続",
+      "LINE ID提供直前までの進行",
+      "特殊詐欺知識"
+    ],
+    "outcomesText": "着信応答、疑念、通話継続、LINE ID提供直前までの進行、特殊詐欺知識",
+    "design": "デセプションを用いた模擬フィールド実験・事後アンケート",
+    "sampleSize": "148名同意、25名応答、5名が個人情報提供直前まで進行",
+    "result": "148人への架電のうち25人が応答し、そのうち5人がLINE ID提供直前まで進んだ。『5人に1人』は応答者25人中の割合（20%）で、全参加者148人中では約3.4%。通話中に怪しいと感じても継続する傾向等が報告された。",
+    "limitations": "大学生のみの模擬実験で実被害は発生していない。参加者は事前に特殊詐欺の説明を受け、デセプションを含む実験への参加に同意していた。応答者25名と小さく、査読論文化は未確認。",
+    "publicationType": "大学公式研究成果公表",
+    "reviewStatus": "未査読／論文化未確認",
+    "citation": "中央大学プレスリリース（2026-02-16）",
+    "doi": "",
+    "url": "https://www.chuo-u.ac.jp/aboutus/communication/press/2026/02/84457/",
+    "notes": "study-0069。公的報告・未論文化シートにも収録。新たなニセ警察詐欺の被害化プロセス研究として継続追跡。",
+    "sourceOrder": 69,
+    "aiQuestions": []
+  },
+  {
+    "id": "study-0070",
+    "year": 2026,
+    "title": "店舗における効果的な万引き対策の検討―疑似万引き実験による心理状態の比較から―",
+    "authors": [
+      "大久保智生",
+      "大山智也",
+      "太幡直也",
+      "髙橋陸斗",
+      "鈴木修斗",
+      "北川芳宏",
+      "根岸美紗",
+      "平山麻子",
+      "金田萌菜",
+      "江松久貴",
+      "鈴木麻衣",
+      "坂本真帆"
+    ],
+    "authorsText": "大久保智生・大山智也・太幡直也・髙橋陸斗・鈴木修斗・北川芳宏・根岸美紗・平山麻子・金田萌菜・江松久貴・鈴木麻衣・坂本真帆",
+    "practiceOrganizations": [
+      "香川県警察（研究支援・香川大学との長期共同系列）"
+    ],
+    "practiceOrganizationsText": "香川県警察（研究支援・香川大学との長期共同系列）",
+    "researchOrganizations": [
+      "香川大学・東京大学・愛知学院大学・北海道大学・株式会社IC・東京海上日動火災保険"
+    ],
+    "researchOrganizationsText": "香川大学・東京大学・愛知学院大学・北海道大学・株式会社IC・東京海上日動火災保険",
+    "themes": [
+      "万引き",
+      "店舗防犯",
+      "疑似行動実験",
+      "心理状態"
+    ],
+    "themesText": "万引き／店舗防犯／疑似行動実験／心理状態",
+    "intervention": "実店舗の6か所で、点滅光・2種類の音・防犯カメラ調整中ポスター・目のポスター・店員の挨拶を疑似万引き課題中に提示",
+    "population": "香川大学の大学生・大学院生",
+    "comparison": "参加者内で6条件を反復比較",
+    "outcomes": [
+      "対策への気づき",
+      "疑似万引きの躊躇",
+      "POMS短縮版による感情状態"
+    ],
+    "outcomesText": "対策への気づき、疑似万引きの躊躇、POMS短縮版による感情状態",
+    "design": "実店舗フィールド実験・参加者内反復測定",
+    "sampleSize": "46",
+    "result": "条件間で気づき（Q=59.750, p<.001）と躊躇（Q=82.960, p<.001）に差があり、店員の挨拶で躊躇した割合が最も高かった。店員挨拶では緊張・不安、疲労、混乱、抑うつがベースラインより高かった。",
+    "limitations": "実際の万引き犯ではなく学生による疑似行動で、犯罪件数や実際の窃盗抑止を測定していない。1店舗、全員が全条件を経験する反復測定であり、心理・自己報告アウトカムが中心。",
+    "publicationType": "学会大会要旨",
+    "reviewStatus": "会議録（査読状況未確認）",
+    "citation": "環境心理学研究 14(1), 44",
+    "doi": "10.20703/jenvpsy.14.1_44",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_44/_article/-char/ja",
+    "notes": "study-0070。study-0033の2025年公式実証公表を詳細化した後続学会要旨。study-0071と同一実験。",
+    "sourceOrder": 70,
+    "aiQuestions": []
+  },
+  {
+    "id": "study-0071",
+    "year": 2026,
+    "title": "模擬万引き課題を通じた各種刺激による防犯対策の効果検証",
+    "authors": [
+      "大山智也",
+      "大久保智生",
+      "太幡直也",
+      "髙橋陸斗",
+      "鈴木修斗",
+      "北川芳宏",
+      "根岸美紗",
+      "平山麻子",
+      "金田萌菜",
+      "江松久貴",
+      "鈴木麻衣",
+      "坂本真帆"
+    ],
+    "authorsText": "大山智也・大久保智生・太幡直也・髙橋陸斗・鈴木修斗・北川芳宏・根岸美紗・平山麻子・金田萌菜・江松久貴・鈴木麻衣・坂本真帆",
+    "practiceOrganizations": [
+      "香川県警察（研究支援・香川大学との長期共同系列）"
+    ],
+    "practiceOrganizationsText": "香川県警察（研究支援・香川大学との長期共同系列）",
+    "researchOrganizations": [
+      "東京大学・香川大学・愛知学院大学・北海道大学・株式会社IC・東京海上日動火災保険"
+    ],
+    "researchOrganizationsText": "東京大学・香川大学・愛知学院大学・北海道大学・株式会社IC・東京海上日動火災保険",
+    "themes": [
+      "万引き",
+      "店舗防犯",
+      "疑似行動実験",
+      "生理指標"
+    ],
+    "themesText": "万引き／店舗防犯／疑似行動実験／生理指標",
+    "intervention": "study-0070と同じ実店舗の疑似万引き課題で、光・音・掲示物・店員挨拶等への曝露時の心拍数を測定",
+    "population": "香川大学の学生",
+    "comparison": "参加者内6条件を比較し、刺激提示タイミング等を調整",
+    "outcomes": [
+      "刺激曝露後の平均心拍数"
+    ],
+    "outcomesText": "刺激曝露後の平均心拍数",
+    "design": "実店舗フィールド実験・反復測定・線形混合モデル",
+    "sampleSize": "46",
+    "result": "光条件を参照すると、音①（β=8.096, p=.007）、音②（β=11.206, p=.003）、防犯カメラ調整中ポスター（β=11.254, p<.001）、店員挨拶（β=5.853, p=.036）で心拍数が高かった。環境音は提示が5秒以上前だと効果が弱まる交互作用がみられた。",
+    "limitations": "心拍数上昇は実際の窃盗抑止そのものを意味しない。学生による疑似課題、1店舗、反復測定であり、実犯罪アウトカムは測定していない。",
+    "publicationType": "学会大会要旨",
+    "reviewStatus": "会議録（査読状況未確認）",
+    "citation": "環境心理学研究 14(1), 45",
+    "doi": "10.20703/jenvpsy.14.1_45",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_45/_article/-char/ja",
+    "notes": "study-0071。study-0033・study-0070と同一実験系列。生理指標を用いた別成果として保持。",
+    "sourceOrder": 71,
+    "aiQuestions": []
   }
 ]

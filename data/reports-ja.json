@@ -96,7 +96,7 @@
     "organization": "香川県警察・香川大学",
     "collaborators": "大久保智生ほか",
     "type": "大学・警察共同実証",
-    "summary": "光・音・掲示物・挨拶等を実店舗で比較。",
+    "summary": "光・音・掲示物・挨拶等を実店舗で比較。2026年に日本環境心理学会要旨として心理状態（study-0070）と心拍数（study-0071）の別成果が公表された。",
     "url": "https://www.kagawa-u.ac.jp/33673/"
   },
   {
@@ -198,5 +198,15 @@
     "type": "学会ワークショップ・実務家協働",
     "summary": "犯罪予防における研究者と実務家の協働を扱うワークショップ。個別介入の効果研究ではないため、研究一覧ではなく実装支援・研究交流資料として保持。",
     "url": "https://www.socialpsychology.jp/conf2026/abstract/contents/WS03.html"
+  },
+  {
+    "id": "report-021",
+    "year": 2026,
+    "title": "警察官を装った模擬的特殊詐欺の実験",
+    "organization": "中央大学・日本貸金業協会・神奈川県警察本部",
+    "collaborators": "有賀敦紀・久保夏海・木次恵・髙橋靖知",
+    "type": "大学・警察協力による模擬実験／公式研究成果公表",
+    "summary": "148名の大学生への模擬ニセ警察詐欺架電。25名が応答し、5名がLINE ID提供直前まで進んだ。査読論文化は未確認のため、公的報告としても保持。",
+    "url": "https://www.chuo-u.ac.jp/aboutus/communication/press/2026/02/84457/"
   }
 ]

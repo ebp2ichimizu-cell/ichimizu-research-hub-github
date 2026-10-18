@@ -7,5 +7,27 @@
     "description": "国内警察EBP・犯罪予防研究63件を収録した時点を初版とします。以後、研究の追加や内容上重要な更新をこのページに記録します。",
     "description_en": "The first edition contains 63 studies relevant to policing, crime prevention and EBP in Japan. Substantive additions and updates after this baseline are recorded on this page."
   },
-  "updates": []
+  "updates": [
+    {
+      "date": "2026-10-18",
+      "type": "addition",
+      "title": "2026年10月 月次更新",
+      "summary": "study-0064〜study-0071の8研究を追加し、収録研究を71件に更新。",
+      "summary_en": "Eight studies (study-0064 to study-0071) were added, bringing the Research Hub to 71 studies."
+    },
+    {
+      "date": "2026-10-18",
+      "type": "information",
+      "title": "共同研究プログラム・公的報告の更新",
+      "summary": "program-015・program-016を追加し、study-0069に対応する公的報告をreport-021として追加。",
+      "summary_en": "Programs 015 and 016 were added, together with report-021 corresponding to study-0069."
+    },
+    {
+      "date": "2026-10-18",
+      "type": "commentary",
+      "title": "独自解説3テーマを更新",
+      "summary": "study-0065・study-0070の独自解説を新規追加し、study-0058の独自解説を更新。関連研究は指定された代表解説へ統合。",
+      "summary_en": "New commentaries were added for studies 0065 and 0070, and the commentary for study-0058 was updated. Related studies were linked to the designated representative commentaries."
+    }
+  ]
 }
