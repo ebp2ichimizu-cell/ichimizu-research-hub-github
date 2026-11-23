@@ -2522,5 +2522,600 @@
     "url": "https://www.jstage.jst.go.jp/article/pbsj/53/0/53_262/_article/-char/ja",
     "notes": "A separate publication within the same research stream as the 2025 environmental-psychology abstract. A Saitama Prefectural Police affiliation is explicitly recorded in the master.",
     "sourceOrder": 63
+  },
+  {
+    "id": "study-0064",
+    "year": 2026,
+    "title": "The paradox of school-based crime prevention programs: its effects on mothers’ fear of strangers",
+    "authors": [
+      "Tomoko Doi Hata・Takahito Shimada"
+    ],
+    "authorsText": "Tomoko Doi Hata・Takahito Shimada",
+    "practiceOrganizations": [
+      "National Research Institute of Police Science (Takahito Shimada’s affiliation at the time of data collection)"
+    ],
+    "practiceOrganizationsText": "National Research Institute of Police Science (Takahito Shimada’s affiliation at the time of data collection)",
+    "researchOrganizations": [
+      "Bunkyo Gakuin University / Shiga University"
+    ],
+    "researchOrganizationsText": "Bunkyo Gakuin University / Shiga University",
+    "themes": [
+      "Child crime prevention",
+      "School crime prevention",
+      "Fear of crime",
+      "Children’s independent mobility"
+    ],
+    "themesText": "Child crime prevention / School crime prevention / Fear of crime / Children’s independent mobility",
+    "intervention": "Exposure to multiple school-based crime prevention programmes that had been implemented or attended; this was observed participation rather than a randomised intervention.",
+    "population": "Mothers living in Tokyo with daughters in Grades 3–6 of primary school.",
+    "comparison": "Compared implementation and participation in crime prevention programmes while controlling for parent, child and neighbourhood factors.",
+    "outcomes": [
+      "Mothers’ fear of strangers."
+    ],
+    "outcomesText": "Mothers’ fear of strangers.",
+    "design": "Cross-sectional online survey with multiple regression analysis.",
+    "sampleSize": "275",
+    "result": "No crime prevention programme was associated with lower fear. Participation in three types of school-based crime prevention programmes was statistically associated with higher maternal fear of strangers.",
+    "limitations": "This was an observational study, so it cannot establish that the programmes caused higher fear. Self-selection and reverse causation remain possible. The sample was limited to mothers and girls, and crime incidence was not measured. The publisher full text is subscription-only.",
+    "publicationType": "Peer-reviewed international journal article",
+    "reviewStatus": "Peer reviewed",
+    "citation": "Crime Prevention and Community Safety 27(3-4), 93-112",
+    "doi": "10.1057/s41300-026-00230-9",
+    "url": "https://link.springer.com/article/10.1057/s41300-026-00230-9",
+    "notes": "study-0064. An output of JSPS KAKENHI 17H02467. The publisher lists the Version of Record as 30 April 2026, while the issue page also shows 2025; the Hub uses 2026, the publisher’s publication year. Both authors’ membership of a Tokyo Metropolitan Police expert committee does not itself establish commissioning or joint evaluation.",
+    "sourceOrder": 64
+  },
+  {
+    "id": "study-0065",
+    "year": 2026,
+    "title": "Effects of police officers’ attitudes toward victims of sexual offenses on investigative interviewing",
+    "authors": [
+      "Kazuki Hirama・Kaeko Yokota・Taeko Wachi・Kazumi Watanabe・Kengo Furuhashi・Yusuke Otsuka・Takahito Shimada"
+    ],
+    "authorsText": "Kazuki Hirama・Kaeko Yokota・Taeko Wachi・Kazumi Watanabe・Kengo Furuhashi・Yusuke Otsuka・Takahito Shimada",
+    "practiceOrganizations": [
+      "National Research Institute of Police Science / prefectural police forces across Japan"
+    ],
+    "practiceOrganizationsText": "National Research Institute of Police Science / prefectural police forces across Japan",
+    "researchOrganizations": [
+      "National Research Institute of Police Science / Surugadai University / Shiga University"
+    ],
+    "researchOrganizationsText": "National Research Institute of Police Science / Surugadai University / Shiga University",
+    "themes": [
+      "Sexual offences",
+      "Victim response",
+      "Investigative interviewing",
+      "Procedural justice"
+    ],
+    "themesText": "Sexual offences / Victim response / Investigative interviewing / Procedural justice",
+    "intervention": "Victims and police officers both evaluated police officers’ attitudes during interviews with adult victims of sexual offences; this was not an experimental intervention.",
+    "population": "Adult victims and investigating police officers in eligible cases recorded by prefectural police between October 2017 and December 2018.",
+    "comparison": "Paired victim–officer assessments and associations between each party’s perception of appropriate police attitudes.",
+    "outcomes": [
+      "Provision of victim information, acquisition of information needed for the investigation, and victims’ sense of relief."
+    ],
+    "outcomesText": "Provision of victim information, acquisition of information needed for the investigation, and victims’ sense of relief.",
+    "design": "Paired questionnaire survey, categorical exploratory factor analysis, and Actor–Partner Interdependence Model.",
+    "sampleSize": "122 victim–officer pairs",
+    "result": "Victims’ perceptions that police officers behaved appropriately were associated with greater provision of victim information (β=.66, p<.001), acquisition of information needed for the investigation (β=.30, p=.015), and sense of relief (β=.70, p<.001). Officers’ own ratings of appropriate attitudes were also associated with victims’ sense of relief (β=.21, p=.046).",
+    "limitations": "Potential selection bias among consenting participants, response bias arising from scale labels, subjective measures of information quantity and investigative contribution, and residual confounding from case progress remain. The results are observational associations, not causal effects of training or attitude interventions.",
+    "publicationType": "Peer-reviewed journal article",
+    "reviewStatus": "Peer reviewed",
+    "citation": "The Japanese Journal of Psychology 97(2), 102-109",
+    "doi": "10.4992/jjpsy.97.23332",
+    "url": "https://www.jstage.jst.go.jp/article/jjpsy/97/2/97_97.23332/_article/-char/ja",
+    "notes": "study-0065. Included as a policing-EBP study in addition to crime prevention. It uses the same underlying data as an earlier study by Yokota and colleagues but addresses a different analytical question.",
+    "sourceOrder": 65
+  },
+  {
+    "id": "study-0066",
+    "year": 2026,
+    "title": "Human Spatial-Movement Patterns Associated with Crime: Vehicle-Related Theft in Sendai",
+    "authors": [
+      "平間一樹・矢部直人・横田賀英子・大塚祐輔・古橋健悟・寺本純也・渡邉和美"
+    ],
+    "authorsText": "平間一樹・矢部直人・横田賀英子・大塚祐輔・古橋健悟・寺本純也・渡邉和美",
+    "practiceOrganizations": [
+      "National Research Institute of Police Science / Tokyo Metropolitan Police Department"
+    ],
+    "practiceOrganizationsText": "National Research Institute of Police Science / Tokyo Metropolitan Police Department",
+    "researchOrganizations": [
+      "National Research Institute of Police Science / Tokyo Metropolitan University / Tokyo Metropolitan Police Department"
+    ],
+    "researchOrganizationsText": "National Research Institute of Police Science / Tokyo Metropolitan University / Tokyo Metropolitan Police Department",
+    "themes": [
+      "Theft from vehicles",
+      "GIS",
+      "Crime pattern theory",
+      "Crime prediction"
+    ],
+    "themesText": "Theft from vehicles / GIS / Crime pattern theory / Crime prediction",
+    "intervention": "Prediction of crime occurrence using incoming trips by past vehicle-theft offenders and population person-trip data; this was not an intervention.",
+    "population": "Vehicle-related theft data and human-mobility data for Sendai.",
+    "comparison": "Compared geographically weighted Poisson regression (GWPR) with a city-wide Poisson regression (PR).",
+    "outcomes": [
+      "Future vehicle-related theft counts."
+    ],
+    "outcomesText": "Future vehicle-related theft counts.",
+    "design": "Observational GIS spatial analysis using geographically weighted Poisson regression.",
+    "sampleSize": "Crime and mobility data for Sendai; the number of spatial units is reported in the original article.",
+    "result": "GWPR fitted the data better than the city-wide model. Incoming trips by past offenders were positively associated with future vehicle-related theft, whereas incoming trips by the general population showed negative associations in suburban areas, indicating spatial heterogeneity related to urban structure.",
+    "limitations": "This is an observational single-city association and does not show that changing mobility would causally change crime. Results also depend on offender-mobility data and model specification.",
+    "publicationType": "Peer-reviewed journal article",
+    "reviewStatus": "Peer reviewed",
+    "citation": "GIS—Theory & Applications 34(1), 37-47",
+    "doi": "10.5638/thagis.34.1.5",
+    "url": "https://www.jstage.jst.go.jp/article/thagis/34/1/34_34.1.5/_article/-char/ja",
+    "notes": "study-0066. Retained as foundational analysis relevant to the targeting stage of place-based policing and crime analysis.",
+    "sourceOrder": 66
+  },
+  {
+    "id": "study-0067",
+    "year": 2025,
+    "title": "Investigating Agricultural Theft in Japan: A Qualitative Study of Japan Agricultural Cooperatives",
+    "authors": [
+      "Ai Suzuki・Mamoru Amemiya・Hideharu Kurita・Takahito Shimada"
+    ],
+    "authorsText": "Ai Suzuki・Mamoru Amemiya・Hideharu Kurita・Takahito Shimada",
+    "practiceOrganizations": [
+      "National Research Institute of Police Science (participating research institution and author affiliation)"
+    ],
+    "practiceOrganizationsText": "National Research Institute of Police Science (participating research institution and author affiliation)",
+    "researchOrganizations": [
+      "Fukushima University / University of Tsukuba / NARO / National Research Institute of Police Science"
+    ],
+    "researchOrganizationsText": "Fukushima University / University of Tsukuba / NARO / National Research Institute of Police Science",
+    "themes": [
+      "Agricultural theft",
+      "Rural criminology",
+      "Reporting to police",
+      "Local collaboration"
+    ],
+    "themesText": "Agricultural theft / Rural criminology / Reporting to police / Local collaboration",
+    "intervention": "Semi-structured interviews with Japan Agricultural Cooperatives personnel on agricultural and machinery theft, prevention measures, and collaboration with relevant organisations; no intervention was evaluated.",
+    "population": "Personnel from Japan Agricultural Cooperatives (JA) in Japan.",
+    "comparison": "Qualitative comparison of victimisation, prevention and reporting practices across areas.",
+    "outcomes": [
+      "Agricultural-theft experiences, adoption of prevention measures, reporting behaviour, and implementation challenges."
+    ],
+    "outcomesText": "Agricultural-theft experiences, adoption of prevention measures, reporting behaviour, and implementation challenges.",
+    "design": "Qualitative study using semi-structured interviews.",
+    "sampleSize": "11",
+    "result": "Agricultural-theft circumstances varied across regions. The interviews suggested that theft risk may rise in poor-harvest periods, that budget constraints and an ageing farming population can make prevention difficult, and that some farmers hesitate to report theft to police. The authors highlighted the need for reporting mechanisms during harvest periods and locally tailored prevention.",
+    "limitations": "A small purposive qualitative sample cannot estimate national victimisation rates or causal effects of prevention measures. Under-reporting also limits assessment of the full scale of theft.",
+    "publicationType": "Peer-reviewed international journal article",
+    "reviewStatus": "Peer reviewed",
+    "citation": "International Journal of Rural Criminology 9(1), 77-104",
+    "doi": "10.18061/ijrc.v9i1.10235",
+    "url": "https://ruralcriminology.org/article/4242/galley/4483/download/",
+    "notes": "study-0067. An output of JSPS KAKENHI 23K17782 and part of the same rural-criminology research programme as study-0058 and study-0068.",
+    "sourceOrder": 67
+  },
+  {
+    "id": "study-0068",
+    "year": 2025,
+    "title": "Questionnaire Survey of Fruit-Theft Victimisation among Japan Agricultural Cooperatives",
+    "authors": [
+      "雨宮護・鈴木あい・栗田英治・島田貴仁"
+    ],
+    "authorsText": "雨宮護・鈴木あい・栗田英治・島田貴仁",
+    "practiceOrganizations": [
+      "National Research Institute of Police Science (participating institution in KAKENHI 23K17782)"
+    ],
+    "practiceOrganizationsText": "National Research Institute of Police Science (participating institution in KAKENHI 23K17782)",
+    "researchOrganizations": [
+      "University of Tsukuba / Fukushima University / NARO / Shiga University"
+    ],
+    "researchOrganizationsText": "University of Tsukuba / Fukushima University / NARO / Shiga University",
+    "themes": [
+      "Agricultural theft",
+      "Rural criminology",
+      "Victimisation survey",
+      "Crime prevention"
+    ],
+    "themesText": "Agricultural theft / Rural criminology / Victimisation survey / Crime prevention",
+    "intervention": "National questionnaire survey of Japan Agricultural Cooperatives on fruit-theft experiences and prevention measures; no intervention was evaluated.",
+    "population": "563 Japan Agricultural Cooperatives organisations nationwide.",
+    "comparison": "Descriptive comparison of victimisation experience, produce, timing, prevention measures, and collaboration with relevant organisations.",
+    "outcomes": [
+      "Experience of fruit theft, stolen produce and timing, knowledge of offenders, and measures such as patrols and CCTV."
+    ],
+    "outcomesText": "Experience of fruit theft, stolen produce and timing, knowledge of offenders, and measures such as patrols and CCTV.",
+    "design": "National questionnaire survey with descriptive analysis.",
+    "sampleSize": "563 organisations contacted; 260 responses",
+    "result": "About half of responding JA organisations reported fruit-theft victimisation. Grapes, mandarins and pears were among the most frequently reported products, incidents were concentrated in the July–September harvest season and at night, and offenders were often unknown. Patrols, CCTV and other prevention measures were in use.",
+    "limitations": "Responses were provided at the JA organisational level rather than by individual farmers. Under-reporting and recall error are possible, and the study did not causally evaluate the effectiveness of prevention measures.",
+    "publicationType": "Research / technical report",
+    "reviewStatus": "Not peer reviewed",
+    "citation": "Reports of the City Planning Institute of Japan 24(2), 318-321",
+    "doi": "10.11361/reportscpij.24.2_318",
+    "url": "https://www.jstage.jst.go.jp/article/reportscpij/24/2/24_318/_article/-char/ja",
+    "notes": "study-0068. An output of JSPS KAKENHI 23K17782. The Reports of the City Planning Institute of Japan does not use a peer-review process. Part of the same research programme as study-0058 and study-0067.",
+    "sourceOrder": 68
+  },
+  {
+    "id": "study-0069",
+    "year": 2026,
+    "title": "Simulated Special-Fraud Experiment Impersonating Police Officers: Psychological Processes from Mobile-Phone Contact to Near Victimisation",
+    "authors": [
+      "有賀敦紀・久保夏海・木次恵・髙橋靖知"
+    ],
+    "authorsText": "有賀敦紀・久保夏海・木次恵・髙橋靖知",
+    "practiceOrganizations": [
+      "Kanagawa Prefectural Police (research cooperation; police officers conducted the simulated calls)"
+    ],
+    "practiceOrganizationsText": "Kanagawa Prefectural Police (research cooperation; police officers conducted the simulated calls)",
+    "researchOrganizations": [
+      "Chuo University / Japan Financial Services Association"
+    ],
+    "researchOrganizationsText": "Chuo University / Japan Financial Services Association",
+    "themes": [
+      "Special fraud",
+      "Police-impersonation fraud",
+      "Victimisation process",
+      "Cognitive psychology"
+    ],
+    "themesText": "Special fraud / Police-impersonation fraud / Victimisation process / Cognitive psychology",
+    "intervention": "University students received simulated fraudulent calls from callers impersonating police officers; the study observed progression through continued conversation to the point immediately before disclosure of personal information.",
+    "population": "Students at Chuo University.",
+    "comparison": "Compared those who answered and did not answer, stages reached during the call, and post-experiment questionnaire responses.",
+    "outcomes": [
+      "Answering the call, suspicion, continued conversation, progression to immediately before disclosure of a LINE ID, and knowledge about special fraud."
+    ],
+    "outcomesText": "Answering the call, suspicion, continued conversation, progression to immediately before disclosure of a LINE ID, and knowledge about special fraud.",
+    "design": "Simulated field experiment using deception with a post-experiment questionnaire.",
+    "sampleSize": "148 consented; 25 answered; 5 progressed to immediately before disclosing personal information",
+    "result": "Of 148 participants called, 25 answered and 5 of those reached the stage immediately before providing a LINE ID. The 'one in five' figure refers to 5 of the 25 respondents (20%), not the full sample; across all 148 participants it is about 3.4%. The report also describes cases in which participants continued the call despite feeling suspicious.",
+    "limitations": "The study involved university students in a simulation and no real victimisation occurred. Participants had previously received information about special fraud and had consented to an experiment involving deception. Only 25 participants answered the call, and peer-reviewed publication has not been confirmed.",
+    "publicationType": "Official university research release",
+    "reviewStatus": "Not peer reviewed / journal publication not confirmed",
+    "citation": "Chuo University press release (16 February 2026)",
+    "doi": "",
+    "url": "https://www.chuo-u.ac.jp/aboutus/communication/press/2026/02/84457/",
+    "notes": "study-0069. Also retained in the official/unpublished reports dataset and monitored as a distinct research line on the victimisation process in police-impersonation fraud.",
+    "sourceOrder": 69
+  },
+  {
+    "id": "study-0070",
+    "year": 2026,
+    "title": "Testing Shoplifting-Prevention Cues Through a Simulated Shoplifting Experiment",
+    "authors": [
+      "Tomoo Okubo・Tomoya Ohyama・Naoya Tabata・Rikuto Takahashi・Shuto Suzuki・Yoshihiro Kitagawa・Misa Negishi・Asako Hirayama・Moena Kaneda・Hisataka Ematsu・Mai Suzuki・Maho Sakamoto"
+    ],
+    "authorsText": "Tomoo Okubo・Tomoya Ohyama・Naoya Tabata・Rikuto Takahashi・Shuto Suzuki・Yoshihiro Kitagawa・Misa Negishi・Asako Hirayama・Moena Kaneda・Hisataka Ematsu・Mai Suzuki・Maho Sakamoto",
+    "practiceOrganizations": [
+      "Kagawa Prefectural Police (research support within the long-running Kagawa University collaboration)"
+    ],
+    "practiceOrganizationsText": "Kagawa Prefectural Police (research support within the long-running Kagawa University collaboration)",
+    "researchOrganizations": [
+      "Kagawa University / University of Tokyo / Aichi Gakuin University / Hokkaido University / IC Co., Ltd. / Tokio Marine & Nichido Fire Insurance"
+    ],
+    "researchOrganizationsText": "Kagawa University / University of Tokyo / Aichi Gakuin University / Hokkaido University / IC Co., Ltd. / Tokio Marine & Nichido Fire Insurance",
+    "themes": [
+      "Shoplifting",
+      "Retail crime prevention",
+      "Simulated behaviour experiment",
+      "Psychological state"
+    ],
+    "themesText": "Shoplifting / Retail crime prevention / Simulated behaviour experiment / Psychological state",
+    "intervention": "During a simulated shoplifting task at six locations in a real store, participants were exposed to flashing light, two types of sound, a CCTV-maintenance poster, an eyes poster, and a staff greeting.",
+    "population": "Undergraduate and graduate students at Kagawa University.",
+    "comparison": "Within-participant repeated comparison across six conditions.",
+    "outcomes": [
+      "Noticing the measure, hesitation during the simulated shoplifting task, and emotional states measured with the short POMS."
+    ],
+    "outcomesText": "Noticing the measure, hesitation during the simulated shoplifting task, and emotional states measured with the short POMS.",
+    "design": "In-store field experiment with within-participant repeated measures.",
+    "sampleSize": "46",
+    "result": "Conditions differed in both noticing (Q=59.750, p<.001) and hesitation (Q=82.960, p<.001), with staff greetings producing the highest proportion of hesitation. Under the greeting condition, tension/anxiety, fatigue, confusion and depression were higher than baseline.",
+    "limitations": "Participants were students performing a simulated task rather than actual shoplifters, and neither recorded crime nor actual theft deterrence was measured. The experiment took place in one store, all participants experienced all conditions, and outcomes were mainly psychological and self-reported.",
+    "publicationType": "Conference abstract",
+    "reviewStatus": "Conference proceedings; peer-review status not confirmed",
+    "citation": "Environmental Psychology Research 14(1), 44",
+    "doi": "10.20703/jenvpsy.14.1_44",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_44/_article/-char/ja",
+    "notes": "study-0070. A follow-up conference abstract providing more detail on the 2025 official field experiment in study-0033. It is the same underlying experiment as study-0071.",
+    "sourceOrder": 70
+  },
+  {
+    "id": "study-0071",
+    "year": 2026,
+    "title": "Evaluation of Crime-Prevention Cues Using a Simulated Shoplifting Task",
+    "authors": [
+      "Tomoya Ohyama・Tomoo Okubo・Naoya Tabata・Rikuto Takahashi・Shuto Suzuki・Yoshihiro Kitagawa・Misa Negishi・Asako Hirayama・Moena Kaneda・Hisataka Ematsu・Mai Suzuki・Maho Sakamoto"
+    ],
+    "authorsText": "Tomoya Ohyama・Tomoo Okubo・Naoya Tabata・Rikuto Takahashi・Shuto Suzuki・Yoshihiro Kitagawa・Misa Negishi・Asako Hirayama・Moena Kaneda・Hisataka Ematsu・Mai Suzuki・Maho Sakamoto",
+    "practiceOrganizations": [
+      "Kagawa Prefectural Police (research support within the long-running Kagawa University collaboration)"
+    ],
+    "practiceOrganizationsText": "Kagawa Prefectural Police (research support within the long-running Kagawa University collaboration)",
+    "researchOrganizations": [
+      "University of Tokyo / Kagawa University / Aichi Gakuin University / Hokkaido University / IC Co., Ltd. / Tokio Marine & Nichido Fire Insurance"
+    ],
+    "researchOrganizationsText": "University of Tokyo / Kagawa University / Aichi Gakuin University / Hokkaido University / IC Co., Ltd. / Tokio Marine & Nichido Fire Insurance",
+    "themes": [
+      "Shoplifting",
+      "Retail crime prevention",
+      "Simulated behaviour experiment",
+      "Physiological measures"
+    ],
+    "themesText": "Shoplifting / Retail crime prevention / Simulated behaviour experiment / Physiological measures",
+    "intervention": "Using the same in-store simulated shoplifting task as study-0070, the study measured heart rate during exposure to light, sound, posters and staff greetings.",
+    "population": "Students at Kagawa University.",
+    "comparison": "Within-participant comparison of six conditions while accounting for timing of cue exposure.",
+    "outcomes": [
+      "Mean heart rate after exposure to each cue."
+    ],
+    "outcomesText": "Mean heart rate after exposure to each cue.",
+    "design": "In-store field experiment with repeated measures and a linear mixed model.",
+    "sampleSize": "46",
+    "result": "Using the light condition as the reference, heart rate was higher under sound 1 (β=8.096, p=.007), sound 2 (β=11.206, p=.003), the CCTV-maintenance poster (β=11.254, p<.001), and staff greeting (β=5.853, p=.036). An interaction indicated that the effect of ambient sound weakened when it had begun more than five seconds earlier.",
+    "limitations": "Higher heart rate does not itself demonstrate actual theft deterrence. The study used a simulated task with students in one store, repeated measures, and no real-crime outcome.",
+    "publicationType": "Conference abstract",
+    "reviewStatus": "Conference proceedings; peer-review status not confirmed",
+    "citation": "Environmental Psychology Research 14(1), 45",
+    "doi": "10.20703/jenvpsy.14.1_45",
+    "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_45/_article/-char/ja",
+    "notes": "study-0071. Same experiment series as study-0033 and study-0070, retained as a separate output using a physiological outcome.",
+    "sourceOrder": 71
+  },
+  {
+    "id": "study-0072",
+    "year": 2026,
+    "title": "Identifying Local Crime-Prevention Challenges through a Resident Survey: Collaboration with Tsuzuki Police Station, Kanagawa",
+    "authors": [
+      "木村敦"
+    ],
+    "authorsText": "木村敦",
+    "practiceOrganizations": [
+      "Tsuzuki Police Station, Kanagawa Prefectural Police"
+    ],
+    "practiceOrganizationsText": "Tsuzuki Police Station, Kanagawa Prefectural Police",
+    "researchOrganizations": [
+      "College of Risk Management, Nihon University"
+    ],
+    "researchOrganizationsText": "College of Risk Management, Nihon University",
+    "themes": [
+      "Community crime prevention",
+      "Resident perceptions",
+      "Perceived safety",
+      "Cybercrime",
+      "Bicycle theft",
+      "Sexual harassment"
+    ],
+    "themesText": "Community crime prevention / Resident perceptions / Perceived safety / Cybercrime / Bicycle theft / Sexual harassment",
+    "intervention": "Tsuzuki Police Station and the university jointly designed a resident survey to identify issues for local policing and crime-prevention planning; this was problem analysis for policy development rather than an intervention.",
+    "population": "Adults using an OK online supermarket service in Tsuzuki Ward and surrounding areas.",
+    "comparison": "Compared perceptions and behaviour by residence in Tsuzuki Ward versus surrounding areas, crime type and respondent characteristics.",
+    "outcomes": [
+      "Perceived safety, optimism bias, crime-prevention behaviour and perceived effectiveness, cybercrime knowledge, bicycle locking, and perceived risk of sexual harassment and related victimisation."
+    ],
+    "outcomesText": "Perceived safety, optimism bias, crime-prevention behaviour and perceived effectiveness, cybercrime knowledge, bicycle locking, and perceived risk of sexual harassment and related victimisation.",
+    "design": "Cross-sectional online questionnaire and police–university collaborative problem analysis.",
+    "sampleSize": "Survey 1: 145; bicycle-theft items: 81; sexual-harassment-related items: 28 women",
+    "result": "Perceived safety was generally high, while optimism bias was observed for general crime, cybercrime and street victimisation. Behaviours and beliefs that did not necessarily align with risk perceptions, including leaving bicycles unlocked for short periods and smartphone use while walking, were also identified and used to organise issues for Tsuzuki Police Station’s preventive planning.",
+    "limitations": "Convenience sample from users of a single online supermarket service, cross-sectional design and self-report. The sexual-harassment-related analysis included only 28 women. The study did not evaluate crime reduction after preventive measures were introduced.",
+    "publicationType": "University bulletin",
+    "reviewStatus": "Peer reviewed according to Nihon University researcher database",
+    "citation": "Journal of Risk Management Studies 10, 32-49",
+    "doi": "",
+    "url": "https://www.crm.nihon-u.ac.jp/media/kiki_kiyou10_04-ronbun_kimura.pdf",
+    "notes": "Promoted from an unverified candidate in the October 2026 master after the original article was checked. Included as an example of police–university collaboration in the analysis/problem-definition stage of EBP.",
+    "sourceOrder": 72
+  },
+  {
+    "id": "study-0073",
+    "year": 2025,
+    "title": "Evaluation of Shoplifting-Prevention Measures at Self-Checkout: What Did a Hospitality-Focused Approach Change?",
+    "authors": [
+      "大久保智生・高橋陸斗・徳岡大"
+    ],
+    "authorsText": "大久保智生・高橋陸斗・徳岡大",
+    "practiceOrganizations": [
+      "Kagawa Prefectural Police self-checkout loss-prevention collaboration"
+    ],
+    "practiceOrganizationsText": "Kagawa Prefectural Police self-checkout loss-prevention collaboration",
+    "researchOrganizations": [
+      "Kagawa University / Hokkaido University Graduate School / University of Human Environments"
+    ],
+    "researchOrganizationsText": "Kagawa University / Hokkaido University Graduate School / University of Human Environments",
+    "themes": [
+      "Shoplifting",
+      "Self-checkout",
+      "Hospitality",
+      "Retail implementation"
+    ],
+    "themesText": "Shoplifting / Self-checkout / Hospitality / Retail implementation",
+    "intervention": "Continued implementation of hospitality-focused self-checkout supporters and manual-based staff training.",
+    "population": "200 self-checkout customers and 2 self-checkout supporters.",
+    "comparison": "100 customers at a store implementing the hospitality approach versus 100 at a store without it, plus interviews with two supporters.",
+    "outcomes": [
+      "Perceived sociality of self-checkout, impressions of staff, intention to use and store evaluation, and supporters’ behaviour and perceptions."
+    ],
+    "outcomesText": "Perceived sociality of self-checkout, impressions of staff, intention to use and store evaluation, and supporters’ behaviour and perceptions.",
+    "design": "Between-store questionnaire comparison plus qualitative interviews and continuing implementation evaluation.",
+    "sampleSize": "200 customers (100/100) plus 2 supporters",
+    "result": "Customers at the store implementing the hospitality approach rated the social qualities of self-checkout and staff impressions more positively. Interviews with supporters identified positive changes in hospitality, customer responses, fulfilment in the role, information sharing and suggestions for prevention.",
+    "limitations": "Non-randomised comparison of only two stores, so store-level confounding cannot be excluded. The primary outcomes were customer evaluations and implementation perceptions; the study did not directly estimate a causal effect on shoplifting counts or financial loss.",
+    "publicationType": "Peer-reviewed journal article",
+    "reviewStatus": "Peer reviewed",
+    "citation": "HOSPITALITY 35, 27-35",
+    "doi": "10.57467/jashj.35.0_27",
+    "url": "https://www.jstage.jst.go.jp/article/jashj/35/0/35_27/_article/-char/ja/",
+    "notes": "Approximately two-year follow-up of the self-checkout supporter intervention in study-0041, linked to the same Kagawa Prefectural Police × Kagawa University research series.",
+    "sourceOrder": 73
+  },
+  {
+    "id": "study-0074",
+    "year": 2026,
+    "title": "Can Directing Customer Flow and Smiles Reduce Shoplifting? (2): Findings from a Discount-Store Field Experiment",
+    "authors": [
+      "大久保智生"
+    ],
+    "authorsText": "大久保智生",
+    "practiceOrganizations": [
+      "Kagawa Prefectural Police (joint field experiment)"
+    ],
+    "practiceOrganizationsText": "Kagawa Prefectural Police (joint field experiment)",
+    "researchOrganizations": [
+      "Kagawa University"
+    ],
+    "researchOrganizationsText": "Kagawa University",
+    "themes": [
+      "Shoplifting",
+      "Retail crime prevention",
+      "Customer flow",
+      "Smiles",
+      "Hot spots"
+    ],
+    "themesText": "Shoplifting / Retail crime prevention / Customer flow / Smiles / Hot spots",
+    "intervention": "Field implementation combining movement towards an in-store hot spot with smile recognition and a donation mechanism.",
+    "population": "One discount store.",
+    "comparison": "Before and after the intervention; methodological details are available in the later peer-reviewed study-0075.",
+    "outcomes": [
+      "Customer flow, store atmosphere and related measures."
+    ],
+    "outcomesText": "Customer flow, store atmosphere and related measures.",
+    "design": "Conference abstract reporting an in-store field experiment.",
+    "sampleSize": "Detailed sample information is not reported in the abstract.",
+    "result": "The abstract reports increased customer flow and improved store atmosphere following the field experiment.",
+    "limitations": "As a conference abstract, methodological and statistical details are limited. The abstract alone does not establish a causal reduction in actual shoplifting and should be read together with the later peer-reviewed study-0075.",
+    "publicationType": "Conference abstract",
+    "reviewStatus": "Conference proceedings",
+    "citation": "Japanese Journal of Criminal Psychology 63 (Special Issue), 148-149",
+    "doi": "",
+    "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602240614914513",
+    "notes": "Conference report from the 2024 Kagawa Prefectural Police × Kagawa University 'smiles against shoplifting' experiment; part of the same research series as the later peer-reviewed study-0075.",
+    "sourceOrder": 74
+  },
+  {
+    "id": "study-0075",
+    "year": 2026,
+    "title": "Can Directing Customer Flow and Smiles Reduce Shoplifting? Interviews with Store Managers",
+    "authors": [
+      "大久保智生・太幡直也・高橋陸斗・徳岡大・岡田徹太郎"
+    ],
+    "authorsText": "大久保智生・太幡直也・高橋陸斗・徳岡大・岡田徹太郎",
+    "practiceOrganizations": [
+      "Kagawa Prefectural Police (joint field experiment)"
+    ],
+    "practiceOrganizationsText": "Kagawa Prefectural Police (joint field experiment)",
+    "researchOrganizations": [
+      "Kagawa University / Aichi Gakuin University / Hokkaido University Graduate School / University of Human Environments"
+    ],
+    "researchOrganizationsText": "Kagawa University / Aichi Gakuin University / Hokkaido University Graduate School / University of Human Environments",
+    "themes": [
+      "Shoplifting",
+      "Retail crime prevention",
+      "Customer flow",
+      "Smiles",
+      "Hot spots",
+      "Robots"
+    ],
+    "themesText": "Shoplifting / Retail crime prevention / Customer flow / Smiles / Hot spots / Robots",
+    "intervention": "A smile-recognition and donation tablet was installed at shoplifting hot spots, while the humanoid robot Pepper promoted the initiative and directed customer flow; staff smiles and patrols were also encouraged.",
+    "population": "One home-improvement store and one discount store.",
+    "comparison": "Customer flow and smiles before versus after Pepper introduction, plus interviews with managers at both stores.",
+    "outcomes": [
+      "Customer flow, smiles, communication, hospitality, store atmosphere, and shoplifting conditions as perceived by store managers."
+    ],
+    "outcomesText": "Customer flow, smiles, communication, hospitality, store atmosphere, and shoplifting conditions as perceived by store managers.",
+    "design": "Retail field implementation using multilevel interrupted time-series analysis plus qualitative interviews.",
+    "sampleSize": "2 stores and 2 managers. The discount store was observed for 28 days, with 41,296 passers-by and 3,448 smiles recorded.",
+    "result": "Customer flow increased after Pepper was introduced, and the increase in smiles was not explained by greater customer flow alone but was associated with the robot’s presence. Managers described improvements in customer flow and communication, hospitality and store atmosphere; the home-improvement store manager also reported fewer serious shoplifting incidents.",
+    "limitations": "Only two stores were included and they differed in corporate policy and other characteristics. There was no randomisation or independent control group, and the reported reduction in shoplifting was based mainly on managers’ perceptions and interviews, so a causal crime-reduction effect cannot be established.",
+    "publicationType": "Peer-reviewed journal article",
+    "reviewStatus": "Peer reviewed",
+    "citation": "HOSPITALITY 36, 53-60",
+    "doi": "10.57467/jashj.36.0_53",
+    "url": "https://www.jstage.jst.go.jp/article/jashj/36/0/36_53/_article/-char/ja/",
+    "notes": "Peer-reviewed publication of the 2024 Kagawa Prefectural Police × Kagawa University field experiment. Follow-up to study-0074 and connected to the second, small-humanoid-robot experiment beginning in November 2026.",
+    "sourceOrder": 75
+  },
+  {
+    "id": "study-0076",
+    "year": 2026,
+    "title": "Effects of Community Safety Mapping on Crime-Prevention Awareness among Primary-School and University Students: Comparing Paper and App-Based Activities",
+    "authors": [
+      "大久保智生・鈴木修斗"
+    ],
+    "authorsText": "大久保智生・鈴木修斗",
+    "practiceOrganizations": [
+      "Kagawa Prefectural Police (existing collaboration on development of the crime-prevention app)"
+    ],
+    "practiceOrganizationsText": "Kagawa Prefectural Police (existing collaboration on development of the crime-prevention app)",
+    "researchOrganizations": [
+      "Kagawa University / Hokkaido University / Japan Society for the Promotion of Science"
+    ],
+    "researchOrganizationsText": "Kagawa University / Hokkaido University / Japan Society for the Promotion of Science",
+    "themes": [
+      "Crime prevention education",
+      "Community safety mapping",
+      "Crime-prevention app",
+      "Children"
+    ],
+    "themesText": "Crime prevention education / Community safety mapping / Crime-prevention app / Children",
+    "intervention": "Community safety mapping conducted either with paper materials or ICT.",
+    "population": "Study 1: 343 university students; Study 2: 133 primary-school students and 18 university students.",
+    "comparison": "Paper-based versus ICT groups and pre/post activity comparisons.",
+    "outcomes": [
+      "Crime-prevention awareness and crime-prevention competence."
+    ],
+    "outcomesText": "Crime-prevention awareness and crime-prevention competence.",
+    "design": "Scale development and validation plus pre/post evaluation of an educational intervention.",
+    "sampleSize": "343 university students / 133 primary-school students + 18 university students",
+    "result": "Study 1 examined the reliability and validity of an adult crime-prevention awareness scale. In Study 2, primary-school students in both the paper and ICT groups showed higher crime-prevention competence after the activity, while university-student facilitators showed improvements in both crime-prevention awareness and competence.",
+    "limitations": "The study did not directly measure crime victimisation or actual avoidance behaviour. Further confirmation of allocation procedures in Study 2 remains possible from the full article, and police involvement relates to the existing app-development and research programme.",
+    "publicationType": "Peer-reviewed journal article",
+    "reviewStatus": "Peer reviewed",
+    "citation": "Child Rearing Research 16, 15-26",
+    "doi": "10.24719/jscr.K16002",
+    "url": "https://www.jstage.jst.go.jp/article/jscr/16/0/16_K16002/_article/-char/ja",
+    "notes": "Follow-up output in the existing crime-prevention app and community safety mapping research series that includes studies 0042–0044. Published on J-STAGE on 1 October 2026.",
+    "sourceOrder": 76
+  },
+  {
+    "id": "study-0077",
+    "year": 2025,
+    "title": "Practice and Educational Effects of Fieldwork-Based Crime-Prevention Classes: Changes in Crime-Prevention Competence and Awareness",
+    "authors": [
+      "大久保智生・西本佳代・遠山敬久・長尾宏隆・坂井恵・岡本幸一・林映里・鈴木修斗"
+    ],
+    "authorsText": "大久保智生・西本佳代・遠山敬久・長尾宏隆・坂井恵・岡本幸一・林映里・鈴木修斗",
+    "practiceOrganizations": [
+      "Kagawa Prefectural Police"
+    ],
+    "practiceOrganizationsText": "Kagawa Prefectural Police",
+    "researchOrganizations": [
+      "Kagawa University / Hokkaido University Graduate School"
+    ],
+    "researchOrganizationsText": "Kagawa University / Hokkaido University Graduate School",
+    "themes": [
+      "Crime prevention education",
+      "University students",
+      "Fieldwork",
+      "Bicycle theft",
+      "Shoplifting",
+      "Community safety mapping"
+    ],
+    "themesText": "Crime prevention education / University students / Fieldwork / Bicycle theft / Shoplifting / Community safety mapping",
+    "intervention": "In collaboration with prefectural police, students conducted bicycle-locking observations at parking facilities, shoplifting-prevention surveys and shopping support in stores, and community safety mapping with prevention proposals.",
+    "population": "15 students enrolled in a Kagawa University course.",
+    "comparison": "Changes before and after each fieldwork component and across activities.",
+    "outcomes": [
+      "Crime-prevention competence, crime-prevention awareness, communication and attachment to the local area."
+    ],
+    "outcomesText": "Crime-prevention competence, crime-prevention awareness, communication and attachment to the local area.",
+    "design": "Fieldwork-based class with repeated-measures educational evaluation.",
+    "sampleSize": "15",
+    "result": "Students completed fieldwork on bicycle theft, shoplifting and community safety mapping. In particular, after assessing risky and safe locations in the community, improvements were observed in victimisation-prevention competence, communication, attachment to the local area and crime-prevention awareness.",
+    "limitations": "A single small class of 15 students with no control group. Outcomes were mainly self-reported and the study did not directly measure crime incidence or actual crime-prevention behaviour.",
+    "publicationType": "University bulletin",
+    "reviewStatus": "Peer reviewed according to Kagawa University researcher database",
+    "citation": "Kagawa University Education Research 22, 161-171",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/record/2000893/files/AA1197154X_22_L161.pdf",
+    "notes": "Part of Kagawa Prefectural Police collaboration; five police personnel are co-authors. A 2024 academic-year continuation of the existing 'Thinking about Crime Prevention in the Community' educational practice series.",
+    "sourceOrder": 77
   }
 ]

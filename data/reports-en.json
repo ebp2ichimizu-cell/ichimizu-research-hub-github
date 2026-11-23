@@ -198,5 +198,55 @@
     "type": "Conference workshop / researcher–practitioner collaboration",
     "summary": "A workshop on collaboration between researchers and practitioners in crime prevention. Because it is not an effectiveness evaluation of an individual intervention, it is retained as implementation-support and research-exchange material rather than as a study record.",
     "url": "https://www.socialpsychology.jp/conf2026/abstract/contents/WS03.html"
+  },
+  {
+    "id": "report-021",
+    "year": 2026,
+    "title": "Simulated Special-Fraud Experiment Impersonating Police Officers",
+    "organization": "Chuo University / Japan Financial Services Association / Kanagawa Prefectural Police",
+    "collaborators": "Atsunori Ariga, Natsumi Kubo, Megumi Kitsugi, Yasutomo Takahashi and collaborators",
+    "type": "University–police collaborative simulation / official research release",
+    "summary": "A simulated police-impersonation fraud call was made to 148 university students. Twenty-five answered and five progressed to immediately before providing a LINE ID. Peer-reviewed publication has not been confirmed, so the item is also retained as an official report.",
+    "url": "https://www.chuo-u.ac.jp/aboutus/communication/press/2026/02/84457/"
+  },
+  {
+    "id": "report-022",
+    "year": 2026,
+    "title": "Bicycle-Theft Prevention Nudge Field Experiment",
+    "organization": "Shizuoka Prefectural Police / Shiga University",
+    "collaborators": "Takahito Shimada",
+    "type": "Police–university field experiment (ongoing)",
+    "summary": "From 1 October 2026 for approximately three months, nudge messages encouraging bicycle locking are being displayed at four bicycle-parking facilities. Subsequent locking behaviour will be measured and Takahito Shimada will analyse effectiveness. Results have not yet been published.",
+    "url": "https://www.shiga-u.ac.jp/47419/"
+  },
+  {
+    "id": "report-023",
+    "year": 2026,
+    "title": "Smiles Against Shoplifting, Phase 2: Field Experiment Using a Small Humanoid Robot",
+    "organization": "Kagawa University / Kagawa Prefectural Police",
+    "collaborators": "Tomoo Okubo and colleagues",
+    "type": "University–police collaborative field experiment (ongoing)",
+    "summary": "From 2 November 2026 for approximately one month, a smile-recognition tablet and a small humanoid robot are being deployed at a shoplifting hot spot in Nishimura Joy Narimatsu store to examine whether customer flow and smile-based service can contribute to shoplifting prevention. Results have not yet been published.",
+    "url": "https://www.kagawa-u.ac.jp/35180/"
+  },
+  {
+    "id": "report-024",
+    "year": 2026,
+    "title": "Police-Impersonation Fraud Simulation Game '30 Seconds Before You Are Deceived'",
+    "organization": "Chuo University / Japan Financial Services Association / Classroom Adventure / National Police Agency (cooperation)",
+    "collaborators": "Atsunori Ariga, Megumi Kitsugi, Yasutomo Takahashi and colleagues",
+    "type": "Social implementation of research findings / crime-prevention education content",
+    "summary": "A free smartphone game released on 18 October 2026 translates findings from study-0069 into an interactive simulation of the psychological process leading to fraud victimisation and related prevention strategies. An evaluation of the game itself has not been confirmed.",
+    "url": "https://www.chuo-u.ac.jp/aboutus/communication/press/2026/10/88891/"
+  },
+  {
+    "id": "report-025",
+    "year": 2026,
+    "title": "AI Special-Fraud Simulation System Demonstration",
+    "organization": "Osaka Electro-Communication University / Resona Bank Moriguchi Branch / Osaka Prefecture public-safety office / Moriguchi Police Station",
+    "collaborators": "Nakahara Laboratory and information-engineering students",
+    "type": "Industry–government–university crime-prevention outreach / implementation (effect not evaluated)",
+    "summary": "A student-developed conversational AI system simulates investment and romance scams. A public demonstration was held on 19 October 2026 and the university reported the event on 12 November. It is retained as implementation/outreach; effectiveness has not been evaluated.",
+    "url": "https://www.osakac.ac.jp/news/2026/4035"
   }
 ]

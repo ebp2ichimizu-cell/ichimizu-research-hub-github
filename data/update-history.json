@@ -28,6 +28,27 @@
       "title": "独自解説3テーマを更新",
       "summary": "study-0065・study-0070の独自解説を新規追加し、study-0058の独自解説を更新。関連研究は指定された代表解説へ統合。",
       "summary_en": "New commentaries were added for studies 0065 and 0070, and the commentary for study-0058 was updated. Related studies were linked to the designated representative commentaries."
+    },
+    {
+      "date": "2026-11-23",
+      "type": "addition",
+      "title": "2026年11月 月次更新",
+      "summary": "study-0072〜study-0077の6研究を追加し、収録研究を77件に更新。",
+      "summary_en": "Six studies (study-0072 to study-0077) were added, bringing the Research Hub to 77 studies."
+    },
+    {
+      "date": "2026-11-23",
+      "type": "information",
+      "title": "英語版・研究者・公的報告を同期",
+      "summary": "study-0064〜study-0077の英語版を整備し、研究者を44名、公的報告・未論文化資料を25件に更新。",
+      "summary_en": "English records were added for studies 0064–0077; the researcher dataset was updated to 44 researchers and the official/unpublished reports dataset to 25 records."
+    },
+    {
+      "date": "2026-11-23",
+      "type": "metadata",
+      "title": "収集対象期間の更新",
+      "summary": "検索・収集対象期間を2026年11月23日までに更新。",
+      "summary_en": "The coverage period was updated through 23 November 2026."
     }
   ]
 }

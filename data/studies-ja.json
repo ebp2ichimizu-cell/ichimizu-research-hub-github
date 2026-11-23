@@ -3799,6 +3799,13 @@
         "checkPoints": "広い地理、季節性、対象資産、担い手。",
         "keywords": "rural policing fruit theft generalizability",
         "caution": "都市部ホットスポットへ単純一般化しない。"
+      },
+      {
+        "question": "全国JA調査→インタビュー→GPS評価を一つにつなげると、それぞれの研究は何を補っている？",
+        "purpose": "異なる研究方法を組み合わせて、問題把握から実装評価まで進める意味を理解する。",
+        "checkPoints": "全国JA調査による被害・対策の把握、11JAへの質的インタビューによる実装障壁、339回のGPS記録によるパトロール配置評価。",
+        "keywords": "mixed methods rural criminology implementation GPS patrol",
+        "caution": "三つの研究をまとめても、農作物盗の犯罪減少効果そのものはまだ検証されていない。"
       }
     ]
   },
@@ -4194,7 +4201,29 @@
     "url": "https://link.springer.com/article/10.1057/s41300-026-00230-9",
     "notes": "study-0064。JSPS KAKENHI 17H02467の成果。出版社はVersion of recordを2026-04-30とする一方、巻号ページでは2025表記がみられるため年は出版社公開年2026を採用。両著者の警視庁有識者研究会委員歴は研究委託・共同評価を意味しない。",
     "sourceOrder": 64,
-    "aiQuestions": []
+    "aiQuestions": [
+      {
+        "question": "防犯プログラムに参加した母親ほど恐怖が高かった結果を、「防犯教育の逆効果」と考えてよい？",
+        "purpose": "観察研究で確認された関連と、プログラムの因果効果を区別する。",
+        "checkPoints": "一部の学校防犯プログラムへの曝露と母親の見知らぬ人への恐怖との正の関連、横断調査、自己選択や逆因果の可能性。",
+        "keywords": "crime prevention fear of strangers reverse causality school program",
+        "caution": "防犯プログラムが恐怖を高めたと因果断定しない。もともと恐怖が高い家庭ほどプログラムに参加した可能性もある。"
+      },
+      {
+        "question": "防犯教育を評価するとき、「子どもの安全」と「保護者の恐怖」を分けて測る必要があるのはなぜ？",
+        "purpose": "防犯施策が複数のアウトカムに異なる影響を与え得ることを理解する。",
+        "checkPoints": "この研究の主要アウトカムは母親の見知らぬ人への恐怖であり、犯罪被害や犯罪件数を測定した研究ではないこと。",
+        "keywords": "fear of crime unintended consequences crime prevention education",
+        "caution": "恐怖が高いことから、実際の安全性や犯罪被害への効果まで推測しない。"
+      },
+      {
+        "question": "複数の防犯プログラムで結果が同じでないことから、実務では何を確認すべき？",
+        "purpose": "「防犯教育」という一括した名称ではなく、介入内容ごとに評価する必要性を理解する。",
+        "checkPoints": "複数プログラムの実施・参加状況を別々に扱っていること、一部のプログラムだけが高い恐怖と関連したこと。",
+        "keywords": "program heterogeneity school crime prevention evaluation",
+        "caution": "プログラム名だけから共通のメカニズムや効果を仮定しない。"
+      }
+    ]
   },
   {
     "id": "study-0065",
@@ -4245,7 +4274,29 @@
     "url": "https://www.jstage.jst.go.jp/article/jjpsy/97/2/97_97.23332/_article/-char/ja",
     "notes": "study-0065。犯罪予防に加え警察実務EBPの対象として収録。横田らの同一基礎データを用いる既報とは分析目的が異なる。",
     "sourceOrder": 65,
-    "aiQuestions": []
+    "aiQuestions": [
+      {
+        "question": "被害者が感じた「適正な対応」と、警察官自身の評価があまり一致していないことを、実務ではどう読むべき？",
+        "purpose": "警察官の自己評価と被害者側の認知を分けて評価する意味を理解する。",
+        "checkPoints": "被害者側・警察官側の適正態度評価、ICC=.12、95%信頼区間が0を含むこと、双方の評価を測定する意義。",
+        "keywords": "procedural justice victim perception police self-assessment",
+        "caution": "評価の不一致の原因そのものは、この研究から因果的には特定できない。"
+      },
+      {
+        "question": "被害者への配慮と、捜査に必要な情報を得ることは、本当にトレードオフなのか？",
+        "purpose": "被害者支援と捜査情報獲得を別々の目標として扱わない視点を理解する。",
+        "checkPoints": "被害者の適正態度認知と被害情報提供、警察官側の捜査情報獲得、救済感との関連。",
+        "keywords": "victim interview procedural justice information disclosure",
+        "caution": "正の関連が確認された研究であり、適正な態度が情報提供を増やしたと因果断定しない。"
+      },
+      {
+        "question": "論文タイトルには「効果」とあるのに、なぜ「適正な対応をすれば情報提供が増える」と因果的に言えない？",
+        "purpose": "研究タイトルではなく研究デザインから因果推論の強さを判断する。",
+        "checkPoints": "介入の無作為割付がないこと、事情聴取後の質問紙データ、APIMによる関連分析。",
+        "keywords": "causal inference observational study APIM investigative interview",
+        "caution": "タイトルの表現だけから介入効果研究と分類しない。"
+      }
+    ]
   },
   {
     "id": "study-0066",
@@ -4294,7 +4345,29 @@
     "url": "https://www.jstage.jst.go.jp/article/thagis/34/1/34_34.1.5/_article/-char/ja",
     "notes": "study-0066。場所ベース警察活動・犯罪分析のTargeting段階に関係する基礎分析として収録。",
     "sourceOrder": 66,
-    "aiQuestions": []
+    "aiQuestions": [
+      {
+        "question": "過去の犯行者の移動と一般の人の移動では、車上ねらいの予測にどんな違いがあった？",
+        "purpose": "単なる人流量ではなく、犯罪発生と関係する移動の種類を区別する。",
+        "checkPoints": "過去犯行者の流入トリップと将来の車上ねらいとの正の関連、一般人口の流入が郊外部では負の関連を示したこと。",
+        "keywords": "offender mobility population mobility vehicle crime crime pattern theory",
+        "caution": "人の移動を変えれば犯罪が増減するという因果関係を示した研究ではない。"
+      },
+      {
+        "question": "地域によって犯罪と人の移動の関係が違うことは、パトロール地点を決めるとき何を意味する？",
+        "purpose": "犯罪リスクの関係が空間的に一様ではないこととTargetingの関係を理解する。",
+        "checkPoints": "地理的加重ポアソン回帰が全域モデルより適合したこと、都市構造による空間的不均一性。",
+        "keywords": "GWPR spatial heterogeneity targeting patrol",
+        "caution": "この研究自体はパトロール等の介入効果を検証していない。"
+      },
+      {
+        "question": "犯罪を予測できることと、その場所に警察活動を集中すれば犯罪が減ることは、なぜ別の問題？",
+        "purpose": "Targetingの精度とResponseの効果を区別する。",
+        "checkPoints": "本研究は将来の車上ねらい発生を説明・予測する観察研究であり、介入は実施していないこと。",
+        "keywords": "crime prediction targeting intervention effectiveness EBP",
+        "caution": "予測モデルの良さを、そのまま警察施策の有効性と読み替えない。"
+      }
+    ]
   },
   {
     "id": "study-0067",
@@ -4343,7 +4416,29 @@
     "url": "https://ruralcriminology.org/article/4242/galley/4483/download/",
     "notes": "study-0067。JSPS KAKENHI 23K17782の成果。study-0058・study-0068と同一の農村犯罪学研究系列。",
     "sourceOrder": 67,
-    "aiQuestions": []
+    "aiQuestions": [
+      {
+        "question": "農作物盗で、被害が警察に申告されないことは研究と防犯実務にどんな問題を生む？",
+        "purpose": "未申告被害が犯罪統計と問題把握に与える影響を理解する。",
+        "checkPoints": "警察への被害申告をためらう農業者の存在、地域ごとの被害状況の違い。",
+        "keywords": "agricultural theft underreporting rural crime",
+        "caution": "質的研究なので、未申告被害の割合を全国値として推定することはできない。"
+      },
+      {
+        "question": "有効そうな防犯対策があっても、農村部ではなぜ実施できないことがある？",
+        "purpose": "施策の有効性とは別に実装可能性を評価する必要性を理解する。",
+        "checkPoints": "予算制約、農業者の高齢化、地域差、関係主体との協力。",
+        "keywords": "implementation barriers rural crime prevention agriculture",
+        "caution": "この研究は各対策の犯罪抑止効果を比較した研究ではない。"
+      },
+      {
+        "question": "このインタビュー研究は、後のパトロール評価study-0058に何を足している？",
+        "purpose": "質的研究を介入前の問題分析・実装分析として位置づける。",
+        "checkPoints": "被害の実態、申告行動、予算・高齢化等の実装障壁と、GPSによるパトロール配置評価との役割の違い。",
+        "keywords": "qualitative research implementation plural policing agricultural theft",
+        "caution": "後続研究の結果を、この研究自身が検証した結果として扱わない。"
+      }
+    ]
   },
   {
     "id": "study-0068",
@@ -4392,7 +4487,29 @@
     "url": "https://www.jstage.jst.go.jp/article/reportscpij/24/2/24_318/_article/-char/ja",
     "notes": "study-0068。JSPS KAKENHI 23K17782の成果。都市計画報告集は査読プロセスのない論文報告集。study-0058・study-0067と同一系列。",
     "sourceOrder": 68,
-    "aiQuestions": []
+    "aiQuestions": [
+      {
+        "question": "「約半数のJAが果物盗被害を経験した」は、「農家の約半数が被害に遭った」という意味？",
+        "purpose": "調査単位と被害率を混同しないようにする。",
+        "checkPoints": "調査対象は全国563のJAで、260機関が回答したこと、回答単位が農家個人ではなくJAであること。",
+        "keywords": "unit of analysis agricultural theft survey JA",
+        "caution": "JA単位の被害経験割合を、農家や果樹園の被害率へ読み替えない。"
+      },
+      {
+        "question": "7～9月・深夜に被害が多かった結果は、重点パトロールの根拠としてどこまで使える？",
+        "purpose": "記述的な犯罪パターンからTargeting候補を作る際の限界を理解する。",
+        "checkPoints": "盗難品目、収穫期、時間帯についての回答傾向。",
+        "keywords": "seasonality temporal targeting agricultural theft patrol",
+        "caution": "質問紙による実態把握であり、その時間帯へのパトロールが有効だと検証した研究ではない。"
+      },
+      {
+        "question": "パトロールや防犯カメラが多く実施されていたことから、「効果がある対策」と言える？",
+        "purpose": "対策の普及状況と効果エビデンスを区別する。",
+        "checkPoints": "JAが実施していた対策の種類と、この研究が記述調査であること。",
+        "keywords": "implementation prevalence effectiveness CCTV patrol",
+        "caution": "実施されている頻度から犯罪抑止効果を推定しない。"
+      }
+    ]
   },
   {
     "id": "study-0069",
@@ -4442,7 +4559,36 @@
     "url": "https://www.chuo-u.ac.jp/aboutus/communication/press/2026/02/84457/",
     "notes": "study-0069。公的報告・未論文化シートにも収録。新たなニセ警察詐欺の被害化プロセス研究として継続追跡。",
     "sourceOrder": 69,
-    "aiQuestions": []
+    "aiQuestions": [
+      {
+        "question": "「5人に1人が個人情報提供直前まで進んだ」という結果の分母は誰？",
+        "purpose": "割合を読むときに分母を確認する重要性を理解する。",
+        "checkPoints": "148人に架電し25人が応答、そのうち5人がLINE ID提供直前まで進んだこと。5/25は20%だが、5/148では約3.4%であること。",
+        "keywords": "denominator scam experiment response rate risk communication",
+        "caution": "「参加者の5人に1人がだまされた」と表現しない。実際の被害も発生していない。"
+      },
+      {
+        "question": "電話を『怪しい』と感じても通話を続けたことは、特殊詐欺対策で何を考える材料になる？",
+        "purpose": "危険認知と実際の離脱行動が同じではないことを理解する。",
+        "checkPoints": "通話中の疑念と通話継続、LINE ID提供直前まで進んだ参加者の存在。",
+        "keywords": "scam suspicion behavioral disengagement fraud prevention",
+        "caution": "通話を続けた心理的理由を、この研究で確認されていない要因から推測しない。"
+      },
+      {
+        "question": "着信→応答→疑念→通話継続→個人情報提供という段階に分けると、防犯施策の評価はどう変わる？",
+        "purpose": "最終的な被害だけでなく、被害化プロセスの途中をアウトカムとして捉える。",
+        "checkPoints": "着信応答、通話中の疑念、通話継続、LINE ID提供直前までの進行。",
+        "keywords": "fraud victimization process intermediate outcomes",
+        "caution": "各段階への具体的介入効果は、この研究では検証されていない。"
+      },
+      {
+        "question": "大学生を対象とした模擬ニセ警察詐欺の結果は、実際の特殊詐欺被害者にどこまで一般化できる？",
+        "purpose": "模擬実験の外的妥当性を理解する。",
+        "checkPoints": "大学生対象、事前に特殊詐欺の説明を受けていること、実験参加への同意、応答者25人という規模。",
+        "keywords": "external validity deception experiment impersonation scam",
+        "caution": "高齢者や実際の被害状況でも同じ割合・心理過程になるとは仮定しない。"
+      }
+    ]
   },
   {
     "id": "study-0070",
@@ -4498,7 +4644,29 @@
     "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_44/_article/-char/ja",
     "notes": "study-0070。study-0033の2025年公式実証公表を詳細化した後続学会要旨。study-0071と同一実験。",
     "sourceOrder": 70,
-    "aiQuestions": []
+    "aiQuestions": [
+      {
+        "question": "「気づく・躊躇する・感情が変わる・心拍が変わる」が一致しなかったことは、防犯対策の評価で何を意味する？",
+        "purpose": "一つのアウトカムだけで対策の有効性を判断しないことを理解する。",
+        "checkPoints": "気づき、躊躇、POMS、心拍数で条件間の結果が一致していないこと。",
+        "keywords": "multiple outcomes shoplifting hesitation heart rate",
+        "caution": "心理反応や心拍変化を実際の万引き抑止と同一視しない。"
+      },
+      {
+        "question": "無対策条件がない実験では、6種類の対策について何が分かり、何は分からない？",
+        "purpose": "介入間の相対比較と、介入そのものの絶対的効果を区別する。",
+        "checkPoints": "6刺激条件の比較、無対策条件が設定されていないこと、各刺激の絶対的抑止効果は確認できないこと。",
+        "keywords": "control condition repeated measures shoplifting experiment",
+        "caution": "条件間に差があっても、各対策が無対策より有効とは限らない。"
+      },
+      {
+        "question": "この疑似万引き実験は、実際の店舗で対策を導入するまでのどの段階の証拠として使える？",
+        "purpose": "疑似実験を最終的な犯罪抑止効果ではなく、介入候補を絞るための研究として位置づける。",
+        "checkPoints": "学生による疑似課題、実店舗環境、複数刺激の比較、実際の万引き件数を測定していないこと。",
+        "keywords": "simulation experiment intervention development shoplifting",
+        "caution": "疑似課題の結果を実際の万引き犯や犯罪件数へ直接一般化しない。"
+      }
+    ]
   },
   {
     "id": "study-0071",
@@ -4552,6 +4720,325 @@
     "url": "https://www.jstage.jst.go.jp/article/jenvpsy/14/1/14_45/_article/-char/ja",
     "notes": "study-0071。study-0033・study-0070と同一実験系列。生理指標を用いた別成果として保持。",
     "sourceOrder": 71,
+    "aiQuestions": [
+      {
+        "question": "心拍数が上がった刺激は、「万引きを抑止した対策」と考えてよい？",
+        "purpose": "生理反応と犯罪抑止アウトカムを区別する。",
+        "checkPoints": "音刺激、ポスター、店員挨拶等で心拍数上昇が確認されたこと、実際の窃盗行動・犯罪件数は測定していないこと。",
+        "keywords": "heart rate physiological response shoplifting deterrence",
+        "caution": "心拍数上昇を躊躇・断念・犯罪抑止と同一視しない。"
+      },
+      {
+        "question": "同じ環境音でも、提示されるタイミングで反応が変わったことは何を示している？",
+        "purpose": "介入の内容だけでなく、行動する瞬間との時間的な近さが重要になり得ることを理解する。",
+        "checkPoints": "環境音が刺激曝露の5秒以上前に提示された場合に効果が弱まる交互作用。",
+        "keywords": "timing environmental cue heart rate shoplifting",
+        "caution": "この結果だけから最適な提示時間や犯罪抑止メカニズムまで断定しない。"
+      },
+      {
+        "question": "同じ参加者が6種類の条件を経験する実験では、なぜ通常の独立した2群比較と同じようには読めない？",
+        "purpose": "参加者内反復測定デザインと線形混合モデルの基本的な意味を理解する。",
+        "checkPoints": "参加者内6条件、46人、反復測定、線形混合モデルによる分析。",
+        "keywords": "repeated measures linear mixed model field experiment",
+        "caution": "46人×6条件を276人の独立した参加者として扱わない。"
+      }
+    ]
+  },
+  {
+    "id": "study-0072",
+    "year": 2026,
+    "title": "住民意識調査に基づく地域犯罪予防の課題抽出―神奈川県都筑警察署との協働事例―",
+    "authors": [
+      "木村敦"
+    ],
+    "authorsText": "木村敦",
+    "practiceOrganizations": [
+      "神奈川県都筑警察署"
+    ],
+    "practiceOrganizationsText": "神奈川県都筑警察署",
+    "researchOrganizations": [
+      "日本大学危機管理学部"
+    ],
+    "researchOrganizationsText": "日本大学危機管理学部",
+    "themes": [
+      "地域犯罪予防",
+      "住民意識",
+      "体感治安",
+      "サイバー犯罪",
+      "自転車盗",
+      "痴漢"
+    ],
+    "themesText": "地域犯罪予防／住民意識／体感治安／サイバー犯罪／自転車盗／痴漢",
+    "intervention": "都筑警察署と大学が住民意識調査を共同設計し、治安対策の課題抽出に活用（介入ではなく施策形成のための問題分析）",
+    "population": "都筑区・周辺地区のOKネットスーパー利用者（18歳以上）",
+    "comparison": "都筑区居住者と周辺地区、犯罪類型・属性別の認知・行動を比較",
+    "outcomes": [
+      "体感治安",
+      "楽観バイアス",
+      "防犯行動・有効性認知",
+      "サイバー犯罪知識",
+      "自転車施錠",
+      "痴漢等リスク認知"
+    ],
+    "outcomesText": "体感治安、楽観バイアス、防犯行動・有効性認知、サイバー犯罪知識、自転車施錠、痴漢等リスク認知",
+    "design": "横断オンライン質問紙・官学協働による問題分析",
+    "sampleSize": "調査1=145、自転車盗設問=81、痴漢等設問=女性28",
+    "result": "全般に体感治安は高い一方、一般犯罪・サイバー・街頭性被害で楽観バイアスが確認された。短時間なら無施錠、歩きスマホ等、リスク認知と必ずしも整合しない行動・信念も示され、都筑署の施策検討課題を整理した。",
+    "limitations": "単一オンラインスーパー利用者の便宜標本、横断・自己報告。痴漢等は女性28名と小規模。対策実施後の犯罪減少を評価した研究ではない。",
+    "publicationType": "大学紀要",
+    "reviewStatus": "査読あり（日本大学研究者DB）",
+    "citation": "危機管理学研究 10, 32-49",
+    "doi": "",
+    "url": "https://www.crm.nihon-u.ac.jp/media/kiki_kiyou10_04-ronbun_kimura.pdf",
+    "notes": "2026-10版で原著未確認の追加候補だった木村敦×都筑署研究を原著確認し昇格。官学協働によるEBPのAnalysis／施策形成段階として収録。",
+    "sourceOrder": 72,
+    "aiQuestions": []
+  },
+  {
+    "id": "study-0073",
+    "year": 2025,
+    "title": "セルフレジ万引き対策の効果検証―ホスピタリティに着目した対策は何を変えたのか―",
+    "authors": [
+      "大久保智生",
+      "高橋陸斗",
+      "徳岡大"
+    ],
+    "authorsText": "大久保智生・高橋陸斗・徳岡大",
+    "practiceOrganizations": [
+      "香川県警察とのセルフレジ不正防止共同事業系列"
+    ],
+    "practiceOrganizationsText": "香川県警察とのセルフレジ不正防止共同事業系列",
+    "researchOrganizations": [
+      "香川大学・北海道大学大学院・人間環境大学"
+    ],
+    "researchOrganizationsText": "香川大学・北海道大学大学院・人間環境大学",
+    "themes": [
+      "万引き",
+      "セルフレジ",
+      "ホスピタリティ",
+      "店舗実装"
+    ],
+    "themesText": "万引き／セルフレジ／ホスピタリティ／店舗実装",
+    "intervention": "ホスピタリティに着目したセルフレジサポーター配置・マニュアル教育を継続実装",
+    "population": "セルフレジ利用客200名・セルフレジサポーター2名",
+    "comparison": "ホスピタリティ型対策実施店舗100名 vs 非実施店舗100名＋サポーターへの聞き取り",
+    "outcomes": [
+      "セルフレジの社会性評価",
+      "店員印象",
+      "利用意向・店舗評価",
+      "サポーターの行動・認識"
+    ],
+    "outcomesText": "セルフレジの社会性評価、店員印象、利用意向・店舗評価、サポーターの行動・認識",
+    "design": "店舗間比較質問紙＋質的インタビュー・継続実装評価",
+    "sampleSize": "利用客200名（100/100）＋サポーター2名",
+    "result": "ホスピタリティ型対策実施店舗ではセルフレジの社会性評価と店員印象が高かった。サポーターへの聞き取りでは、ホスピタリティ向上、顧客変化、役割の充実感、情報共有、対策提案等の肯定的変化が整理された。",
+    "limitations": "2店舗の非無作為比較で、店舗差等の交絡を排除できない。本研究の主要アウトカムは顧客評価・実装認識で、万引き件数や損失額の因果効果を直接検証していない。",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "HOSPITALITY 35, 27-35",
+    "doi": "10.57467/jashj.35.0_27",
+    "url": "https://www.jstage.jst.go.jp/article/jashj/35/0/35_27/_article/-char/ja/",
+    "notes": "study-0041の約2年後のフォローアップ。同一のセルフレジサポーター対策を継続評価する香川県警×香川大学系列に接続。",
+    "sourceOrder": 73,
+    "aiQuestions": []
+  },
+  {
+    "id": "study-0074",
+    "year": 2026,
+    "title": "人流誘導と笑顔で万引きは減らせるか？（2）―ディスカウントストアでの実証実験の結果から―",
+    "authors": [
+      "大久保智生"
+    ],
+    "authorsText": "大久保智生",
+    "practiceOrganizations": [
+      "香川県警察（共同実証）"
+    ],
+    "practiceOrganizationsText": "香川県警察（共同実証）",
+    "researchOrganizations": [
+      "香川大学"
+    ],
+    "researchOrganizationsText": "香川大学",
+    "themes": [
+      "万引き",
+      "店舗防犯",
+      "人流",
+      "笑顔",
+      "ホットスポット"
+    ],
+    "themesText": "万引き／店舗防犯／人流／笑顔／ホットスポット",
+    "intervention": "店舗内ホットスポットへの人流誘導と笑顔認証・寄付を組み合わせた実証",
+    "population": "ディスカウントストア1店舗",
+    "comparison": "介入前後（詳細は後続査読論文study-0075で確認）",
+    "outcomes": [
+      "人流",
+      "店舗雰囲気等"
+    ],
+    "outcomesText": "人流、店舗雰囲気等",
+    "design": "学会大会要旨・店舗フィールド実験",
+    "sampleSize": "要旨では詳細記載なし",
+    "result": "ディスカウントストアで実証した結果、人流の増加と店舗の雰囲気の向上が認められたと報告された。",
+    "limitations": "大会要旨のため方法・統計詳細が限定。実際の万引き減少の因果効果はこの要旨だけでは判断できず、後続査読論文study-0075と併読が必要。",
+    "publicationType": "学会大会抄録",
+    "reviewStatus": "会議録",
+    "citation": "犯罪心理学研究 63（特別号）, 148-149",
+    "doi": "",
+    "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602240614914513",
+    "notes": "香川県警×香川大学の2024年『笑顔による万引き防止』実験の学会報告。後続の査読論文study-0075と同一系列。",
+    "sourceOrder": 74,
+    "aiQuestions": []
+  },
+  {
+    "id": "study-0075",
+    "year": 2026,
+    "title": "人流誘導と笑顔で万引きは減らせるのか―店舗責任者へのインタビュー調査から―",
+    "authors": [
+      "大久保智生",
+      "太幡直也",
+      "高橋陸斗",
+      "徳岡大",
+      "岡田徹太郎"
+    ],
+    "authorsText": "大久保智生・太幡直也・高橋陸斗・徳岡大・岡田徹太郎",
+    "practiceOrganizations": [
+      "香川県警察（共同実証）"
+    ],
+    "practiceOrganizationsText": "香川県警察（共同実証）",
+    "researchOrganizations": [
+      "香川大学・愛知学院大学・北海道大学大学院・人間環境大学"
+    ],
+    "researchOrganizationsText": "香川大学・愛知学院大学・北海道大学大学院・人間環境大学",
+    "themes": [
+      "万引き",
+      "店舗防犯",
+      "人流",
+      "笑顔",
+      "ホットスポット",
+      "ロボット"
+    ],
+    "themesText": "万引き／店舗防犯／人流／笑顔／ホットスポット／ロボット",
+    "intervention": "万引きホットスポットに笑顔認証・寄付タブレットを設置し、人型ロボットPepperで広報・人流誘導。従業員の笑顔・巡回も促進",
+    "population": "ホームセンター・ディスカウントストア各1店",
+    "comparison": "Pepper導入前後の人流・笑顔比較＋2店舗責任者へのインタビュー",
+    "outcomes": [
+      "人流",
+      "笑顔",
+      "コミュニケーション",
+      "ホスピタリティ",
+      "店舗雰囲気",
+      "店舗責任者が認知した万引き状況"
+    ],
+    "outcomesText": "人流、笑顔、コミュニケーション、ホスピタリティ、店舗雰囲気、店舗責任者が認知した万引き状況",
+    "design": "店舗フィールド実証＋マルチレベル中断時系列分析＋質的インタビュー",
+    "sampleSize": "2店舗・責任者2名。ディスカウントストアは28日観察、通過41,296人・笑顔3,448件",
+    "result": "Pepper導入後に人流が増加し、笑顔の増加は人流増加だけでは説明されずロボットの存在と関連した。責任者への聞き取りでは人流・コミュニケーション、ホスピタリティ、店舗雰囲気の改善が語られ、ホームセンターでは深刻な万引き事案の減少も報告された。",
+    "limitations": "2店舗のみで企業方針等も異なる。無作為化・独立対照ではなく、万引き減少は主に責任者の認知・聞き取りに基づくため犯罪抑止の因果効果は確定できない。",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "HOSPITALITY 36, 53-60",
+    "doi": "10.57467/jashj.36.0_53",
+    "url": "https://www.jstage.jst.go.jp/article/jashj/36/0/36_53/_article/-char/ja/",
+    "notes": "2024年香川県警×香川大学の共同実証を査読論文化。study-0074（学会要旨）の後続。2026年11月開始の小型人型ロボット第2弾実験にも接続。",
+    "sourceOrder": 75,
+    "aiQuestions": []
+  },
+  {
+    "id": "study-0076",
+    "year": 2026,
+    "title": "地域安全マップ作成活動が小学生および大学生の防犯意識に及ぼす影響―防犯意識尺度の作成と紙媒体と防犯アプリを用いた活動の比較から―",
+    "authors": [
+      "大久保智生",
+      "鈴木修斗"
+    ],
+    "authorsText": "大久保智生・鈴木修斗",
+    "practiceOrganizations": [
+      "香川県警察本部（既存防犯アプリ開発協力系列）"
+    ],
+    "practiceOrganizationsText": "香川県警察本部（既存防犯アプリ開発協力系列）",
+    "researchOrganizations": [
+      "香川大学・北海道大学／日本学術振興会"
+    ],
+    "researchOrganizationsText": "香川大学・北海道大学／日本学術振興会",
+    "themes": [
+      "防犯教育",
+      "地域安全マップ",
+      "防犯アプリ",
+      "子ども"
+    ],
+    "themesText": "防犯教育／地域安全マップ／防犯アプリ／子ども",
+    "intervention": "紙媒体またはICTを用いた地域安全マップ作成活動",
+    "population": "研究1：大学生343名、研究2：小学生133名・大学生18名",
+    "comparison": "紙媒体群とICT群、活動前後",
+    "outcomes": [
+      "防犯意識",
+      "防犯に関する能力"
+    ],
+    "outcomesText": "防犯意識、防犯に関する能力",
+    "design": "尺度開発・妥当性検討＋教育介入の前後比較",
+    "sampleSize": "大学生343名／小学生133名＋大学生18名",
+    "result": "研究1で成人向け防犯意識尺度の信頼性・妥当性を検討。研究2では小学生は紙媒体群・ICT群とも活動後に防犯に関する能力が向上し、指導者の大学生では防犯意識と防犯能力が向上した。",
+    "limitations": "犯罪被害や実際の回避行動を直接測定していない。研究2の割付方法等の詳細は原著本文での追加確認余地があり、警察関与は防犯アプリ開発・既存研究系列レベル。",
+    "publicationType": "査読学術誌",
+    "reviewStatus": "査読あり",
+    "citation": "子育て研究 16, 15-26",
+    "doi": "10.24719/jscr.K16002",
+    "url": "https://www.jstage.jst.go.jp/article/jscr/16/0/16_K16002/_article/-char/ja",
+    "notes": "既収録study-0042～0044等の防犯アプリ・地域安全マップ系列の後続成果。J-STAGE公開日2026-10-01。",
+    "sourceOrder": 76,
+    "aiQuestions": []
+  },
+  {
+    "id": "study-0077",
+    "year": 2025,
+    "title": "防犯に関するフィールドワーク型授業の実践と教育効果に関する検証―防犯に関する能力および防犯意識の変化の検討―",
+    "authors": [
+      "大久保智生",
+      "西本佳代",
+      "遠山敬久",
+      "長尾宏隆",
+      "坂井恵",
+      "岡本幸一",
+      "林映里",
+      "鈴木修斗"
+    ],
+    "authorsText": "大久保智生・西本佳代・遠山敬久・長尾宏隆・坂井恵・岡本幸一・林映里・鈴木修斗",
+    "practiceOrganizations": [
+      "香川県警察本部"
+    ],
+    "practiceOrganizationsText": "香川県警察本部",
+    "researchOrganizations": [
+      "香川大学・北海道大学大学院"
+    ],
+    "researchOrganizationsText": "香川大学・北海道大学大学院",
+    "themes": [
+      "防犯教育",
+      "大学生",
+      "フィールドワーク",
+      "自転車盗",
+      "万引き",
+      "地域安全マップ"
+    ],
+    "themesText": "防犯教育／大学生／フィールドワーク／自転車盗／万引き／地域安全マップ",
+    "intervention": "県警と連携した駐輪場の施錠率調査、店舗の万引き対策調査・買物支援、地域安全マップ作成と対策提案",
+    "population": "香川大学の履修学生15名",
+    "comparison": "各フィールドワーク実施前後・活動間の変化",
+    "outcomes": [
+      "防犯に関する能力",
+      "防犯意識",
+      "コミュニケーション",
+      "地域愛着等"
+    ],
+    "outcomesText": "防犯に関する能力、防犯意識、コミュニケーション、地域愛着等",
+    "design": "フィールドワーク型授業・反復測定による教育効果評価",
+    "sampleSize": "15名",
+    "result": "自転車盗、万引き、地域安全マップの3種のフィールドワークを実施。とくに地域の危険・安全箇所点検後に、被害防止能力、コミュニケーション、地域愛着、防犯意識等の改善がみられた。",
+    "limitations": "単一授業・15名と小規模で対照群なし。自己報告中心で、犯罪発生や実際の防犯行動の変化を直接測定していない。",
+    "publicationType": "大学紀要",
+    "reviewStatus": "査読あり（香川大学研究者DB）",
+    "citation": "香川大学教育研究 22, 161-171",
+    "doi": "",
+    "url": "https://kagawa-u.repo.nii.ac.jp/record/2000893/files/AA1197154X_22_L161.pdf",
+    "notes": "香川県警察との連携事業の一環で、県警職員5名が共著。既存の『地域での防犯を考える』教育実践系列の2024年度版。",
+    "sourceOrder": 77,
     "aiQuestions": []
   }
 ]

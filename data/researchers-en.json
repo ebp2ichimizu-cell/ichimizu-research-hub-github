@@ -49,7 +49,11 @@
       "study-0060",
       "study-0061",
       "study-0062",
-      "study-0063"
+      "study-0063",
+      "study-0064",
+      "study-0065",
+      "study-0067",
+      "study-0068"
     ]
   },
   {
@@ -130,7 +134,9 @@
       "study-0001",
       "study-0010",
       "study-0011",
-      "study-0012"
+      "study-0012",
+      "study-0067",
+      "study-0068"
     ]
   },
   {
@@ -177,7 +183,9 @@
     ],
     "profileUrl": "https://www.u-tokyo.ac.jp/focus/ja/people/k0001_05759.html",
     "studyIds": [
-      "study-0028"
+      "study-0028",
+      "study-0070",
+      "study-0071"
     ]
   },
   {
@@ -206,7 +214,9 @@
       "study-0029",
       "study-0034",
       "study-0045",
-      "study-0048"
+      "study-0048",
+      "study-0067",
+      "study-0068"
     ]
   },
   {
@@ -375,7 +385,9 @@
       "Fear of crime"
     ],
     "profileUrl": "https://www.bgu.ac.jp/gci/staff/tomoko-hata/",
-    "studyIds": []
+    "studyIds": [
+      "study-0064"
+    ]
   },
   {
     "id": "researcher-016",
@@ -449,7 +461,14 @@
       "study-0041",
       "study-0042",
       "study-0043",
-      "study-0044"
+      "study-0044",
+      "study-0070",
+      "study-0071",
+      "study-0073",
+      "study-0074",
+      "study-0075",
+      "study-0076",
+      "study-0077"
     ]
   },
   {
@@ -567,7 +586,9 @@
       "Investigative interviewing"
     ],
     "profileUrl": "https://www.surugadai.ac.jp/",
-    "studyIds": []
+    "studyIds": [
+      "study-0065"
+    ]
   },
   {
     "id": "researcher-025",
@@ -668,7 +689,9 @@
       "Resident perceptions"
     ],
     "profileUrl": "https://researcher-web.nihon-u.ac.jp/",
-    "studyIds": []
+    "studyIds": [
+      "study-0072"
+    ]
   },
   {
     "id": "researcher-030",
@@ -786,5 +809,205 @@
     ],
     "profileUrl": "https://www-cv01.ufinity.jp/u_hyogo/cvclients/researchers/amatsuka",
     "studyIds": []
+  },
+  {
+    "id": "researcher-036",
+    "name": "小林寿一",
+    "nameJa": "小林寿一",
+    "affiliation": "National Research Institute of Police Science (principal investigator of 17H02467 at the time; current affiliation requires confirmation)",
+    "themes": [
+      "Neighbourhood crime control",
+      "Informal social control",
+      "Voluntary crime prevention",
+      "Police practice"
+    ],
+    "practiceConnection": "Principal investigator of KAKENHI 17H02467 at the National Research Institute of Police Science.",
+    "series": [
+      "17H02467",
+      "Neighbourhood crime control"
+    ],
+    "profileUrl": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17H02467/",
+    "studyIds": [],
+    "programIds": [
+      "program-015"
+    ]
+  },
+  {
+    "id": "researcher-037",
+    "name": "平間一樹",
+    "nameJa": "平間一樹",
+    "affiliation": "National Research Institute of Police Science",
+    "themes": [
+      "Investigative interviewing",
+      "Victim response",
+      "GIS",
+      "Crime analysis"
+    ],
+    "practiceConnection": "NRIPS researcher working on sexual-offence victim response and spatial analysis of vehicle-related theft.",
+    "series": [
+      "Investigative-interviewing EBP",
+      "GIS crime analysis"
+    ],
+    "profileUrl": "https://www.jstage.jst.go.jp/article/jjpsy/97/2/97_97.23332/_article/-char/ja",
+    "studyIds": [
+      "study-0065",
+      "study-0066"
+    ],
+    "nameEn": "Kazuki Hirama"
+  },
+  {
+    "id": "researcher-038",
+    "name": "横田賀英子",
+    "nameJa": "横田賀英子",
+    "affiliation": "National Research Institute of Police Science",
+    "themes": [
+      "Investigative psychology",
+      "Sexual-offence victim response",
+      "Crime analysis"
+    ],
+    "practiceConnection": "NRIPS researcher involved in national police studies of victims and police officers.",
+    "series": [
+      "Sexual-offence victim response",
+      "GIS crime analysis"
+    ],
+    "profileUrl": "https://www.jstage.jst.go.jp/article/jjpsy/97/2/97_97.23332/_article/-char/ja",
+    "studyIds": [
+      "study-0065",
+      "study-0066"
+    ],
+    "nameEn": "Kaeko Yokota"
+  },
+  {
+    "id": "researcher-039",
+    "name": "渡邉和美",
+    "nameJa": "渡邉和美",
+    "affiliation": "National Research Institute of Police Science",
+    "themes": [
+      "Criminal psychology",
+      "Victim response",
+      "Crime analysis"
+    ],
+    "practiceConnection": "NRIPS researcher working on sexual-offence investigations and GIS research.",
+    "series": [
+      "Sexual-offence victim response",
+      "GIS crime analysis"
+    ],
+    "profileUrl": "https://www.jstage.jst.go.jp/article/jjpsy/97/2/97_97.23332/_article/-char/ja",
+    "studyIds": [
+      "study-0065",
+      "study-0066"
+    ],
+    "nameEn": "Kazumi Watanabe"
+  },
+  {
+    "id": "researcher-040",
+    "name": "古橋健悟",
+    "nameJa": "古橋健悟",
+    "affiliation": "National Research Institute of Police Science",
+    "themes": [
+      "Crime analysis",
+      "Investigation",
+      "Victim response"
+    ],
+    "practiceConnection": "NRIPS researcher working on sexual-offence investigations and GIS research.",
+    "series": [
+      "Sexual-offence victim response",
+      "GIS crime analysis"
+    ],
+    "profileUrl": "https://www.jstage.jst.go.jp/article/jjpsy/97/2/97_97.23332/_article/-char/ja",
+    "studyIds": [
+      "study-0065",
+      "study-0066"
+    ],
+    "nameEn": "Kengo Furuhashi"
+  },
+  {
+    "id": "researcher-041",
+    "name": "大塚祐輔",
+    "nameJa": "大塚祐輔",
+    "affiliation": "National Research Institute of Police Science",
+    "themes": [
+      "Crime analysis",
+      "Investigation",
+      "Victim response"
+    ],
+    "practiceConnection": "NRIPS researcher working on sexual-offence investigations and GIS research.",
+    "series": [
+      "Sexual-offence victim response",
+      "GIS crime analysis"
+    ],
+    "profileUrl": "https://www.jstage.jst.go.jp/article/jjpsy/97/2/97_97.23332/_article/-char/ja",
+    "studyIds": [
+      "study-0065",
+      "study-0066"
+    ],
+    "nameEn": "Yusuke Otsuka"
+  },
+  {
+    "id": "researcher-042",
+    "name": "矢部直人",
+    "nameJa": "矢部直人",
+    "affiliation": "Tokyo Metropolitan University",
+    "themes": [
+      "Human spatial mobility",
+      "GIS",
+      "Crime geography"
+    ],
+    "practiceConnection": "Collaborative spatial analysis of vehicle-related theft with NRIPS and Tokyo Metropolitan Police researchers.",
+    "series": [
+      "Crime pattern",
+      "Mobility",
+      "GIS"
+    ],
+    "profileUrl": "https://www.jstage.jst.go.jp/article/thagis/34/1/34_34.1.5/_article/-char/ja",
+    "studyIds": [
+      "study-0066"
+    ]
+  },
+  {
+    "id": "researcher-043",
+    "name": "栗田英治",
+    "nameJa": "栗田英治",
+    "affiliation": "National Agriculture and Food Research Organization (NARO)",
+    "themes": [
+      "Rural planning",
+      "Agricultural theft",
+      "Rural criminology"
+    ],
+    "practiceConnection": "Collaborative researcher in KAKENHI 23K17782 with the University of Tsukuba, NRIPS and others.",
+    "series": [
+      "23K17782",
+      "Rural criminology"
+    ],
+    "profileUrl": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-23K17782/",
+    "studyIds": [
+      "study-0058",
+      "study-0067",
+      "study-0068"
+    ],
+    "nameEn": "Hideharu Kurita",
+    "programIds": [
+      "program-016"
+    ]
+  },
+  {
+    "id": "researcher-044",
+    "name": "有賀敦紀",
+    "nameJa": "有賀敦紀",
+    "affiliation": "Chuo University",
+    "themes": [
+      "Cognitive psychology",
+      "Consumer behaviour",
+      "Fraud victimisation processes"
+    ],
+    "practiceConnection": "Led a simulated special-fraud experiment conducted with cooperation from Kanagawa Prefectural Police.",
+    "series": [
+      "Police-impersonation fraud",
+      "Cognitive psychology"
+    ],
+    "profileUrl": "https://www.chuo-u.ac.jp/aboutus/communication/press/2026/02/84457/",
+    "studyIds": [
+      "study-0069"
+    ]
   }
 ]

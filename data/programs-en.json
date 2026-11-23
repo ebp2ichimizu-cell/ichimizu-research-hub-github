@@ -11,12 +11,12 @@
     ],
     "themes": [
       "Shoplifting",
-      "Fraud prevention",
+      "Special fraud",
       "Community crime prevention volunteers",
-      "Self-checkout theft",
+      "Self-checkout",
       "Community safety mapping"
     ],
-    "summary": "A long-running collaboration beginning in 2010, developing from surveys to manuals, education, implementation in retail settings and subsequent evaluation.",
+    "summary": "A long-running collaboration beginning in 2010, developing from surveys to manuals, education, retail implementation and evaluation. The 2024 customer-flow and smiles field experiment was published in a peer-reviewed article in 2026, and a second experiment using a small humanoid robot began in November 2026.",
     "url": "https://www.kagawa-u.ac.jp/32649/"
   },
   {
@@ -250,5 +250,47 @@
     ],
     "summary": "A major 2020–2024 research project explicitly including crime prevention. Researchers included Takahito Shimada, Tomonori Saito and Yuko Yamane. It provides a useful parent project for tracing behavioural-economics interventions concerning fraud, voyeurism and other crime prevention problems.",
     "url": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20H05632/"
+  },
+  {
+    "id": "program-015",
+    "startYear": 2017,
+    "name": "KAKENHI Scientific Research (B) 17H02467: Neighbourhood-Level Crime Control in an Ageing and Shrinking Population — Towards Effective Collaboration among Actors",
+    "policeOrganizations": [
+      "National Research Institute of Police Science"
+    ],
+    "researchOrganizations": [
+      "National Research Institute of Police Science / Nihon University / University of Tsukuba / University of Tokyo / Bunkyo Gakuin University and others"
+    ],
+    "themes": [
+      "Neighbourhood crime control",
+      "Informal social control",
+      "Voluntary crime prevention",
+      "Inter-organisational collaboration",
+      "Child safety",
+      "Fear of crime"
+    ],
+    "summary": "A 2017–2019 Scientific Research (B) project led by the National Research Institute of Police Science and completed in March 2020. It included resident surveys, surveys of crime-prevention groups and neighbourhood associations, surveys of police community-safety practice, observation and network analysis. It produced multiple publications; study-0064 explicitly reports this grant number.",
+    "url": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17H02467/"
+  },
+  {
+    "id": "program-016",
+    "startYear": 2023,
+    "name": "KAKENHI Challenging Research (Exploratory) 23K17782: Exploratory Research towards Establishing Rural Criminology in Japan — Theft as a Case Study",
+    "policeOrganizations": [
+      "National Research Institute of Police Science (participating research institution)"
+    ],
+    "researchOrganizations": [
+      "University of Tsukuba / NARO / National Research Institute of Police Science / Fukushima University"
+    ],
+    "themes": [
+      "Rural criminology",
+      "Agricultural theft",
+      "Victimisation survey",
+      "Plural policing patrols",
+      "Information technology",
+      "Implementation of prevention measures"
+    ],
+    "summary": "A 2023–2025 interdisciplinary project including a national JA survey, interviews with JA personnel, agricultural-theft prevention, and GPS measurement of multi-actor patrols in fruit-growing areas. Studies 0058, 0067 and 0068 explicitly report this grant number.",
+    "url": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-23K17782/"
   }
 ]

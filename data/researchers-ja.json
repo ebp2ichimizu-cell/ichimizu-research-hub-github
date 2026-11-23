@@ -47,7 +47,11 @@
       "study-0060",
       "study-0061",
       "study-0062",
-      "study-0063"
+      "study-0063",
+      "study-0064",
+      "study-0065",
+      "study-0067",
+      "study-0068"
     ]
   },
   {
@@ -122,7 +126,9 @@
       "study-0001",
       "study-0010",
       "study-0011",
-      "study-0012"
+      "study-0012",
+      "study-0067",
+      "study-0068"
     ]
   },
   {
@@ -165,7 +171,9 @@
     ],
     "profileUrl": "https://www.u-tokyo.ac.jp/focus/ja/people/k0001_05759.html",
     "studyIds": [
-      "study-0028"
+      "study-0028",
+      "study-0070",
+      "study-0071"
     ]
   },
   {
@@ -192,7 +200,9 @@
       "study-0029",
       "study-0034",
       "study-0045",
-      "study-0048"
+      "study-0048",
+      "study-0067",
+      "study-0068"
     ]
   },
   {
@@ -345,7 +355,9 @@
       "犯罪不安"
     ],
     "profileUrl": "https://www.bgu.ac.jp/gci/staff/tomoko-hata/",
-    "studyIds": []
+    "studyIds": [
+      "study-0064"
+    ]
   },
   {
     "id": "researcher-016",
@@ -413,7 +425,14 @@
       "study-0041",
       "study-0042",
       "study-0043",
-      "study-0044"
+      "study-0044",
+      "study-0070",
+      "study-0071",
+      "study-0073",
+      "study-0074",
+      "study-0075",
+      "study-0076",
+      "study-0077"
     ]
   },
   {
@@ -519,7 +538,9 @@
       "捜査面接"
     ],
     "profileUrl": "https://www.surugadai.ac.jp/",
-    "studyIds": []
+    "studyIds": [
+      "study-0065"
+    ]
   },
   {
     "id": "researcher-025",
@@ -610,7 +631,9 @@
       "住民意識"
     ],
     "profileUrl": "https://researcher-web.nihon-u.ac.jp/",
-    "studyIds": []
+    "studyIds": [
+      "study-0072"
+    ]
   },
   {
     "id": "researcher-030",
@@ -716,5 +739,190 @@
     ],
     "profileUrl": "https://www-cv01.ufinity.jp/u_hyogo/cvclients/researchers/amatsuka",
     "studyIds": []
+  },
+  {
+    "id": "researcher-036",
+    "name": "小林寿一",
+    "affiliation": "科学警察研究所（17H02467研究代表時）／現所属要確認",
+    "themes": [
+      "近隣犯罪統制",
+      "非公式社会統制",
+      "自主防犯",
+      "警察実務"
+    ],
+    "practiceConnection": "科研費17H02467を科警研で研究代表",
+    "series": [
+      "17H02467",
+      "近隣犯罪統制"
+    ],
+    "profileUrl": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17H02467/",
+    "studyIds": [],
+    "programIds": [
+      "program-015"
+    ]
+  },
+  {
+    "id": "researcher-037",
+    "name": "平間一樹",
+    "affiliation": "科学警察研究所",
+    "themes": [
+      "捜査面接",
+      "被害者対応",
+      "GIS",
+      "犯罪分析"
+    ],
+    "practiceConnection": "科警研研究者。性犯罪被害者対応・車上ねらい空間分析",
+    "series": [
+      "捜査面接EBP",
+      "GIS犯罪分析"
+    ],
+    "profileUrl": "https://www.jstage.jst.go.jp/article/jjpsy/97/2/97_97.23332/_article/-char/ja",
+    "studyIds": [
+      "study-0065",
+      "study-0066"
+    ]
+  },
+  {
+    "id": "researcher-038",
+    "name": "横田賀英子",
+    "affiliation": "科学警察研究所",
+    "themes": [
+      "捜査心理",
+      "性犯罪被害者対応",
+      "犯罪分析"
+    ],
+    "practiceConnection": "科警研研究者。全国警察を対象とする被害者・警察官調査等",
+    "series": [
+      "性犯罪被害者対応",
+      "GIS犯罪分析"
+    ],
+    "profileUrl": "https://www.jstage.jst.go.jp/article/jjpsy/97/2/97_97.23332/_article/-char/ja",
+    "studyIds": [
+      "study-0065",
+      "study-0066"
+    ]
+  },
+  {
+    "id": "researcher-039",
+    "name": "渡邉和美",
+    "affiliation": "科学警察研究所",
+    "themes": [
+      "犯罪心理",
+      "被害者対応",
+      "犯罪分析"
+    ],
+    "practiceConnection": "科警研研究者。性犯罪捜査・GIS研究",
+    "series": [
+      "性犯罪被害者対応",
+      "GIS犯罪分析"
+    ],
+    "profileUrl": "https://www.jstage.jst.go.jp/article/jjpsy/97/2/97_97.23332/_article/-char/ja",
+    "studyIds": [
+      "study-0065",
+      "study-0066"
+    ]
+  },
+  {
+    "id": "researcher-040",
+    "name": "古橋健悟",
+    "affiliation": "科学警察研究所",
+    "themes": [
+      "犯罪分析",
+      "捜査",
+      "被害者対応"
+    ],
+    "practiceConnection": "科警研研究者。性犯罪捜査・GIS研究",
+    "series": [
+      "性犯罪被害者対応",
+      "GIS犯罪分析"
+    ],
+    "profileUrl": "https://www.jstage.jst.go.jp/article/jjpsy/97/2/97_97.23332/_article/-char/ja",
+    "studyIds": [
+      "study-0065",
+      "study-0066"
+    ]
+  },
+  {
+    "id": "researcher-041",
+    "name": "大塚祐輔",
+    "affiliation": "科学警察研究所",
+    "themes": [
+      "犯罪分析",
+      "捜査",
+      "被害者対応"
+    ],
+    "practiceConnection": "科警研研究者。性犯罪捜査・GIS研究",
+    "series": [
+      "性犯罪被害者対応",
+      "GIS犯罪分析"
+    ],
+    "profileUrl": "https://www.jstage.jst.go.jp/article/jjpsy/97/2/97_97.23332/_article/-char/ja",
+    "studyIds": [
+      "study-0065",
+      "study-0066"
+    ]
+  },
+  {
+    "id": "researcher-042",
+    "name": "矢部直人",
+    "affiliation": "東京都立大学",
+    "themes": [
+      "人の空間移動",
+      "GIS",
+      "犯罪地理"
+    ],
+    "practiceConnection": "科警研・警視庁研究者との車上ねらい空間分析",
+    "series": [
+      "犯罪パターン",
+      "移動",
+      "GIS"
+    ],
+    "profileUrl": "https://www.jstage.jst.go.jp/article/thagis/34/1/34_34.1.5/_article/-char/ja",
+    "studyIds": [
+      "study-0066"
+    ]
+  },
+  {
+    "id": "researcher-043",
+    "name": "栗田英治",
+    "affiliation": "農研機構",
+    "themes": [
+      "農村計画",
+      "農作物盗",
+      "農村犯罪学"
+    ],
+    "practiceConnection": "科研費23K17782で科警研・筑波大等と共同研究",
+    "series": [
+      "23K17782",
+      "農村犯罪学"
+    ],
+    "profileUrl": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-23K17782/",
+    "studyIds": [
+      "study-0058",
+      "study-0067",
+      "study-0068"
+    ],
+    "programIds": [
+      "program-016"
+    ]
+  },
+  {
+    "id": "researcher-044",
+    "name": "有賀敦紀",
+    "affiliation": "中央大学",
+    "themes": [
+      "認知心理",
+      "消費者行動",
+      "特殊詐欺被害化プロセス"
+    ],
+    "practiceConnection": "神奈川県警察本部の協力を得た模擬特殊詐欺実験",
+    "series": [
+      "ニセ警察詐欺",
+      "認知心理"
+    ],
+    "profileUrl": "https://www.chuo-u.ac.jp/aboutus/communication/press/2026/02/84457/",
+    "studyIds": [
+      "study-0069"
+    ]
   }
 ]
