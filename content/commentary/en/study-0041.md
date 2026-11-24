@@ -3,12 +3,14 @@ study_id: "study-0041"
 related_studies:
   - "study-0020"
   - "study-0024"
+  - "study-0073"
 title: "Self-Checkout Fraud Prevention through Hospitality: The Self-Checkout Supporter Research Series"
 year: 2023
 publication: "HOSPITALITY 33, 25–33"
 doi: "10.57467/jashj.33.0_25"
 commentary_language: "en"
 commentary_status: "reviewed-series"
+commentary_updated: "2026-11-24"
 ---
 
 # Self-Checkout Fraud Prevention through Hospitality
@@ -25,6 +27,25 @@ Instead of remaining in front of a monitor, the staff member moved through the s
 The design combines hospitality with the capable-guardian logic of Routine Activity Theory.
 
 One retail store was studied using video observation before and after implementation, customer surveys, interviews with two staff members, and pre/post counts of unpaid departures.
+
+## study-0073: what did the self-checkout supporter approach look like after continued implementation?
+
+Study-0073 is a later evaluation of the hospitality-based self-checkout approach examined in study-0041.
+
+It compared 200 customers—100 at an implementation store and 100 at a non-implementation store—and interviewed two self-checkout supporters. Customers at the implementation store rated the social qualities of self-checkout and staff impressions more positively. Supporter interviews described positive changes in hospitality, customer interaction, role fulfilment, information sharing and prevention suggestions.
+
+The comparison involved only two non-randomised stores, so store-level confounding cannot be excluded. The main outcomes were customer evaluations and implementation perceptions, not a causal estimate of shoplifting counts or financial loss.
+
+The series can therefore be read as:
+
+study-0041 initial behavioural implementation
+→ study-0020 manual development
+→ study-0024 staff education
+→ study-0073 continued-implementation evaluation.
+
+- [study-0073 original study](https://www.jstage.jst.go.jp/article/jashj/35/0/35_27/_article/-char/ja/)
+
+---
 
 <!-- STATS_DETAIL_START -->
 

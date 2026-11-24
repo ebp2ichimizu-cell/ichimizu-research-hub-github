@@ -4,10 +4,13 @@ related_studies:
   - "study-0016"
   - "study-0043"
   - "study-0044"
+  - "study-0076"
+  - "study-0077"
 title: "Community Safety Mapping with a Crime-Prevention App: A Research Series from University Classes to Youth and Community Settings"
-years: "2019–2024"
+years: "2019–2026"
 commentary_language: "en"
 commentary_status: "reviewed-series"
+commentary_updated: "2026-11-24"
 ---
 
 # Community Safety Mapping with a Crime-Prevention App
@@ -28,6 +31,30 @@ The series progressed from a university course to:
 - Girl Scouts and after-school child-club participants.
 
 The central educational idea is opportunity-focused crime prevention: analyze **places and environmental conditions**, not personal appearance or “suspiciousness.”
+
+## study-0076: comparing paper and ICT while developing a crime-prevention awareness scale
+
+Study-0076 extended the series. Study 1 examined reliability and validity of an adult crime-prevention awareness scale with 343 university students. Study 2 included 133 primary-school students and 18 university-student facilitators and compared paper-based and ICT-based community safety mapping.
+
+Primary-school students in both groups showed higher crime-prevention competence after the activity, while university facilitators showed improvements in awareness and competence.
+
+The findings do not by themselves establish that the app is superior to paper. The contribution is that the series begins to separate the medium from the broader educational process.
+
+- [study-0076 original study](https://www.jstage.jst.go.jp/article/jscr/16/0/16_K16002/_article/-char/ja)
+
+---
+
+## study-0077: a police-linked fieldwork class for university students
+
+Study-0077 involved 15 Kagawa University students in fieldwork conducted with Kagawa Prefectural Police: bicycle-locking observations, shoplifting-prevention surveys and shopping support, and community safety mapping with response proposals.
+
+Improvements were reported in several self-reported domains after the fieldwork, particularly following the neighbourhood safety-mapping component.
+
+The study is small, has no control group and does not measure actual crime or observed preventive behaviour. Its value is mainly as an implementation example in which students move from receiving prevention education to **observing problems, collecting information and developing responses**.
+
+- [study-0077 original study](https://kagawa-u.repo.nii.ac.jp/record/2000893/files/AA1197154X_22_L161.pdf)
+
+---
 
 <!-- STATS_DETAIL_START -->
 
