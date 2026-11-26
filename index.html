@@ -312,6 +312,10 @@
       min-width: 0;
     }
 
+    .site-card-content.no-logo {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
     .site-card .tag {
       background: var(--site-tag-bg, var(--soft));
       color: var(--site-accent, var(--muted));
@@ -1376,7 +1380,7 @@
                 : "";
 
             const content = `
-              <div class="site-card-content">
+              <div class="site-card-content${logo ? "" : " no-logo"}">
                 ${
                   logo
                     ? `
